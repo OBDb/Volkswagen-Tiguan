@@ -1,0 +1,2878 @@
+command_id: 7E0.2211BA
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8056211BA0000
+  expected_values:
+    TIGUAN_OIL_LEVEL: 0
+- response: 7E8056211BA2715
+  expected_values:
+    TIGUAN_OIL_LEVEL: 40.02
+- response: 7E8056211BA2726
+  expected_values:
+    TIGUAN_OIL_LEVEL: 40.088
+- response: 7E8056211BA336F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 52.668
+- response: 7E8056211BA36AE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 55.992
+- response: 7E8056211BA37F4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 57.296
+- response: 7E8056211BA385F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 57.724
+- response: 7E8056211BA39A2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 59.016
+- response: 7E8056211BA39C0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 59.136
+- response: 7E8056211BA3A09
+  expected_values:
+    TIGUAN_OIL_LEVEL: 59.428
+- response: 7E8056211BA3A52
+  expected_values:
+    TIGUAN_OIL_LEVEL: 59.72
+- response: 7E8056211BA3B56
+  expected_values:
+    TIGUAN_OIL_LEVEL: 60.76
+- response: 7E8056211BA3B92
+  expected_values:
+    TIGUAN_OIL_LEVEL: 61
+- response: 7E8056211BA3BB3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 61.132
+- response: 7E8056211BA3BC1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 61.188
+- response: 7E8056211BA3BE2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 61.32
+- response: 7E8056211BA3C0A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 61.48
+- response: 7E8056211BA3C21
+  expected_values:
+    TIGUAN_OIL_LEVEL: 61.572
+- response: 7E8056211BA3C25
+  expected_values:
+    TIGUAN_OIL_LEVEL: 61.588
+- response: 7E8056211BA3C67
+  expected_values:
+    TIGUAN_OIL_LEVEL: 61.852
+- response: 7E8056211BA3C89
+  expected_values:
+    TIGUAN_OIL_LEVEL: 61.988
+- response: 7E8056211BA3CBE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 62.2
+- response: 7E8056211BA3D18
+  expected_values:
+    TIGUAN_OIL_LEVEL: 62.56
+- response: 7E8056211BA3D51
+  expected_values:
+    TIGUAN_OIL_LEVEL: 62.788
+- response: 7E8056211BA3D90
+  expected_values:
+    TIGUAN_OIL_LEVEL: 63.04
+- response: 7E8056211BA3DD6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 63.32
+- response: 7E8056211BA3DE0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 63.36
+- response: 7E8056211BA3DFE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 63.48
+- response: 7E8056211BA3E01
+  expected_values:
+    TIGUAN_OIL_LEVEL: 63.492
+- response: 7E8056211BA3E0E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 63.544
+- response: 7E8056211BA3E4E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 63.8
+- response: 7E8056211BA3E5E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 63.864
+- response: 7E8056211BA3EFE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 64.504
+- response: 7E8056211BA3F08
+  expected_values:
+    TIGUAN_OIL_LEVEL: 64.544
+- response: 7E8056211BA3F23
+  expected_values:
+    TIGUAN_OIL_LEVEL: 64.652
+- response: 7E8056211BA3F48
+  expected_values:
+    TIGUAN_OIL_LEVEL: 64.8
+- response: 7E8056211BA3F58
+  expected_values:
+    TIGUAN_OIL_LEVEL: 64.864
+- response: 7E8056211BA3F66
+  expected_values:
+    TIGUAN_OIL_LEVEL: 64.92
+- response: 7E8056211BA3F69
+  expected_values:
+    TIGUAN_OIL_LEVEL: 64.932
+- response: 7E8056211BA3FCD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.332
+- response: 7E8056211BA3FD4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.36
+- response: 7E8056211BA3FE4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.424
+- response: 7E8056211BA3FE8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.44
+- response: 7E8056211BA3FFC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.52
+- response: 7E8056211BA3FFF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.532
+- response: 7E8056211BA4006
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.56
+- response: 7E8056211BA400C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.584
+- response: 7E8056211BA4010
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.6
+- response: 7E8056211BA4016
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.624
+- response: 7E8056211BA402E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.72
+- response: 7E8056211BA4031
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.732
+- response: 7E8056211BA4038
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.76
+- response: 7E8056211BA4048
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.824
+- response: 7E8056211BA404C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.84
+- response: 7E8056211BA4070
+  expected_values:
+    TIGUAN_OIL_LEVEL: 65.984
+- response: 7E8056211BA4074
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66
+- response: 7E8056211BA408E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66.104
+- response: 7E8056211BA409F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66.172
+- response: 7E8056211BA40A2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66.184
+- response: 7E8056211BA40AC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66.224
+- response: 7E8056211BA40D8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66.4
+- response: 7E8056211BA40E5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66.452
+- response: 7E8056211BA40EC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66.48
+- response: 7E8056211BA40EF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66.492
+- response: 7E8056211BA40F6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66.52
+- response: 7E8056211BA40F9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66.532
+- response: 7E8056211BA4111
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66.628
+- response: 7E8056211BA4150
+  expected_values:
+    TIGUAN_OIL_LEVEL: 66.88
+- response: 7E8056211BA4175
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.028
+- response: 7E8056211BA4189
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.108
+- response: 7E8056211BA4199
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.172
+- response: 7E8056211BA41AD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.252
+- response: 7E8056211BA41B4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.28
+- response: 7E8056211BA41CB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.372
+- response: 7E8056211BA41D5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.412
+- response: 7E8056211BA41ED
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.508
+- response: 7E8056211BA41F3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.532
+- response: 7E8056211BA4201
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.588
+- response: 7E8056211BA4215
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.668
+- response: 7E8056211BA421F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.708
+- response: 7E8056211BA4222
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.72
+- response: 7E8056211BA422F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.772
+- response: 7E8056211BA4233
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.788
+- response: 7E8056211BA4236
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.8
+- response: 7E8056211BA4247
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.868
+- response: 7E8056211BA4251
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.908
+- response: 7E8056211BA4265
+  expected_values:
+    TIGUAN_OIL_LEVEL: 67.988
+- response: 7E8056211BA426C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.016
+- response: 7E8056211BA4286
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.12
+- response: 7E8056211BA428A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.136
+- response: 7E8056211BA4297
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.188
+- response: 7E8056211BA429E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.216
+- response: 7E8056211BA42AB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.268
+- response: 7E8056211BA42B8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.32
+- response: 7E8056211BA42BC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.336
+- response: 7E8056211BA42D0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.416
+- response: 7E8056211BA42DD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.468
+- response: 7E8056211BA42E7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.508
+- response: 7E8056211BA4308
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.64
+- response: 7E8056211BA430F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.668
+- response: 7E8056211BA4312
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.68
+- response: 7E8056211BA4316
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.696
+- response: 7E8056211BA4319
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.708
+- response: 7E8056211BA4323
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.748
+- response: 7E8056211BA433E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.856
+- response: 7E8056211BA4344
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.88
+- response: 7E8056211BA434E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 68.92
+- response: 7E8056211BA4366
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.016
+- response: 7E8056211BA436C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.04
+- response: 7E8056211BA4376
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.08
+- response: 7E8056211BA4380
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.12
+- response: 7E8056211BA4391
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.188
+- response: 7E8056211BA4398
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.216
+- response: 7E8056211BA439E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.24
+- response: 7E8056211BA43B2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.32
+- response: 7E8056211BA43B6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.336
+- response: 7E8056211BA43C6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.4
+- response: 7E8056211BA43DA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.48
+- response: 7E8056211BA43E1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.508
+- response: 7E8056211BA43F9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.604
+- response: 7E8056211BA43FC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.616
+- response: 7E8056211BA4410
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.696
+- response: 7E8056211BA441A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.736
+- response: 7E8056211BA4427
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.788
+- response: 7E8056211BA442E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.816
+- response: 7E8056211BA443B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.868
+- response: 7E8056211BA4445
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.908
+- response: 7E8056211BA4449
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.924
+- response: 7E8056211BA444C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.936
+- response: 7E8056211BA4459
+  expected_values:
+    TIGUAN_OIL_LEVEL: 69.988
+- response: 7E8056211BA445D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.004
+- response: 7E8056211BA4463
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.028
+- response: 7E8056211BA448B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.188
+- response: 7E8056211BA448F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.204
+- response: 7E8056211BA449C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.256
+- response: 7E8056211BA44A9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.308
+- response: 7E8056211BA44AD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.324
+- response: 7E8056211BA44CE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.456
+- response: 7E8056211BA44F3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.604
+- response: 7E8056211BA44FD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.644
+- response: 7E8056211BA4500
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.656
+- response: 7E8056211BA4507
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.684
+- response: 7E8056211BA4514
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.736
+- response: 7E8056211BA452B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.828
+- response: 7E8056211BA4543
+  expected_values:
+    TIGUAN_OIL_LEVEL: 70.924
+- response: 7E8056211BA455E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.032
+- response: 7E8056211BA4561
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.044
+- response: 7E8056211BA456E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.096
+- response: 7E8056211BA4578
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.136
+- response: 7E8056211BA457F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.164
+- response: 7E8056211BA4589
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.204
+- response: 7E8056211BA458C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.216
+- response: 7E8056211BA4590
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.232
+- response: 7E8056211BA459D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.284
+- response: 7E8056211BA45B1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.364
+- response: 7E8056211BA45B4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.376
+- response: 7E8056211BA45C5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.444
+- response: 7E8056211BA45CF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.484
+- response: 7E8056211BA45D6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.512
+- response: 7E8056211BA45E6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.576
+- response: 7E8056211BA45ED
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.604
+- response: 7E8056211BA460B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.724
+- response: 7E8056211BA461F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.804
+- response: 7E8056211BA4636
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.896
+- response: 7E8056211BA463D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 71.924
+- response: 7E8056211BA4651
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.004
+- response: 7E8056211BA4654
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.016
+- response: 7E8056211BA4658
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.032
+- response: 7E8056211BA465E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.056
+- response: 7E8056211BA4665
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.084
+- response: 7E8056211BA466F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.124
+- response: 7E8056211BA4672
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.136
+- response: 7E8056211BA4680
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.192
+- response: 7E8056211BA4683
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.204
+- response: 7E8056211BA468A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.232
+- response: 7E8056211BA4694
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.272
+- response: 7E8056211BA469A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.296
+- response: 7E8056211BA469E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.312
+- response: 7E8056211BA46B5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.404
+- response: 7E8056211BA46C2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.456
+- response: 7E8056211BA46C6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.472
+- response: 7E8056211BA46E1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.58
+- response: 7E8056211BA46E4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.592
+- response: 7E8056211BA46EE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.632
+- response: 7E8056211BA46F8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.672
+- response: 7E8056211BA46FB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.684
+- response: 7E8056211BA4702
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.712
+- response: 7E8056211BA4705
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.724
+- response: 7E8056211BA4713
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.78
+- response: 7E8056211BA4716
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.792
+- response: 7E8056211BA471D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.82
+- response: 7E8056211BA4720
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.832
+- response: 7E8056211BA472A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.872
+- response: 7E8056211BA473B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.94
+- response: 7E8056211BA4745
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.98
+- response: 7E8056211BA4748
+  expected_values:
+    TIGUAN_OIL_LEVEL: 72.992
+- response: 7E8056211BA4759
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.06
+- response: 7E8056211BA475C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.072
+- response: 7E8056211BA4763
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.1
+- response: 7E8056211BA4766
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.112
+- response: 7E8056211BA4769
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.124
+- response: 7E8056211BA4770
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.152
+- response: 7E8056211BA4777
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.18
+- response: 7E8056211BA477A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.192
+- response: 7E8056211BA4781
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.22
+- response: 7E8056211BA4784
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.232
+- response: 7E8056211BA4787
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.244
+- response: 7E8056211BA478B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.26
+- response: 7E8056211BA478E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.272
+- response: 7E8056211BA4795
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.3
+- response: 7E8056211BA4798
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.312
+- response: 7E8056211BA479B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.324
+- response: 7E8056211BA47A5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.364
+- response: 7E8056211BA47A9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.38
+- response: 7E8056211BA47B3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.42
+- response: 7E8056211BA47B6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.432
+- response: 7E8056211BA47BD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.46
+- response: 7E8056211BA47C7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.5
+- response: 7E8056211BA47CA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.512
+- response: 7E8056211BA47DB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.58
+- response: 7E8056211BA47DE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.592
+- response: 7E8056211BA47E1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.604
+- response: 7E8056211BA47E5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.62
+- response: 7E8056211BA4809
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.764
+- response: 7E8056211BA4810
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.792
+- response: 7E8056211BA4817
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.82
+- response: 7E8056211BA481D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.844
+- response: 7E8056211BA4831
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.924
+- response: 7E8056211BA4835
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.94
+- response: 7E8056211BA483B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.964
+- response: 7E8056211BA483F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.98
+- response: 7E8056211BA4842
+  expected_values:
+    TIGUAN_OIL_LEVEL: 73.992
+- response: 7E8056211BA4856
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.072
+- response: 7E8056211BA4859
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.084
+- response: 7E8056211BA4863
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.124
+- response: 7E8056211BA486E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.168
+- response: 7E8056211BA4871
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.18
+- response: 7E8056211BA487B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.22
+- response: 7E8056211BA489F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.364
+- response: 7E8056211BA48A3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.38
+- response: 7E8056211BA48C1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.5
+- response: 7E8056211BA48C7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.524
+- response: 7E8056211BA48D8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.592
+- response: 7E8056211BA48DF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.62
+- response: 7E8056211BA48E2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.632
+- response: 7E8056211BA48E9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.66
+- response: 7E8056211BA48EF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.684
+- response: 7E8056211BA48F6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.712
+- response: 7E8056211BA48F9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.724
+- response: 7E8056211BA4907
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.78
+- response: 7E8056211BA490A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.792
+- response: 7E8056211BA490D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.804
+- response: 7E8056211BA4911
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.82
+- response: 7E8056211BA491B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.86
+- response: 7E8056211BA4921
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.884
+- response: 7E8056211BA492B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.924
+- response: 7E8056211BA4935
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.964
+- response: 7E8056211BA4939
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.98
+- response: 7E8056211BA493C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 74.992
+- response: 7E8056211BA4946
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.032
+- response: 7E8056211BA4953
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.084
+- response: 7E8056211BA495D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.124
+- response: 7E8056211BA4964
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.152
+- response: 7E8056211BA496B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.18
+- response: 7E8056211BA4971
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.204
+- response: 7E8056211BA4975
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.22
+- response: 7E8056211BA4978
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.232
+- response: 7E8056211BA497F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.26
+- response: 7E8056211BA4989
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.3
+- response: 7E8056211BA498C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.312
+- response: 7E8056211BA499D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.38
+- response: 7E8056211BA49A0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.392
+- response: 7E8056211BA49A3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.404
+- response: 7E8056211BA49AA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.432
+- response: 7E8056211BA49B4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.472
+- response: 7E8056211BA49BE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.512
+- response: 7E8056211BA49D5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.604
+- response: 7E8056211BA49E9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.684
+- response: 7E8056211BA49EC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.696
+- response: 7E8056211BA4A00
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.776
+- response: 7E8056211BA4A07
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.804
+- response: 7E8056211BA4A0E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.832
+- response: 7E8056211BA4A11
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.844
+- response: 7E8056211BA4A1E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.896
+- response: 7E8056211BA4A22
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.912
+- response: 7E8056211BA4A25
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.924
+- response: 7E8056211BA4A28
+  expected_values:
+    TIGUAN_OIL_LEVEL: 75.936
+- response: 7E8056211BA4A39
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.004
+- response: 7E8056211BA4A3C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.016
+- response: 7E8056211BA4A4D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.084
+- response: 7E8056211BA4A5E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.152
+- response: 7E8056211BA4A61
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.164
+- response: 7E8056211BA4A68
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.192
+- response: 7E8056211BA4A82
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.296
+- response: 7E8056211BA4A86
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.312
+- response: 7E8056211BA4A89
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.324
+- response: 7E8056211BA4A8C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.336
+- response: 7E8056211BA4A96
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.376
+- response: 7E8056211BA4A9A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.392
+- response: 7E8056211BA4AB1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.484
+- response: 7E8056211BA4AB4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.496
+- response: 7E8056211BA4ABE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.536
+- response: 7E8056211BA4AC2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.552
+- response: 7E8056211BA4AC5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.564
+- response: 7E8056211BA4AC8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.576
+- response: 7E8056211BA4ACF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.604
+- response: 7E8056211BA4AD6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.632
+- response: 7E8056211BA4ADC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.656
+- response: 7E8056211BA4AE0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.672
+- response: 7E8056211BA4AE6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.696
+- response: 7E8056211BA4AF7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.764
+- response: 7E8056211BA4B01
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.804
+- response: 7E8056211BA4B0E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.856
+- response: 7E8056211BA4B18
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.896
+- response: 7E8056211BA4B1B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.908
+- response: 7E8056211BA4B1F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.924
+- response: 7E8056211BA4B29
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.964
+- response: 7E8056211BA4B2C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.976
+- response: 7E8056211BA4B2F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 76.988
+- response: 7E8056211BA4B33
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.004
+- response: 7E8056211BA4B36
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.016
+- response: 7E8056211BA4B40
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.056
+- response: 7E8056211BA4B43
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.068
+- response: 7E8056211BA4B47
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.084
+- response: 7E8056211BA4B4A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.096
+- response: 7E8056211BA4B4D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.108
+- response: 7E8056211BA4B51
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.124
+- response: 7E8056211BA4B5E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.176
+- response: 7E8056211BA4B61
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.188
+- response: 7E8056211BA4B65
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.204
+- response: 7E8056211BA4B6B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.228
+- response: 7E8056211BA4B72
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.256
+- response: 7E8056211BA4B75
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.268
+- response: 7E8056211BA4B7C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.296
+- response: 7E8056211BA4B83
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.324
+- response: 7E8056211BA4B8D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.364
+- response: 7E8056211BA4B93
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.388
+- response: 7E8056211BA4B9A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.416
+- response: 7E8056211BA4BA7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.468
+- response: 7E8056211BA4BB5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.524
+- response: 7E8056211BA4BBF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.564
+- response: 7E8056211BA4BC2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.576
+- response: 7E8056211BA4BC5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.588
+- response: 7E8056211BA4BC9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.604
+- response: 7E8056211BA4BCC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.616
+- response: 7E8056211BA4BCF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.628
+- response: 7E8056211BA4BDD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.684
+- response: 7E8056211BA4BE0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.696
+- response: 7E8056211BA4BE3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.708
+- response: 7E8056211BA4BEA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.736
+- response: 7E8056211BA4BF1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.764
+- response: 7E8056211BA4BF4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.776
+- response: 7E8056211BA4BF7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.788
+- response: 7E8056211BA4BFB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.804
+- response: 7E8056211BA4C0F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.884
+- response: 7E8056211BA4C12
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.896
+- response: 7E8056211BA4C23
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.964
+- response: 7E8056211BA4C26
+  expected_values:
+    TIGUAN_OIL_LEVEL: 77.976
+- response: 7E8056211BA4C30
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.016
+- response: 7E8056211BA4C3A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.056
+- response: 7E8056211BA4C3D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.068
+- response: 7E8056211BA4C44
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.096
+- response: 7E8056211BA4C47
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.108
+- response: 7E8056211BA4C4A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.12
+- response: 7E8056211BA4C51
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.148
+- response: 7E8056211BA4C5B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.188
+- response: 7E8056211BA4C68
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.24
+- response: 7E8056211BA4C6C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.256
+- response: 7E8056211BA4C6F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.268
+- response: 7E8056211BA4C72
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.28
+- response: 7E8056211BA4C76
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.296
+- response: 7E8056211BA4C79
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.308
+- response: 7E8056211BA4C7C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.32
+- response: 7E8056211BA4C8A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.376
+- response: 7E8056211BA4C8D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.388
+- response: 7E8056211BA4C90
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.4
+- response: 7E8056211BA4C94
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.416
+- response: 7E8056211BA4C97
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.428
+- response: 7E8056211BA4CA1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.468
+- response: 7E8056211BA4CAB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.508
+- response: 7E8056211BA4CAE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.52
+- response: 7E8056211BA4CB8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.56
+- response: 7E8056211BA4CBF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.588
+- response: 7E8056211BA4CC2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.6
+- response: 7E8056211BA4CC6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.616
+- response: 7E8056211BA4CC9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.628
+- response: 7E8056211BA4CCC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.64
+- response: 7E8056211BA4CD0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.656
+- response: 7E8056211BA4CD3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.668
+- response: 7E8056211BA4CD6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.68
+- response: 7E8056211BA4CDA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.696
+- response: 7E8056211BA4CDD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.708
+- response: 7E8056211BA4CEE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.776
+- response: 7E8056211BA4CF1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.788
+- response: 7E8056211BA4CF4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.8
+- response: 7E8056211BA4D02
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.856
+- response: 7E8056211BA4D05
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.868
+- response: 7E8056211BA4D08
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.88
+- response: 7E8056211BA4D0C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.896
+- response: 7E8056211BA4D0F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.908
+- response: 7E8056211BA4D19
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.948
+- response: 7E8056211BA4D1C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.96
+- response: 7E8056211BA4D20
+  expected_values:
+    TIGUAN_OIL_LEVEL: 78.976
+- response: 7E8056211BA4D2A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.016
+- response: 7E8056211BA4D37
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.068
+- response: 7E8056211BA4D3A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.08
+- response: 7E8056211BA4D3E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.096
+- response: 7E8056211BA4D41
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.108
+- response: 7E8056211BA4D4B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.148
+- response: 7E8056211BA4D4E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.16
+- response: 7E8056211BA4D52
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.176
+- response: 7E8056211BA4D58
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.2
+- response: 7E8056211BA4D62
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.24
+- response: 7E8056211BA4D66
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.256
+- response: 7E8056211BA4D69
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.268
+- response: 7E8056211BA4D6C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.28
+- response: 7E8056211BA4D70
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.296
+- response: 7E8056211BA4D73
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.308
+- response: 7E8056211BA4D76
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.32
+- response: 7E8056211BA4D7D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.348
+- response: 7E8056211BA4D87
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.388
+- response: 7E8056211BA4D8E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.416
+- response: 7E8056211BA4D91
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.428
+- response: 7E8056211BA4D9B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.468
+- response: 7E8056211BA4DA2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.496
+- response: 7E8056211BA4DA5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.508
+- response: 7E8056211BA4DA8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.52
+- response: 7E8056211BA4DAB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.532
+- response: 7E8056211BA4DAF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.548
+- response: 7E8056211BA4DB2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.56
+- response: 7E8056211BA4DB9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.588
+- response: 7E8056211BA4DBF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.612
+- response: 7E8056211BA4DC3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.628
+- response: 7E8056211BA4DD0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.68
+- response: 7E8056211BA4DD3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.692
+- response: 7E8056211BA4DD7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.708
+- response: 7E8056211BA4DDA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.72
+- response: 7E8056211BA4DE1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.748
+- response: 7E8056211BA4DE7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.772
+- response: 7E8056211BA4DEB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.788
+- response: 7E8056211BA4DEE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.8
+- response: 7E8056211BA4DF1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.812
+- response: 7E8056211BA4DFF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.868
+- response: 7E8056211BA4E05
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.892
+- response: 7E8056211BA4E0C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.92
+- response: 7E8056211BA4E1D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 79.988
+- response: 7E8056211BA4E20
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80
+- response: 7E8056211BA4E23
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.012
+- response: 7E8056211BA4E2D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.052
+- response: 7E8056211BA4E31
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.068
+- response: 7E8056211BA4E37
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.092
+- response: 7E8056211BA4E45
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.148
+- response: 7E8056211BA4E48
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.16
+- response: 7E8056211BA4E55
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.212
+- response: 7E8056211BA4E5F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.252
+- response: 7E8056211BA4E63
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.268
+- response: 7E8056211BA4E66
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.28
+- response: 7E8056211BA4E69
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.292
+- response: 7E8056211BA4E6D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.308
+- response: 7E8056211BA4E7D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.372
+- response: 7E8056211BA4E87
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.412
+- response: 7E8056211BA4E8E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.44
+- response: 7E8056211BA4E95
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.468
+- response: 7E8056211BA4E98
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.48
+- response: 7E8056211BA4E9B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.492
+- response: 7E8056211BA4E9F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.508
+- response: 7E8056211BA4EAC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.56
+- response: 7E8056211BA4EB3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.588
+- response: 7E8056211BA4EB6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.6
+- response: 7E8056211BA4EB9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.612
+- response: 7E8056211BA4EC3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.652
+- response: 7E8056211BA4EC7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.668
+- response: 7E8056211BA4ECA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.68
+- response: 7E8056211BA4ECD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.692
+- response: 7E8056211BA4ED4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.72
+- response: 7E8056211BA4EDB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.748
+- response: 7E8056211BA4EDE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.76
+- response: 7E8056211BA4EE1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.772
+- response: 7E8056211BA4EE5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.788
+- response: 7E8056211BA4EE8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.8
+- response: 7E8056211BA4EEB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.812
+- response: 7E8056211BA4EF5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.852
+- response: 7E8056211BA4EF8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.864
+- response: 7E8056211BA4EFC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.88
+- response: 7E8056211BA4EFF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.892
+- response: 7E8056211BA4F02
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.904
+- response: 7E8056211BA4F06
+  expected_values:
+    TIGUAN_OIL_LEVEL: 80.92
+- response: 7E8056211BA4F1A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81
+- response: 7E8056211BA4F20
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.024
+- response: 7E8056211BA4F27
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.052
+- response: 7E8056211BA4F2A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.064
+- response: 7E8056211BA4F2E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.08
+- response: 7E8056211BA4F31
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.092
+- response: 7E8056211BA4F34
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.104
+- response: 7E8056211BA4F3E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.144
+- response: 7E8056211BA4F42
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.16
+- response: 7E8056211BA4F45
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.172
+- response: 7E8056211BA4F48
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.184
+- response: 7E8056211BA4F4F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.212
+- response: 7E8056211BA4F52
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.224
+- response: 7E8056211BA4F56
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.24
+- response: 7E8056211BA4F59
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.252
+- response: 7E8056211BA4F5C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.264
+- response: 7E8056211BA4F60
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.28
+- response: 7E8056211BA4F63
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.292
+- response: 7E8056211BA4F66
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.304
+- response: 7E8056211BA4F70
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.344
+- response: 7E8056211BA4F74
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.36
+- response: 7E8056211BA4F77
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.372
+- response: 7E8056211BA4F7A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.384
+- response: 7E8056211BA4F7E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.4
+- response: 7E8056211BA4F81
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.412
+- response: 7E8056211BA4F88
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.44
+- response: 7E8056211BA4F8B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.452
+- response: 7E8056211BA4F8E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.464
+- response: 7E8056211BA4F92
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.48
+- response: 7E8056211BA4F95
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.492
+- response: 7E8056211BA4F98
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.504
+- response: 7E8056211BA4F9C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.52
+- response: 7E8056211BA4FA6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.56
+- response: 7E8056211BA4FAC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.584
+- response: 7E8056211BA4FB0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.6
+- response: 7E8056211BA4FB3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.612
+- response: 7E8056211BA4FB6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.624
+- response: 7E8056211BA4FBA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.64
+- response: 7E8056211BA4FBD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.652
+- response: 7E8056211BA4FC4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.68
+- response: 7E8056211BA4FC7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.692
+- response: 7E8056211BA4FCA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.704
+- response: 7E8056211BA4FCE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.72
+- response: 7E8056211BA4FD4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.744
+- response: 7E8056211BA4FD8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.76
+- response: 7E8056211BA4FDB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.772
+- response: 7E8056211BA4FE2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.8
+- response: 7E8056211BA4FE5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.812
+- response: 7E8056211BA4FF6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.88
+- response: 7E8056211BA4FF9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.892
+- response: 7E8056211BA4FFC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.904
+- response: 7E8056211BA5000
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.92
+- response: 7E8056211BA500D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.972
+- response: 7E8056211BA5010
+  expected_values:
+    TIGUAN_OIL_LEVEL: 81.984
+- response: 7E8056211BA5014
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82
+- response: 7E8056211BA501A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.024
+- response: 7E8056211BA5021
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.052
+- response: 7E8056211BA5024
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.064
+- response: 7E8056211BA502B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.092
+- response: 7E8056211BA502E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.104
+- response: 7E8056211BA5038
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.144
+- response: 7E8056211BA503B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.156
+- response: 7E8056211BA503F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.172
+- response: 7E8056211BA5042
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.184
+- response: 7E8056211BA5049
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.212
+- response: 7E8056211BA504F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.236
+- response: 7E8056211BA5053
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.252
+- response: 7E8056211BA5056
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.264
+- response: 7E8056211BA505D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.292
+- response: 7E8056211BA5060
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.304
+- response: 7E8056211BA506A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.344
+- response: 7E8056211BA5071
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.372
+- response: 7E8056211BA5074
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.384
+- response: 7E8056211BA5077
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.396
+- response: 7E8056211BA5085
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.452
+- response: 7E8056211BA5088
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.464
+- response: 7E8056211BA5092
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.504
+- response: 7E8056211BA509C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.544
+- response: 7E8056211BA509F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.556
+- response: 7E8056211BA50A6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.584
+- response: 7E8056211BA50A9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.596
+- response: 7E8056211BA50AD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.612
+- response: 7E8056211BA50BD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.676
+- response: 7E8056211BA50C1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.692
+- response: 7E8056211BA50C4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.704
+- response: 7E8056211BA50CE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.744
+- response: 7E8056211BA50D1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.756
+- response: 7E8056211BA50D8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.784
+- response: 7E8056211BA50DB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.796
+- response: 7E8056211BA50E5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.836
+- response: 7E8056211BA50E9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.852
+- response: 7E8056211BA50EC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.864
+- response: 7E8056211BA50F3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.892
+- response: 7E8056211BA50F9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.916
+- response: 7E8056211BA50FD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.932
+- response: 7E8056211BA5103
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.956
+- response: 7E8056211BA5107
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.972
+- response: 7E8056211BA510D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 82.996
+- response: 7E8056211BA5111
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.012
+- response: 7E8056211BA5117
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.036
+- response: 7E8056211BA511B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.052
+- response: 7E8056211BA511E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.064
+- response: 7E8056211BA5121
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.076
+- response: 7E8056211BA5125
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.092
+- response: 7E8056211BA5128
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.104
+- response: 7E8056211BA5132
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.144
+- response: 7E8056211BA5135
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.156
+- response: 7E8056211BA5139
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.172
+- response: 7E8056211BA513F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.196
+- response: 7E8056211BA5143
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.212
+- response: 7E8056211BA5149
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.236
+- response: 7E8056211BA514D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.252
+- response: 7E8056211BA5150
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.264
+- response: 7E8056211BA5153
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.276
+- response: 7E8056211BA5157
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.292
+- response: 7E8056211BA515A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.304
+- response: 7E8056211BA515D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.316
+- response: 7E8056211BA5164
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.344
+- response: 7E8056211BA5167
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.356
+- response: 7E8056211BA516B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.372
+- response: 7E8056211BA5171
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.396
+- response: 7E8056211BA5175
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.412
+- response: 7E8056211BA517F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.452
+- response: 7E8056211BA5185
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.476
+- response: 7E8056211BA5189
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.492
+- response: 7E8056211BA518C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.504
+- response: 7E8056211BA5196
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.544
+- response: 7E8056211BA5199
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.556
+- response: 7E8056211BA519D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.572
+- response: 7E8056211BA51A0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.584
+- response: 7E8056211BA51A3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.596
+- response: 7E8056211BA51AD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.636
+- response: 7E8056211BA51B1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.652
+- response: 7E8056211BA51B4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.664
+- response: 7E8056211BA51B7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.676
+- response: 7E8056211BA51BB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.692
+- response: 7E8056211BA51BE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.704
+- response: 7E8056211BA51C8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.744
+- response: 7E8056211BA51CB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.756
+- response: 7E8056211BA51D2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.784
+- response: 7E8056211BA51D5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.796
+- response: 7E8056211BA51D9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.812
+- response: 7E8056211BA51E3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.852
+- response: 7E8056211BA51E6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.864
+- response: 7E8056211BA51E9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.876
+- response: 7E8056211BA51ED
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.892
+- response: 7E8056211BA51F0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.904
+- response: 7E8056211BA51F3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.916
+- response: 7E8056211BA51FA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.944
+- response: 7E8056211BA51FD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.956
+- response: 7E8056211BA5204
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.984
+- response: 7E8056211BA5207
+  expected_values:
+    TIGUAN_OIL_LEVEL: 83.996
+- response: 7E8056211BA5211
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.036
+- response: 7E8056211BA5215
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.052
+- response: 7E8056211BA5218
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.064
+- response: 7E8056211BA521B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.076
+- response: 7E8056211BA521F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.092
+- response: 7E8056211BA5229
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.132
+- response: 7E8056211BA522F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.156
+- response: 7E8056211BA5233
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.172
+- response: 7E8056211BA5236
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.184
+- response: 7E8056211BA5239
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.196
+- response: 7E8056211BA523D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.212
+- response: 7E8056211BA524A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.264
+- response: 7E8056211BA524D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.276
+- response: 7E8056211BA5251
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.292
+- response: 7E8056211BA525E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.344
+- response: 7E8056211BA5261
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.356
+- response: 7E8056211BA5265
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.372
+- response: 7E8056211BA5279
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.452
+- response: 7E8056211BA527F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.476
+- response: 7E8056211BA5283
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.492
+- response: 7E8056211BA5286
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.504
+- response: 7E8056211BA5290
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.544
+- response: 7E8056211BA5293
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.556
+- response: 7E8056211BA5297
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.572
+- response: 7E8056211BA529D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.596
+- response: 7E8056211BA52A7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.636
+- response: 7E8056211BA52AE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.664
+- response: 7E8056211BA52B1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.676
+- response: 7E8056211BA52B5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.692
+- response: 7E8056211BA52C2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.744
+- response: 7E8056211BA52C6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.76
+- response: 7E8056211BA52C9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.772
+- response: 7E8056211BA52CC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.784
+- response: 7E8056211BA52D0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.8
+- response: 7E8056211BA52DA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.84
+- response: 7E8056211BA52DD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.852
+- response: 7E8056211BA52E4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.88
+- response: 7E8056211BA52E7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.892
+- response: 7E8056211BA52EA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.904
+- response: 7E8056211BA52F4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.944
+- response: 7E8056211BA52F8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.96
+- response: 7E8056211BA52FB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.972
+- response: 7E8056211BA52FE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 84.984
+- response: 7E8056211BA5302
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85
+- response: 7E8056211BA530C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.04
+- response: 7E8056211BA530F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.052
+- response: 7E8056211BA5312
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.064
+- response: 7E8056211BA5316
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.08
+- response: 7E8056211BA5319
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.092
+- response: 7E8056211BA531C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.104
+- response: 7E8056211BA5326
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.144
+- response: 7E8056211BA532A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.16
+- response: 7E8056211BA532D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.172
+- response: 7E8056211BA5330
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.184
+- response: 7E8056211BA533E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.24
+- response: 7E8056211BA5341
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.252
+- response: 7E8056211BA5344
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.264
+- response: 7E8056211BA5348
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.28
+- response: 7E8056211BA534B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.292
+- response: 7E8056211BA534E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.304
+- response: 7E8056211BA535C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.36
+- response: 7E8056211BA535F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.372
+- response: 7E8056211BA5362
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.384
+- response: 7E8056211BA5370
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.44
+- response: 7E8056211BA5373
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.452
+- response: 7E8056211BA5376
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.464
+- response: 7E8056211BA537A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.48
+- response: 7E8056211BA537D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.492
+- response: 7E8056211BA538A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.544
+- response: 7E8056211BA538E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.56
+- response: 7E8056211BA5391
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.572
+- response: 7E8056211BA5394
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.584
+- response: 7E8056211BA53A2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.64
+- response: 7E8056211BA53A5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.652
+- response: 7E8056211BA53A8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.664
+- response: 7E8056211BA53AC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.68
+- response: 7E8056211BA53AF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.692
+- response: 7E8056211BA53BC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.744
+- response: 7E8056211BA53C3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.772
+- response: 7E8056211BA53C6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.784
+- response: 7E8056211BA53D0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.824
+- response: 7E8056211BA53D4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.84
+- response: 7E8056211BA53D7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.852
+- response: 7E8056211BA53DA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.864
+- response: 7E8056211BA53DE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.88
+- response: 7E8056211BA53E1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.892
+- response: 7E8056211BA53E4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.904
+- response: 7E8056211BA53EE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.944
+- response: 7E8056211BA53F2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.96
+- response: 7E8056211BA53F8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 85.984
+- response: 7E8056211BA5406
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.04
+- response: 7E8056211BA5409
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.052
+- response: 7E8056211BA5410
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.08
+- response: 7E8056211BA5413
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.092
+- response: 7E8056211BA5416
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.104
+- response: 7E8056211BA541D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.132
+- response: 7E8056211BA5420
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.144
+- response: 7E8056211BA5424
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.16
+- response: 7E8056211BA5427
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.172
+- response: 7E8056211BA542A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.184
+- response: 7E8056211BA5438
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.24
+- response: 7E8056211BA543B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.252
+- response: 7E8056211BA543E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.264
+- response: 7E8056211BA5442
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.28
+- response: 7E8056211BA5445
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.292
+- response: 7E8056211BA5448
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.304
+- response: 7E8056211BA544F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.332
+- response: 7E8056211BA5453
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.348
+- response: 7E8056211BA5456
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.36
+- response: 7E8056211BA5459
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.372
+- response: 7E8056211BA545D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.388
+- response: 7E8056211BA5460
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.4
+- response: 7E8056211BA546A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.44
+- response: 7E8056211BA546D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.452
+- response: 7E8056211BA5471
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.468
+- response: 7E8056211BA5474
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.48
+- response: 7E8056211BA547B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.508
+- response: 7E8056211BA5481
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.532
+- response: 7E8056211BA5485
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.548
+- response: 7E8056211BA5488
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.56
+- response: 7E8056211BA548B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.572
+- response: 7E8056211BA5492
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.6
+- response: 7E8056211BA549C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.64
+- response: 7E8056211BA54A3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.668
+- response: 7E8056211BA54A6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.68
+- response: 7E8056211BA54A9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.692
+- response: 7E8056211BA54AD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.708
+- response: 7E8056211BA54B3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.732
+- response: 7E8056211BA54B7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.748
+- response: 7E8056211BA54BA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.76
+- response: 7E8056211BA54BD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.772
+- response: 7E8056211BA54C1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.788
+- response: 7E8056211BA54C4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.8
+- response: 7E8056211BA54CE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.84
+- response: 7E8056211BA54DB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.892
+- response: 7E8056211BA54E5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.932
+- response: 7E8056211BA54EC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 86.96
+- response: 7E8056211BA54F6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87
+- response: 7E8056211BA5500
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.04
+- response: 7E8056211BA5503
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.052
+- response: 7E8056211BA5507
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.068
+- response: 7E8056211BA550D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.092
+- response: 7E8056211BA5511
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.108
+- response: 7E8056211BA5517
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.132
+- response: 7E8056211BA5521
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.172
+- response: 7E8056211BA5525
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.188
+- response: 7E8056211BA5535
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.252
+- response: 7E8056211BA5539
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.268
+- response: 7E8056211BA553C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.28
+- response: 7E8056211BA553F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.292
+- response: 7E8056211BA554D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.348
+- response: 7E8056211BA5550
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.36
+- response: 7E8056211BA5561
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.428
+- response: 7E8056211BA556E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.48
+- response: 7E8056211BA5571
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.492
+- response: 7E8056211BA5582
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.56
+- response: 7E8056211BA5589
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.588
+- response: 7E8056211BA558C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.6
+- response: 7E8056211BA558F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.612
+- response: 7E8056211BA5596
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.64
+- response: 7E8056211BA5599
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.652
+- response: 7E8056211BA559D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.668
+- response: 7E8056211BA55B4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.76
+- response: 7E8056211BA55B7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.772
+- response: 7E8056211BA55BB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.788
+- response: 7E8056211BA55BE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.8
+- response: 7E8056211BA55C8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.84
+- response: 7E8056211BA55CB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.852
+- response: 7E8056211BA55D2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.88
+- response: 7E8056211BA55D9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.908
+- response: 7E8056211BA55E3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.948
+- response: 7E8056211BA55E6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.96
+- response: 7E8056211BA55EA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 87.976
+- response: 7E8056211BA55FE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.056
+- response: 7E8056211BA5601
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.068
+- response: 7E8056211BA5604
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.08
+- response: 7E8056211BA5618
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.16
+- response: 7E8056211BA561C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.176
+- response: 7E8056211BA561F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.188
+- response: 7E8056211BA562C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.24
+- response: 7E8056211BA5630
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.256
+- response: 7E8056211BA5633
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.268
+- response: 7E8056211BA5636
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.28
+- response: 7E8056211BA563A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.296
+- response: 7E8056211BA5644
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.336
+- response: 7E8056211BA5647
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.348
+- response: 7E8056211BA564A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.36
+- response: 7E8056211BA564E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.376
+- response: 7E8056211BA5651
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.388
+- response: 7E8056211BA5654
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.4
+- response: 7E8056211BA565E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.44
+- response: 7E8056211BA5662
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.456
+- response: 7E8056211BA5676
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.536
+- response: 7E8056211BA5679
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.548
+- response: 7E8056211BA5680
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.576
+- response: 7E8056211BA5686
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.6
+- response: 7E8056211BA5690
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.64
+- response: 7E8056211BA5694
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.656
+- response: 7E8056211BA5697
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.668
+- response: 7E8056211BA569A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.68
+- response: 7E8056211BA569E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.696
+- response: 7E8056211BA56A8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.736
+- response: 7E8056211BA56AB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.748
+- response: 7E8056211BA56AE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.76
+- response: 7E8056211BA56B5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.788
+- response: 7E8056211BA56B8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.8
+- response: 7E8056211BA56C6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.856
+- response: 7E8056211BA56C9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.868
+- response: 7E8056211BA56D0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.896
+- response: 7E8056211BA56DA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.936
+- response: 7E8056211BA56DD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.948
+- response: 7E8056211BA56E0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.96
+- response: 7E8056211BA56E4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 88.976
+- response: 7E8056211BA56EA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89
+- response: 7E8056211BA56F4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.04
+- response: 7E8056211BA56FB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.068
+- response: 7E8056211BA56FE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.08
+- response: 7E8056211BA570F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.148
+- response: 7E8056211BA5712
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.16
+- response: 7E8056211BA5716
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.176
+- response: 7E8056211BA571C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.2
+- response: 7E8056211BA5723
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.228
+- response: 7E8056211BA573E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.336
+- response: 7E8056211BA574B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.388
+- response: 7E8056211BA575F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.468
+- response: 7E8056211BA5766
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.496
+- response: 7E8056211BA5773
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.548
+- response: 7E8056211BA577A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.576
+- response: 7E8056211BA577D
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.588
+- response: 7E8056211BA578B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.644
+- response: 7E8056211BA5791
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.668
+- response: 7E8056211BA5798
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.696
+- response: 7E8056211BA57A2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.736
+- response: 7E8056211BA57A9
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.764
+- response: 7E8056211BA57AC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.776
+- response: 7E8056211BA57AF
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.788
+- response: 7E8056211BA57C3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.868
+- response: 7E8056211BA57C7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.884
+- response: 7E8056211BA57D7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.948
+- response: 7E8056211BA57DB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 89.964
+- response: 7E8056211BA57EB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.028
+- response: 7E8056211BA57F2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.056
+- response: 7E8056211BA57F5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.068
+- response: 7E8056211BA57FC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.096
+- response: 7E8056211BA5810
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.176
+- response: 7E8056211BA5824
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.256
+- response: 7E8056211BA582B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.284
+- response: 7E8056211BA583B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.348
+- response: 7E8056211BA5845
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.388
+- response: 7E8056211BA5849
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.404
+- response: 7E8056211BA5856
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.456
+- response: 7E8056211BA586A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.536
+- response: 7E8056211BA5885
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.644
+- response: 7E8056211BA5888
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.656
+- response: 7E8056211BA588B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.668
+- response: 7E8056211BA589F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.748
+- response: 7E8056211BA58A3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.764
+- response: 7E8056211BA58B7
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.844
+- response: 7E8056211BA58BA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.856
+- response: 7E8056211BA58C1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.884
+- response: 7E8056211BA58CE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.936
+- response: 7E8056211BA58D5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.964
+- response: 7E8056211BA58D8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 90.976
+- response: 7E8056211BA58EC
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.056
+- response: 7E8056211BA58F0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.072
+- response: 7E8056211BA58F3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.084
+- response: 7E8056211BA5900
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.136
+- response: 7E8056211BA5904
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.152
+- response: 7E8056211BA5907
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.164
+- response: 7E8056211BA590A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.176
+- response: 7E8056211BA591B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.244
+- response: 7E8056211BA5922
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.272
+- response: 7E8056211BA5925
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.284
+- response: 7E8056211BA593C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.376
+- response: 7E8056211BA5940
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.392
+- response: 7E8056211BA596B
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.564
+- response: 7E8056211BA596E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.576
+- response: 7E8056211BA597F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.644
+- response: 7E8056211BA59B1
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.844
+- response: 7E8056211BA59B4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.856
+- response: 7E8056211BA59B8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 91.872
+- response: 7E8056211BA59E3
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.044
+- response: 7E8056211BA59FA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.136
+- response: 7E8056211BA59FE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.152
+- response: 7E8056211BA5A01
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.164
+- response: 7E8056211BA5A1C
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.272
+- response: 7E8056211BA5A36
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.376
+- response: 7E8056211BA5A3A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.392
+- response: 7E8056211BA5A65
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.564
+- response: 7E8056211BA5A79
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.644
+- response: 7E8056211BA5A80
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.672
+- response: 7E8056211BA5A94
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.752
+- response: 7E8056211BA5AAE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.856
+- response: 7E8056211BA5AD0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 92.992
+- response: 7E8056211BA5ADD
+  expected_values:
+    TIGUAN_OIL_LEVEL: 93.044
+- response: 7E8056211BA5AE0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 93.056
+- response: 7E8056211BA5AE4
+  expected_values:
+    TIGUAN_OIL_LEVEL: 93.072
+- response: 7E8056211BA5B19
+  expected_values:
+    TIGUAN_OIL_LEVEL: 93.284
+- response: 7E8056211BA5B3A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 93.416
+- response: 7E8056211BA5B5F
+  expected_values:
+    TIGUAN_OIL_LEVEL: 93.564
+- response: 7E8056211BA5B7A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 93.672
+- response: 7E8056211BA5BA2
+  expected_values:
+    TIGUAN_OIL_LEVEL: 93.832
+- response: 7E8056211BA5BC0
+  expected_values:
+    TIGUAN_OIL_LEVEL: 93.952
+- response: 7E8056211BA5BC6
+  expected_values:
+    TIGUAN_OIL_LEVEL: 93.976
+- response: 7E8056211BA5BCA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 93.992
+- response: 7E8056211BA5BDA
+  expected_values:
+    TIGUAN_OIL_LEVEL: 94.056
+- response: 7E8056211BA5BF5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 94.164
+- response: 7E8056211BA5BF8
+  expected_values:
+    TIGUAN_OIL_LEVEL: 94.176
+- response: 7E8056211BA5C27
+  expected_values:
+    TIGUAN_OIL_LEVEL: 94.364
+- response: 7E8056211BA5C2E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 94.392
+- response: 7E8056211BA5C70
+  expected_values:
+    TIGUAN_OIL_LEVEL: 94.656
+- response: 7E8056211BA5CDB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 95.084
+- response: 7E8056211BA5D10
+  expected_values:
+    TIGUAN_OIL_LEVEL: 95.296
+- response: 7E8056211BA5D35
+  expected_values:
+    TIGUAN_OIL_LEVEL: 95.444
+- response: 7E8056211BA5D6A
+  expected_values:
+    TIGUAN_OIL_LEVEL: 95.656
+- response: 7E8056211BA5D7E
+  expected_values:
+    TIGUAN_OIL_LEVEL: 95.736
+- response: 7E8056211BA5DCB
+  expected_values:
+    TIGUAN_OIL_LEVEL: 96.044
+- response: 7E8056211BA5DCE
+  expected_values:
+    TIGUAN_OIL_LEVEL: 96.056
+- response: 7E8056211BA5DD5
+  expected_values:
+    TIGUAN_OIL_LEVEL: 96.084

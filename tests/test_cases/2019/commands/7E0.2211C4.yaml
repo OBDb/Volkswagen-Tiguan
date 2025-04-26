@@ -1,0 +1,7 @@
+command_id: 7E0.2211C4
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8056211C417C8
+  expected_values:
+    TIGUAN_OIL_MAX: 24.352
