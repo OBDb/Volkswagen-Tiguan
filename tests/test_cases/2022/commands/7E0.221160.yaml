@@ -1,0 +1,31 @@
+command_id: 7E0.221160
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E807621160016691A9
+  expected_values:
+    TIGUAN_ODO_HD: 23499177
+- response: '7E80762116001669274'
+  expected_values:
+    TIGUAN_ODO_HD: 23499380
+- response: 7E807621160016693F6
+  expected_values:
+    TIGUAN_ODO_HD: 23499766
+- response: '7E80762116001669576'
+  expected_values:
+    TIGUAN_ODO_HD: 23500150
+- response: 7E807621160016696C7
+  expected_values:
+    TIGUAN_ODO_HD: 23500487
+- response: '7E80762116001669869'
+  expected_values:
+    TIGUAN_ODO_HD: 23500905
+- response: 7E807621160016699CA
+  expected_values:
+    TIGUAN_ODO_HD: 23501258
+- response: 7E80762116001669A58
+  expected_values:
+    TIGUAN_ODO_HD: 23501400
+- response: 7E80762116001669A66
+  expected_values:
+    TIGUAN_ODO_HD: 23501414
