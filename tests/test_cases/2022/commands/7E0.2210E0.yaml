@@ -1,0 +1,13 @@
+command_id: 7E0.2210E0
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8076210E000005BF5
+  expected_values:
+    TIGUAN_ODO: 23541
+- response: 7E8076210E000005BF6
+  expected_values:
+    TIGUAN_ODO: 23542
+- response: 7E8076210E000005BF7
+  expected_values:
+    TIGUAN_ODO: 23543
