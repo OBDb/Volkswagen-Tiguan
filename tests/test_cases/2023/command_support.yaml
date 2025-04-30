@@ -65,3 +65,9 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0143:LOAD_ABS
   - 0149:APP_D
+unsupported_commands_by_ecu:
+  714:
+  - '714.221014'
+  - 714.22202F
+  - '714.222203'
+  - '714.222294'
