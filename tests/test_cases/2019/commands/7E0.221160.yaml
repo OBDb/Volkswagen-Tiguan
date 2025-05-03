@@ -98,3 +98,195 @@ test_cases:
 - response: '7E80762116008629026'
   expected_values:
     TIGUAN_ODO_HD: 140677158
+- response: 7E807621160086300A6
+  expected_values:
+    TIGUAN_ODO_HD: 140705958
+- response: 7E807621160086301CD
+  expected_values:
+    TIGUAN_ODO_HD: 140706253
+- response: 7E8076211600863044B
+  expected_values:
+    TIGUAN_ODO_HD: 140706891
+- response: '7E80762116008630732'
+  expected_values:
+    TIGUAN_ODO_HD: 140707634
+- response: 7E80762116008630A68
+  expected_values:
+    TIGUAN_ODO_HD: 140708456
+- response: 7E80762116008630D8E
+  expected_values:
+    TIGUAN_ODO_HD: 140709262
+- response: '7E80762116008631067'
+  expected_values:
+    TIGUAN_ODO_HD: 140709991
+- response: '7E80762116008631342'
+  expected_values:
+    TIGUAN_ODO_HD: 140710722
+- response: '7E80762116008631613'
+  expected_values:
+    TIGUAN_ODO_HD: 140711443
+- response: '7E80762116008631918'
+  expected_values:
+    TIGUAN_ODO_HD: 140712216
+- response: 7E8076211600863809F
+  expected_values:
+    TIGUAN_ODO_HD: 140738719
+- response: '7E80762116008638154'
+  expected_values:
+    TIGUAN_ODO_HD: 140738900
+- response: 7E8076211600863826C
+  expected_values:
+    TIGUAN_ODO_HD: 140739180
+- response: '7E80762116008638318'
+  expected_values:
+    TIGUAN_ODO_HD: 140739352
+- response: 7E8076211600863847C
+  expected_values:
+    TIGUAN_ODO_HD: 140739708
+- response: '7E80762116008638693'
+  expected_values:
+    TIGUAN_ODO_HD: 140740243
+- response: '7E80762116008638841'
+  expected_values:
+    TIGUAN_ODO_HD: 140740673
+- response: 7E80762116008638A3B
+  expected_values:
+    TIGUAN_ODO_HD: 140741179
+- response: 7E80762116008638C4C
+  expected_values:
+    TIGUAN_ODO_HD: 140741708
+- response: 7E80762116008638E88
+  expected_values:
+    TIGUAN_ODO_HD: 140742280
+- response: 7E8076211600863FCF1
+  expected_values:
+    TIGUAN_ODO_HD: 140770545
+- response: 7E8076211600863FF2E
+  expected_values:
+    TIGUAN_ODO_HD: 140771118
+- response: 7E807621160086401FB
+  expected_values:
+    TIGUAN_ODO_HD: 140771835
+- response: '7E80762116008640525'
+  expected_values:
+    TIGUAN_ODO_HD: 140772645
+- response: '7E80762116008640838'
+  expected_values:
+    TIGUAN_ODO_HD: 140773432
+- response: 7E80762116008640AE7
+  expected_values:
+    TIGUAN_ODO_HD: 140774119
+- response: 7E80762116008640D8D
+  expected_values:
+    TIGUAN_ODO_HD: 140774797
+- response: 7E8076211600864109D
+  expected_values:
+    TIGUAN_ODO_HD: 140775581
+- response: 7E807621160086413CB
+  expected_values:
+    TIGUAN_ODO_HD: 140776395
+- response: 7E807621160086416FB
+  expected_values:
+    TIGUAN_ODO_HD: 140777211
+- response: 7E8076211600864BD20
+  expected_values:
+    TIGUAN_ODO_HD: 140819744
+- response: 7E8076211600864C0E1
+  expected_values:
+    TIGUAN_ODO_HD: 140820705
+- response: 7E8076211600864C3B3
+  expected_values:
+    TIGUAN_ODO_HD: 140821427
+- response: 7E8076211600864C646
+  expected_values:
+    TIGUAN_ODO_HD: 140822086
+- response: 7E8076211600864C946
+  expected_values:
+    TIGUAN_ODO_HD: 140822854
+- response: 7E8076211600864CD03
+  expected_values:
+    TIGUAN_ODO_HD: 140823811
+- response: 7E8076211600864D05B
+  expected_values:
+    TIGUAN_ODO_HD: 140824667
+- response: 7E8076211600864D334
+  expected_values:
+    TIGUAN_ODO_HD: 140825396
+- response: 7E8076211600864D64F
+  expected_values:
+    TIGUAN_ODO_HD: 140826191
+- response: 7E8076211600864D953
+  expected_values:
+    TIGUAN_ODO_HD: 140826963
+- response: 7E8076211600864F6D3
+  expected_values:
+    TIGUAN_ODO_HD: 140834515
+- response: 7E8076211600864F955
+  expected_values:
+    TIGUAN_ODO_HD: 140835157
+- response: 7E8076211600864FBE5
+  expected_values:
+    TIGUAN_ODO_HD: 140835813
+- response: 7E8076211600864FEA9
+  expected_values:
+    TIGUAN_ODO_HD: 140836521
+- response: 7E8076211600865018F
+  expected_values:
+    TIGUAN_ODO_HD: 140837263
+- response: 7E807621160086503ED
+  expected_values:
+    TIGUAN_ODO_HD: 140837869
+- response: 7E8076211600865062C
+  expected_values:
+    TIGUAN_ODO_HD: 140838444
+- response: '7E80762116008650963'
+  expected_values:
+    TIGUAN_ODO_HD: 140839267
+- response: 7E80762116008650CF6
+  expected_values:
+    TIGUAN_ODO_HD: 140840182
+- response: 7E8076211600865107F
+  expected_values:
+    TIGUAN_ODO_HD: 140841087
+- response: '7E80762116008657100'
+  expected_values:
+    TIGUAN_ODO_HD: 140865792
+- response: 7E807621160086571C9
+  expected_values:
+    TIGUAN_ODO_HD: 140865993
+- response: 7E807621160086572ED
+  expected_values:
+    TIGUAN_ODO_HD: 140866285
+- response: '7E80762116008657356'
+  expected_values:
+    TIGUAN_ODO_HD: 140866390
+- response: 7E8076211600865765C
+  expected_values:
+    TIGUAN_ODO_HD: 140867164
+- response: 7E807621160086577E0
+  expected_values:
+    TIGUAN_ODO_HD: 140867552
+- response: 7E807621160086579D5
+  expected_values:
+    TIGUAN_ODO_HD: 140868053
+- response: 7E80762116008657B87
+  expected_values:
+    TIGUAN_ODO_HD: 140868487
+- response: 7E80762116008657D65
+  expected_values:
+    TIGUAN_ODO_HD: 140868965
+- response: 7E80762116008657F2E
+  expected_values:
+    TIGUAN_ODO_HD: 140869422
+- response: '7E80762116008658126'
+  expected_values:
+    TIGUAN_ODO_HD: 140869926
+- response: '7E80762116008658397'
+  expected_values:
+    TIGUAN_ODO_HD: 140870551
+- response: '7E80762116008658631'
+  expected_values:
+    TIGUAN_ODO_HD: 140871217
+- response: 7E80762116008658A59
+  expected_values:
+    TIGUAN_ODO_HD: 140872281
