@@ -182,3 +182,15 @@ test_cases:
 - response: 7E8076210E0000226F5
   expected_values:
     TIGUAN_ODO: 141045
+- response: 7E8076210E000022710
+  expected_values:
+    TIGUAN_ODO: 141072
+- response: 7E8076210E000022711
+  expected_values:
+    TIGUAN_ODO: 141073
+- response: 7E8076210E000022712
+  expected_values:
+    TIGUAN_ODO: 141074
+- response: 7E8076210E000022713
+  expected_values:
+    TIGUAN_ODO: 141075
