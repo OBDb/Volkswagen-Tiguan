@@ -1,6 +1,4 @@
-command_id: 7E0.221160
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 7E0.221160|t=96,fc=1
 test_cases:
 - response: 7E807621160018D0631
   expected_values:
