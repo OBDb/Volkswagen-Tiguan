@@ -1,6 +1,4 @@
-command_id: 7E0.221160
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 7E0.221160|t=96,fc=1
 test_cases:
 - response: 7E807621160016691A9
   expected_values:
@@ -17,6 +15,6 @@ test_cases:
 - response: '7E80762116001676400'
   expected_values:
     TIGUAN_ODO_HD: 23553024
-- response: 7E807621160016C016E
+- response: 7E807621160016D48A7
   expected_values:
-    TIGUAN_ODO_HD: 23855470
+    TIGUAN_ODO_HD: 23939239
