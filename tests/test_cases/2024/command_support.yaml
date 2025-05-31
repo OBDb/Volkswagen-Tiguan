@@ -51,6 +51,10 @@ supported_commands_by_ecu:
   - 019D:FUEL_RATE_ALT,VFUEL_RATE
   - 019E:EXH_RATE
   - 01A6:ODO
+  - DB33.010D:VSS
+  - DB33.012F:FLI
+  - DB33.0131:CLR_DIST
+  - DB33.01A6:ODO
 unsupported_commands_by_ecu:
   714:
   - 714.221014|t=96,fc=1:TIGUAN_AAT
