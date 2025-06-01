@@ -15,6 +15,6 @@ test_cases:
 - response: '7E80762116001676400'
   expected_values:
     TIGUAN_ODO_HD: 23553024
-- response: 7E807621160016D48A7
+- response: 7E807621160016E009E
   expected_values:
-    TIGUAN_ODO_HD: 23939239
+    TIGUAN_ODO_HD: 23986334
