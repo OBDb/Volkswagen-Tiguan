@@ -1,5 +1,5 @@
 command_id: 7E0.2211C4|t=96,fc=1
 test_cases:
-- response: 7E8056211C41DF9
-  expected_values:
+- expected_values:
     TIGUAN_OIL_MAX: 30.692
+  response: 7E8056211C41DF9

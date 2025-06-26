@@ -1,5 +1,5 @@
 command_id: 7E0.221160|t=96,fc=1
 test_cases:
-- response: 7E8076211600B2BACE0
-  expected_values:
+- expected_values:
     TIGUAN_ODO_HD: 187411680
+  response: 7E8076211600B2BACE0
