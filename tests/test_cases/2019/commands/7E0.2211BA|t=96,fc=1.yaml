@@ -1,11 +1,11 @@
 command_id: 7E0.2211BA|t=96,fc=1
 test_cases:
-- response: 7E8056211BA0000
-  expected_values:
+- expected_values:
     TIGUAN_OIL_LEVEL: 0
-- response: 7E8056211BA46FF
-  expected_values:
+  response: 7E8056211BA0000
+- expected_values:
     TIGUAN_OIL_LEVEL: 72.7
-- response: 7E8056211BA5877
-  expected_values:
+  response: 7E8056211BA46FF
+- expected_values:
     TIGUAN_OIL_LEVEL: 90.588
+  response: 7E8056211BA5877

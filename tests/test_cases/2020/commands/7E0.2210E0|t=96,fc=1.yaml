@@ -1,5 +1,5 @@
 command_id: 7E0.2210E0|t=96,fc=1
 test_cases:
-- response: 7E8076210E00002DCF5
-  expected_values:
+- expected_values:
     TIGUAN_ODO: 187637
+  response: 7E8076210E00002DCF5
