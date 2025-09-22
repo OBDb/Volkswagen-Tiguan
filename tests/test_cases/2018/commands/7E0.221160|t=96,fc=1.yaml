@@ -1,0 +1,20 @@
+command_id: 7E0.221160|t=96,fc=1
+test_cases:
+- expected_values:
+    TIGUAN_ODO_HD: 87977369
+  response: 7E807621160053E6D99
+- expected_values:
+    TIGUAN_ODO_HD: 88014619
+  response: 7E807621160053EFF1B
+- expected_values:
+    TIGUAN_ODO_HD: 88076543
+  response: 7E807621160053FF0FF
+- expected_values:
+    TIGUAN_ODO_HD: 88643840
+  response: '7E80762116005489900'
+- expected_values:
+    TIGUAN_ODO_HD: 88670391
+  response: 7E807621160054900B7
+- expected_values:
+    TIGUAN_ODO_HD: 89064480
+  response: 7E807621160054F0420
