@@ -14,7 +14,7 @@ supported_commands_by_ecu:
   - 011C:OBDSUP
   - 0121:MIL_DIST
   - 0123:FRP
-  - 0124:LAMBDA11_WIDE,O2S11_WIDE
+  - 0124:LAMBDA11_VOLT,O2S11_VOLT
   - 014F:MAX_EQ_RAT,MAX_MAP,MAX_O2_CURR,MAX_O2_VOLT
 unsupported_commands_by_ecu:
   "714":
