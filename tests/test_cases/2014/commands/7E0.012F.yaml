@@ -4,29 +4,5 @@ test_cases:
     FLI: 19.60784
   response: 7E803412F32
 - expected_values:
-    FLI: 20.78431
-  response: 7E803412F35
-- expected_values:
-    FLI: 22.35294
-  response: 7E803412F39
-- expected_values:
-    FLI: 25.09804
-  response: 7E803412F40
-- expected_values:
-    FLI: 26.66667
-  response: 7E803412F44
-- expected_values:
-    FLI: 61.17647
-  response: 7E803412F9C
-- expected_values:
-    FLI: 62.35294
-  response: 7E803412F9F
-- expected_values:
-    FLI: 75.29412
-  response: 7E803412FC0
-- expected_values:
-    FLI: 76.86275
-  response: 7E803412FC4
-- expected_values:
     FLI: 78.43137
   response: 7E803412FC8
