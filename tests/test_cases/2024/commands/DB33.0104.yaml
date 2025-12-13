@@ -1,23 +1,38 @@
 command_id: DB33.0104
 test_cases:
 - expected_values:
-    LOAD_PCT: 13.72549
-  response: 18DAF10103410423
+    LOAD_PCT: 0
+  response: 18DAF10103410400
 - expected_values:
-    LOAD_PCT: 27.45098
-  response: 18DAF10103410446
+    LOAD_PCT: 32.15686
+  response: |-
+    18DAF10103410452
+    18DAF11103410452
+    18DAF10203410452
 - expected_values:
-    LOAD_PCT: 29.01961
-  response: 18DAF1010341044A
+    LOAD_PCT: 32.94118
+  response: |-
+    18DAF10103410454
+    18DAF10203410454
+    18DAF11103410454
+- expected_values:
+    LOAD_PCT: 78.82353
+  response: 18DAF101034104C9
 - expected_values:
     LOAD_PCT: 0
   response: 18DAF11103410400
 - expected_values:
-    LOAD_PCT: 46.27451
-  response: 18DAF11103410476
+    LOAD_PCT: 20.78431
+  response: |-
+    18DAF11103410435
+    18DAF10103410436
+    18DAF10203410435
 - expected_values:
-    LOAD_PCT: 58.82353
-  response: 18DAF11103410496
+    LOAD_PCT: 31.76471
+  response: |-
+    18DAF11103410451
+    18DAF10103410451
+    18DAF10203410451
 - expected_values:
     LOAD_PCT: 73.72549
   response: |-
