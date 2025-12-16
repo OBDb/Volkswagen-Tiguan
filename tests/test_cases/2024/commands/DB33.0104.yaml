@@ -4,11 +4,11 @@ test_cases:
     LOAD_PCT: 0
   response: 18DAF10103410400
 - expected_values:
-    LOAD_PCT: 23.13725
+    LOAD_PCT: 16.07843
   response: |-
-    18DAF1010341043B
-    18DAF1110341043B
-    18DAF1020341043B
+    18DAF1010341042B
+    18DAF11103410429
+    18DAF10203410429
 - expected_values:
     LOAD_PCT: 25.88235
   response: |-
@@ -28,17 +28,11 @@ test_cases:
     LOAD_PCT: 0
   response: 18DAF11103410400
 - expected_values:
-    LOAD_PCT: 20.78431
+    LOAD_PCT: 0
   response: |-
-    18DAF11103410435
-    18DAF10103410436
-    18DAF10203410435
-- expected_values:
-    LOAD_PCT: 31.76471
-  response: |-
-    18DAF11103410451
-    18DAF10103410451
-    18DAF10203410451
+    18DAF11103410400
+    18DAF10103410400
+    18DAF10203410400
 - expected_values:
     LOAD_PCT: 73.72549
   response: |-
