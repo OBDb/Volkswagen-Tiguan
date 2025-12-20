@@ -1,8 +1,8 @@
 command_id: DB33.0111
 test_cases:
 - expected_values:
-    TP: 11.76471
-  response: 18DAF1010341111E
+    TP: 10.19608
+  response: 18DAF1010341111A
 - expected_values:
     TP: 12.15686
   response: |-
