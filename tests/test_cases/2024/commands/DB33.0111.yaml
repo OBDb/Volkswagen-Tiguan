@@ -9,15 +9,10 @@ test_cases:
     18DAF1010341111E
     18DAF1110341111E
 - expected_values:
-    TP: 18.82353
+    TP: 25.09804
   response: |-
-    18DAF10103411132
-    18DAF11103411130
-- expected_values:
-    TP: 24.70588
-  response: |-
-    18DAF1010341113E
-    18DAF1110341113F
+    18DAF10103411141
+    18DAF11103411140
 - expected_values:
     TP: 85.09804
   response: 18DAF101034111D9
@@ -29,3 +24,8 @@ test_cases:
   response: |-
     18DAF1110341111E
     18DAF1010341111E
+- expected_values:
+    TP: 29.80392
+  response: |-
+    18DAF11103411142
+    18DAF1010341114C
