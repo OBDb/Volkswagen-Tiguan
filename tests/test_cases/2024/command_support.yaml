@@ -79,6 +79,7 @@ supported_commands_by_ecu:
   - DB33.015E:FUEL_RATE
   - DB33.0162:TQ_ACT
   - DB33.0165:GEAR_RCMD,GEAR_SUP,GPL_STAT,GPL_SUP,N/D_STAT,N/D_SUP,N/G_STAT,N/G_SUP,PTO_STAT_AUX,PTO_SUP
+  - DB33.01A6:ODO
 unsupported_commands_by_ecu:
   "714":
   - 714.221014|t=96,fc=1:TIGUAN_AAT
@@ -91,5 +92,3 @@ unsupported_commands_by_ecu:
   - 7E0.2211BA|t=96,fc=1:TIGUAN_OIL_LEVEL
   - 7E0.2211C4|t=96,fc=1:TIGUAN_OIL_MAX
   - 7E0.2211C5|t=96,fc=1:TIGUAN_OIL_MIN
-  "DB33":
-  - DB33.01A6:ODO
