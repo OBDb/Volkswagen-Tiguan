@@ -1,33 +1,18 @@
 command_id: DB33.01A6
 test_cases:
 - expected_values:
-    ODO: 11334.7
+    ODO: 11318.4
   response: |-
-    18DAF1010641A60001BAC3
-    18DAF1110541A6002C46
+    18DAF1010641A60001BA20
+    18DAF1110541A6002C36
 - expected_values:
-    ODO: 11334.9
-  response: 18DAF1010641A60001BAC5
-- expected_values:
-    ODO: 11335.9
-  response: 18DAF1010641A60001BACF
-- expected_values:
-    ODO: 11336.1
+    ODO: 11318.5
   response: |-
-    18DAF1010641A60001BAD1
-    18DAF1110541A6002C48
+    18DAF1010641A60001BA21
+    18DAF1110541A6002C36
 - expected_values:
-    ODO: 11336.4
-  response: |-
-    18DAF1010641A60001BAD4
-    18DAF1110541A6002C48
+    ODO: 11319.3
+  response: 18DAF1010641A60001BA29
 - expected_values:
-    ODO: 11336.6
-  response: |-
-    18DAF1010641A60001BAD6
-    18DAF1110541A6002C48
-- expected_values:
-    ODO: 11336.7
-  response: |-
-    18DAF1010641A60001BAD7
-    18DAF1110541A6002C48
+    ODO: 11319.6
+  response: 18DAF1010641A60001BA2C
