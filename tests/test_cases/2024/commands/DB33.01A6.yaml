@@ -28,11 +28,6 @@ test_cases:
     18DAF1110541A6002AB6
     18DAF1010641A60001AB23
 - expected_values:
-    ODO: 10973.3
-  response: |-
-    18DAF1110541A6002ADD
-    18DAF1010641A60001ACA5
-- expected_values:
     ODO: 11295.5
   response: |-
     18DAF1110541A6002C1F
@@ -47,3 +42,8 @@ test_cases:
   response: |-
     18DAF1110541A6002CCE
     18DAF1010641A60001C00D
+- expected_values:
+    ODO: 11492.1
+  response: |-
+    18DAF1110541A6002CE4
+    18DAF1010641A60001C0E9
