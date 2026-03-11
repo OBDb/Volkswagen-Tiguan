@@ -49,6 +49,7 @@ supported_commands_by_ecu:
   - 7E0.0111:TP
   - 7E0.011F:RUNTM
   - 7E0.012F:FLI
+  - 7E0.0142:VPWR
   - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
   - 7E0.014C:TAC_PCT
