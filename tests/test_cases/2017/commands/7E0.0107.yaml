@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     LONGFT1: -5.46875
   response: '7E8 03 41 07 79 '
+- expected_values:
+    LONGFT1: 2.34375
+  response: '7E803410783'
