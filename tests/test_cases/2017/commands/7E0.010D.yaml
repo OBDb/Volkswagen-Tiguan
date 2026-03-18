@@ -4,27 +4,25 @@ test_cases:
     VSS: 0
   response: 7E803410D00
 - expected_values:
-    VSS: 25
+    VSS: 0
   response: |-
-    7E803410D1A
-    7E903410D19
+    7E803410D00
+    7E903410D00
 - expected_values:
-    VSS: 48
+    VSS: 47
   response: |-
-    7E803410D30
-    7E903410D30
+    7E803410D2F
+    7E903410D2F
+- expected_values:
+    VSS: 0
+  response: 7E903410D00
 - expected_values:
     VSS: 0
   response: |-
     7E903410D00
     7E803410D00
 - expected_values:
-    VSS: 47
+    VSS: 81
   response: |-
-    7E903410D2E
-    7E803410D2F
-- expected_values:
-    VSS: 55
-  response: |-
-    7E903410D37
-    7E803410D37
+    7E903410D51
+    7E803410D51
