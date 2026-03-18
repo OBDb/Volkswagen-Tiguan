@@ -23,6 +23,9 @@ test_cases:
     7E9034104B3
 - expected_values:
     LOAD_PCT: 0
+  response: '7E903410400'
+- expected_values:
+    LOAD_PCT: 0
   response: |-
     7E903410400
     7E803410400
