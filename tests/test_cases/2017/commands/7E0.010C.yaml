@@ -4,5 +4,40 @@ test_cases:
     RPM: 749
   response: "7E8 04 41 0C 0B B2 \n7E9 04 41 0C 0B B4 "
 - expected_values:
+    RPM: 0
+  response: |-
+    7E804410C0000
+    7E904410C0000
+- expected_values:
     RPM: 701.5
   response: 7E804410C0AF6
+- expected_values:
+    RPM: 735
+  response: |-
+    7E804410C0B7E
+    7E904410C0B7C
+- expected_values:
+    RPM: 970
+  response: |-
+    7E804410C0F42
+    7E904410C0F28
+- expected_values:
+    RPM: 1032
+  response: |-
+    7E804410C1002
+    7E904410C1020
+- expected_values:
+    RPM: 1087
+  response: |-
+    7E804410C10F6
+    7E904410C10FC
+- expected_values:
+    RPM: 1761
+  response: |-
+    7E804410C1C12
+    7E904410C1B84
+- expected_values:
+    RPM: 0
+  response: |-
+    7E904410C0000
+    7E804410C0000
