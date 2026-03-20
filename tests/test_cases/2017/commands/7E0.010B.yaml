@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MAP: 55
   response: '7E8 03 41 0B 37 '
+- expected_values:
+    MAP: 22
+  response: 7E803410B16
+- expected_values:
+    MAP: 163
+  response: 7E803410BA3
