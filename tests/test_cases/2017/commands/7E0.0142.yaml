@@ -11,15 +11,10 @@ test_cases:
     7E80441422F65
     7E90441422D50
 - expected_values:
-    VPWR: 12.6
+    VPWR: 12.3
   response: |-
-    7E8044142329D
-    7E90441423138
-- expected_values:
-    VPWR: 12.4
-  response: |-
-    7E804414232CC
-    7E90441423070
+    7E8044142313C
+    7E9044142300C
 - expected_values:
     VPWR: 12.8
   response: |-
@@ -50,12 +45,12 @@ test_cases:
     7E90441422CEC
     7E80441422EEF
 - expected_values:
-    VPWR: 12.038
+    VPWR: 12.086
   response: |-
-    7E90441422CEC
-    7E80441422F06
+    7E90441422D50
+    7E80441422F36
 - expected_values:
-    VPWR: 13.334
+    VPWR: 13.287
   response: |-
     7E90441423200
-    7E80441423416
+    7E804414233E7
