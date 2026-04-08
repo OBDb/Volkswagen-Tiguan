@@ -72,3 +72,7 @@ unsupported_commands_by_ecu:
   - 7E0.2211BA|t=96,fc=1:TIGUAN_OIL_LEVEL
   - 7E0.2211C4|t=96,fc=1:TIGUAN_OIL_MAX
   - 7E0.2211C5|t=96,fc=1:TIGUAN_OIL_MIN
+  "7E1":
+  - 7E1.7E9.0104
+  - 7E1.7E9.0105
+  - 7E1.7E9.010D
