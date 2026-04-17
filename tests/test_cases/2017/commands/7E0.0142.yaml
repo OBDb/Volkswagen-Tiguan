@@ -45,10 +45,10 @@ test_cases:
     7E90441422CEC
     7E80441422EEF
 - expected_values:
-    VPWR: 12.156
+    VPWR: 12.227
   response: |-
-    7E90441422D50
-    7E80441422F7C
+    7E90441422DB4
+    7E80441422FC3
 - expected_values:
     VPWR: 13.099
   response: |-
