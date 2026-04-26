@@ -23,6 +23,9 @@ test_cases:
     7E904410C222C
 - expected_values:
     RPM: 0
+  response: 7E904410C0000
+- expected_values:
+    RPM: 0
   response: |-
     7E904410C0000
     7E804410C0000
