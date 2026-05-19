@@ -1,6 +1,7 @@
 model_year: 2020
 supported_commands_by_ecu:
   "7DF":
+  - 7DF.0104
   - 7DF.0106
   - 7DF.010D
   - 7DF.0134
