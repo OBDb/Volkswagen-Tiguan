@@ -40,6 +40,7 @@ supported_commands_by_ecu:
   - 7E0.0111:TP
   - 7E0.012F:FLI
   - 7E0.0131:CLR_DIST
+  - 7E0.0146:AAT
   - 7E0.015C:EOT
   - 7E0.015E:FUEL_RATE
   - 7E0.01A6:ODO
