@@ -1,0 +1,20 @@
+command_id: 746.7B0.222622|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_CLIMATE_FR_L_T_FLP_ACT_VALUE: 21
+  response: 7B006622622011D2A
+- expected_values:
+    TIGUAN_CLIMATE_FR_L_T_FLP_ACT_VALUE: 21.5
+  response: 7B00662262201202B
+- expected_values:
+    TIGUAN_CLIMATE_FR_L_T_FLP_ACT_VALUE: 24.5
+  response: 7B006622622013931
+- expected_values:
+    TIGUAN_CLIMATE_FR_L_T_FLP_ACT_VALUE: 30.5
+  response: 7B00662262201693D
+- expected_values:
+    TIGUAN_CLIMATE_FR_L_T_FLP_ACT_VALUE: 47.5
+  response: 7B00662262201EE5F
+- expected_values:
+    TIGUAN_CLIMATE_FR_L_T_FLP_ACT_VALUE: 51.5
+  response: 7B006622622020C67
