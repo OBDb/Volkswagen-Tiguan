@@ -1,17 +1,8 @@
 command_id: 746.7B0.22260D|fc=1
 test_cases:
 - expected_values:
-    TIGUAN_CLIMATE_FR_R_DEFL_T: 22.977
-  response: 7B00462260D45
+    TIGUAN_CLIMATE_FR_R_DEFL_T: 12.321
+  response: 7B00462260D25
 - expected_values:
-    TIGUAN_CLIMATE_FR_R_DEFL_T: 23.976
-  response: 7B00462260D48
-- expected_values:
-    TIGUAN_CLIMATE_FR_R_DEFL_T: 26.64
-  response: 7B00462260D50
-- expected_values:
-    TIGUAN_CLIMATE_FR_R_DEFL_T: 26.973
-  response: 7B00462260D51
-- expected_values:
-    TIGUAN_CLIMATE_FR_R_DEFL_T: 27.306
-  response: 7B00462260D52
+    TIGUAN_CLIMATE_FR_R_DEFL_T: 29.97
+  response: 7B00462260D5A

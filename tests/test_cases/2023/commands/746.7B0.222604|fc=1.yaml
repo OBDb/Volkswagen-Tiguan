@@ -6,3 +6,21 @@ test_cases:
 - expected_values:
     TIGUAN_CLIMATE_A_C_COMP_LOAD: 4.3
   response: 7B0046226042B
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 4.4
+  response: 7B0046226042C
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 4.5
+  response: 7B0046226042D
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 4.8
+  response: 7B00462260430
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 6.5
+  response: 7B00462260441
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 8
+  response: 7B00462260450
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 8.5
+  response: 7B00462260455
