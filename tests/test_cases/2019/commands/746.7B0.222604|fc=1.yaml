@@ -1,0 +1,26 @@
+command_id: 746.7B0.222604|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 9.1
+  response: 7B0046226045B
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 11.5
+  response: 7B00462260473
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 12.4
+  response: 7B0046226047C
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 13
+  response: 7B00462260482
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 13.4
+  response: 7B00462260486
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 13.8
+  response: 7B0046226048A
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 14.5
+  response: 7B00462260491
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 15.1
+  response: 7B00462260497
