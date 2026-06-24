@@ -1,0 +1,23 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_CLIMATE_T_AFTER_EVAP: 0.999
+  response: 7B00462261203
+- expected_values:
+    TIGUAN_CLIMATE_T_AFTER_EVAP: 1.332
+  response: 7B00462261204
+- expected_values:
+    TIGUAN_CLIMATE_T_AFTER_EVAP: 1.998
+  response: 7B00462261206
+- expected_values:
+    TIGUAN_CLIMATE_T_AFTER_EVAP: 2.331
+  response: 7B00462261207
+- expected_values:
+    TIGUAN_CLIMATE_T_AFTER_EVAP: 2.997
+  response: 7B00462261209
+- expected_values:
+    TIGUAN_CLIMATE_T_AFTER_EVAP: 3.663
+  response: 7B0046226120B
+- expected_values:
+    TIGUAN_CLIMATE_T_AFTER_EVAP: 5.994
+  response: 7B00462261212

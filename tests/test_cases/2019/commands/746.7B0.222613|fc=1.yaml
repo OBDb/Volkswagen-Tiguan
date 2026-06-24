@@ -1,0 +1,32 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_CABIN_T: 28.7
+  response: 7B005622613011F
+- expected_values:
+    TIGUAN_CABIN_T: 29.1
+  response: 7B0056226130123
+- expected_values:
+    TIGUAN_CABIN_T: 29.3
+  response: 7B0056226130125
+- expected_values:
+    TIGUAN_CABIN_T: 29.6
+  response: 7B0056226130128
+- expected_values:
+    TIGUAN_CABIN_T: 29.8
+  response: 7B005622613012A
+- expected_values:
+    TIGUAN_CABIN_T: 30
+  response: 7B005622613012C
+- expected_values:
+    TIGUAN_CABIN_T: 30.8
+  response: 7B0056226130134
+- expected_values:
+    TIGUAN_CABIN_T: 32
+  response: 7B0056226130140
+- expected_values:
+    TIGUAN_CABIN_T: 33
+  response: 7B005622613014A
+- expected_values:
+    TIGUAN_CABIN_T: 33.8
+  response: 7B0056226130152
