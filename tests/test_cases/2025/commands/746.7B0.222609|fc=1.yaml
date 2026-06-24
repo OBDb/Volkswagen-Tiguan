@@ -1,0 +1,17 @@
+command_id: 746.7B0.222609|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_AAT: -32
+  response: 7B004622609C0
+- expected_values:
+    TIGUAN_AAT: -31
+  response: 7B004622609C2
+- expected_values:
+    TIGUAN_AAT: -30.5
+  response: 7B004622609C3
+- expected_values:
+    TIGUAN_AAT: -30
+  response: 7B004622609C4
+- expected_values:
+    TIGUAN_AAT: -29
+  response: 7B004622609C6
