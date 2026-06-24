@@ -1,0 +1,26 @@
+command_id: 710.77A.222A09|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_BAT_I: -2999.981
+  response: 77A07622A0900001323
+- expected_values:
+    TIGUAN_BAT_I: -2999.981
+  response: 77A07622A0900001398
+- expected_values:
+    TIGUAN_BAT_I: -2999.981
+  response: 77A07622A09000013C1
+- expected_values:
+    TIGUAN_BAT_I: -2999.981
+  response: 77A07622A09000013EE
+- expected_values:
+    TIGUAN_BAT_I: -2999.98
+  response: 77A07622A0900001417
+- expected_values:
+    TIGUAN_BAT_I: -2999.98
+  response: 77A07622A090000146D
+- expected_values:
+    TIGUAN_BAT_I: -2999.967
+  response: 77A07622A09000021FB
+- expected_values:
+    TIGUAN_BAT_I: 13777.097
+  response: 77A07622A09FFFF8936
