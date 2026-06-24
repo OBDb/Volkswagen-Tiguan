@@ -1,14 +1,14 @@
-command_id: 7E0.2210E0|t=96,fc=1
+command_id: 7E0.7E8.2210E0|t=96,fc=1,f=-2023
 test_cases:
 - expected_values:
     TIGUAN_ODO: 66637
   response: 7E8076210E00001044D
 - expected_values:
-    TIGUAN_ODO: 141311
-  response: 7E8076210E0000227FF
+    TIGUAN_ODO: 143104
+  response: 7E8076210E000022F00
 - expected_values:
-    TIGUAN_ODO: 141312
-  response: 7E8076210E000022800
+    TIGUAN_ODO: 145663
+  response: 7E8076210E0000238FF
 - expected_values:
     TIGUAN_ODO: 2147483647
   response: 7E8076210E07FFFFFFF
