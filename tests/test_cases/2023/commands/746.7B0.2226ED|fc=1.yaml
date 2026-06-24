@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     TIGUAN_CLIMATE_AIR_POLUTION_LVL: 0.1
   response: 7B0046226ED01
+- expected_values:
+    TIGUAN_CLIMATE_AIR_POLUTION_LVL: 0.3
+  response: 7B0046226ED03
+- expected_values:
+    TIGUAN_CLIMATE_AIR_POLUTION_LVL: 1.4
+  response: 7B0046226ED0E

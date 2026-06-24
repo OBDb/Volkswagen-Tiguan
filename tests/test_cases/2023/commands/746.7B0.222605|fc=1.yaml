@@ -9,3 +9,21 @@ test_cases:
 - expected_values:
     TIGUAN_CLIMATE_REFRIG_P: 6.4
   response: 7B00462260520
+- expected_values:
+    TIGUAN_CLIMATE_REFRIG_P: 6.6
+  response: 7B00462260521
+- expected_values:
+    TIGUAN_CLIMATE_REFRIG_P: 7
+  response: 7B00462260523
+- expected_values:
+    TIGUAN_CLIMATE_REFRIG_P: 7.2
+  response: 7B00462260524
+- expected_values:
+    TIGUAN_CLIMATE_REFRIG_P: 8.4
+  response: 7B0046226052A
+- expected_values:
+    TIGUAN_CLIMATE_REFRIG_P: 9
+  response: 7B0046226052D
+- expected_values:
+    TIGUAN_CLIMATE_REFRIG_P: 10.4
+  response: 7B00462260534

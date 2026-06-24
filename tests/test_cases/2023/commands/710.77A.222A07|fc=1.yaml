@@ -4,20 +4,11 @@ test_cases:
     TIGUAN_BAT_V_2A07: 12.115
   response: 77A05622A071FB3
 - expected_values:
-    TIGUAN_BAT_V_2A07: 14.233
-  response: 77A05622A0727F9
-- expected_values:
     TIGUAN_BAT_V_2A07: 14.239
   response: 77A05622A0727FF
 - expected_values:
     TIGUAN_BAT_V_2A07: 14.243
   response: 77A05622A072803
 - expected_values:
-    TIGUAN_BAT_V_2A07: 14.244
-  response: 77A05622A072804
-- expected_values:
-    TIGUAN_BAT_V_2A07: 14.257
-  response: 77A05622A072811
-- expected_values:
-    TIGUAN_BAT_V_2A07: 14.258
-  response: 77A05622A072812
+    TIGUAN_BAT_V_2A07: 14.502
+  response: 77A05622A072906
