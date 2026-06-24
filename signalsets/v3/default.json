@@ -227,7 +227,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11CC"}, "freq": 5,
   "signals": [
-    {"id": "TIGUAN_BOOST_REGULATOR_FEEDBACK", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.01, "sign": true, "unit": "percent" }, "name": "Boost regulator feedback"}
+    {"id": "TIGUAN_BOOST_REGULATOR_FEEDBACK", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Boost regulator feedback"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "121E"}, "freq": 5,
   "signals": [
@@ -260,6 +260,238 @@
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "147A"}, "freq": 300,
   "signals": [
     {"id": "TIGUAN_INJ_2_RAIL_P_CAL_PT_3_147A", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 3"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1010"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_ENGINE_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1017"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_A_C_REFRIGERANT_PRES", "path": "Engine", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "unknown" }, "name": "A/C refrigerant pressure"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "101A"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_A_C_COMPRESSOR_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "A/C compressor torque"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "101B"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_GENERATOR_TORQUE_REQUEST", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Generator torque request"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "101C"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_GENERATOR_LOAD_SIG", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Generator load signal"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "105A"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_BATTERY_V", "path": "Battery", "fmt": { "len": 16, "max": 655340, "min": -655360, "mul": 20, "sign": true, "unit": "millivolts" }, "name": "Battery voltage"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "105C"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_BRAKE_PRES", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Brake pressure"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1097"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_GENERATOR_PERFORMANCE", "path": "Engine", "fmt": { "len": 16, "max": 308822.4216, "min": -308831.8464, "mul": 94248, "div": 10000, "sign": true, "unit": "watts" }, "name": "Generator performance"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "10E0"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_VEHICLE_DIST_DRIVEN", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Vehicle distance driven"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "10E2"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_IGNITION_TIMING_ANGLE_RETARD_C1", "path": "Engine", "fmt": { "len": 16, "max": 24575.25, "min": -24576, "mul": 75, "div": 100, "sign": true, "unit": "degrees" }, "name": "Ignition timing angle retard, cylinder 1"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "10E3"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_IGNITION_TIMING_ANGLE_RETARD_C2", "path": "Engine", "fmt": { "len": 16, "max": 24575.25, "min": -24576, "mul": 75, "div": 100, "sign": true, "unit": "degrees" }, "name": "Ignition timing angle retard, cylinder 2"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "10E4"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_IGNITION_TIMING_ANGLE_RETARD_C3", "path": "Engine", "fmt": { "len": 16, "max": 24575.25, "min": -24576, "mul": 75, "div": 100, "sign": true, "unit": "degrees" }, "name": "Ignition timing angle retard, cylinder 3"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "10E5"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_IGNITION_TIMING_ANGLE_RETARD_C4", "path": "Engine", "fmt": { "len": 16, "max": 24575.25, "min": -24576, "mul": 75, "div": 100, "sign": true, "unit": "degrees" }, "name": "Ignition timing angle retard, cylinder 4"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1124"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_CAMSHAFT_VSS", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "mul": 2500, "div": 10000, "unit": "rpm" }, "name": "Camshaft speed"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1130"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_COOLANT_FAN_1_ACTIVATION", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 10000, "sign": true, "unit": "percent" }, "name": "Coolant fan 1, activation"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1135"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_COOLANT_T_AT_RADIATOR_OUTPUT_SPECIFIED_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Coolant temperature at radiator output, specified value"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1160"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_ECU_DIST_DRIVEN", "path": "Trips", "fmt": { "len": 32, "max": 4294967.2949999999, "div": 1000, "unit": "kilometers" }, "name": "ECU distance driven"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1161"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_ENGINE_RPM_AT_IDLE_REQUIRED", "path": "Movement", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Engine RPM at idle required"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "11BD"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_EOT", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "120E"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_KNOCK_SNS_C1_V_MS", "path": "Engine", "fmt": { "len": 32, "max": 3276.8023480473, "mul": 0.0076294, "div": 10000, "unit": "scalar" }, "name": "Knock sensor, cylinder 1 "}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "120F"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_KNOCK_SNS_C3_V_MS", "path": "Engine", "fmt": { "len": 32, "max": 3276.8023480473, "mul": 0.0076294, "div": 10000, "unit": "scalar" }, "name": "Knock sensor, cylinder 3 "}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1210"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_KNOCK_SNS_C4_V_MS", "path": "Engine", "fmt": { "len": 32, "max": 3276.8023480473, "mul": 0.0076294, "div": 10000, "unit": "scalar" }, "name": "Knock sensor, cylinder 4 "}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1211"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_KNOCK_SNS_C2_V_MS", "path": "Engine", "fmt": { "len": 32, "max": 3276.8023480473, "mul": 0.0076294, "div": 10000, "unit": "scalar" }, "name": "Knock sensor, cylinder 2 "}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1272"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Rear cat conv. temperature main cat. conv. model value"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1290"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T", "path": "Engine", "fmt": { "len": 16, "max": 1262.793795, "min": -273.15, "mul": 234.37, "div": 10000, "add": -273.15, "unit": "celsius" }, "name": "Oxygen sensor 1 bank 1 ceramic temperature"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1291"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_COOLANT_T_AT_ENGINE_START", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Coolant temperature at engine start"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "12B0"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_ACCELERATION_29BIT", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "mul": 10, "div": 10000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Acceleration"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "139C"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_EXHAUST_GAS_T_AT_PROBE_BEFOR_PRECAT_MODEL_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature at probe befor precat, model value"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "13A0"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_COOLANT_T_MODELED_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Coolant temperature modeled value"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "149E"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Intake air temperature in intake manifold"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "14B4"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_FLI", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "unit": "liters" }, "name": "Fuel level"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "14F9"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_MAIN_CAT_OSC_AGE_CORRECTION_FACTOR", "path": "Engine", "fmt": { "len": 16, "max": 2, "mul": 2, "div": 65535, "unit": "scalar" }, "name": "Main cat OSC age correction factor"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1507"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_CAT_CONVERTER_OXYGEN_STORAGE_CAPACITY_MEASURED", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "mul": 1000, "div": 10000, "unit": "unknown" }, "name": "Cat. converter oxygen storage capacity measured"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "15CA"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_GENERATOR_LOAD_NORMALIZED_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Generator load normalized value"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "15CF"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_LONGTITUDINAL_ACCELERATION_RAW_VALUE", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "mul": 10, "div": 10000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Longtitudinal acceleration, raw"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "15D1"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_VEHICLE_LATERAL_ACCELERATION_RAW_VALUE", "path": "Movement", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Vehicle lateral acceleration, raw value"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "16F3"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_CRANKSHAFT_VSS", "path": "Movement", "fmt": { "len": 16, "max": 32767.5, "div": 2, "unit": "rpm" }, "name": "Crankshaft speed"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "24FC"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_FUEL_TANK_FILL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "mul": 1000, "div": 10000, "unit": "liters" }, "name": "Fuel tank fill level"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "291D"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_MISFIRES_1000_RPM_C1", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 1"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "291E"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_MISFIRES_1000_RPM_C3", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 3"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "291F"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_MISFIRES_1000_RPM_C4", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 4"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "2920"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_MISFIRES_1000_RPM_C2", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 2"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "2966"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_MISFIRES_C1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "2967"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_MISFIRES_C3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 3"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "2968"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_MISFIRES_C4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "2969"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_MISFIRES_C2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0076", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "4490"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_COOLANT_T_AT_ENGINE_OUTLET_CALCULATED", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Coolant temperature at engine outlet, calculated"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0077", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "203F"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_TORQUE_LIMITATION", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Torque limitation"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0077", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "2102"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_INPUT_SHAFT_VSS", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Input shaft speed"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0077", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "2103"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_OUTPUT_SHAFT_VSS", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Output shaft speed"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0077", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "2104"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "ATF temperature", "suggestedMetric": "transmissionFluidTemperature"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0077", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "2131"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_TORQUE_CONVERTER_SLIP", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter slip"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0077", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "704E"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_ATF_T_CALCULATED", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "ATF temperature, calculated"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0077", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "704F"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_ATF_T_MAX_REACHED", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "ATF temperature, maximum reached"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0077", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "7050"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_SELECTED_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 253, "min": -2, "add": -2, "unit": "celsius" }, "name": "Selected gear"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0077", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "7051"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_ATF_T_MODELED_MAX_REACHED", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "ATF temperature, modeled max reached"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0077", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "7053"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "newtonMeters" }, "name": "Torque converter: torque loss"}
+  ]},
+{ "hdr": "FC00", "rax": "FE0077", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "7078"}, "freq": 1,
+  "signals": [
+    {"id": "TIGUAN_TC_STS", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "Torque converter clutch status"}
   ]}
 ]
 }
