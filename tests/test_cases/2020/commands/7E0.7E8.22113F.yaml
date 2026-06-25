@@ -4,8 +4,5 @@ test_cases:
     TIGUAN_FUEL_CONS: 0
   response: 7E80562113F0000
 - expected_values:
-    TIGUAN_FUEL_CONS: 1.12
-  response: 7E80562113F0070
-- expected_values:
-    TIGUAN_FUEL_CONS: 2.78
-  response: 7E80562113F0116
+    TIGUAN_FUEL_CONS: 10.18
+  response: 7E80562113F03FA
