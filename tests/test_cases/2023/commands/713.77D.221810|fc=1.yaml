@@ -3,8 +3,18 @@ test_cases:
 - expected_values:
     TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
   response: |-
+    77D100C62181001000A
+    77D21FC7100000000AA
+- expected_values:
+    TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
     77D100C621810010014
     77D21FC1100000000AA
+- expected_values:
+    TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C621810010014
+    77D21FC3E00000000AA
 - expected_values:
     TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
   response: |-
