@@ -1,6 +1,12 @@
 command_id: 746.7B0.222607|fc=1
 test_cases:
 - expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 0
+  response: 7B00462260700
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 32
+  response: 7B00462260750
+- expected_values:
     TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 54.8
   response: 7B00462260789
 - expected_values:

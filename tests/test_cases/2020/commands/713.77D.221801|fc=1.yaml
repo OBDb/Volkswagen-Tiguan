@@ -1,0 +1,20 @@
+command_id: 713.77D.221801|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_FR_VSS_V2: 0
+  response: |-
+    77D100E621801000080
+    77D21FFFFFFFEFFFEFF
+    77D22FEAAAAAAAAAAAA
+- expected_values:
+    TIGUAN_FR_VSS_V2: 4.1
+  response: |-
+    77D100E621801002980
+    77D21FFFFFFFFFFFFFF
+    77D22FFAAAAAAAAAAAA
+- expected_values:
+    TIGUAN_FR_VSS_V2: 13.4
+  response: |-
+    77D100E621801008680
+    77D21FFFFFFFFFFFFFF
+    77D22FFAAAAAAAAAAAA

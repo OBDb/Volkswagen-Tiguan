@@ -4,29 +4,11 @@ test_cases:
     TIGUAN_BAT_V_2A07: 11.982
   response: 77A05622A071F2E
 - expected_values:
-    TIGUAN_BAT_V_2A07: 12.833
-  response: 77A05622A072281
+    TIGUAN_BAT_V_2A07: 13.214
+  response: 77A05622A0723FE
 - expected_values:
-    TIGUAN_BAT_V_2A07: 12.836
-  response: 77A05622A072284
+    TIGUAN_BAT_V_2A07: 13.218
+  response: 77A05622A072402
 - expected_values:
-    TIGUAN_BAT_V_2A07: 12.837
-  response: 77A05622A072285
-- expected_values:
-    TIGUAN_BAT_V_2A07: 12.872
-  response: 77A05622A0722A8
-- expected_values:
-    TIGUAN_BAT_V_2A07: 12.875
-  response: 77A05622A0722AB
-- expected_values:
-    TIGUAN_BAT_V_2A07: 12.884
-  response: 77A05622A0722B4
-- expected_values:
-    TIGUAN_BAT_V_2A07: 13.601
-  response: 77A05622A072581
-- expected_values:
-    TIGUAN_BAT_V_2A07: 13.714
-  response: 77A05622A0725F2
-- expected_values:
-    TIGUAN_BAT_V_2A07: 13.735
-  response: 77A05622A072607
+    TIGUAN_BAT_V_2A07: 14.036
+  response: 77A05622A072734

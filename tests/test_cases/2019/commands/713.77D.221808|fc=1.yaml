@@ -10,6 +10,10 @@ test_cases:
   response: 77D056218080101
 - expected_values:
     TIGUAN_HDC_ACTIVE: 0
+    TIGUAN_HDC_INCLINE: 2
+  response: 77D056218080102
+- expected_values:
+    TIGUAN_HDC_ACTIVE: 0
     TIGUAN_HDC_INCLINE: 3
   response: 77D056218080103
 - expected_values:
