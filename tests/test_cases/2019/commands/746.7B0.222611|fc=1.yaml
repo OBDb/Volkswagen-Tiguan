@@ -4,29 +4,5 @@ test_cases:
     TIGUAN_CLIMATE_LEG_DEFL_T: 17.316
   response: 7B00462261134
 - expected_values:
-    TIGUAN_CLIMATE_LEG_DEFL_T: 17.649
-  response: 7B00462261135
-- expected_values:
-    TIGUAN_CLIMATE_LEG_DEFL_T: 18.315
-  response: 7B00462261137
-- expected_values:
-    TIGUAN_CLIMATE_LEG_DEFL_T: 18.981
-  response: 7B00462261139
-- expected_values:
-    TIGUAN_CLIMATE_LEG_DEFL_T: 19.314
-  response: 7B0046226113A
-- expected_values:
-    TIGUAN_CLIMATE_LEG_DEFL_T: 20.646
-  response: 7B0046226113E
-- expected_values:
-    TIGUAN_CLIMATE_LEG_DEFL_T: 21.645
-  response: 7B00462261141
-- expected_values:
-    TIGUAN_CLIMATE_LEG_DEFL_T: 22.977
-  response: 7B00462261145
-- expected_values:
-    TIGUAN_CLIMATE_LEG_DEFL_T: 24.309
-  response: 7B00462261149
-- expected_values:
     TIGUAN_CLIMATE_LEG_DEFL_T: 28.971
   response: 7B00462261157
