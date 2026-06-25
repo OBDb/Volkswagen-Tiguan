@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_CLIMATE_FR_L_DEFL_T: 11.988
   response: 7B00462260C24
 - expected_values:
-    TIGUAN_CLIMATE_FR_L_DEFL_T: 30.303
-  response: 7B00462260C5B
+    TIGUAN_CLIMATE_FR_L_DEFL_T: 34.299
+  response: 7B00462260C67
