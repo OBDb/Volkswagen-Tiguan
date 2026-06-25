@@ -1,14 +1,8 @@
 command_id: 714.77E.221014|fc=1
 test_cases:
 - expected_values:
-    TIGUAN_DASH_AMBIENT_AIR_T: 31.5
-  response: 77E04621014A3
-- expected_values:
-    TIGUAN_DASH_AMBIENT_AIR_T: 32
-  response: 77E04621014A4
-- expected_values:
-    TIGUAN_DASH_AMBIENT_AIR_T: 32.5
-  response: 77E04621014A5
+    TIGUAN_DASH_AMBIENT_AIR_T: 20.5
+  response: 77E046210148D
 - expected_values:
     TIGUAN_DASH_AMBIENT_AIR_T: 33
   response: 77E04621014A6

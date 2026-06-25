@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_USE_BAT_CHG: 41
   response: 77A04622A0F29
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 48
+  response: 77A04622A0F30
