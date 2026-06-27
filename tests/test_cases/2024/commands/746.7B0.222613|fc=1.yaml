@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     TIGUAN_CABIN_T: 27
   response: 7B005622613010E
+- expected_values:
+    TIGUAN_CABIN_T: 27.1
+  response: 7B005622613010F
+- expected_values:
+    TIGUAN_CABIN_T: 27.2
+  response: 7B0056226130110
+- expected_values:
+    TIGUAN_CABIN_T: 27.6
+  response: 7B0056226130114
+- expected_values:
+    TIGUAN_CABIN_T: 27.7
+  response: 7B0056226130115

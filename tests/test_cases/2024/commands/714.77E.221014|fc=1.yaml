@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_DASH_AMBIENT_AIR_T: 25.5
   response: '77E0462101497'
+- expected_values:
+    TIGUAN_DASH_AMBIENT_AIR_T: 27.5
+  response: 77E046210149B
