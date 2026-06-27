@@ -1,6 +1,21 @@
 command_id: 746.7B0.222613|fc=1
 test_cases:
 - expected_values:
+    TIGUAN_CABIN_T: 24.7
+  response: 7B00562261300F7
+- expected_values:
+    TIGUAN_CABIN_T: 24.8
+  response: 7B00562261300F8
+- expected_values:
+    TIGUAN_CABIN_T: 25
+  response: 7B00562261300FA
+- expected_values:
+    TIGUAN_CABIN_T: 25.1
+  response: 7B00562261300FB
+- expected_values:
+    TIGUAN_CABIN_T: 25.2
+  response: 7B00562261300FC
+- expected_values:
     TIGUAN_CABIN_T: 27
   response: 7B005622613010E
 - expected_values:

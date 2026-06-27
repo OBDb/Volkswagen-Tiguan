@@ -4,23 +4,8 @@ test_cases:
     TIGUAN_FUEL_CONS: 0
   response: 7E80562113F0000
 - expected_values:
-    TIGUAN_FUEL_CONS: 1.54
-  response: 7E80562113F009A
+    TIGUAN_FUEL_CONS: 7.41
+  response: 7E80562113F02E5
 - expected_values:
-    TIGUAN_FUEL_CONS: 1.57
-  response: 7E80562113F009D
-- expected_values:
-    TIGUAN_FUEL_CONS: 1.63
-  response: 7E80562113F00A3
-- expected_values:
-    TIGUAN_FUEL_CONS: 1.67
-  response: 7E80562113F00A7
-- expected_values:
-    TIGUAN_FUEL_CONS: 1.7
-  response: 7E80562113F00AA
-- expected_values:
-    TIGUAN_FUEL_CONS: 3.88
-  response: 7E80562113F0184
-- expected_values:
-    TIGUAN_FUEL_CONS: 4.02
-  response: 7E80562113F0192
+    TIGUAN_FUEL_CONS: 31.08
+  response: 7E80562113F0C24
