@@ -1,0 +1,17 @@
+command_id: 710.77A.222A0F|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 42
+  response: 77A04622A0F2A
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 43
+  response: 77A04622A0F2B
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 44
+  response: 77A04622A0F2C
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 45
+  response: 77A04622A0F2D
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 46
+  response: 77A04622A0F2E
