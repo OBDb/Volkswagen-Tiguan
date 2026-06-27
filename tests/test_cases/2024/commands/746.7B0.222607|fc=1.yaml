@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 0
   response: 7B00462260700
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 34.8
+  response: 7B00462260757
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 35.2
+  response: 7B00462260758
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 36
+  response: 7B0046226075A
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 42.4
+  response: 7B0046226076A
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 48
+  response: 7B00462260778

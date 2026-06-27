@@ -1,6 +1,18 @@
 command_id: 746.7B0.222612|fc=1
 test_cases:
 - expected_values:
+    TIGUAN_CLIMATE_T_AFTER_EVAP: 1.332
+  response: 7B00462261204
+- expected_values:
+    TIGUAN_CLIMATE_T_AFTER_EVAP: 1.665
+  response: 7B00462261205
+- expected_values:
+    TIGUAN_CLIMATE_T_AFTER_EVAP: 4.662
+  response: 7B0046226120E
+- expected_values:
+    TIGUAN_CLIMATE_T_AFTER_EVAP: 13.32
+  response: 7B00462261228
+- expected_values:
     TIGUAN_CLIMATE_T_AFTER_EVAP: 19.647
   response: 7B0046226123B
 - expected_values:

@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TIGUAN_CLIMATE_A_C_COMP_SPD: 0
   response: 7B00462260300
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_SPD: 900
+  response: 7B00462260309
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_SPD: 1200
+  response: 7B0046226030C
