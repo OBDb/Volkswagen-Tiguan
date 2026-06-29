@@ -1,6 +1,15 @@
 command_id: 746.7B0.222626|fc=1
 test_cases:
 - expected_values:
+    TIGUAN_CLIMATE_FR_R_T_FLP_ACT_VALUE: 0
+  response: 7B006622626005600
+- expected_values:
+    TIGUAN_CLIMATE_FR_R_T_FLP_ACT_VALUE: 8
+  response: 7B00662262600A410
+- expected_values:
+    TIGUAN_CLIMATE_FR_R_T_FLP_ACT_VALUE: 18.5
+  response: 7B00662262600FA25
+- expected_values:
     TIGUAN_CLIMATE_FR_R_T_FLP_ACT_VALUE: 76
   response: 7B00662262602CC98
 - expected_values:
