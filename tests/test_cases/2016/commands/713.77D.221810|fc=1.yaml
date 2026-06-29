@@ -3,6 +3,26 @@ test_cases:
 - expected_values:
     TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
   response: |-
+    77D100C62181001099C
+    77D21FD7A00000288AA
+- expected_values:
+    TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C621810010E92
+    77D21FD610000029AAA
+- expected_values:
+    TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001FF9C
+    77D21FD4E000002ACAA
+- expected_values:
+    TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001FFBA
+    77D21FD3700000012AA
+- expected_values:
+    TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
     77D100C62181001FFBA
     77D21FD4100000000AA
 - expected_values:
@@ -15,3 +35,18 @@ test_cases:
   response: |-
     77D100C62181001FFBA
     77D21FD42000002ACAA
+- expected_values:
+    TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001FFBA
+    77D21FD51000002ACAA
+- expected_values:
+    TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001FFC4
+    77D21FD2300000000AA
+- expected_values:
+    TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001FFC4
+    77D21FD3600000240AA

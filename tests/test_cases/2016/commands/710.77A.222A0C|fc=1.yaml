@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TIGUAN_BAT_SOC: 67
   response: 77A04622A0C43
+- expected_values:
+    TIGUAN_BAT_SOC: 69
+  response: 77A04622A0C45
+- expected_values:
+    TIGUAN_BAT_SOC: 71
+  response: 77A04622A0C47
