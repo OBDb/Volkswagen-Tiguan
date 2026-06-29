@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_BAT_T: 34
   response: 77A04622A0B4A
+- expected_values:
+    TIGUAN_BAT_T: 36
+  response: 77A04622A0B4C
