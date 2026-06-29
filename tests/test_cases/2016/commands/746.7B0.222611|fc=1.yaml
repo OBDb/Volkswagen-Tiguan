@@ -1,0 +1,8 @@
+command_id: 746.7B0.222611|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_CLIMATE_LEG_DEFL_T: 17.982
+  response: 7B00462261136
+- expected_values:
+    TIGUAN_CLIMATE_LEG_DEFL_T: 27.972
+  response: 7B00462261154
