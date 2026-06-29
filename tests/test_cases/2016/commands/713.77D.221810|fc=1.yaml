@@ -1,0 +1,17 @@
+command_id: 713.77D.221810|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001FFBA
+    77D21FD4100000000AA
+- expected_values:
+    TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001FFBA
+    77D21FD4100000156AA
+- expected_values:
+    TIGUAN_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001FFBA
+    77D21FD42000002ACAA

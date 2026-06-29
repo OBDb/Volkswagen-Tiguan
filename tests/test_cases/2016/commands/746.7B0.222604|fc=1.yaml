@@ -1,0 +1,11 @@
+command_id: 746.7B0.222604|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 0.6
+  response: 7B00462260406
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 5.8
+  response: 7B0046226043A
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 7.5
+  response: 7B0046226044B
