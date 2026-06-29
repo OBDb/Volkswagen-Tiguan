@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_DASH_OIL_THERMAL_WEAR: 138
   response: 77E0562224B008A
+- expected_values:
+    TIGUAN_DASH_OIL_THERMAL_WEAR: 141
+  response: 77E0562224B008D
