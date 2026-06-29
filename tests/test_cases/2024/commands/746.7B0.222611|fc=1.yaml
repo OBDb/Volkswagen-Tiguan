@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_CLIMATE_LEG_DEFL_T: 18.648
   response: 7B00462261138
 - expected_values:
-    TIGUAN_CLIMATE_LEG_DEFL_T: 27.972
-  response: 7B00462261154
+    TIGUAN_CLIMATE_LEG_DEFL_T: 28.305
+  response: 7B00462261155
