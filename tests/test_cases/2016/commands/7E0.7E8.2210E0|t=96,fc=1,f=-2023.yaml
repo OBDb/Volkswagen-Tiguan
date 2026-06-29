@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     TIGUAN_ODO: 91142
   response: 7E8076210E000016406
+- expected_values:
+    TIGUAN_ODO: 91143
+  response: 7E8076210E000016407
+- expected_values:
+    TIGUAN_ODO: 91144
+  response: 7E8076210E000016408
+- expected_values:
+    TIGUAN_ODO: 91145
+  response: 7E8076210E000016409

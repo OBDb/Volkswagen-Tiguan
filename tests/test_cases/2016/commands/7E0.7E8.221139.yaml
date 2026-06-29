@@ -1,11 +1,32 @@
 command_id: 7E0.7E8.221139
 test_cases:
 - expected_values:
+    TIGUAN_MEAN_INJ_QUANTITY: 142.51
+  response: 7E80562113937AB
+- expected_values:
+    TIGUAN_MEAN_INJ_QUANTITY: 147.14
+  response: 7E805621139397A
+- expected_values:
+    TIGUAN_MEAN_INJ_QUANTITY: 157.65
+  response: 7E8056211393D95
+- expected_values:
     TIGUAN_MEAN_INJ_QUANTITY: 163.84
   response: '7E8056211394000'
 - expected_values:
+    TIGUAN_MEAN_INJ_QUANTITY: 163.9
+  response: '7E8056211394006'
+- expected_values:
+    TIGUAN_MEAN_INJ_QUANTITY: 165.61
+  response: 7E80562113940B1
+- expected_values:
+    TIGUAN_MEAN_INJ_QUANTITY: 166.58
+  response: '7E8056211394112'
+- expected_values:
     TIGUAN_MEAN_INJ_QUANTITY: 167.2
   response: '7E8056211394150'
+- expected_values:
+    TIGUAN_MEAN_INJ_QUANTITY: 169.49
+  response: '7E8056211394235'
 - expected_values:
     TIGUAN_MEAN_INJ_QUANTITY: 169.86
   response: 7E805621139425A
