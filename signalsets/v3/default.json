@@ -176,7 +176,7 @@
   "signals": [
     {"id": "TIGUAN_CLIMATE_A_C_CLCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C clutch"}
   ]},
-{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "0838"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "0838"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_ECALL_SOC", "path": "Battery", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "percent" }, "name": "eCall battery charge level"},
     {"id": "TIGUAN_ECALL_STATUS", "path": "Battery", "name": "eCall battery status", "fmt": {"len": 8, "map": {
@@ -197,7 +197,7 @@
   "signals": [
     {"id": "TIGUAN_ACT", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Turbine actuator 1 bank 1: activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1139"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1139"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MEAN_INJ_QUANTITY", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Mean injection quantity"}
   ]},
