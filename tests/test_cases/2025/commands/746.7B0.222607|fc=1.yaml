@@ -1,0 +1,23 @@
+command_id: 746.7B0.222607|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 0
+  response: 7B00462260700
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 39.6
+  response: 7B00462260763
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 53.6
+  response: 7B00462260786
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 66.4
+  response: 7B004622607A6
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 68.8
+  response: 7B004622607AC
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 97.6
+  response: 7B004622607F4
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_CMD_DUTY: 98
+  response: 7B004622607F5

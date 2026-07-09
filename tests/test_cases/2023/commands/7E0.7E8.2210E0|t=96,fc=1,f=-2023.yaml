@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210E0|t=96,fc=1,f=-2023
+test_cases:
+- expected_values:
+    TIGUAN_ODO: 26078
+  response: 7E8076210E0000065DE
+- expected_values:
+    TIGUAN_ODO: 26111
+  response: 7E8076210E0000065FF
+- expected_values:
+    TIGUAN_ODO: 26112
+  response: 7E8076210E000006600

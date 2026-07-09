@@ -1,0 +1,8 @@
+command_id: 746.7B0.222603|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_SPD: 900
+  response: 7B00462260309
+- expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_SPD: 3400
+  response: 7B00462260322
