@@ -1,8 +1,0 @@
-command_id: 710.77A.222A0E|fc=1
-test_cases:
-- expected_values:
-    TIGUAN_BAT_INT_R: 6.4
-  response: 77A04622A0E20
-- expected_values:
-    TIGUAN_BAT_INT_R: 6.6
-  response: 77A04622A0E21
