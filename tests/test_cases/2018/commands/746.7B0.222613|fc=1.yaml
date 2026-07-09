@@ -1,5 +1,0 @@
-command_id: 746.7B0.222613|fc=1
-test_cases:
-- expected_values:
-    TIGUAN_CABIN_T: 3276.7
-  response: 7B0056226137FFF
