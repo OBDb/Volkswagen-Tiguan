@@ -1,0 +1,23 @@
+command_id: 714.77E.221014|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_DASH_AMBIENT_AIR_T: 18.5
+  response: '77E0462101489'
+- expected_values:
+    TIGUAN_DASH_AMBIENT_AIR_T: 19
+  response: 77E046210148A
+- expected_values:
+    TIGUAN_DASH_AMBIENT_AIR_T: 22
+  response: '77E0462101490'
+- expected_values:
+    TIGUAN_DASH_AMBIENT_AIR_T: 22.5
+  response: '77E0462101491'
+- expected_values:
+    TIGUAN_DASH_AMBIENT_AIR_T: 23
+  response: '77E0462101492'
+- expected_values:
+    TIGUAN_DASH_AMBIENT_AIR_T: 23.5
+  response: '77E0462101493'
+- expected_values:
+    TIGUAN_DASH_AMBIENT_AIR_T: 24
+  response: '77E0462101494'

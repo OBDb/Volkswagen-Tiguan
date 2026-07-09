@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221139
+test_cases:
+- expected_values:
+    TIGUAN_MEAN_INJ_QUANTITY: 158.3
+  response: 7E8056211393DD6
+- expected_values:
+    TIGUAN_MEAN_INJ_QUANTITY: 158.63
+  response: 7E8056211393DF7
+- expected_values:
+    TIGUAN_MEAN_INJ_QUANTITY: 163.84
+  response: '7E8056211394000'
+- expected_values:
+    TIGUAN_MEAN_INJ_QUANTITY: 166.72
+  response: '7E8056211394120'

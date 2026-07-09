@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22113F
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_CONS: 1.31
+  response: 7E80562113F0083
+- expected_values:
+    TIGUAN_FUEL_CONS: 1.33
+  response: 7E80562113F0085
+- expected_values:
+    TIGUAN_FUEL_CONS: 1.41
+  response: 7E80562113F008D

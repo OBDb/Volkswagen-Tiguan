@@ -1,0 +1,29 @@
+command_id: 746.7B0.222606|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 0
+  response: 7B00462260600
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 10
+  response: 7B00462260619
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 14
+  response: 7B00462260623
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 16
+  response: 7B00462260628
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 37.2
+  response: 7B0046226065D
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 38
+  response: 7B0046226065F
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 42
+  response: 7B00462260669
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 45.2
+  response: 7B00462260671
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 56
+  response: 7B0046226068C
