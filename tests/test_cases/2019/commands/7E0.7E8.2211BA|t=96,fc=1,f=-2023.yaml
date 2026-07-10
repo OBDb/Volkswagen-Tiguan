@@ -7,5 +7,5 @@ test_cases:
     TIGUAN_OIL_LEVEL: 72.7
   response: 7E8056211BA46FF
 - expected_values:
-    TIGUAN_OIL_LEVEL: 90.588
-  response: 7E8056211BA5877
+    TIGUAN_OIL_LEVEL: 92.58
+  response: 7E8056211BA5A69

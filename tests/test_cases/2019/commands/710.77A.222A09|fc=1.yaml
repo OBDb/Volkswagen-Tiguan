@@ -10,8 +10,8 @@ test_cases:
     TIGUAN_BAT_I: 13777.037
   response: 77A07622A09FFFF4D36
 - expected_values:
-    TIGUAN_BAT_I: 13777.208
-  response: 77A07622A09FFFFF814
+    TIGUAN_BAT_I: 13777.192
+  response: 77A07622A09FFFFE807
 - expected_values:
     TIGUAN_BAT_I: 13777.212
   response: 77A07622A09FFFFFC9F
