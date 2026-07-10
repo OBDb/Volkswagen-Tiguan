@@ -7,9 +7,6 @@ test_cases:
     TIGUAN_ODO_HD: 140619679
   response: 7E8076211600861AF9F
 - expected_values:
-    TIGUAN_ODO_HD: 142020730
-  response: 7E8076211600877107A
-- expected_values:
     TIGUAN_ODO_HD: 142153215
   response: 7E807621160087915FF
 - expected_values:
@@ -21,3 +18,6 @@ test_cases:
 - expected_values:
     TIGUAN_ODO_HD: 143422208
   response: 7E807621160088C7300
+- expected_values:
+    TIGUAN_ODO_HD: 164962190
+  response: 7E80762116009D51F8E
