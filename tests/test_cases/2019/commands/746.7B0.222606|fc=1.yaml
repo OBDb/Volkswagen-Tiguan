@@ -7,8 +7,20 @@ test_cases:
     TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 10
   response: 7B00462260619
 - expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 13.2
+  response: 7B00462260621
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 30
+  response: 7B0046226064B
+- expected_values:
     TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 31.2
   response: 7B0046226064E
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 35.2
+  response: 7B00462260658
+- expected_values:
+    TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 43.2
+  response: 7B0046226066C
 - expected_values:
     TIGUAN_CLIMATE_RAD_FAN_ACT_DUTY: 54
   response: 7B00462260687

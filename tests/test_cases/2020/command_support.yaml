@@ -111,6 +111,7 @@ supported_commands_by_ecu:
   - 7E0.7E8.221160|t=96,fc=1,f=-2023:TIGUAN_ODO_HD
   "7E1":
   - 7E1.7E9.010D
+  - 7E1.7E9.0142
 unsupported_commands_by_ecu:
   "714":
   - '714.221014'
@@ -136,7 +137,6 @@ unsupported_commands_by_ecu:
   "7E1":
   - 7E1.7E9.0104
   - 7E1.7E9.0105
-  - 7E1.7E9.0142
   "FC00":
   - FC00.FE0076.221010|fc=1,c=17:TIGUAN_ENGINE_TORQUE
   - FC00.FE0076.221017|fc=1,c=17:TIGUAN_A_C_REFRIGERANT_PRES
