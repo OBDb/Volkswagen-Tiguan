@@ -7,5 +7,5 @@ test_cases:
     TIGUAN_CABIN_T: 25.2
   response: 7B00562261300FC
 - expected_values:
-    TIGUAN_CABIN_T: 27
-  response: 7B005622613010E
+    TIGUAN_CABIN_T: 26.6
+  response: 7B005622613010A
