@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     TIGUAN_DASH_AMBIENT_AIR_T: 30
   response: 77E04621014A0
+- expected_values:
+    TIGUAN_DASH_AMBIENT_AIR_T: 30.5
+  response: 77E04621014A1

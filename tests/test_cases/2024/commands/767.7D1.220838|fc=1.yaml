@@ -1,6 +1,10 @@
 command_id: 767.7D1.220838|fc=1
 test_cases:
 - expected_values:
+    TIGUAN_ECALL_SOC: 98
+    TIGUAN_ECALL_STATUS: NORMAL
+  response: 7D1056208380262
+- expected_values:
     TIGUAN_ECALL_SOC: 99
     TIGUAN_ECALL_STATUS: NORMAL
   response: 7D1056208380263
