@@ -1,0 +1,14 @@
+command_id: 710.77A.222A07|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_BAT_V_2A07: 11.196
+  response: 77A05622A071C1C
+- expected_values:
+    TIGUAN_BAT_V_2A07: 12.448
+  response: 77A05622A072100
+- expected_values:
+    TIGUAN_BAT_V_2A07: 14.239
+  response: 77A05622A0727FF
+- expected_values:
+    TIGUAN_BAT_V_2A07: 14.812
+  response: 77A05622A072A3C

@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TIGUAN_CLIMATE_FR_L_T_FLP_ACT_VALUE: 0
   response: 7B006622622006200
+- expected_values:
+    TIGUAN_CLIMATE_FR_L_T_FLP_ACT_VALUE: 56
+  response: 7B006622622023370
+- expected_values:
+    TIGUAN_CLIMATE_FR_L_T_FLP_ACT_VALUE: 95
+  response: 7B006622622036CBE

@@ -1,0 +1,20 @@
+command_id: 710.77A.222A09|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_BAT_I: -3000
+  response: 77A07622A0900000034
+- expected_values:
+    TIGUAN_BAT_I: -2999.993
+  response: 77A07622A09000007FE
+- expected_values:
+    TIGUAN_BAT_I: -2999.918
+  response: 77A07622A0900005200
+- expected_values:
+    TIGUAN_BAT_I: 13776.778
+  response: 77A07622A09FFFE4A94
+- expected_values:
+    TIGUAN_BAT_I: 13777.096
+  response: 77A07622A09FFFF885A
+- expected_values:
+    TIGUAN_BAT_I: 13777.215
+  response: 77A07622A09FFFFFF01
