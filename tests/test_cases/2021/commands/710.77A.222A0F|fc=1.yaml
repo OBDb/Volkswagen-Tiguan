@@ -1,0 +1,32 @@
+command_id: 710.77A.222A0F|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 53
+  response: 77A04622A0F35
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 54
+  response: 77A04622A0F36
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 55
+  response: 77A04622A0F37
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 56
+  response: 77A04622A0F38
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 57
+  response: 77A04622A0F39
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 58
+  response: 77A04622A0F3A
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 59
+  response: 77A04622A0F3B
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 60
+  response: 77A04622A0F3C
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 61
+  response: 77A04622A0F3D
+- expected_values:
+    TIGUAN_USE_BAT_CHG: 62
+  response: 77A04622A0F3E

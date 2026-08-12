@@ -14,5 +14,5 @@ test_cases:
     7E803410497
     7E90341049B
 - expected_values:
-    LOAD_PCT: 94.90196
-  response: 7E8034104F2
+    LOAD_PCT: 98.43137
+  response: 7E8034104FB
