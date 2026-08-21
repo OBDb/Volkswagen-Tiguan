@@ -18,10 +18,10 @@ test_cases:
     7E90441423397
     7E8044142332C
 - expected_values:
-    VPWR: 13.06
+    VPWR: 13
   response: |-
-    7E904414233C9
-    7E80441423304
+    7E9044142339A
+    7E804414232C8
 - expected_values:
     VPWR: 13.1
   response: |-
