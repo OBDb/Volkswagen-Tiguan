@@ -13,37 +13,47 @@ test_cases:
     VPWR: 14.6
   response: '7E80441423908'
 - expected_values:
+    VPWR: 11.72
+  response: |-
+    7E90441422E51
+    7E80441422DC8
+- expected_values:
+    VPWR: 11.92
+  response: |-
+    7E90441422F51
+    7E80441422E90
+- expected_values:
+    VPWR: 11.94
+  response: |-
+    7E90441422FA4
+    7E80441422EA4
+- expected_values:
     VPWR: 12.84
   response: |-
     7E9044142328D
     7E80441423228
 - expected_values:
-    VPWR: 12.86
+    VPWR: 12.94
   response: |-
-    7E90441423353
-    7E8044142323C
+    7E904414232FD
+    7E8044142328C
 - expected_values:
-    VPWR: 12.96
+    VPWR: 12.94
   response: |-
-    7E90441423364
-    7E804414232A0
+    7E904414232FF
+    7E8044142328C
 - expected_values:
-    VPWR: 13.14
+    VPWR: 12.74
   response: |-
-    7E904414233FF
-    7E80441423354
+    7E90441423310
+    7E804414231C4
 - expected_values:
     VPWR: 13.12
   response: |-
     7E90441423402
     7E80441423340
 - expected_values:
-    VPWR: 13.6
+    VPWR: 14
   response: |-
-    7E90441423629
-    7E80441423520
-- expected_values:
-    VPWR: 13.74
-  response: |-
-    7E9044142364E
-    7E804414235AC
+    7E9044142376B
+    7E804414236B0
