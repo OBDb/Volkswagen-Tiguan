@@ -1,0 +1,20 @@
+command_id: 746.7B0.222605|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_CLIMATE_REFRIG_P: 10
+  response: 7B00462260532
+- expected_values:
+    TIGUAN_CLIMATE_REFRIG_P: 10.6
+  response: 7B00462260535
+- expected_values:
+    TIGUAN_CLIMATE_REFRIG_P: 12
+  response: 7B0046226053C
+- expected_values:
+    TIGUAN_CLIMATE_REFRIG_P: 12.2
+  response: 7B0046226053D
+- expected_values:
+    TIGUAN_CLIMATE_REFRIG_P: 12.6
+  response: 7B0046226053F
+- expected_values:
+    TIGUAN_CLIMATE_REFRIG_P: 12.8
+  response: 7B00462260540
