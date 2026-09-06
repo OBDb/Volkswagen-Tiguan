@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221160|t=96,fc=1,f=-2023
 test_cases:
 - expected_values:
+    TIGUAN_ODO_HD: 78445415
+  response: 7E80762116004ACFB67
+- expected_values:
     TIGUAN_ODO_HD: 81815580
   response: 7E80762116004E0681C
 - expected_values:
