@@ -1,0 +1,17 @@
+command_id: 7E0.221044|din=03
+test_cases:
+- expected_values:
+    TIGUAN_DPF_SFC_T: 108.9
+  response: 7E8056210440EEC
+- expected_values:
+    TIGUAN_DPF_SFC_T: 122.5
+  response: 7E8056210440F74
+- expected_values:
+    TIGUAN_DPF_SFC_T: 224.3
+  response: 7E805621044136E
+- expected_values:
+    TIGUAN_DPF_SFC_T: 224.4
+  response: 7E805621044136F
+- expected_values:
+    TIGUAN_DPF_SFC_T: 242.4
+  response: '7E8056210441423'
