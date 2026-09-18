@@ -136,15 +136,15 @@
   "signals": [
     {"id": "TIGUAN_AAT", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260C"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2022], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260C"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CLIMATE_FR_L_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Front left deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260D"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2022], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260D"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CLIMATE_FR_R_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Front right deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CLIMATE_LEG_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Leg deflector temperature"}
   ]},
@@ -156,15 +156,15 @@
   "signals": [
     {"id": "TIGUAN_CABIN_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2622"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2622"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CLIMATE_FR_L_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Front left temperature flap actual value"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2626"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2626"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CLIMATE_FR_R_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Front right temperature flap actual value"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "263D"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2022, 2024], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "263D"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CLIMATE_RR_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Rear deflector temperature"}
   ]},
@@ -176,7 +176,7 @@
   "signals": [
     {"id": "TIGUAN_CLIMATE_A_C_CLCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C clutch"}
   ]},
-{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "0838"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2022], "from": 2026 },
+{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "0838"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_ECALL_SOC", "path": "Battery", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "percent" }, "name": "eCall battery charge level"},
     {"id": "TIGUAN_ECALL_STATUS", "path": "Battery", "name": "eCall battery status", "fmt": {"len": 8, "map": {
@@ -185,7 +185,7 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "1044"}, "freq": 300,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "1044"}, "freq": 300, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_DPF_SFC_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "DPF surface temperature"}
   ]},
@@ -193,7 +193,7 @@
   "signals": [
     {"id": "TIGUAN_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "112C"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112C"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_ACT", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Turbine actuator 1 bank 1: activation"}
   ]},
@@ -209,7 +209,7 @@
   "signals": [
     {"id": "TIGUAN_ODO_HD", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "meters" }, "name": "Odometer, high resolution", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1187"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1187"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_ACCELERATION", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Acceleration"}
   ]},
@@ -225,15 +225,15 @@
   "signals": [
     {"id": "TIGUAN_OIL_MIN", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level, min"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11CC"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CC"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_BOOST_REGULATOR_FEEDBACK", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Boost regulator feedback"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "121E"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "121E"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_SPEC_VALUE_RAIL_P", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "Fuel pressure regulator valve: specified value rail pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "121F"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "121F"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_HIGH_FUEL_P_CONTROL_DEVIATION", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "High fuel pressure control deviation"}
   ]},

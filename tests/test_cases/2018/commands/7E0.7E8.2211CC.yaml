@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211CC
+test_cases:
+- expected_values:
+    TIGUAN_BOOST_REGULATOR_FEEDBACK: 19.56
+  response: 7E8056211CC07A4
+- expected_values:
+    TIGUAN_BOOST_REGULATOR_FEEDBACK: 66.94
+  response: 7E8056211CC1A26
+- expected_values:
+    TIGUAN_BOOST_REGULATOR_FEEDBACK: 80.17
+  response: 7E8056211CC1F51
+- expected_values:
+    TIGUAN_BOOST_REGULATOR_FEEDBACK: 81.89
+  response: 7E8056211CC1FFD

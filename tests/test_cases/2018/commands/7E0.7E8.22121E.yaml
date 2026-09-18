@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22121E
+test_cases:
+- expected_values:
+    TIGUAN_SPEC_VALUE_RAIL_P: 0
+  response: 7E80562121E0000
+- expected_values:
+    TIGUAN_SPEC_VALUE_RAIL_P: 332500
+  response: 7E80562121E0CFD
+- expected_values:
+    TIGUAN_SPEC_VALUE_RAIL_P: 2310000
+  response: 7E80562121E5A3C
