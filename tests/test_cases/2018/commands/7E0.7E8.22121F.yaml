@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22121F
+test_cases:
+- expected_values:
+    TIGUAN_HIGH_FUEL_P_CONTROL_DEVIATION: 8100
+  response: 7E80562121F0051
+- expected_values:
+    TIGUAN_HIGH_FUEL_P_CONTROL_DEVIATION: 26000
+  response: 7E80562121F0104
+- expected_values:
+    TIGUAN_HIGH_FUEL_P_CONTROL_DEVIATION: -4100
+  response: 7E80562121FFFD7
+- expected_values:
+    TIGUAN_HIGH_FUEL_P_CONTROL_DEVIATION: -500
+  response: 7E80562121FFFFB
