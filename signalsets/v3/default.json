@@ -168,7 +168,7 @@
   "signals": [
     {"id": "TIGUAN_CLIMATE_RR_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Rear deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "26ED"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "26ED"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CLIMATE_AIR_POLUTION_LVL", "path": "Engine", "fmt": { "len": 8, "max": 12.7, "min": -12.8, "div": 10, "sign": true, "unit": "scalar" }, "name": "Air pollution level"}
   ]},
