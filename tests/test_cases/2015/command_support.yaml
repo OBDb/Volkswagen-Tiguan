@@ -72,6 +72,7 @@ supported_commands_by_ecu:
   - 7E0.0142:VPWR
   - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
+  - 7E0.0147:TP_B
 unsupported_commands_by_ecu:
   "70E":
   - 70E.778.221945|fc=1:TIGUAN_HEATER_FOR_NOZZLES_ACTIVE
