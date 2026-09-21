@@ -1,8 +1,8 @@
 command_id: 746.7B0.222609|fc=1
 test_cases:
 - expected_values:
-    TIGUAN_AAT: 25
-  response: 7B00462260932
+    TIGUAN_AAT: 21
+  response: 7B0046226092A
 - expected_values:
     TIGUAN_AAT: 35
   response: 7B00462260946
