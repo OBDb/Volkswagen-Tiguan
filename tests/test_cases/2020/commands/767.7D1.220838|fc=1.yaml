@@ -8,3 +8,7 @@ test_cases:
     TIGUAN_ECALL_SOC: 95
     TIGUAN_ECALL_STATUS: NORMAL
   response: 7D105620838025F
+- expected_values:
+    TIGUAN_ECALL_SOC: 99
+    TIGUAN_ECALL_STATUS: NORMAL
+  response: 7D1056208380263
