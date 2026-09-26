@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2214B4
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_LEVEL_INPUT_V1: 19
+  response: 7E8056214B4076C
+- expected_values:
+    TIGUAN_FUEL_LEVEL_INPUT_V1: 20
+  response: 7E8056214B407D0

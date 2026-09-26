@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.227078
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_TORQUE_CONVERTER_LOCKUP_CLUTCH_STATUS: 0
+  response: '7E90462707800'

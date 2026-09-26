@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22179C
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_ENGINE_OIL_T_2: -273.1
+  response: 7E80562179C0000

@@ -1,8 +1,11 @@
 command_id: 70F.779.222B1D|fc=1
 test_cases:
 - expected_values:
-    TIGUAN_PQ35_RL_VSS: 14.6
-  response: 77905622B1D0092
+    TIGUAN_PQ35_RL_VSS: 3.1
+  response: 77905622B1D001F
 - expected_values:
-    TIGUAN_PQ35_RL_VSS: 32.3
-  response: 77905622B1D0143
+    TIGUAN_PQ35_RL_VSS: 23.4
+  response: 77905622B1D00EA
+- expected_values:
+    TIGUAN_PQ35_RL_VSS: 27.7
+  response: 77905622B1D0115

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221161|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_ENGINE_RPM_AT_IDLE_REQUIRED: 800
+  response: '7E8056211610640'
+- expected_values:
+    TIGUAN_ENGINE_RPM_AT_IDLE_REQUIRED: 880
+  response: 7E80562116106E0
+- expected_values:
+    TIGUAN_ENGINE_RPM_AT_IDLE_REQUIRED: 900
+  response: '7E8056211610708'

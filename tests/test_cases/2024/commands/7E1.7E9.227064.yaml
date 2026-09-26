@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.227064
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_ENG_TORQUE: 7
+  response: '7E9056270640007'
+- expected_values:
+    TIGUAN_MQB_TCM_ENG_TORQUE: 20
+  response: '7E9056270640014'
+- expected_values:
+    TIGUAN_MQB_TCM_ENG_TORQUE: 65502
+  response: 7E905627064FFDE
+- expected_values:
+    TIGUAN_MQB_TCM_ENG_TORQUE: 65506
+  response: 7E905627064FFE2

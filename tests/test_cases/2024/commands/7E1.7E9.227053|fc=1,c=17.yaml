@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.227053|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS: 1
+  response: '7E90462705301'
+- expected_values:
+    TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS: 4
+  response: '7E90462705304'
+- expected_values:
+    TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS: 6
+  response: '7E90462705306'
+- expected_values:
+    TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS: 8
+  response: '7E90462705308'

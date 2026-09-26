@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22105A|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_BATTERY_V: 12000
+  response: 7E80562105A0258
+- expected_values:
+    TIGUAN_BATTERY_V: 14420
+  response: 7E80562105A02D1
+- expected_values:
+    TIGUAN_BATTERY_V: 14440
+  response: 7E80562105A02D2
