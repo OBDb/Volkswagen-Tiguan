@@ -4,11 +4,11 @@ test_cases:
     TIGUAN_MQB_SWA: 473.435
   response: 77C056218120ECB
 - expected_values:
+    TIGUAN_MQB_SWA: 735.56
+  response: 77C0562181216FC
+- expected_values:
     TIGUAN_MQB_SWA: 737.56
   response: 77C05621812170C
 - expected_values:
-    TIGUAN_MQB_SWA: 764.935
-  response: 77C0562181217E7
-- expected_values:
-    TIGUAN_MQB_SWA: 779.435
-  response: 77C05621812185B
+    TIGUAN_MQB_SWA: 1224.31
+  response: 77C056218122642
