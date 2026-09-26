@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_HAL_F_R_VSS_DIFF: 0
   response: 77905622BF00000
+- expected_values:
+    TIGUAN_PQ35_HAL_F_R_VSS_DIFF: 0.1
+  response: 77905622BF00001
+- expected_values:
+    TIGUAN_PQ35_HAL_F_R_VSS_DIFF: 0.2
+  response: 77905622BF00002
+- expected_values:
+    TIGUAN_PQ35_HAL_F_R_VSS_DIFF: 0.3
+  response: 77905622BF00003
+- expected_values:
+    TIGUAN_PQ35_HAL_F_R_VSS_DIFF: 0.4
+  response: 77905622BF00004

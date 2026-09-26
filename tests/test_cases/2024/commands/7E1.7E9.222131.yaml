@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.222131
+test_cases:
+- expected_values:
+    TIGUAN_TORQUE_CONVERTER_SLIP_TCM: 58
+  response: 7E905622131003A
+- expected_values:
+    TIGUAN_TORQUE_CONVERTER_SLIP_TCM: 881
+  response: '7E9056221310371'
+- expected_values:
+    TIGUAN_TORQUE_CONVERTER_SLIP_TCM: 889
+  response: '7E9056221310379'
+- expected_values:
+    TIGUAN_TORQUE_CONVERTER_SLIP_TCM: -73
+  response: 7E905622131FFB7

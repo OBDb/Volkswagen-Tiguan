@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221026
+test_cases:
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 0
+  response: '7E8056210260000'
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 273.4
+  response: 7E8056210260AAE

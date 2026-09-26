@@ -1,0 +1,5 @@
+command_id: 7E1.223887
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_ODO_2: 0
+  response: '7E90762388700000000'

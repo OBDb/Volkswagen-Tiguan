@@ -1,0 +1,8 @@
+command_id: 7E0.221152
+test_cases:
+- expected_values:
+    TIGUAN_MISFIRES__CYL__2: 6646
+  response: 7E80562115219F6
+- expected_values:
+    TIGUAN_MISFIRES__CYL__2: 6647
+  response: 7E80562115219F7
