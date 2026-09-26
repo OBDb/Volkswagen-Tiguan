@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_PQ35_CHG_AIR_P: 1.96078
   response: '77E0462221105'
 - expected_values:
+    TIGUAN_PQ35_CHG_AIR_P: 2.35294
+  response: '77E0462221106'
+- expected_values:
     TIGUAN_PQ35_CHG_AIR_P: 2.7451
   response: '77E0462221107'
 - expected_values:
@@ -13,8 +16,17 @@ test_cases:
     TIGUAN_PQ35_CHG_AIR_P: 3.92157
   response: 77E046222110A
 - expected_values:
+    TIGUAN_PQ35_CHG_AIR_P: 4.31373
+  response: 77E046222110B
+- expected_values:
     TIGUAN_PQ35_CHG_AIR_P: 4.70588
   response: 77E046222110C
 - expected_values:
+    TIGUAN_PQ35_CHG_AIR_P: 5.09804
+  response: 77E046222110D
+- expected_values:
     TIGUAN_PQ35_CHG_AIR_P: 5.4902
   response: 77E046222110E
+- expected_values:
+    TIGUAN_PQ35_CHG_AIR_P: 9.01961
+  response: '77E0462221117'
