@@ -1,0 +1,10 @@
+command_id: 767.7D1.222431|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_GPS_SATS_TRACKED: 10
+    TIGUAN_GPS_SATS_VISIBLE: 4
+  response: 7D106622431040A07
+- expected_values:
+    TIGUAN_GPS_SATS_TRACKED: 11
+    TIGUAN_GPS_SATS_VISIBLE: 4
+  response: 7D106622431040B07
