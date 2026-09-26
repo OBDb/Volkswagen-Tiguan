@@ -23,23 +23,23 @@
   "signals": [
     {"id": "TIGUAN_PQ35_HAL_DIFF_LK", "path": "Drivetrain", "fmt": {"bix": 16, "len": 8, "max": 1, "unit": "scalar" }, "name": "All-wheel drive differential lock engagement"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "0C0A"}, "freq": 1,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "0C0A"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_HAL_MODE", "path": "Drivetrain", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "All-wheel drive mode"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2B1B"}, "freq": 0.25,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2B1B"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_FL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2B1C"}, "freq": 0.25,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2B1C"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_FR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2B1D"}, "freq": 0.25,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2B1D"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_RL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2B1E"}, "freq": 0.25,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2B1E"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_RR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
@@ -47,19 +47,19 @@
   "signals": [
     {"id": "TIGUAN_PQ35_HAL_FRICT_T", "path": "Tires", "fmt": {"bix": 8, "len": 16, "max": 427.68, "min": -227.67, "div": 100, "add": -227.67, "unit": "celsius" }, "name": "All-wheel drive friction disc temperature"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BE6"}, "freq": 1,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BE6"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_HAL_I", "path": "Drivetrain", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "amps" }, "name": "All-wheel drive current"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BE7"}, "freq": 1,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BE7"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_HAL_PWM", "path": "Drivetrain", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "All-wheel drive pulse width modulation"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BE9"}, "freq": 5,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BE9"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_HAL_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "All-wheel drive voltage"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BF0"}, "freq": 0.25,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BF0"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_HAL_F_R_VSS_DIFF", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "All-wheel drive front-rear speed differential"}
   ]},
@@ -67,7 +67,7 @@
   "signals": [
     {"id": "TIGUAN_PQ35_HAL_T", "path": "Engine", "fmt": {"bix": 8, "len": 16, "max": 200, "min": -40, "div": 100, "add": -227.67, "unit": "celsius" }, "name": "All-wheel drive temperature"}
   ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BF3"}, "freq": 1,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "cmd": {"22": "2BF3"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_HAL_DUTY", "path": "Drivetrain", "fmt": { "len": 8, "max": 100, "mul": 100.39, "div": 255, "unit": "percent" }, "name": "All-wheel drive duty cycle"}
   ]},
@@ -113,7 +113,7 @@
     {"id": "TIGUAN_MQB_BAT_TOT_CHG", "path": "Battery", "fmt": {           "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Battery total charge"},
     {"id": "TIGUAN_MQB_BAT_TOT_DIS", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Battery total discharge"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "dbg": true, "cmd": {"22": "1812"}, "freq": 0.25,
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1812"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_MQB_SWA", "path": "Tires", "fmt": { "len": 16, "max": 4095.935, "min": -4095.94, "div": 8, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
@@ -142,7 +142,7 @@
     {"id": "TIGUAN_HDC_ACTIVE",  "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1,   "unit": "offon"   }, "name": "Hill descent control"},
     {"id": "TIGUAN_HDC_INCLINE", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "percent" }, "name": "Hill descent control, incline"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "180A"}, "freq": 1,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180A"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_MQB_HAL_CLUTCH_OPEN",  "path": "Transmission", "fmt": {"bix": 2,  "len": 1, "max": 1,           "unit": "offon" }, "name": "All-wheel drive clutch fully open"},
     {"id": "TIGUAN_MQB_HAL_CLUTCH_BLOCK", "path": "Transmission", "fmt": {"bix": 15, "len": 1, "max": 1, "mul": 8, "unit": "offon" }, "name": "All-wheel drive clutch blockage degree"}
@@ -203,11 +203,11 @@
   "signals": [
     {"id": "TIGUAN_DASH_AMBIENT_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "202F"}, "freq": 5,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "202F"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 197, "min": -58, "add": -58, "unit": "celsius" }, "name": "Oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "2203"}, "freq": 30,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2203"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_ODO", "path": "Trips", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -215,7 +215,7 @@
   "signals": [
     {"id": "TIGUAN_PQ35_FUEL_LVL", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "2211"}, "freq": 1,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2211"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_CHG_AIR_P", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Charge air pressure"}
   ]},
@@ -239,23 +239,23 @@
   "signals": [
     {"id": "TIGUAN_IAT", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2353"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2353"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CRASH_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2354"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2354"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CRASH_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2355"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2355"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CRASH_PASS", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2356"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2356"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CRASH_REAR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2357"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2357"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Rollovers"}
   ]},
@@ -303,19 +303,19 @@
   "signals": [
     {"id": "TIGUAN_CABIN_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "261E"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_MQB_RECIRC_FLAP_ACT", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap actual position"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "261F"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261F"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_MQB_RECIRC_FLAP_TRG", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap target position"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2620"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2620"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_MQB_RECIRC_FLAP_FRESH_THR", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap fresh air threshold"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2621"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2621"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_MQB_RECIRC_FLAP_THR", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap threshold"}
   ]},
@@ -335,7 +335,7 @@
   "signals": [
     {"id": "TIGUAN_CLIMATE_AIR_POLUTION_LVL", "path": "Engine", "fmt": { "len": 8, "max": 12.7, "min": -12.8, "div": 10, "sign": true, "unit": "scalar" }, "name": "Air pollution level"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "27C4"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "27C4"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_WINDSHIELD_T",   "path": "Climate", "fmt": {           "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576,           "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"},
     {"id": "TIGUAN_CABIN_HUMIDITY", "path": "Climate", "fmt": {"bix": 32, "len": 8, "max": 100,                                "div": 2,               "unit": "percent" }, "name": "Cabin humidity"}
@@ -357,7 +357,7 @@
         }}
     }
   ]},
-{ "hdr": "767", "rax": "7D1", "fcm1": true, "dbg": true, "cmd": {"22": "2431"}, "freq": 1,
+{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "2431"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_GPS_SATS_VISIBLE", "path": "GPS", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, visible"},
     {"id": "TIGUAN_GPS_SATS_TRACKED", "path": "GPS", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, tracked"}

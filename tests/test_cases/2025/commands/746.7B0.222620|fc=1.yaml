@@ -1,0 +1,5 @@
+command_id: 746.7B0.222620|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_MQB_RECIRC_FLAP_FRESH_THR: 167
+  response: 7B00562262000A7

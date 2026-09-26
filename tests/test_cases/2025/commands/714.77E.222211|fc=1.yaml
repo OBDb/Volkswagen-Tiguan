@@ -1,0 +1,5 @@
+command_id: 714.77E.222211|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CHG_AIR_P: 5.4902
+  response: 77E046222110E

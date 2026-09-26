@@ -1,0 +1,8 @@
+command_id: 714.77E.22202F|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_OIL_T: 26
+  response: 77E0462202F54
+- expected_values:
+    TIGUAN_PQ35_OIL_T: 39
+  response: 77E0462202F61
