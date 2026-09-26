@@ -1,0 +1,8 @@
+command_id: 7E1.223841
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_ODO: 32397
+  response: 7E9076238410004F182
+- expected_values:
+    TIGUAN_MQB_TCM_ODO: 32398
+  response: 7E9076238410004F18C

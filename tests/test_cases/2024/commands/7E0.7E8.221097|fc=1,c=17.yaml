@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221097|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 0
+  response: '7E8056210970000'
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 1046.1528
+  response: 7E805621097006F
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 1244.0736
+  response: '7E8056210970084'
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 1300.6224
+  response: 7E805621097008A

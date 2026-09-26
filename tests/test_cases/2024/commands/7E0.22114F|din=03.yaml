@@ -1,0 +1,8 @@
+command_id: 7E0.22114F|din=03
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_SOOT_MASS_CALC: 84.92
+  response: 7E80562114F212C
+- expected_values:
+    TIGUAN_PQ35_SOOT_MASS_CALC: 84.93
+  response: 7E80562114F212D

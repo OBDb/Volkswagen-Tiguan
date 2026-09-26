@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2214CE
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_POST_INJ_3_ACTIVATION_DURATION: 0.8248
+  response: 7E8056214CE080E

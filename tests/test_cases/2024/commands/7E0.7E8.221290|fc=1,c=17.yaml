@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221290|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 784.18682
+  response: 7E805621290B03A
+- expected_values:
+    TIGUAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 784.98368
+  response: 7E805621290B05C
+- expected_values:
+    TIGUAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 785.05399
+  response: 7E805621290B05F

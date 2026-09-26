@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221130|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_COOLANT_FAN_1_ACTIVATION: 14.84
+  response: 7E80562113005CC
+- expected_values:
+    TIGUAN_COOLANT_FAN_1_ACTIVATION: 42.18
+  response: 7E805621130107A
+- expected_values:
+    TIGUAN_COOLANT_FAN_1_ACTIVATION: 44.53
+  response: '7E8056211301165'
+- expected_values:
+    TIGUAN_COOLANT_FAN_1_ACTIVATION: 47.65
+  response: 7E805621130129D

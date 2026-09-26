@@ -1,5 +1,20 @@
 command_id: 714.77E.222211|fc=1
 test_cases:
 - expected_values:
+    TIGUAN_PQ35_CHG_AIR_P: 1.96078
+  response: '77E0462221105'
+- expected_values:
+    TIGUAN_PQ35_CHG_AIR_P: 2.7451
+  response: '77E0462221107'
+- expected_values:
+    TIGUAN_PQ35_CHG_AIR_P: 3.52941
+  response: '77E0462221109'
+- expected_values:
+    TIGUAN_PQ35_CHG_AIR_P: 3.92157
+  response: 77E046222110A
+- expected_values:
+    TIGUAN_PQ35_CHG_AIR_P: 4.70588
+  response: 77E046222110C
+- expected_values:
     TIGUAN_PQ35_CHG_AIR_P: 5.4902
   response: 77E046222110E

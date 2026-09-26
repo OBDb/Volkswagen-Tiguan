@@ -4,5 +4,17 @@ test_cases:
     TIGUAN_PQ35_HAL_DUTY: 0
   response: 77904622BF300
 - expected_values:
+    TIGUAN_PQ35_HAL_DUTY: 7.08635
+  response: 77904622BF312
+- expected_values:
+    TIGUAN_PQ35_HAL_DUTY: 9.05478
+  response: 77904622BF317
+- expected_values:
+    TIGUAN_PQ35_HAL_DUTY: 10.62953
+  response: 77904622BF31B
+- expected_values:
     TIGUAN_PQ35_HAL_DUTY: 15.74745
   response: 77904622BF328
+- expected_values:
+    TIGUAN_PQ35_HAL_DUTY: 20.86537
+  response: 77904622BF335

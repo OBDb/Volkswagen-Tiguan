@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2215D1|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_VEHICLE_LATERAL_ACCELERATION_RAW_VALUE: 0
+  response: 7E8056215D10000
+- expected_values:
+    TIGUAN_VEHICLE_LATERAL_ACCELERATION_RAW_VALUE: 0.08
+  response: 7E8056215D10008

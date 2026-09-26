@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.227051|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_ATF_T_MODELED_MAX_REACHED: 100
+  response: 7E9046270519B
