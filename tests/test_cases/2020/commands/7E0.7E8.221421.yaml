@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221421
 test_cases:
 - expected_values:
-    TIGUAN_EXH_T_BEFORE_CAT: 329.5
-  response: 7E805621421178A
+    TIGUAN_EXH_T_BEFORE_CAT: 308
+  response: 7E80562142116B3
 - expected_values:
-    TIGUAN_EXH_T_BEFORE_CAT: 725.2
-  response: 7E80562142126FF
+    TIGUAN_EXH_T_BEFORE_CAT: 648.4
+  response: 7E80562142123FF
 - expected_values:
     TIGUAN_EXH_T_BEFORE_CAT: 827.7
   response: 7E8056214212B00

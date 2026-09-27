@@ -7,5 +7,5 @@ test_cases:
     TIGUAN_ENG_OIL_SUMP_T: 183.68
   response: 7E8056215B70DF8
 - expected_values:
-    TIGUAN_ENG_OIL_SUMP_T: 186.74
-  response: 7E8056215B70E09
+    TIGUAN_ENG_OIL_SUMP_T: 186.02
+  response: 7E8056215B70E05

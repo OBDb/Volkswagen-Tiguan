@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_TCM_DRIVE_CYCLES_COUNTER: 8208
   response: 7E90562388B1020
+- expected_values:
+    TIGUAN_MQB_TCM_DRIVE_CYCLES_COUNTER: 8464
+  response: 7E90562388B1021

@@ -4,8 +4,11 @@ test_cases:
     TIGUAN_ENG_CTRL_MODULE_T: 305.4
   response: 7E80562028D0BEE
 - expected_values:
-    TIGUAN_ENG_CTRL_MODULE_T: 307
-  response: 7E80562028D0BFE
+    TIGUAN_ENG_CTRL_MODULE_T: 307.1
+  response: 7E80562028D0BFF
 - expected_values:
-    TIGUAN_ENG_CTRL_MODULE_T: 307.8
-  response: 7E80562028D0C06
+    TIGUAN_ENG_CTRL_MODULE_T: 307.2
+  response: 7E80562028D0C00
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 332.9
+  response: 7E80562028D0D01

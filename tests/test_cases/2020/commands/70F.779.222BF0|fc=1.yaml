@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_HAL_F_R_VSS_DIFF: 0.8
   response: 77905622BF00008
+- expected_values:
+    TIGUAN_PQ35_HAL_F_R_VSS_DIFF: 0.9
+  response: 77905622BF00009

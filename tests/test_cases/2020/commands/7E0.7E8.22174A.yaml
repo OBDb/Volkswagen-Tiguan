@@ -1,11 +1,23 @@
 command_id: 7E0.7E8.22174A
 test_cases:
 - expected_values:
+    TIGUAN_EXH_CAM_ADPT_BIAS: 3.64752
+  response: 7E80562174A00A6
+- expected_values:
     TIGUAN_EXH_CAM_ADPT_BIAS: 3.71344
   response: 7E80562174A00A9
+- expected_values:
+    TIGUAN_EXH_CAM_ADPT_BIAS: 3.93317
+  response: 7E80562174A00B3
 - expected_values:
     TIGUAN_EXH_CAM_ADPT_BIAS: 4.04303
   response: 7E80562174A00B8
 - expected_values:
+    TIGUAN_EXH_CAM_ADPT_BIAS: 4.21882
+  response: 7E80562174A00C0
+- expected_values:
     TIGUAN_EXH_CAM_ADPT_BIAS: 4.26276
   response: 7E80562174A00C2
+- expected_values:
+    TIGUAN_EXH_CAM_ADPT_BIAS: 4.61433
+  response: 7E80562174A00D2

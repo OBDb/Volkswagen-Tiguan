@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.221065
 test_cases:
 - expected_values:
-    TIGUAN_CYL_HEAD_T: 191.6
-  response: 7E8056210650E24
+    TIGUAN_CYL_HEAD_T: 182.6
+  response: 7E8056210650DF2
 - expected_values:
-    TIGUAN_CYL_HEAD_T: 210.32
-  response: 7E8056210650E8C
+    TIGUAN_CYL_HEAD_T: 184.94
+  response: 7E8056210650DFF
+- expected_values:
+    TIGUAN_CYL_HEAD_T: 191.06
+  response: 7E8056210650E21

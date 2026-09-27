@@ -7,5 +7,5 @@ test_cases:
     TIGUAN_LOW_FUEL_P_CMD: 562.3
   response: 7E8056211CE15F7
 - expected_values:
-    TIGUAN_LOW_FUEL_P_CMD: 666.1
-  response: 7E8056211CE1A05
+    TIGUAN_LOW_FUEL_P_CMD: 691.5
+  response: 7E8056211CE1B03

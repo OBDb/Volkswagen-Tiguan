@@ -4,8 +4,8 @@ test_cases:
     TIGUAN_OPEN_CAM_SHFT_ANG: 30
   response: 7E8056210EA012C
 - expected_values:
-    TIGUAN_OPEN_CAM_SHFT_ANG: -26.5
-  response: 7E8056210EAFEF7
+    TIGUAN_OPEN_CAM_SHFT_ANG: -26.1
+  response: 7E8056210EAFEFB
 - expected_values:
     TIGUAN_OPEN_CAM_SHFT_ANG: -25.6
   response: 7E8056210EAFF00

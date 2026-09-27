@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.221063
 test_cases:
 - expected_values:
-    TIGUAN_ENG_OUTLET_ECT_CALC: 88.4
-  response: 7E8056210630E1F
+    TIGUAN_ENG_OUTLET_ECT_CALC: 84.6
+  response: 7E8056210630DF9
 - expected_values:
-    TIGUAN_ENG_OUTLET_ECT_CALC: 99.7
-  response: 7E8056210630E90
+    TIGUAN_ENG_OUTLET_ECT_CALC: 84.8
+  response: 7E8056210630DFB
+- expected_values:
+    TIGUAN_ENG_OUTLET_ECT_CALC: 85.3
+  response: 7E8056210630E00

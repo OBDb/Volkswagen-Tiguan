@@ -4,8 +4,26 @@ test_cases:
     TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: 0
   response: 7E80562177E0000
 - expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: 0.04688
+  response: 7E80562177E0001
+- expected_values:
     TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: 0.09375
   response: 7E80562177E0002
 - expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: 0.14062
+  response: 7E80562177E0003
+- expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: 0.1875
+  response: 7E80562177E0004
+- expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: 0.23438
+  response: 7E80562177E0005
+- expected_values:
     TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: 0.28125
   response: 7E80562177E0006
+- expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: 0.51562
+  response: 7E80562177E000B
+- expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: 0.5625
+  response: 7E80562177E000C
