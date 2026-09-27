@@ -4,20 +4,8 @@ test_cases:
     TIGUAN_MQB_RECIRC_FLAP_TRG: 358
   response: 7B00562261F0166
 - expected_values:
-    TIGUAN_MQB_RECIRC_FLAP_TRG: 437
-  response: 7B00562261F01B5
-- expected_values:
-    TIGUAN_MQB_RECIRC_FLAP_TRG: 438
-  response: 7B00562261F01B6
-- expected_values:
-    TIGUAN_MQB_RECIRC_FLAP_TRG: 460
-  response: 7B00562261F01CC
-- expected_values:
-    TIGUAN_MQB_RECIRC_FLAP_TRG: 470
-  response: 7B00562261F01D6
-- expected_values:
     TIGUAN_MQB_RECIRC_FLAP_TRG: 496
   response: 7B00562261F01F0
 - expected_values:
-    TIGUAN_MQB_RECIRC_FLAP_TRG: 698
-  response: 7B00562261F02BA
+    TIGUAN_MQB_RECIRC_FLAP_TRG: 521
+  response: 7B00562261F0209

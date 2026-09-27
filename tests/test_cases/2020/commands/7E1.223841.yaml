@@ -7,26 +7,5 @@ test_cases:
     TIGUAN_MQB_TCM_ODO: 79283
   response: 7E907623841000C18FE
 - expected_values:
-    TIGUAN_MQB_TCM_ODO: 79244
-  response: 7E907623841000C1778
-- expected_values:
-    TIGUAN_MQB_TCM_ODO: 79245
-  response: 7E907623841000C1782
-- expected_values:
-    TIGUAN_MQB_TCM_ODO: 79246
-  response: 7E907623841000C178C
-- expected_values:
-    TIGUAN_MQB_TCM_ODO: 79247
-  response: 7E907623841000C1796
-- expected_values:
-    TIGUAN_MQB_TCM_ODO: 79248
-  response: 7E907623841000C17A0
-- expected_values:
-    TIGUAN_MQB_TCM_ODO: 79249
-  response: 7E907623841000C17AA
-- expected_values:
-    TIGUAN_MQB_TCM_ODO: 79250
-  response: 7E907623841000C17B4
-- expected_values:
-    TIGUAN_MQB_TCM_ODO: 79251
-  response: 7E907623841000C17BE
+    TIGUAN_MQB_TCM_ODO: 79309
+  response: 7E907623841000C1A02

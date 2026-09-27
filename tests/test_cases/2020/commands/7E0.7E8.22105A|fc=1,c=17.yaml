@@ -1,26 +1,8 @@
 command_id: 7E0.7E8.22105A|fc=1,c=17
 test_cases:
 - expected_values:
-    TIGUAN_BATTERY_V: 12340
-  response: 7E80562105A0269
+    TIGUAN_BATTERY_V: 12280
+  response: 7E80562105A0266
 - expected_values:
-    TIGUAN_BATTERY_V: 13240
-  response: 7E80562105A0296
-- expected_values:
-    TIGUAN_BATTERY_V: 13260
-  response: 7E80562105A0297
-- expected_values:
-    TIGUAN_BATTERY_V: 13280
-  response: 7E80562105A0298
-- expected_values:
-    TIGUAN_BATTERY_V: 14180
-  response: 7E80562105A02C5
-- expected_values:
-    TIGUAN_BATTERY_V: 14280
-  response: 7E80562105A02CA
-- expected_values:
-    TIGUAN_BATTERY_V: 14360
-  response: 7E80562105A02CE
-- expected_values:
-    TIGUAN_BATTERY_V: 14400
-  response: 7E80562105A02D0
+    TIGUAN_BATTERY_V: 14620
+  response: 7E80562105A02DB

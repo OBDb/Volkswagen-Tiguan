@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_FUEL_T: 18.75
   response: 7E80462128A59
 - expected_values:
-    TIGUAN_FUEL_T: 81.75
-  response: 7E80462128AAD
+    TIGUAN_FUEL_T: 99.75
+  response: 7E80462128AC5

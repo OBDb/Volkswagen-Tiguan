@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_MQB_BAT_SEN_T: 19
   response: 77A04622A0A3B
 - expected_values:
-    TIGUAN_MQB_BAT_SEN_T: 42
-  response: 77A04622A0A52
+    TIGUAN_MQB_BAT_SEN_T: 59
+  response: 77A04622A0A63

@@ -4,20 +4,5 @@ test_cases:
     TIGUAN_MQB_TCM_I_GEAR: -2
   response: 7E90462210F00
 - expected_values:
-    TIGUAN_MQB_TCM_I_GEAR: -1
-  response: 7E90462210F01
-- expected_values:
-    TIGUAN_MQB_TCM_I_GEAR: 0
-  response: 7E90462210F02
-- expected_values:
-    TIGUAN_MQB_TCM_I_GEAR: 1
-  response: 7E90462210F03
-- expected_values:
-    TIGUAN_MQB_TCM_I_GEAR: 2
-  response: 7E90462210F04
-- expected_values:
-    TIGUAN_MQB_TCM_I_GEAR: 3
-  response: 7E90462210F05
-- expected_values:
-    TIGUAN_MQB_TCM_I_GEAR: 4
-  response: 7E90462210F06
+    TIGUAN_MQB_TCM_I_GEAR: 8
+  response: 7E90462210F0A

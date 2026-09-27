@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    TIGUAN_VSS: 55
-  response: 7E80462F40D37
+    TIGUAN_VSS: 121
+  response: 7E80462F40D79
