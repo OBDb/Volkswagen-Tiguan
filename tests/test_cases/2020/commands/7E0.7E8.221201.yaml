@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221201
+test_cases:
+- expected_values:
+    TIGUAN_EA888B_BOOST_P_CTRL_2: 0
+  response: '7E80462120100'

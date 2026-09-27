@@ -4,26 +4,8 @@ test_cases:
     TIGUAN_MQB_MAF_1_B1_RAW: 0
   response: '7E8056210260000'
 - expected_values:
-    TIGUAN_MQB_MAF_1_B1_RAW: 14.2
-  response: 7E805621026008E
-- expected_values:
-    TIGUAN_MQB_MAF_1_B1_RAW: 19.6
-  response: 7E80562102600C4
-- expected_values:
-    TIGUAN_MQB_MAF_1_B1_RAW: 23.8
-  response: 7E80562102600EE
-- expected_values:
     TIGUAN_MQB_MAF_1_B1_RAW: 25.2
   response: 7E80562102600FC
 - expected_values:
-    TIGUAN_MQB_MAF_1_B1_RAW: 30.2
-  response: 7E805621026012E
-- expected_values:
-    TIGUAN_MQB_MAF_1_B1_RAW: 34.3
-  response: '7E8056210260157'
-- expected_values:
-    TIGUAN_MQB_MAF_1_B1_RAW: 111.9
-  response: 7E805621026045F
-- expected_values:
-    TIGUAN_MQB_MAF_1_B1_RAW: 135.1
-  response: '7E8056210260547'
+    TIGUAN_MQB_MAF_1_B1_RAW: 255.4
+  response: 7E80562102609FA

@@ -4,26 +4,11 @@ test_cases:
     TIGUAN_OIL_CRIT: 5.8
   response: 7E8056211BB38A4
 - expected_values:
-    TIGUAN_OIL_CRIT: 5.954
-  response: 7E8056211BB3A25
+    TIGUAN_OIL_CRIT: 6.3476
+  response: 7E8056211BB3DFD
 - expected_values:
-    TIGUAN_OIL_CRIT: 6.0036
-  response: 7E8056211BB3AA1
+    TIGUAN_OIL_CRIT: 6.5536
+  response: 7E8056211BB4000
 - expected_values:
-    TIGUAN_OIL_CRIT: 6.0348
-  response: 7E8056211BB3AEF
-- expected_values:
-    TIGUAN_OIL_CRIT: 6.0444
-  response: 7E8056211BB3B07
-- expected_values:
-    TIGUAN_OIL_CRIT: 6.3216
-  response: 7E8056211BB3DBC
-- expected_values:
-    TIGUAN_OIL_CRIT: 6.3876
-  response: 7E8056211BB3E61
-- expected_values:
-    TIGUAN_OIL_CRIT: 6.448
-  response: 7E8056211BB3EF8
-- expected_values:
-    TIGUAN_OIL_CRIT: 6.5
-  response: 7E8056211BB3F7A
+    TIGUAN_OIL_CRIT: 6.7596
+  response: 7E8056211BB4203

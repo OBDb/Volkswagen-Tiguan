@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_TCM_IGNITION_CYCLES: 52514
   response: 7E90562388C22CD
+- expected_values:
+    TIGUAN_MQB_TCM_IGNITION_CYCLES: 52770
+  response: 7E90562388C22CE
+- expected_values:
+    TIGUAN_MQB_TCM_IGNITION_CYCLES: 53026
+  response: 7E90562388C22CF
+- expected_values:
+    TIGUAN_MQB_TCM_IGNITION_CYCLES: 53282
+  response: 7E90562388C22D0

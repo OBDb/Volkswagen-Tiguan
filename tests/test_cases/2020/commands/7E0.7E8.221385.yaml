@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221385
+test_cases:
+- expected_values:
+    TIGUAN_CAM_POS_DEV_BASE_POS: 0
+  response: '7E8056213850000'
+- expected_values:
+    TIGUAN_CAM_POS_DEV_BASE_POS: 0.04395
+  response: '7E8056213850002'
+- expected_values:
+    TIGUAN_CAM_POS_DEV_BASE_POS: 0.10986
+  response: '7E8056213850005'

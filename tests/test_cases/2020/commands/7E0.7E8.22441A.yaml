@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22441A
+test_cases:
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT_ACTUATOR: 0
+  response: 7E80562441A0000
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT_ACTUATOR: 2
+  response: 7E80562441A00C8
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT_ACTUATOR: 30.75
+  response: 7E80562441A0C03

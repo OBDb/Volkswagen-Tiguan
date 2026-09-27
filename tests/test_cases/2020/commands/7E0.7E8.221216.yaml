@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221216
+test_cases:
+- expected_values:
+    TIGUAN_REL_LOAD: 10.31374
+  response: 7E80562121601B8
+- expected_values:
+    TIGUAN_REL_LOAD: 11.978
+  response: 7E80562121601FF
+- expected_values:
+    TIGUAN_REL_LOAD: 12.28272
+  response: 7E805621216020C
+- expected_values:
+    TIGUAN_REL_LOAD: 133.93792
+  response: '7E8056212161652'

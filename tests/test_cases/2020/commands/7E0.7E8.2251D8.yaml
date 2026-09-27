@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2251D8
+test_cases:
+- expected_values:
+    TIGUAN_TANK_FILL_LEVEL: 1049.6
+  response: 7E8056251D82900

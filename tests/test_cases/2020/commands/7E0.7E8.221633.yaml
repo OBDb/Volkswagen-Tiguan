@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221633
+test_cases:
+- expected_values:
+    TIGUAN_LONGITUDINAL_ACCEL: 0.022
+  response: '7E8056216330016'
+- expected_values:
+    TIGUAN_LONGITUDINAL_ACCEL: 0.511
+  response: 7E80562163301FF
+- expected_values:
+    TIGUAN_LONGITUDINAL_ACCEL: -0.244
+  response: 7E805621633FF0C

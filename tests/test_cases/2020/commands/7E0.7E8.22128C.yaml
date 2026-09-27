@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22128C
+test_cases:
+- expected_values:
+    TIGUAN_AVG_INJ_TIME: 0.5648
+  response: 7E80762128C00000584
+- expected_values:
+    TIGUAN_AVG_INJ_TIME: 1.124
+  response: 7E80762128C00000AFA
+- expected_values:
+    TIGUAN_AVG_INJ_TIME: 2.048
+  response: 7E80762128C00001400
+- expected_values:
+    TIGUAN_AVG_INJ_TIME: 3.4636
+  response: 7E80762128C000021D3

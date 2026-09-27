@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2215B7
+test_cases:
+- expected_values:
+    TIGUAN_ENG_OIL_SUMP_T: 166.58
+  response: 7E8056215B70D99
+- expected_values:
+    TIGUAN_ENG_OIL_SUMP_T: 183.68
+  response: 7E8056215B70DF8
+- expected_values:
+    TIGUAN_ENG_OIL_SUMP_T: 186.74
+  response: 7E8056215B70E09

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2216C5
+test_cases:
+- expected_values:
+    TIGUAN_THROTTLE_REGULATOR: 2.78125
+  response: 7E8056216C50164
+- expected_values:
+    TIGUAN_THROTTLE_REGULATOR: 3.89844
+  response: 7E8056216C501F3
+- expected_values:
+    TIGUAN_THROTTLE_REGULATOR: 4.01562
+  response: 7E8056216C50202
+- expected_values:
+    TIGUAN_THROTTLE_REGULATOR: 70.22656
+  response: 7E8056216C5231D

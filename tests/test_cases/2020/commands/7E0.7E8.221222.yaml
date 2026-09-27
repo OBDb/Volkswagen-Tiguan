@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221222
+test_cases:
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_AC_COMP: -7.6
+  response: 7E805621222FFB4
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_AC_COMP: -7.5
+  response: 7E805621222FFB5
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_AC_COMP: -7.4
+  response: 7E805621222FFB6
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_AC_COMP: -7.2
+  response: 7E805621222FFB8

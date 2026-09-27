@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.221341
 test_cases:
 - expected_values:
-    TIGUAN_PQ35_CAMS_END: 162.8
-  response: 7E805621341032E
+    TIGUAN_PQ35_CAMS_END: 0
+  response: '7E8056213410000'
 - expected_values:
-    TIGUAN_PQ35_CAMS_END: -357.6
-  response: 7E805621341F904
+    TIGUAN_PQ35_CAMS_END: -307.6
+  response: 7E805621341F9FE
 - expected_values:
-    TIGUAN_PQ35_CAMS_END: -310.2
-  response: 7E805621341F9F1
-- expected_values:
-    TIGUAN_PQ35_CAMS_END: -151.2
-  response: 7E805621341FD0C
+    TIGUAN_PQ35_CAMS_END: -45.4
+  response: 7E805621341FF1D

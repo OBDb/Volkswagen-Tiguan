@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2239A3
+test_cases:
+- expected_values:
+    TIGUAN_CHG_P_ACTUATOR_SPEC: 3.07616
+  response: 7E8056239A300FC
+- expected_values:
+    TIGUAN_CHG_P_ACTUATOR_SPEC: 81.23759
+  response: 7E8056239A319FF
+- expected_values:
+    TIGUAN_CHG_P_ACTUATOR_SPEC: 100
+  response: 7E8056239A33000

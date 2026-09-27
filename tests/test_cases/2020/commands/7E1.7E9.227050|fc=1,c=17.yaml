@@ -4,14 +4,5 @@ test_cases:
     TIGUAN_SELECTED_GEAR: 13
   response: 7E9046270500F
 - expected_values:
-    TIGUAN_SELECTED_GEAR: 73
-  response: 7E9046270504B
-- expected_values:
-    TIGUAN_SELECTED_GEAR: 103
-  response: '7E90462705069'
-- expected_values:
-    TIGUAN_SELECTED_GEAR: 111
-  response: '7E90462705071'
-- expected_values:
-    TIGUAN_SELECTED_GEAR: 118
-  response: '7E90462705078'
+    TIGUAN_SELECTED_GEAR: 153
+  response: 7E9046270509B

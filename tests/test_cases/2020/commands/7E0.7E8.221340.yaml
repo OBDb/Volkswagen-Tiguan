@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221340
+test_cases:
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -96010.2
+  response: 7E807621340FFF1599A
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -33095.6
+  response: 7E807621340FFFAF334
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -24248.3
+  response: 7E807621340FFFC4CCD
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -12779.5
+  response: 7E807621340FFFE0CCD
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -3276.8
+  response: 7E807621340FFFF8000

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222999
+test_cases:
+- expected_values:
+    TIGUAN_AUTOMATIC_ENG_STARTS: 13002
+  response: 7E80562299932CA

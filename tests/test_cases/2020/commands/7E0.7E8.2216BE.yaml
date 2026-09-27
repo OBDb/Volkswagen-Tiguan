@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2216BE
+test_cases:
+- expected_values:
+    TIGUAN_VLV_LIFT_SYSTEM: 0
+  response: 7E8046216BE00
+- expected_values:
+    TIGUAN_VLV_LIFT_SYSTEM: 15
+  response: 7E8046216BE0F

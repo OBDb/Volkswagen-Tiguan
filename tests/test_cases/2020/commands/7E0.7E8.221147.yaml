@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_MISFIRES_1000REV_C1: 0
   response: '7E8056211470000'
+- expected_values:
+    TIGUAN_MISFIRES_1000REV_C1: 1
+  response: '7E8056211470001'
