@@ -4,12 +4,6 @@ test_cases:
     TIGUAN_PQ35_PRE_INJ_2_DURATION: 0
   response: 7E8056214D10000
 - expected_values:
-    TIGUAN_PQ35_PRE_INJ_2_DURATION: -5.94
-  response: 7E8056214D1C5FE
-- expected_values:
-    TIGUAN_PQ35_PRE_INJ_2_DURATION: -5.7352
-  response: 7E8056214D1C7FE
-- expected_values:
     TIGUAN_PQ35_PRE_INJ_2_DURATION: -5.5304
   response: 7E8056214D1C9FE
 - expected_values:

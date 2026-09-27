@@ -10,5 +10,5 @@ test_cases:
     TIGUAN_OIL_CRIT: 6.5536
   response: 7E8056211BB4000
 - expected_values:
-    TIGUAN_OIL_CRIT: 6.7596
-  response: 7E8056211BB4203
+    TIGUAN_OIL_CRIT: 6.7024
+  response: 7E8056211BB4174

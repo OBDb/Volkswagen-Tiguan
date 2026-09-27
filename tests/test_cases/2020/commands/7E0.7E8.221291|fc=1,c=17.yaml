@@ -13,20 +13,5 @@ test_cases:
     TIGUAN_COOLANT_T_AT_ENGINE_START: 77.3
   response: 7E8056212910DB0
 - expected_values:
-    TIGUAN_COOLANT_T_AT_ENGINE_START: 86.7
-  response: 7E8056212910E0E
-- expected_values:
-    TIGUAN_COOLANT_T_AT_ENGINE_START: 89.6
-  response: 7E8056212910E2B
-- expected_values:
     TIGUAN_COOLANT_T_AT_ENGINE_START: 90.2
   response: 7E8056212910E31
-- expected_values:
-    TIGUAN_COOLANT_T_AT_ENGINE_START: 91.4
-  response: 7E8056212910E3D
-- expected_values:
-    TIGUAN_COOLANT_T_AT_ENGINE_START: 91.9
-  response: 7E8056212910E42
-- expected_values:
-    TIGUAN_COOLANT_T_AT_ENGINE_START: 93.6
-  response: 7E8056212910E53

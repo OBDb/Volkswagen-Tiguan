@@ -5,4 +5,25 @@ test_cases:
   response: 77E0662220301358A
 - expected_values:
     TIGUAN_PQ35_ODO: 3090
-  response: 77E066222030135E0
+  response: 77E0662220301358B
+- expected_values:
+    TIGUAN_PQ35_ODO: 3090
+  response: 77E0662220301358C
+- expected_values:
+    TIGUAN_PQ35_ODO: 3090
+  response: 77E0662220301358D
+- expected_values:
+    TIGUAN_PQ35_ODO: 3090
+  response: 77E0662220301358F
+- expected_values:
+    TIGUAN_PQ35_ODO: 3090
+  response: '77E06622203013590'
+- expected_values:
+    TIGUAN_PQ35_ODO: 3090
+  response: '77E06622203013591'
+- expected_values:
+    TIGUAN_PQ35_ODO: 3090
+  response: '77E06622203013592'
+- expected_values:
+    TIGUAN_PQ35_ODO: 3090
+  response: '77E06622203013593'

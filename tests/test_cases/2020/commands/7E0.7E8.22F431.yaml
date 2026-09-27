@@ -4,5 +4,29 @@ test_cases:
     TIGUAN_CLR_DIST: 318
   response: 7E80562F431013E
 - expected_values:
-    TIGUAN_CLR_DIST: 403
-  response: 7E80562F4310193
+    TIGUAN_CLR_DIST: 319
+  response: 7E80562F431013F
+- expected_values:
+    TIGUAN_CLR_DIST: 320
+  response: 7E80562F4310140
+- expected_values:
+    TIGUAN_CLR_DIST: 321
+  response: 7E80562F4310141
+- expected_values:
+    TIGUAN_CLR_DIST: 322
+  response: 7E80562F4310142
+- expected_values:
+    TIGUAN_CLR_DIST: 323
+  response: 7E80562F4310143
+- expected_values:
+    TIGUAN_CLR_DIST: 324
+  response: 7E80562F4310144
+- expected_values:
+    TIGUAN_CLR_DIST: 325
+  response: 7E80562F4310145
+- expected_values:
+    TIGUAN_CLR_DIST: 326
+  response: 7E80562F4310146
+- expected_values:
+    TIGUAN_CLR_DIST: 327
+  response: 7E80562F4310147

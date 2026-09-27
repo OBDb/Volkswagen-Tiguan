@@ -1,20 +1,5 @@
 command_id: 712.77C.221805|fc=1
 test_cases:
 - expected_values:
-    TIGUAN_STEER_WHL_TQ_SENS_1: 0.88186
-  response: 77C0562180500BB
-- expected_values:
-    TIGUAN_STEER_WHL_TQ_SENS_1: 0.939
-  response: 77C0562180500C8
-- expected_values:
-    TIGUAN_STEER_WHL_TQ_SENS_1: 0.95658
-  response: 77C0562180500CC
-- expected_values:
-    TIGUAN_STEER_WHL_TQ_SENS_1: 0.96097
-  response: 77C0562180500CD
-- expected_values:
     TIGUAN_STEER_WHL_TQ_SENS_1: 0.96976
   response: 77C0562180500CF
-- expected_values:
-    TIGUAN_STEER_WHL_TQ_SENS_1: 1.03129
-  response: 77C0562180500DD

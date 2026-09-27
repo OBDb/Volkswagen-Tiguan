@@ -4,5 +4,20 @@ test_cases:
     TIGUAN_PQ35_GEN_LOAD: 0
   response: 7E80562105C0000
 - expected_values:
-    TIGUAN_PQ35_GEN_LOAD: 2.22
-  response: 7E80562105C00DE
+    TIGUAN_PQ35_GEN_LOAD: 0.18
+  response: 7E80562105C0012
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 0.24
+  response: 7E80562105C0018
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 0.9
+  response: 7E80562105C005A
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 0.96
+  response: 7E80562105C0060
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 1.05
+  response: 7E80562105C0069
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 1.23
+  response: 7E80562105C007B

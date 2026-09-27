@@ -7,6 +7,9 @@ test_cases:
     TIGUAN_MQB_TCM_BRAKE_P: 5.25
   response: 7E9056238030D02
 - expected_values:
+    TIGUAN_MQB_TCM_BRAKE_P: -189.31
+  response: 7E9056238030DB6
+- expected_values:
     TIGUAN_MQB_TCM_BRAKE_P: -76.66
   response: 7E9056238030EE2
 - expected_values:

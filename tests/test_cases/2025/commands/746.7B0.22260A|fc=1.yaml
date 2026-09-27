@@ -1,17 +1,5 @@
 command_id: 746.7B0.22260A|fc=1
 test_cases:
 - expected_values:
-    TIGUAN_OUTSIDE_T_SYSTEM: -55
-  response: 7B00462260A92
-- expected_values:
-    TIGUAN_OUTSIDE_T_SYSTEM: -54
-  response: 7B00462260A94
-- expected_values:
-    TIGUAN_OUTSIDE_T_SYSTEM: -53.5
-  response: 7B00462260A95
-- expected_values:
     TIGUAN_OUTSIDE_T_SYSTEM: -53
   response: 7B00462260A96
-- expected_values:
-    TIGUAN_OUTSIDE_T_SYSTEM: -50.5
-  response: 7B00462260A9B

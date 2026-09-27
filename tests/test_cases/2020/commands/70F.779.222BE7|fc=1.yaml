@@ -4,5 +4,23 @@ test_cases:
     TIGUAN_PQ35_HAL_PWM: 0
   response: 77904622BE700
 - expected_values:
+    TIGUAN_PQ35_HAL_PWM: 12
+  response: 77904622BE70C
+- expected_values:
+    TIGUAN_PQ35_HAL_PWM: 13
+  response: 77904622BE70D
+- expected_values:
+    TIGUAN_PQ35_HAL_PWM: 15
+  response: 77904622BE70F
+- expected_values:
+    TIGUAN_PQ35_HAL_PWM: 16
+  response: 77904622BE710
+- expected_values:
+    TIGUAN_PQ35_HAL_PWM: 17
+  response: 77904622BE711
+- expected_values:
+    TIGUAN_PQ35_HAL_PWM: 18
+  response: 77904622BE712
+- expected_values:
     TIGUAN_PQ35_HAL_PWM: 30
   response: 77904622BE71E

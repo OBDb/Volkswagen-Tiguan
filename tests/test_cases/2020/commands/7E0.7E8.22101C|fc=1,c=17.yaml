@@ -4,5 +4,26 @@ test_cases:
     TIGUAN_GENERATOR_LOAD_SIG: 0
   response: 7E80562101C0000
 - expected_values:
-    TIGUAN_GENERATOR_LOAD_SIG: 61.21
-  response: 7E80562101C17E9
+    TIGUAN_GENERATOR_LOAD_SIG: 19.32
+  response: 7E80562101C078C
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_SIG: 22.54
+  response: 7E80562101C08CE
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_SIG: 25.78
+  response: 7E80562101C0A12
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_SIG: 29
+  response: 7E80562101C0B54
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_SIG: 32.21
+  response: 7E80562101C0C95
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_SIG: 38.65
+  response: 7E80562101C0F19
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_SIG: 41.87
+  response: 7E80562101C105B
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_SIG: 54.76
+  response: 7E80562101C1564

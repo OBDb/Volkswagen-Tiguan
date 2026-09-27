@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_AC_COMP_T: 0
   response: '7E8056210020000'
 - expected_values:
-    TIGUAN_AC_COMP_T: 15
-  response: '7E8056210020096'
+    TIGUAN_AC_COMP_T: 10.5
+  response: '7E8056210020069'

@@ -139,7 +139,7 @@
   "signals": [
     {"id": "TIGUAN_STEER_WHL_T", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Steering wheel temperature"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TIGUAN_STEER_WHL_TQ_SENS_1", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 1"}
   ]},
@@ -333,7 +333,7 @@
   "signals": [
     {"id": "TIGUAN_AAT", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260A"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260A"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_OUTSIDE_T_SYSTEM", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature, system calculated"}
   ]},
@@ -2512,7 +2512,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "39A3"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
-    {"id": "TIGUAN_CHG_P_ACTUATOR_SPEC", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 0.012207, "unit": "percent" }, "name": "Charge pressure actuator, specified position"}
+    {"id": "TIGUAN_CHG_P_ACTUATOR_SPEC", "path": "Battery", "fmt": { "len": 16, "max": 655.3499, "div": 100, "unit": "percent" }, "name": "Charge pressure actuator, specified position"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "39A4"}, "freq": 1,
   "signals": [
@@ -2556,7 +2556,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3D01"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
-    {"id": "TIGUAN_BYPASS_VLV_HIGH_P_V", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Bypass valve high pressure turbine inlet, raw voltage"}
+    {"id": "TIGUAN_BYPASS_VLV_HIGH_P_V", "path": "Battery", "fmt": { "len": 16, "max": 6553.3999, "min": -6553.5999, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Bypass valve high pressure turbine inlet, raw voltage"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3D73"}, "freq": 5,
   "signals": [

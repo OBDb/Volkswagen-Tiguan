@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_PQ35_SELECTED_GEAR: 1
   response: 7E8056215AA01D7
 - expected_values:
+    TIGUAN_PQ35_SELECTED_GEAR: 1
+  response: 7E8056215AA01F5
+- expected_values:
     TIGUAN_PQ35_SELECTED_GEAR: 2
   response: 7E8056215AA0200
 - expected_values:
