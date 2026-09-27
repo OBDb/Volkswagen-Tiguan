@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.22100F
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE_LOSS: 39
+  response: 7E90562100F0C03
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE_LOSS: 27
+  response: 7E90562100F1C02
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE_LOSS: 33
+  response: 7E90562100F9402
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE_LOSS: 35
+  response: 7E90562100FBC02
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE_LOSS: 49
+  response: 7E90562100FD403
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE_LOSS: 38
+  response: 7E90562100FF802

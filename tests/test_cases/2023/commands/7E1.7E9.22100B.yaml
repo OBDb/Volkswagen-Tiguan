@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.22100B
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_DRIVER_DEMAND_TORQUE: 358.5
+  response: 7E90562100B1C02
+- expected_values:
+    TIGUAN_MQB_TCM_DRIVER_DEMAND_TORQUE: 819.5
+  response: 7E90562100B4006
+- expected_values:
+    TIGUAN_MQB_TCM_DRIVER_DEMAND_TORQUE: -1279.05
+  response: 7E90562100B9C13
+- expected_values:
+    TIGUAN_MQB_TCM_DRIVER_DEMAND_TORQUE: -1062.5
+  response: 7E90562100BACFE
+- expected_values:
+    TIGUAN_MQB_TCM_DRIVER_DEMAND_TORQUE: -358.3
+  response: 7E90562100BE402
+- expected_values:
+    TIGUAN_MQB_TCM_DRIVER_DEMAND_TORQUE: -102.3
+  response: 7E90562100BF802

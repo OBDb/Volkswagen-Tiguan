@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22380E
+test_cases:
+- expected_values:
+    TIGUAN_MQB_OUTPUT_SHAFT_1: 0
+  response: 7E90562380E0000
+- expected_values:
+    TIGUAN_MQB_OUTPUT_SHAFT_1: 307
+  response: 7E90562380E3301
+- expected_values:
+    TIGUAN_MQB_OUTPUT_SHAFT_1: 661
+  response: 7E90562380E9502
+- expected_values:
+    TIGUAN_MQB_OUTPUT_SHAFT_1: 444
+  response: 7E90562380EBC01

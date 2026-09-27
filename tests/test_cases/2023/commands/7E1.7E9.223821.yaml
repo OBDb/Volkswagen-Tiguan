@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.223821
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 5.45
+  response: '7E9056238212102'
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 6.19
+  response: 7E9056238216B02
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 4.22
+  response: 7E905623821A601
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 6.89
+  response: 7E905623821B102
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 1.91
+  response: 7E905623821BF00
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 2.5
+  response: 7E905623821FA00

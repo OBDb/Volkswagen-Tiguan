@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2210ED
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_FAILED_ADAPTS_COUNTER: 0
+  response: 7E9056210ED0000

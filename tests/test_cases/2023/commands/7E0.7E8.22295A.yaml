@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22295A
+test_cases:
+- expected_values:
+    TIGUAN_ODO_ECM: 273
+  response: 7E80762295A00011194
+- expected_values:
+    TIGUAN_ODO_ECM: 273
+  response: 7E80762295A00011195
+- expected_values:
+    TIGUAN_ODO_ECM: 273
+  response: 7E80762295A00011196
+- expected_values:
+    TIGUAN_ODO_ECM: 273
+  response: 7E80762295A00011197
+- expected_values:
+    TIGUAN_ODO_ECM: 273
+  response: 7E80762295A00011198
+- expected_values:
+    TIGUAN_ODO_ECM: 273
+  response: 7E80762295A00011199
