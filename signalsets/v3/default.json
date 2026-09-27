@@ -229,7 +229,7 @@
   ]},
 { "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "2005"}, "freq": 1,
   "signals": [
-    {"id": "TIGUAN_P_BRAKE_SERVO_UNIT", "path": "Engine", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "unknown" }, "name": "Pressure in brake servo unit"}
+    {"id": "TIGUAN_P_BRAKE_SERVO_UNIT", "path": "Control", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "unknown" }, "name": "Pressure in brake servo unit"}
   ]},
 { "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "2B21"}, "freq": 1,
   "signals": [
@@ -1812,7 +1812,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1710"}, "freq": 1,
   "signals": [
-    {"id": "TIGUAN_FUEL_MIX_CORR", "path": "Fuel", "fmt": { "len": 16, "max": -73.1003, "min": -273.1, "mul": 0.0030518, "add": -273.1, "unit": "scalar" }, "name": "Fuel mix correction coefficientficient"}
+    {"id": "TIGUAN_FUEL_MIX_CORR", "path": "Fuel", "fmt": { "len": 16, "max": -73.1003, "min": -273.1, "mul": 0.0030518, "add": -273.1, "unit": "scalar" }, "name": "Fuel mix correction coefficient"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1711"}, "freq": 1,
   "signals": [
