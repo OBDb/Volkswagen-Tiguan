@@ -1,0 +1,14 @@
+command_id: 70F.779.222BE6|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_HAL_I: 0.027
+  response: 77905622BE6001B
+- expected_values:
+    TIGUAN_PQ35_HAL_I: 1.351
+  response: 77905622BE60547
+- expected_values:
+    TIGUAN_PQ35_HAL_I: 1.423
+  response: 77905622BE6058F
+- expected_values:
+    TIGUAN_PQ35_HAL_I: 1.495
+  response: 77905622BE605D7

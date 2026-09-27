@@ -1,0 +1,5 @@
+command_id: 70F.779.220C0A|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_HAL_MODE: 0
+  response: 77904620C0A00

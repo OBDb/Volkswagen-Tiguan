@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2215CA|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_NORMALIZED_VALUE: 19.32
+  response: 7E8056215CA078C
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_NORMALIZED_VALUE: 22.54
+  response: 7E8056215CA08CE
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_NORMALIZED_VALUE: 25.78
+  response: 7E8056215CA0A12
