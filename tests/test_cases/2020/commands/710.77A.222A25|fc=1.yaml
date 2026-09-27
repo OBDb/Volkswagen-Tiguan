@@ -1,6 +1,9 @@
 command_id: 710.77A.222A25|fc=1
 test_cases:
 - expected_values:
+    TIGUAN_BAT_INTERNAL_RES_RAW: 5.6
+  response: 77A04622A251C
+- expected_values:
     TIGUAN_BAT_INTERNAL_RES_RAW: 5.8
   response: 77A04622A251D
 - expected_values:

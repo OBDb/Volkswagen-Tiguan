@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     TIGUAN_ENG_T_MANAGEMENT_ACTUATOR: 30.75
   response: 7E80562441A0C03
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT_ACTUATOR: -95.73
+  response: 7E80562441ADA9B
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT_ACTUATOR: -35.04
+  response: 7E80562441AF250

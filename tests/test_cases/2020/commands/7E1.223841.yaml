@@ -4,11 +4,8 @@ test_cases:
     TIGUAN_MQB_TCM_ODO: 79242
   response: 7E907623841000C1764
 - expected_values:
-    TIGUAN_MQB_TCM_ODO: 79258
-  response: 7E907623841000C1804
-- expected_values:
     TIGUAN_MQB_TCM_ODO: 79283
   response: 7E907623841000C18FE
 - expected_values:
-    TIGUAN_MQB_TCM_ODO: 79284
-  response: 7E907623841000C1908
+    TIGUAN_MQB_TCM_ODO: 79309
+  response: 7E907623841000C1A02

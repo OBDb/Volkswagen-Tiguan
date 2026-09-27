@@ -9,3 +9,18 @@ test_cases:
 - expected_values:
     TIGUAN_CAM_POS_DEV_BASE_POS: 0.10986
   response: '7E8056213850005'
+- expected_values:
+    TIGUAN_CAM_POS_DEV_BASE_POS: 0.17578
+  response: '7E8056213850008'
+- expected_values:
+    TIGUAN_CAM_POS_DEV_BASE_POS: 0.28565
+  response: 7E805621385000D
+- expected_values:
+    TIGUAN_CAM_POS_DEV_BASE_POS: -0.28565
+  response: 7E805621385FFF3
+- expected_values:
+    TIGUAN_CAM_POS_DEV_BASE_POS: -0.19776
+  response: 7E805621385FFF7
+- expected_values:
+    TIGUAN_CAM_POS_DEV_BASE_POS: -0.17578
+  response: 7E805621385FFF8

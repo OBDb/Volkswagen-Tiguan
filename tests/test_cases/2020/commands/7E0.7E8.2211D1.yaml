@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_BRAKE_BOOSTER_RAW_P: 11
   response: 7E8056211D1000B
 - expected_values:
-    TIGUAN_BRAKE_BOOSTER_RAW_P: 63
-  response: 7E8056211D1003F
+    TIGUAN_BRAKE_BOOSTER_RAW_P: 131
+  response: 7E8056211D10083

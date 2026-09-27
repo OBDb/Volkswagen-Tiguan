@@ -4,8 +4,8 @@ test_cases:
     TIGUAN_PQ35_POST_INJ_2_START: 0
   response: 7E8056211F30000
 - expected_values:
-    TIGUAN_PQ35_POST_INJ_2_START: -0.4
-  response: 7E8056211F3FFEC
+    TIGUAN_PQ35_POST_INJ_2_START: -0.56
+  response: 7E8056211F3FFE4
 - expected_values:
     TIGUAN_PQ35_POST_INJ_2_START: -0.02
   response: 7E8056211F3FFFF

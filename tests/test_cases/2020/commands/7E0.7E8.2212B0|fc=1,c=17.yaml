@@ -4,8 +4,8 @@ test_cases:
     TIGUAN_ACCELERATION_29BIT: 0
   response: 7E8056212B00000
 - expected_values:
-    TIGUAN_ACCELERATION_29BIT: -1.028
-  response: 7E8056212B0FBFC
-- expected_values:
     TIGUAN_ACCELERATION_29BIT: -0.253
   response: 7E8056212B0FF03
+- expected_values:
+    TIGUAN_ACCELERATION_29BIT: -0.002
+  response: 7E8056212B0FFFE

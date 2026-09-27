@@ -4,8 +4,8 @@ test_cases:
     TIGUAN_LATERAL_ACCEL: 0
   response: '7E8056216440000'
 - expected_values:
-    TIGUAN_LATERAL_ACCEL: -0.24
-  response: 7E805621644FFE8
+    TIGUAN_LATERAL_ACCEL: -0.27
+  response: 7E805621644FFE5
 - expected_values:
     TIGUAN_LATERAL_ACCEL: -0.01
   response: 7E805621644FFFF

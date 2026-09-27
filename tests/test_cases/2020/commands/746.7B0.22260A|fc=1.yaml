@@ -18,3 +18,9 @@ test_cases:
 - expected_values:
     TIGUAN_OUTSIDE_T_SYSTEM: 23.5
   response: 7B00462260A2F
+- expected_values:
+    TIGUAN_OUTSIDE_T_SYSTEM: 24
+  response: 7B00462260A30
+- expected_values:
+    TIGUAN_OUTSIDE_T_SYSTEM: 24.5
+  response: 7B00462260A31
