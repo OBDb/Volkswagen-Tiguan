@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_SHORT_TERM_FUEL_TRIM_1: -6.25
   response: 7E80462F40678
 - expected_values:
-    TIGUAN_SHORT_TERM_FUEL_TRIM_1: 5.46875
-  response: 7E80462F40687
+    TIGUAN_SHORT_TERM_FUEL_TRIM_1: 7.8125
+  response: 7E80462F4068A

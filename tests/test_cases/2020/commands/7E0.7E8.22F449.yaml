@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_ACCEL_PEDAL_POS_1: 14.11765
   response: 7E80462F44924
 - expected_values:
-    TIGUAN_ACCEL_PEDAL_POS_1: 41.17647
-  response: 7E80462F44969
+    TIGUAN_ACCEL_PEDAL_POS_1: 46.27451
+  response: 7E80462F44976

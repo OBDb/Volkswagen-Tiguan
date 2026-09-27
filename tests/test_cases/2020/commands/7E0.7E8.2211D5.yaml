@@ -7,5 +7,5 @@ test_cases:
     TIGUAN_HIGH_FUEL_P: 0.126
   response: 7E8056211D500FC
 - expected_values:
-    TIGUAN_HIGH_FUEL_P: -0.116
-  response: 7E8056211D5FF18
+    TIGUAN_HIGH_FUEL_P: -0.128
+  response: 7E8056211D5FF00

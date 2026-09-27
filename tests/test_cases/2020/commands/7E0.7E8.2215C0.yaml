@@ -4,11 +4,8 @@ test_cases:
     TIGUAN_IAT_RAW: 28.8
   response: 7E8056215C00BCB
 - expected_values:
-    TIGUAN_IAT_RAW: 34.6
-  response: 7E8056215C00C05
-- expected_values:
     TIGUAN_IAT_RAW: 59.6
   response: 7E8056215C00CFF
 - expected_values:
-    TIGUAN_IAT_RAW: 60.4
-  response: 7E8056215C00D07
+    TIGUAN_IAT_RAW: 59.8
+  response: 7E8056215C00D01

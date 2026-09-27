@@ -4,8 +4,8 @@ test_cases:
     TIGUAN_CLT_FAN_REQ_AC: 0
   response: '7E8056210180000'
 - expected_values:
-    TIGUAN_CLT_FAN_REQ_AC: 49.59704
-  response: 7E8056210180FDF
+    TIGUAN_CLT_FAN_REQ_AC: 43.6034
+  response: 7E8056210180DF4
 - expected_values:
-    TIGUAN_CLT_FAN_REQ_AC: 50.4027
-  response: '7E8056210181021'
+    TIGUAN_CLT_FAN_REQ_AC: 57.99546
+  response: 7E805621018128F

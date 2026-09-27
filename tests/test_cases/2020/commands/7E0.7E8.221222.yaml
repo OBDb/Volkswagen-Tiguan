@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221222
 test_cases:
 - expected_values:
+    TIGUAN_TQ_LOSS_ADPT_AC_COMP: -7.7
+  response: 7E805621222FFB3
+- expected_values:
     TIGUAN_TQ_LOSS_ADPT_AC_COMP: -7.6
   response: 7E805621222FFB4
 - expected_values:
@@ -10,5 +13,17 @@ test_cases:
     TIGUAN_TQ_LOSS_ADPT_AC_COMP: -7.4
   response: 7E805621222FFB6
 - expected_values:
+    TIGUAN_TQ_LOSS_ADPT_AC_COMP: -7.3
+  response: 7E805621222FFB7
+- expected_values:
     TIGUAN_TQ_LOSS_ADPT_AC_COMP: -7.2
   response: 7E805621222FFB8
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_AC_COMP: -6.8
+  response: 7E805621222FFBC
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_AC_COMP: -6.5
+  response: 7E805621222FFBF
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_AC_COMP: -5.7
+  response: 7E805621222FFC7

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_WARM_UPS: 10
   response: 7E80462F4300A
+- expected_values:
+    TIGUAN_WARM_UPS: 11
+  response: 7E80462F4300B

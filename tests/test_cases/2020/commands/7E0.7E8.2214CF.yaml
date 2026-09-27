@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2214CF
 test_cases:
 - expected_values:
-    TIGUAN_PQ35_MAIN_INJ_DURATION: 8.0772
-  response: 7E8056214CF4EE1
+    TIGUAN_PQ35_MAIN_INJ_DURATION: 8.0272
+  response: 7E8056214CF4E64
 - expected_values:
     TIGUAN_PQ35_MAIN_INJ_DURATION: 8.19
   response: 7E8056214CF4FFB

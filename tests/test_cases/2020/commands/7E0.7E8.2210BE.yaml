@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2210BE
 test_cases:
 - expected_values:
-    TIGUAN_REQ_TQ_AMOUNT: 5.9
-  response: 7E8056210BE003B
+    TIGUAN_REQ_TQ_AMOUNT: 0
+  response: 7E8056210BE0000
 - expected_values:
-    TIGUAN_REQ_TQ_AMOUNT: 24.4
-  response: 7E8056210BE00F4
+    TIGUAN_REQ_TQ_AMOUNT: 25.2
+  response: 7E8056210BE00FC
 - expected_values:
-    TIGUAN_REQ_TQ_AMOUNT: 26.7
-  response: 7E8056210BE010B
+    TIGUAN_REQ_TQ_AMOUNT: 26.4
+  response: 7E8056210BE0108

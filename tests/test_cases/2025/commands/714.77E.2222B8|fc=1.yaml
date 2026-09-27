@@ -1,0 +1,14 @@
+command_id: 714.77E.2222B8|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_ODO_MILEAGE_HR: 23014.254
+  response: 77E076222B8015F2B6E
+- expected_values:
+    TIGUAN_ODO_MILEAGE_HR: 23021.308
+  response: 77E076222B8015F46FC
+- expected_values:
+    TIGUAN_ODO_MILEAGE_HR: 23023.314
+  response: 77E076222B8015F4ED2
+- expected_values:
+    TIGUAN_ODO_MILEAGE_HR: 23027.361
+  response: 77E076222B8015F5EA1
