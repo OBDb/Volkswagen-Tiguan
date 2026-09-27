@@ -229,11 +229,11 @@
   ]},
 { "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "2005"}, "freq": 1,
   "signals": [
-    {"id": "TIGUAN_P_BREAK_SERVO_UNIT", "path": "Engine", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "unknown" }, "name": "Pressure in break servo unit"}
+    {"id": "TIGUAN_P_BRAKE_SERVO_UNIT", "path": "Engine", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "unknown" }, "name": "Pressure in brake servo unit"}
   ]},
 { "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "2B21"}, "freq": 1,
   "signals": [
-    {"id": "TIGUAN_BREAK_P", "path": "Engine", "fmt": { "len": 16, "max": 458.8288, "min": -543.8501, "mul": 152999, "div": 10000000, "add": -42.503, "sign": true, "unit": "bars" }, "name": "Break pressure"}
+    {"id": "TIGUAN_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 458.8288, "min": -543.8501, "mul": 152999, "div": 10000000, "add": -42.503, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},
 { "hdr": "714", "dbg": true, "cmd": {"22": "22B0"}, "freq": 30,
   "signals": [
@@ -1068,7 +1068,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11A4"}, "freq": 1,
   "signals": [
-    {"id": "TIGUAN_FUEL_PMP_CMD_DUTY", "path": "Fuel", "fmt": { "len": 16, "max": 99.9981, "mul": 0.0015258743, "unit": "percent" }, "name": "Fuel pump, commanded duty"}
+    {"id": "TIGUAN_FUEL_PMP_CMD_DUTY", "path": "Fuel", "fmt": { "len": 16, "max": 99.998, "mul": 0.0015258743, "unit": "percent" }, "name": "Fuel pump, commanded duty"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11A6"}, "freq": 1,
   "signals": [
@@ -1812,7 +1812,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1710"}, "freq": 1,
   "signals": [
-    {"id": "TIGUAN_FUEL_MIX_CORR", "path": "Fuel", "fmt": { "len": 16, "max": -73.1003, "min": -273.1, "mul": 0.0030518, "add": -273.1, "unit": "scalar" }, "name": "Fuel mix correction coefficient"}
+    {"id": "TIGUAN_FUEL_MIX_CORR", "path": "Fuel", "fmt": { "len": 16, "max": -73.1003, "min": -273.1, "mul": 0.0030518, "add": -273.1, "unit": "scalar" }, "name": "Fuel mix correction coefficientficient"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1711"}, "freq": 1,
   "signals": [
