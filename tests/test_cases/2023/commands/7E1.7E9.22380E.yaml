@@ -10,5 +10,11 @@ test_cases:
     TIGUAN_MQB_OUTPUT_SHAFT_1: 661
   response: 7E90562380E9502
 - expected_values:
+    TIGUAN_MQB_OUTPUT_SHAFT_1: 432
+  response: 7E90562380EB001
+- expected_values:
     TIGUAN_MQB_OUTPUT_SHAFT_1: 444
   response: 7E90562380EBC01
+- expected_values:
+    TIGUAN_MQB_OUTPUT_SHAFT_1: 454
+  response: 7E90562380EC601

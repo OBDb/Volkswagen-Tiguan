@@ -4,11 +4,26 @@ test_cases:
     TIGUAN_MQB_TCM_ENGINE_TORQUE: 0
   response: 7E90562100C0000
 - expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE: 448
+  response: 7E90562100C0023
+- expected_values:
     TIGUAN_MQB_TCM_ENGINE_TORQUE: 129
   response: 7E90562100C140A
 - expected_values:
     TIGUAN_MQB_TCM_ENGINE_TORQUE: 27
   response: 7E90562100C1C02
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE: 54
+  response: 7E90562100C3804
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE: 42
+  response: 7E90562100C4803
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE: 134
+  response: 7E90562100C780A
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE: 34
+  response: 7E90562100CA802
 - expected_values:
     TIGUAN_MQB_TCM_ENGINE_TORQUE: 61
   response: 7E90562100CC404

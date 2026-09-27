@@ -4,26 +4,5 @@ test_cases:
     TIGUAN_PQ35_OIL_FILL_LEVEL: 688.26
   response: 7E8056220062CCF
 - expected_values:
-    TIGUAN_PQ35_OIL_FILL_LEVEL: 776.46
-  response: 7E805622006328D
-- expected_values:
-    TIGUAN_PQ35_OIL_FILL_LEVEL: 791.46
-  response: '7E8056220063387'
-- expected_values:
-    TIGUAN_PQ35_OIL_FILL_LEVEL: 792.96
-  response: 7E80562200633A0
-- expected_values:
-    TIGUAN_PQ35_OIL_FILL_LEVEL: 795.66
-  response: 7E80562200633CD
-- expected_values:
-    TIGUAN_PQ35_OIL_FILL_LEVEL: 821.16
-  response: '7E8056220063576'
-- expected_values:
-    TIGUAN_PQ35_OIL_FILL_LEVEL: 911.16
-  response: 7E8056220063B52
-- expected_values:
-    TIGUAN_PQ35_OIL_FILL_LEVEL: 978.06
-  response: 7E8056220063FAD
-- expected_values:
     TIGUAN_PQ35_OIL_FILL_LEVEL: 1060.26
   response: '7E8056220064507'

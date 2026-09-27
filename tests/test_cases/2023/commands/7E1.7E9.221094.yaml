@@ -1,5 +1,8 @@
 command_id: 7E1.7E9.221094
 test_cases:
 - expected_values:
+    TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G4: 10.34
+  response: 7E9056210940A04
+- expected_values:
     TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G4: 10.37
   response: 7E9056210940D04

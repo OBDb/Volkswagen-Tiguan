@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_DRIVING_STRATEGY_MOUNTAIN_FACTOR: 0
   response: '7E90462101800'
+- expected_values:
+    TIGUAN_PQ35_DRIVING_STRATEGY_MOUNTAIN_FACTOR: 1.56863
+  response: '7E90462101804'

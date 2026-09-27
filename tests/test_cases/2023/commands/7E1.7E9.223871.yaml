@@ -4,5 +4,8 @@ test_cases:
     TIGUAN_MQB_DQ250_SPECIFIED_IDLE_RPM: 0
   response: '7E9056238710000'
 - expected_values:
+    TIGUAN_MQB_DQ250_SPECIFIED_IDLE_RPM: 810
+  response: 7E9056238712A03
+- expected_values:
     TIGUAN_MQB_DQ250_SPECIFIED_IDLE_RPM: 560
   response: '7E9056238713002'
