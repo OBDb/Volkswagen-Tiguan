@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221077
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DQ200_CLUTCH_2_FRICTION_VALUE_CORRECTION_FACTOR: 0.39064
+  response: '7E9056210770004'

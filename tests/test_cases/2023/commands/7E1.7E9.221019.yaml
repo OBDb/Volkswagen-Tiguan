@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221019
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_DRIVING_STRATEGY_SPORT_FACTOR: 0
+  response: '7E90462101900'
+- expected_values:
+    TIGUAN_PQ35_DRIVING_STRATEGY_SPORT_FACTOR: 6.66667
+  response: '7E90462101901'

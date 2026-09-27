@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.223800
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_STOP_SIGNAL_SWITCH: 0
+  response: '7E90462380000'

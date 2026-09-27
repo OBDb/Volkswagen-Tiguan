@@ -1,0 +1,5 @@
+command_id: 70F.779.222BE7|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_HAL_PWM: 53
+  response: 77904622BE735

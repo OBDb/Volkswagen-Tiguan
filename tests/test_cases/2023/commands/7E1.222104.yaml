@@ -1,0 +1,20 @@
+command_id: 7E1.222104
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 40
+  response: '7E9056221042800'
+- expected_values:
+    TIGUAN_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 44
+  response: 7E9056221042C00
+- expected_values:
+    TIGUAN_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 46
+  response: 7E9056221042E00
+- expected_values:
+    TIGUAN_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 48
+  response: '7E9056221043000'
+- expected_values:
+    TIGUAN_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 50
+  response: '7E9056221043200'
+- expected_values:
+    TIGUAN_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 51
+  response: '7E9056221043300'

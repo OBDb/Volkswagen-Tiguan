@@ -1,0 +1,8 @@
+command_id: 710.77A.222A61|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_MQB_BAT_TOT_CHG: 14298
+    TIGUAN_MQB_BAT_TOT_DIS: 14097.9
+  response: |-
+    77A100B622A6100022E
+    77A2184000226B3AAAA
