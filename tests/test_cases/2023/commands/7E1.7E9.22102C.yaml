@@ -10,5 +10,23 @@ test_cases:
     TIGUAN_PQ35_CLUTCH_2_T: 50
   response: 7E90562102C3200
 - expected_values:
+    TIGUAN_PQ35_CLUTCH_2_T: 60
+  response: 7E90562102C3C00
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_T: 64
+  response: 7E90562102C4000
+- expected_values:
     TIGUAN_PQ35_CLUTCH_2_T: 65
   response: 7E90562102C4100
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_T: 66
+  response: 7E90562102C4200
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_T: 71
+  response: 7E90562102C4700
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_T: 72
+  response: 7E90562102C4800
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_T: 94
+  response: 7E90562102C5E00

@@ -1,5 +1,14 @@
 command_id: 710.77A.222A00|fc=1
 test_cases:
 - expected_values:
+    TIGUAN_MQB_GEN_TRG_V: 12.2
+  response: 77A04622A0010
+- expected_values:
+    TIGUAN_MQB_GEN_TRG_V: 12.8
+  response: 77A04622A0016
+- expected_values:
+    TIGUAN_MQB_GEN_TRG_V: 14.3
+  response: 77A04622A0025
+- expected_values:
     TIGUAN_MQB_GEN_TRG_V: 14.4
   response: 77A04622A0026

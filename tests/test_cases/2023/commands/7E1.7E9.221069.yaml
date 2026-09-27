@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_CLUTCH_1_PROT_ENGAGED_QTY: 411
   response: 7E9076210699B010000
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_1_PROT_ENGAGED_QTY: 412
+  response: 7E9076210699C010000
