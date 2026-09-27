@@ -2556,7 +2556,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3D01"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
-    {"id": "TIGUAN_BYPASS_VLV_HIGH_P_V", "path": "Battery", "fmt": { "len": 16, "max": 6553.3999, "min": -6553.5999, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Bypass valve high pressure turbine inlet, raw voltage"}
+    {"id": "TIGUAN_BYPASS_VLV_HIGH_P_V", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Bypass valve high pressure turbine inlet, raw voltage"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3D73"}, "freq": 5,
   "signals": [
