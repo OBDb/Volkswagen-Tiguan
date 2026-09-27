@@ -1,20 +1,11 @@
 command_id: 7E1.7E9.22381E
 test_cases:
 - expected_values:
-    TIGUAN_MQB_TCM_EOP_ACTUAL_I: 777
-  response: 7E90562381E5A1E
-- expected_values:
-    TIGUAN_MQB_TCM_EOP_ACTUAL_I: 854
-  response: 7E90562381E5C21
-- expected_values:
-    TIGUAN_MQB_TCM_EOP_ACTUAL_I: 938
-  response: 7E90562381EA424
-- expected_values:
-    TIGUAN_MQB_TCM_EOP_ACTUAL_I: 887
-  response: 7E90562381EA622
+    TIGUAN_MQB_TCM_EOP_ACTUAL_I: 974
+  response: 7E90562381E0C26
 - expected_values:
     TIGUAN_MQB_TCM_EOP_ACTUAL_I: 504
   response: 7E90562381EB013
 - expected_values:
-    TIGUAN_MQB_TCM_EOP_ACTUAL_I: 888
-  response: 7E90562381EB022
+    TIGUAN_MQB_TCM_EOP_ACTUAL_I: 946
+  response: 7E90562381EF424

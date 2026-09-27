@@ -7,6 +7,12 @@ test_cases:
     TIGUAN_PQ35_HAL_V: 1.6
   response: 77904622BE910
 - expected_values:
+    TIGUAN_PQ35_HAL_V: 1.9
+  response: 77904622BE913
+- expected_values:
+    TIGUAN_PQ35_HAL_V: 2.1
+  response: 77904622BE915
+- expected_values:
     TIGUAN_PQ35_HAL_V: 2.2
   response: 77904622BE916
 - expected_values:

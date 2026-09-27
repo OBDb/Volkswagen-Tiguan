@@ -18,3 +18,12 @@ test_cases:
 - expected_values:
     TIGUAN_ODO_ECM: 273
   response: 7E80762295A00011199
+- expected_values:
+    TIGUAN_ODO_ECM: 273
+  response: 7E80762295A000111BE
+- expected_values:
+    TIGUAN_ODO_ECM: 273
+  response: 7E80762295A000111BF
+- expected_values:
+    TIGUAN_ODO_ECM: 273
+  response: 7E80762295A000111C0

@@ -1,29 +1,8 @@
 command_id: 7E0.7E8.22F40D
 test_cases:
 - expected_values:
-    TIGUAN_VSS: 40
-  response: 7E80462F40D28
-- expected_values:
-    TIGUAN_VSS: 43
-  response: 7E80462F40D2B
-- expected_values:
-    TIGUAN_VSS: 45
-  response: 7E80462F40D2D
-- expected_values:
-    TIGUAN_VSS: 53
-  response: 7E80462F40D35
-- expected_values:
-    TIGUAN_VSS: 57
-  response: 7E80462F40D39
-- expected_values:
-    TIGUAN_VSS: 62
-  response: 7E80462F40D3E
-- expected_values:
-    TIGUAN_VSS: 75
-  response: 7E80462F40D4B
-- expected_values:
-    TIGUAN_VSS: 77
-  response: 7E80462F40D4D
+    TIGUAN_VSS: 0
+  response: 7E80462F40D00
 - expected_values:
     TIGUAN_VSS: 85
   response: 7E80462F40D55

@@ -1,6 +1,21 @@
 command_id: 7E0.7E8.22F442
 test_cases:
 - expected_values:
+    TIGUAN_VPWR: 12.8
+  response: 7E80562F4423200
+- expected_values:
+    TIGUAN_VPWR: 12.82
+  response: 7E80562F4423214
+- expected_values:
+    TIGUAN_VPWR: 14.12
+  response: 7E80562F4423728
+- expected_values:
+    TIGUAN_VPWR: 14.14
+  response: 7E80562F442373C
+- expected_values:
+    TIGUAN_VPWR: 14.18
+  response: 7E80562F4423764
+- expected_values:
     TIGUAN_VPWR: 14.2
   response: 7E80562F4423778
 - expected_values:

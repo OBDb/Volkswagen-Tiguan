@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_CLUTCH_1_CHAR_CURVE_SHIFT: 0.04998
   response: '7E9056210633300'
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_1_CHAR_CURVE_SHIFT: 0.05978
+  response: 7E9056210633D00

@@ -1,20 +1,11 @@
 command_id: 7E1.7E9.221009
 test_cases:
 - expected_values:
+    TIGUAN_MQB_DQ250_SPD_OUTPUT: 0
+  response: '7E9056210090000'
+- expected_values:
     TIGUAN_MQB_DQ250_SPD_OUTPUT: 553
   response: '7E9056210092902'
-- expected_values:
-    TIGUAN_MQB_DQ250_SPD_OUTPUT: 309
-  response: '7E9056210093501'
-- expected_values:
-    TIGUAN_MQB_DQ250_SPD_OUTPUT: 358
-  response: '7E9056210096601'
-- expected_values:
-    TIGUAN_MQB_DQ250_SPD_OUTPUT: 406
-  response: '7E9056210099601'
-- expected_values:
-    TIGUAN_MQB_DQ250_SPD_OUTPUT: 663
-  response: '7E9056210099702'
 - expected_values:
     TIGUAN_MQB_DQ250_SPD_OUTPUT: 455
   response: 7E905621009C701
