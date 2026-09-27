@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221135
+test_cases:
+- expected_values:
+    TIGUAN_COOLANT_T: 90
+  response: 7E8056211350E2F
+- expected_values:
+    TIGUAN_COOLANT_T: 101.8
+  response: 7E8056211350EA5

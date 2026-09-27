@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22101C|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_SIG: 22.54
+  response: 7E80562101C08CE
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_SIG: 25.78
+  response: 7E80562101C0A12
+- expected_values:
+    TIGUAN_GENERATOR_LOAD_SIG: 29
+  response: 7E80562101C0B54

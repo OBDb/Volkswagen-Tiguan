@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2215AA
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_SELECTED_GEAR: 1
+  response: 7E8056215AA01D7
+- expected_values:
+    TIGUAN_PQ35_SELECTED_GEAR: 1
+  response: 7E8056215AA01F3
+- expected_values:
+    TIGUAN_PQ35_SELECTED_GEAR: 2
+  response: 7E8056215AA0202
+- expected_values:
+    TIGUAN_PQ35_SELECTED_GEAR: 9
+  response: 7E8056215AA0920
