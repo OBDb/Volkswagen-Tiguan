@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221610
+test_cases:
+- expected_values:
+    TIGUAN_REQ_BRAKE_TQ: 0
+  response: '7E80762161000000000'

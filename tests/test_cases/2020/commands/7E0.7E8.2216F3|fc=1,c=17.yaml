@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.2216F3|fc=1,c=17
 test_cases:
 - expected_values:
-    TIGUAN_CRANKSHAFT_VSS: 1193.5
-  response: 7E8056216F30953
+    TIGUAN_CRANKSHAFT_VSS: 0
+  response: 7E8056216F30000
 - expected_values:
-    TIGUAN_CRANKSHAFT_VSS: 1349.5
-  response: 7E8056216F30A8B
+    TIGUAN_CRANKSHAFT_VSS: 1406
+  response: 7E8056216F30AFC
 - expected_values:
-    TIGUAN_CRANKSHAFT_VSS: 1455
-  response: 7E8056216F30B5E
-- expected_values:
-    TIGUAN_CRANKSHAFT_VSS: 1534
-  response: 7E8056216F30BFC
+    TIGUAN_CRANKSHAFT_VSS: 2759
+  response: 7E8056216F3158E

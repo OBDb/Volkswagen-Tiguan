@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2214A1
+test_cases:
+- expected_values:
+    TIGUAN_RATED_DRIVE_TQ: 0
+  response: 7E8076214A100000000
+- expected_values:
+    TIGUAN_RATED_DRIVE_TQ: 332
+  response: 7E8076214A100000CF8
+- expected_values:
+    TIGUAN_RATED_DRIVE_TQ: -215
+  response: 7E8076214A1FFFFF79A
+- expected_values:
+    TIGUAN_RATED_DRIVE_TQ: -24
+  response: 7E8076214A1FFFFFF10

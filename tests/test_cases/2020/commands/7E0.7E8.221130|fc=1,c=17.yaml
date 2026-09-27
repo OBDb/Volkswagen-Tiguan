@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TIGUAN_COOLANT_FAN_1_ACTIVATION: 10.15
   response: 7E80562113003F7
+- expected_values:
+    TIGUAN_COOLANT_FAN_1_ACTIVATION: 12.89
+  response: '7E8056211300509'
+- expected_values:
+    TIGUAN_COOLANT_FAN_1_ACTIVATION: 47.65
+  response: 7E805621130129D

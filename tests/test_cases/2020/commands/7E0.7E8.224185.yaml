@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224185
+test_cases:
+- expected_values:
+    TIGUAN_TIM_DEV_CURRENT_EXH_1: 3.68
+  response: '7E8056241850170'

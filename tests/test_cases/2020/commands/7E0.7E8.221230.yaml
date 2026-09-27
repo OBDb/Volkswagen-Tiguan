@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221230
+test_cases:
+- expected_values:
+    TIGUAN_MAX_OIL_LEVEL: 27.428
+  response: 7E8056212301AC9

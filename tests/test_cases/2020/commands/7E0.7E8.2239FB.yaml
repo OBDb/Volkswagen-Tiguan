@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2239FB
+test_cases:
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_TGT: 0
+  response: 7E8056239FB0000
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_TGT: 98.36426
+  response: 7E8056239FB1F7A
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_TGT: 99.98779
+  response: 7E8056239FB1FFF

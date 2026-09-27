@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TIGUAN_MISFIRES_TOTAL: 0
   response: '7E8056211460000'
+- expected_values:
+    TIGUAN_MISFIRES_TOTAL: 1
+  response: '7E8056211460001'
+- expected_values:
+    TIGUAN_MISFIRES_TOTAL: 2
+  response: '7E8056211460002'

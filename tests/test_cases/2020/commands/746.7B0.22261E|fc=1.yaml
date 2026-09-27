@@ -1,8 +1,14 @@
 command_id: 746.7B0.22261E|fc=1
 test_cases:
 - expected_values:
+    TIGUAN_MQB_RECIRC_FLAP_ACT: 361
+  response: 7B00662261E016900
+- expected_values:
+    TIGUAN_MQB_RECIRC_FLAP_ACT: 503
+  response: 7B00662261E01F754
+- expected_values:
+    TIGUAN_MQB_RECIRC_FLAP_ACT: 526
+  response: 7B00662261E020E63
+- expected_values:
     TIGUAN_MQB_RECIRC_FLAP_ACT: 689
   response: 7B00662261E02B1C8
-- expected_values:
-    TIGUAN_MQB_RECIRC_FLAP_ACT: 692
-  response: 7B00662261E02B4C8
