@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221146
+test_cases:
+- expected_values:
+    TIGUAN_MISFIRES_TOTAL: 0
+  response: '7E8056211460000'

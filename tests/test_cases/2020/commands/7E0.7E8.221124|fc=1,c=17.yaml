@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221124|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_CAMSHAFT_VSS: 596.5
+  response: '7E8056211240952'
+- expected_values:
+    TIGUAN_CAMSHAFT_VSS: 709
+  response: 7E8056211240B14
+- expected_values:
+    TIGUAN_CAMSHAFT_VSS: 722.25
+  response: 7E8056211240B49
+- expected_values:
+    TIGUAN_CAMSHAFT_VSS: 780.25
+  response: 7E8056211240C31

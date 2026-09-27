@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211F3
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_POST_INJ_2_START: 0
+  response: 7E8056211F30000
+- expected_values:
+    TIGUAN_PQ35_POST_INJ_2_START: -0.22
+  response: 7E8056211F3FFF5
+- expected_values:
+    TIGUAN_PQ35_POST_INJ_2_START: -0.08
+  response: 7E8056211F3FFFC
