@@ -4,5 +4,20 @@ test_cases:
     TIGUAN_ENGINE_RPM_AT_IDLE_REQUIRED: 800
   response: '7E8056211610640'
 - expected_values:
+    TIGUAN_ENGINE_RPM_AT_IDLE_REQUIRED: 810
+  response: '7E8056211610654'
+- expected_values:
+    TIGUAN_ENGINE_RPM_AT_IDLE_REQUIRED: 850
+  response: 7E80562116106A4
+- expected_values:
+    TIGUAN_ENGINE_RPM_AT_IDLE_REQUIRED: 900
+  response: '7E8056211610708'
+- expected_values:
+    TIGUAN_ENGINE_RPM_AT_IDLE_REQUIRED: 960
+  response: '7E8056211610780'
+- expected_values:
+    TIGUAN_ENGINE_RPM_AT_IDLE_REQUIRED: 980
+  response: 7E80562116107A8
+- expected_values:
     TIGUAN_ENGINE_RPM_AT_IDLE_REQUIRED: 1200
   response: '7E8056211610960'

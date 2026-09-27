@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.221137
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: 0
+  response: '7E80462113700'
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: 0.00781
+  response: '7E80462113701'
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: 0.01562
+  response: '7E80462113702'
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: 0.02343
+  response: '7E80462113703'
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: 0.03124
+  response: '7E80462113704'
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: 0.05467
+  response: '7E80462113707'
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: 0.06248
+  response: '7E80462113708'
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: 0.12496
+  response: '7E80462113710'
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: -0.01562
+  response: 7E804621137FE
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: -0.00781
+  response: 7E804621137FF

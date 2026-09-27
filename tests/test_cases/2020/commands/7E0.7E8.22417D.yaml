@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22417D
+test_cases:
+- expected_values:
+    TIGUAN_TIM_DEV_AFTER_CHAIN_REPLACEMENT_1: 3
+  response: 7E80562417D012C

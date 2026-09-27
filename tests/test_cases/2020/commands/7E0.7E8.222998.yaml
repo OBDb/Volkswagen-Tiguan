@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222998
+test_cases:
+- expected_values:
+    TIGUAN_MANUAL_ENG_STARTS: 8811
+  response: 7E805622998226B

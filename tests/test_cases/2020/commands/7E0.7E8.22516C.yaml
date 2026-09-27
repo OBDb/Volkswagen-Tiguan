@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22516C
+test_cases:
+- expected_values:
+    TIGUAN_CHAIN_ELONGATION_INLET: 306
+  response: 7E80762516C00013223

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221018
+test_cases:
+- expected_values:
+    TIGUAN_CLT_FAN_REQ_AC: 0
+  response: '7E8056210180000'
+- expected_values:
+    TIGUAN_CLT_FAN_REQ_AC: 49.59704
+  response: 7E8056210180FDF
+- expected_values:
+    TIGUAN_CLT_FAN_REQ_AC: 50.4027
+  response: '7E8056210181021'

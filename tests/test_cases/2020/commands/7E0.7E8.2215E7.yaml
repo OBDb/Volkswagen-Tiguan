@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2215E7
+test_cases:
+- expected_values:
+    TIGUAN_EFFECTIVE_INJ_DUR: 3.747
+  response: 7E8076215E700000EA3
+- expected_values:
+    TIGUAN_EFFECTIVE_INJ_DUR: 6.143
+  response: 7E8076215E7000017FF
+- expected_values:
+    TIGUAN_EFFECTIVE_INJ_DUR: 6.912
+  response: 7E8076215E700001B00
+- expected_values:
+    TIGUAN_EFFECTIVE_INJ_DUR: 55.76
+  response: 7E8076215E70000D9D0

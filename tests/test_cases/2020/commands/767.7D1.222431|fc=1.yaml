@@ -3,4 +3,8 @@ test_cases:
 - expected_values:
     TIGUAN_GPS_SATS_TRACKED: 16
     TIGUAN_GPS_SATS_VISIBLE: 4
+  response: 7D10662243104100F
+- expected_values:
+    TIGUAN_GPS_SATS_TRACKED: 16
+    TIGUAN_GPS_SATS_VISIBLE: 4
   response: 7D106622431041010

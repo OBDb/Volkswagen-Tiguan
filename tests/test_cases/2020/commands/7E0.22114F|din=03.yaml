@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_SOOT_MASS_CALC: 59.39
   response: 7E80562114F1733
+- expected_values:
+    TIGUAN_PQ35_SOOT_MASS_CALC: 59.4
+  response: 7E80562114F1734

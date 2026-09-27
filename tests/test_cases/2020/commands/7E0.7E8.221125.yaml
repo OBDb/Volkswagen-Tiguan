@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221125
+test_cases:
+- expected_values:
+    TIGUAN_CAM_ADPT_INT_BANK_1: 0
+  response: '7E8056211250000'
+- expected_values:
+    TIGUAN_CAM_ADPT_INT_BANK_1: -0.48
+  response: 7E805621125FFE8

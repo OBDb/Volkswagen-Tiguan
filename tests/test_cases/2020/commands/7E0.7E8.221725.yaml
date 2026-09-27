@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221725
+test_cases:
+- expected_values:
+    TIGUAN_EARLY_IGN_CNT_CYL_2: 12
+  response: 7E805621725000C

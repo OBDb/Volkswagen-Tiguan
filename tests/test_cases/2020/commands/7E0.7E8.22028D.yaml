@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22028D
+test_cases:
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 305.4
+  response: 7E80562028D0BEE
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 307
+  response: 7E80562028D0BFE
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 307.8
+  response: 7E80562028D0C06

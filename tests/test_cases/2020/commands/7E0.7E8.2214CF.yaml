@@ -1,20 +1,11 @@
 command_id: 7E0.7E8.2214CF
 test_cases:
 - expected_values:
-    TIGUAN_PQ35_MAIN_INJ_DURATION: 8.44
-  response: 7E8056214CF526C
+    TIGUAN_PQ35_MAIN_INJ_DURATION: 8.0772
+  response: 7E8056214CF4EE1
 - expected_values:
-    TIGUAN_PQ35_MAIN_INJ_DURATION: 8.4524
-  response: 7E8056214CF528B
-- expected_values:
-    TIGUAN_PQ35_MAIN_INJ_DURATION: 8.4648
-  response: 7E8056214CF52AA
-- expected_values:
-    TIGUAN_PQ35_MAIN_INJ_DURATION: 8.4772
-  response: 7E8056214CF52C9
-- expected_values:
-    TIGUAN_PQ35_MAIN_INJ_DURATION: 8.49
-  response: 7E8056214CF52E9
+    TIGUAN_PQ35_MAIN_INJ_DURATION: 8.19
+  response: 7E8056214CF4FFB
 - expected_values:
     TIGUAN_PQ35_MAIN_INJ_DURATION: 8.5024
   response: 7E8056214CF5308

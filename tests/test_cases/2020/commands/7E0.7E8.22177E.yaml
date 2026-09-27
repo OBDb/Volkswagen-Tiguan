@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22177E
+test_cases:
+- expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: 0
+  response: 7E80562177E0000
+- expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: 0.09375
+  response: 7E80562177E0002
+- expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: 0.28125
+  response: 7E80562177E0006
