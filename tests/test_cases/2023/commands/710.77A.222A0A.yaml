@@ -1,0 +1,20 @@
+command_id: 710.77A.222A0A
+test_cases:
+- expected_values:
+    TIGUAN_MQB_BAT_SEN_T: 20
+  response: 77A04622A0A3C
+- expected_values:
+    TIGUAN_MQB_BAT_SEN_T: 21
+  response: 77A04622A0A3D
+- expected_values:
+    TIGUAN_MQB_BAT_SEN_T: 22
+  response: 77A04622A0A3E
+- expected_values:
+    TIGUAN_MQB_BAT_SEN_T: 23
+  response: 77A04622A0A3F
+- expected_values:
+    TIGUAN_MQB_BAT_SEN_T: 25
+  response: 77A04622A0A41
+- expected_values:
+    TIGUAN_MQB_BAT_SEN_T: 26
+  response: 77A04622A0A42

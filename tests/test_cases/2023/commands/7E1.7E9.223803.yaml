@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.223803
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_BRAKE_P: 0
+  response: '7E9056238030000'

@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22102C
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_T: 45
+  response: 7E90562102C2D00
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_T: 47
+  response: 7E90562102C2F00
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_T: 50
+  response: 7E90562102C3200
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_T: 65
+  response: 7E90562102C4100

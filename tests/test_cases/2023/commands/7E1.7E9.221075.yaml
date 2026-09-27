@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221075
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_ADAPT_END_POS_CLOSED: 15
+  response: 7E905621075DC05

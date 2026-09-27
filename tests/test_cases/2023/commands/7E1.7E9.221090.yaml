@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221090
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G2: -9
+  response: 7E9056210907CFC

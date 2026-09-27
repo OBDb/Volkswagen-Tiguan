@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.223839
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 90.6
+  response: '7E9056238391407'
+- expected_values:
+    TIGUAN_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: -100
+  response: 7E90562383930F8
+- expected_values:
+    TIGUAN_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 97.05
+  response: '7E9056238399507'
+- expected_values:
+    TIGUAN_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 36.45
+  response: 7E905623839D902
