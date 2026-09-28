@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222089
+test_cases:
+- expected_values:
+    TIGUAN_DPF_TIME_SINCE_REGEN: 1.5117
+  response: '7E8056220890306'
+- expected_values:
+    TIGUAN_DPF_TIME_SINCE_REGEN: 1.52537
+  response: 7E805622089030D
+- expected_values:
+    TIGUAN_DPF_TIME_SINCE_REGEN: 1.54881
+  response: '7E8056220890319'
+- expected_values:
+    TIGUAN_DPF_TIME_SINCE_REGEN: 1.57225
+  response: '7E8056220890325'

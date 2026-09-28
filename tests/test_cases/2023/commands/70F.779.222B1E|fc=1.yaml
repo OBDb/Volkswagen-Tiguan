@@ -7,5 +7,5 @@ test_cases:
     TIGUAN_PQ35_RR_VSS: 46.9
   response: 77905622B1E01D5
 - expected_values:
-    TIGUAN_PQ35_RR_VSS: 79.3
-  response: 77905622B1E0319
+    TIGUAN_PQ35_RR_VSS: 79.1
+  response: 77905622B1E0317

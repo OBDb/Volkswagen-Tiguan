@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221009
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DQ250_SPD_OUTPUT: 104
+  response: '7E9056210096800'
+- expected_values:
+    TIGUAN_MQB_DQ250_SPD_OUTPUT: 363
+  response: 7E9056210096B01

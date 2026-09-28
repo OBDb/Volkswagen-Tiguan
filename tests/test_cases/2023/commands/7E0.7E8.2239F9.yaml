@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2239F9
+test_cases:
+- expected_values:
+    TIGUAN_DPF_CNT_REGEN_TIME: 0
+  response: 7E8056239F90000

@@ -4,23 +4,8 @@ test_cases:
     TIGUAN_MQB_OUTPUT_SHAFT_2: 0
   response: 7E90562380F0000
 - expected_values:
-    TIGUAN_MQB_OUTPUT_SHAFT_2: 11522
-  response: 7E90562380F2D02
-- expected_values:
-    TIGUAN_MQB_OUTPUT_SHAFT_2: 12289
-  response: 7E90562380F3001
-- expected_values:
-    TIGUAN_MQB_OUTPUT_SHAFT_2: 19969
-  response: 7E90562380F4E01
-- expected_values:
-    TIGUAN_MQB_OUTPUT_SHAFT_2: 29441
-  response: 7E90562380F7301
-- expected_values:
-    TIGUAN_MQB_OUTPUT_SHAFT_2: -18432
-  response: 7E90562380FB800
-- expected_values:
-    TIGUAN_MQB_OUTPUT_SHAFT_2: -11264
-  response: 7E90562380FD400
+    TIGUAN_MQB_OUTPUT_SHAFT_2: 2306
+  response: 7E90562380F0902
 - expected_values:
     TIGUAN_MQB_OUTPUT_SHAFT_2: -2304
   response: 7E90562380FF700

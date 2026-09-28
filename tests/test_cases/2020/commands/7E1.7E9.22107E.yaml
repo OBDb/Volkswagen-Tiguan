@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22107E
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_PROT_ENGAGED_QTY: 5
+  response: 7E90762107E05000000

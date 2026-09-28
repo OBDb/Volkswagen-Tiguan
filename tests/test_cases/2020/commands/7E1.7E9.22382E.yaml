@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22382E
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_1: 1
+  response: 7E90562382E1400
+- expected_values:
+    TIGUAN_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_1: 156.1
+  response: 7E90562382E320C

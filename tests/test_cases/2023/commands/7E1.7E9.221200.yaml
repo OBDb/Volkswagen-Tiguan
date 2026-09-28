@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221200
+test_cases:
+- expected_values:
+    TIGUAN_LAUNCH_CTRL_CNT_VAR_1: 0
+  response: '7E9056212000000'

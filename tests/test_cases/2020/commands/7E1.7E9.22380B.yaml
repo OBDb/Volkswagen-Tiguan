@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22380B
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 351
+  response: 7E90562380B5F01
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 109
+  response: 7E90562380B6D00

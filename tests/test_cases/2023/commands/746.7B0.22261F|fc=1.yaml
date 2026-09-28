@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_RECIRC_FLAP_TRG: 631
   response: 7B00562261F0277
+- expected_values:
+    TIGUAN_MQB_RECIRC_FLAP_TRG: 863
+  response: 7B00562261F035F

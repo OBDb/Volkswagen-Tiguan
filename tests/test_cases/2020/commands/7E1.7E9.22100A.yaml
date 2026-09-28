@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22100A
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION: 36.5
+  response: 7E90562100A6D01
+- expected_values:
+    TIGUAN_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION: 14.5
+  response: 7E90562100A9100

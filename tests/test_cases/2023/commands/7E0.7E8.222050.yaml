@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222050
+test_cases:
+- expected_values:
+    TIGUAN_GEN_LOAD_SIG: 19.35
+  response: 7E805622050078F
+- expected_values:
+    TIGUAN_GEN_LOAD_SIG: 22.57
+  response: 7E80562205008D1

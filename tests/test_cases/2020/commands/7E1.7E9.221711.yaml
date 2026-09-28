@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221711
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_KISSPOINT_RAPID_ADAPT_REMAINING: 0
+  response: '7E9056217110000'

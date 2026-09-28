@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2258D1
+test_cases:
+- expected_values:
+    TIGUAN_ENG_OIL_LEVEL: -0.04
+  response: |-
+    7E810116258D100013D
+    7E8213A00013D3AFFFC
+    7E82201030007AAAAAA

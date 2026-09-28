@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224494
+test_cases:
+- expected_values:
+    TIGUAN_DPF_AIR_P_SENS_RAW: 32
+  response: '7E8056244940020'
+- expected_values:
+    TIGUAN_DPF_AIR_P_SENS_RAW: 54
+  response: '7E8056244940036'
+- expected_values:
+    TIGUAN_DPF_AIR_P_SENS_RAW: 62
+  response: 7E805624494003E
+- expected_values:
+    TIGUAN_DPF_AIR_P_SENS_RAW: 74
+  response: 7E805624494004A

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2244F9
+test_cases:
+- expected_values:
+    TIGUAN_DPF_EXH_SPD: 3.84
+  response: 7E8056244F900C0
+- expected_values:
+    TIGUAN_DPF_EXH_SPD: 4.46
+  response: 7E8056244F900DF
+- expected_values:
+    TIGUAN_DPF_EXH_SPD: 5.32
+  response: 7E8056244F9010A
+- expected_values:
+    TIGUAN_DPF_EXH_SPD: 6.06
+  response: 7E8056244F9012F

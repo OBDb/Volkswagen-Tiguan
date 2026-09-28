@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22382B
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_PART_2_VALVE_I_ACTUAL: 1199
+  response: 7E90562382BD62E
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_PART_2_VALVE_I_ACTUAL: 1200
+  response: 7E90562382BE02E

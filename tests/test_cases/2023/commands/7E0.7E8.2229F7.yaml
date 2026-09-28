@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2229F7
+test_cases:
+- expected_values:
+    TIGUAN_DPF_REGEN_CANCEL: 0
+  response: 7E8056229F70000
