@@ -2512,7 +2512,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "39A3"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
-    {"id": "TIGUAN_CHG_P_ACTUATOR_SPEC", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 0.012207, "unit": "percent" }, "name": "Charge pressure actuator, specified position"}
+    {"id": "TIGUAN_CHG_P_ACTUATOR_SPEC", "path": "Battery", "fmt": { "len": 16, "max": 655.3499, "div": 100, "unit": "percent" }, "name": "Charge pressure actuator, specified position"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "39A4"}, "freq": 1,
   "signals": [
