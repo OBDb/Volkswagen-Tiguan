@@ -1,8 +1,14 @@
 command_id: 7E0.7E8.2243BF
 test_cases:
 - expected_values:
+    TIGUAN_DPF_DIFF_P_RAW_2: 11
+  response: 7E8056243BF000B
+- expected_values:
     TIGUAN_DPF_DIFF_P_RAW_2: 12
   response: 7E8056243BF000C
+- expected_values:
+    TIGUAN_DPF_DIFF_P_RAW_2: 19
+  response: 7E8056243BF0013
 - expected_values:
     TIGUAN_DPF_DIFF_P_RAW_2: 20
   response: 7E8056243BF0014

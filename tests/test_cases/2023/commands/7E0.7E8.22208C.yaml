@@ -12,3 +12,15 @@ test_cases:
 - expected_values:
     TIGUAN_DPF_SOOT_MEAS: 12.82
   response: 7E80562208C0502
+- expected_values:
+    TIGUAN_DPF_SOOT_MEAS: 15.65
+  response: 7E80562208C061D
+- expected_values:
+    TIGUAN_DPF_SOOT_MEAS: 15.97
+  response: 7E80562208C063D
+- expected_values:
+    TIGUAN_DPF_SOOT_MEAS: 16.36
+  response: 7E80562208C0664
+- expected_values:
+    TIGUAN_DPF_SOOT_MEAS: 16.79
+  response: 7E80562208C068F

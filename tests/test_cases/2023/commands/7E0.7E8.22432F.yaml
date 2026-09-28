@@ -4,6 +4,15 @@ test_cases:
     TIGUAN_CYL_CHG_SPEC: 427.6
   response: 7E80562432F10B4
 - expected_values:
+    TIGUAN_CYL_CHG_SPEC: 438.4
+  response: 7E80562432F1120
+- expected_values:
+    TIGUAN_CYL_CHG_SPEC: 440.4
+  response: 7E80562432F1134
+- expected_values:
+    TIGUAN_CYL_CHG_SPEC: 443.6
+  response: 7E80562432F1154
+- expected_values:
     TIGUAN_CYL_CHG_SPEC: 458.8
   response: 7E80562432F11EC
 - expected_values:
@@ -12,3 +21,6 @@ test_cases:
 - expected_values:
     TIGUAN_CYL_CHG_SPEC: 495.4
   response: 7E80562432F135A
+- expected_values:
+    TIGUAN_CYL_CHG_SPEC: 640
+  response: 7E80562432F1900

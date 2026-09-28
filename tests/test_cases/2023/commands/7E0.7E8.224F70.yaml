@@ -10,5 +10,17 @@ test_cases:
     TIGUAN_OIL_P_TGT: 264
   response: 7E805624F700A50
 - expected_values:
+    TIGUAN_OIL_P_TGT: 264.5
+  response: 7E805624F700A55
+- expected_values:
+    TIGUAN_OIL_P_TGT: 264.9
+  response: 7E805624F700A59
+- expected_values:
+    TIGUAN_OIL_P_TGT: 267.1
+  response: 7E805624F700A6F
+- expected_values:
     TIGUAN_OIL_P_TGT: 278.2
   response: 7E805624F700ADE
+- expected_values:
+    TIGUAN_OIL_P_TGT: 341
+  response: 7E805624F700D52
