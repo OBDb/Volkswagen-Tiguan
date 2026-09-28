@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2210EA
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_SUCCESSFUL_ADAPTS_COUNTER: 6111
+  response: 7E9056210EADF17

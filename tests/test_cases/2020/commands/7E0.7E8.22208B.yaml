@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22208B
+test_cases:
+- expected_values:
+    TIGUAN_GPF_SOOT_MASS_CALC: 2
+  response: 7E80562208B0002

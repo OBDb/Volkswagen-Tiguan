@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2251D4
+test_cases:
+- expected_values:
+    TIGUAN_CYL_BLOCK_T_SENS: 95.5
+  response: 7E8056251D40E66
+- expected_values:
+    TIGUAN_CYL_BLOCK_T_SENS: 99.4
+  response: 7E8056251D40E8D
+- expected_values:
+    TIGUAN_CYL_BLOCK_T_SENS: 99.5
+  response: 7E8056251D40E8E
+- expected_values:
+    TIGUAN_CYL_BLOCK_T_SENS: 101.9
+  response: 7E8056251D40EA6
+- expected_values:
+    TIGUAN_CYL_BLOCK_T_SENS: 103.1
+  response: 7E8056251D40EB2

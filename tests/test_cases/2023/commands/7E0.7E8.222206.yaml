@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.222206
 test_cases:
 - expected_values:
+    TIGUAN_PQ35_FUEL_LEVEL_7E0_2206: 10
+  response: 7E8056222060AF0
+- expected_values:
+    TIGUAN_PQ35_FUEL_LEVEL_7E0_2206: 11
+  response: 7E8056222060B54
+- expected_values:
     TIGUAN_PQ35_FUEL_LEVEL_7E0_2206: 14
   response: 7E8056222060E10
 - expected_values:

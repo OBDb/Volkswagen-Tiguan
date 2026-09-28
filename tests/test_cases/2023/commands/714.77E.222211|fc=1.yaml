@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_PQ35_CHG_AIR_P: 20
   response: '77E0462221133'
 - expected_values:
-    TIGUAN_PQ35_CHG_AIR_P: 33.33333
-  response: '77E0462221155'
+    TIGUAN_PQ35_CHG_AIR_P: 54.11765
+  response: 77E046222118A

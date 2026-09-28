@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22102A
+test_cases:
+- expected_values:
+    TIGUAN_CLU_CENTER_CENTRAL_T: 89
+  response: 7E90562102A5900
+- expected_values:
+    TIGUAN_CLU_CENTER_CENTRAL_T: 97
+  response: 7E90562102A6100

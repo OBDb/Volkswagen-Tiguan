@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.223D7E
+test_cases:
+- expected_values:
+    TIGUAN_EXH_GAS_JET_VOLUME: 121100
+  response: 7E805623D7E04BB
+- expected_values:
+    TIGUAN_EXH_GAS_JET_VOLUME: 130500
+  response: 7E805623D7E0519
+- expected_values:
+    TIGUAN_EXH_GAS_JET_VOLUME: 145400
+  response: 7E805623D7E05AE
+- expected_values:
+    TIGUAN_EXH_GAS_JET_VOLUME: 248500
+  response: 7E805623D7E09B5

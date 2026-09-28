@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22209B
+test_cases:
+- expected_values:
+    TIGUAN_TQ_REQ_SUM_AUXILIARY: 8.5
+  response: 7E80562209B0055
+- expected_values:
+    TIGUAN_TQ_REQ_SUM_AUXILIARY: 9.2
+  response: 7E80562209B005C
+- expected_values:
+    TIGUAN_TQ_REQ_SUM_AUXILIARY: 9.6
+  response: 7E80562209B0060

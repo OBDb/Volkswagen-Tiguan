@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2215C1
+test_cases:
+- expected_values:
+    TIGUAN_IAT_BEFORE_THROTTLE: -39
+  response: 7E8056215C10C3E
+- expected_values:
+    TIGUAN_IAT_BEFORE_THROTTLE: -39
+  response: 7E8056215C10C40
+- expected_values:
+    TIGUAN_IAT_BEFORE_THROTTLE: -39
+  response: 7E8056215C10C41
+- expected_values:
+    TIGUAN_IAT_BEFORE_THROTTLE: -39
+  response: 7E8056215C10C51
+- expected_values:
+    TIGUAN_IAT_BEFORE_THROTTLE: -39
+  response: 7E8056215C10C5F

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2224B4
+test_cases:
+- expected_values:
+    TIGUAN_GPF_MAX_SOOT_BUILD: 13446
+  response: 7E8056224B43486

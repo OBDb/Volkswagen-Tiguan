@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221117
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_REACHED_MAXIMUM_T: 107
+  response: 7E9056211176B00

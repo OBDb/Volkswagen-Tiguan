@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2210AE
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS: 0.61
+  response: 7E9056210AE3D00

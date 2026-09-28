@@ -1,0 +1,8 @@
+command_id: 7E1.222104
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 84
+  response: '7E9056221045400'
+- expected_values:
+    TIGUAN_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 89
+  response: '7E9056221045900'

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2220D8
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_CONS_SINCE_DPF: 5.79
+  response: 7E8056220D80243
+- expected_values:
+    TIGUAN_FUEL_CONS_SINCE_DPF: 5.87
+  response: 7E8056220D8024B
+- expected_values:
+    TIGUAN_FUEL_CONS_SINCE_DPF: 5.95
+  response: 7E8056220D80253
+- expected_values:
+    TIGUAN_FUEL_CONS_SINCE_DPF: 6.02
+  response: 7E8056220D8025A

@@ -5,25 +5,7 @@ test_cases:
   response: 7E80762295A00011194
 - expected_values:
     TIGUAN_ODO_ECM: 273
-  response: 7E80762295A00011195
-- expected_values:
-    TIGUAN_ODO_ECM: 273
-  response: 7E80762295A00011196
-- expected_values:
-    TIGUAN_ODO_ECM: 273
-  response: 7E80762295A00011197
-- expected_values:
-    TIGUAN_ODO_ECM: 273
-  response: 7E80762295A00011198
-- expected_values:
-    TIGUAN_ODO_ECM: 273
-  response: 7E80762295A00011199
-- expected_values:
-    TIGUAN_ODO_ECM: 273
-  response: 7E80762295A000111BE
-- expected_values:
-    TIGUAN_ODO_ECM: 273
-  response: 7E80762295A000111BF
-- expected_values:
-    TIGUAN_ODO_ECM: 273
   response: 7E80762295A000111C0
+- expected_values:
+    TIGUAN_ODO_ECM: 274
+  response: 7E80762295A0001122A

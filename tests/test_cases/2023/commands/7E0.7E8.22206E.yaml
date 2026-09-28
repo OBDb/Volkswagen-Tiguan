@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22206E
+test_cases:
+- expected_values:
+    TIGUAN_CRANK_SPD_RPM: 2446
+  response: 7E80562206E098E
+- expected_values:
+    TIGUAN_CRANK_SPD_RPM: 2837
+  response: 7E80562206E0B15
+- expected_values:
+    TIGUAN_CRANK_SPD_RPM: 3155
+  response: 7E80562206E0C53
+- expected_values:
+    TIGUAN_CRANK_SPD_RPM: 3193
+  response: 7E80562206E0C79

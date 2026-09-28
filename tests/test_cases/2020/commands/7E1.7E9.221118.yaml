@@ -1,0 +1,6 @@
+command_id: 7E1.7E9.221118
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_1_MAXIMUM_T: 206
+    TIGUAN_PQ35_CLUTCH_2_MAXIMUM_T: 201
+  response: 7E907621118CE00C900

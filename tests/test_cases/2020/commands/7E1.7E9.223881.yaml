@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.223881
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_CLUTCH_1_T_PROTECTION_OVERHEAT_PROTECTION_1_QTY: 0
+  response: '7E9056238810000'

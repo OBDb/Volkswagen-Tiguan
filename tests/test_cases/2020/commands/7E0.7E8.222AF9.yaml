@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222AF9
+test_cases:
+- expected_values:
+    TIGUAN_GPF_BLOCKAGE_RATE: 3
+  response: 7E805622AF90F00

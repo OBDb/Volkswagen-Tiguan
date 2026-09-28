@@ -1,8 +1,14 @@
 command_id: 7E0.7E8.222006
 test_cases:
 - expected_values:
-    TIGUAN_PQ35_OIL_FILL_LEVEL: 688.26
-  response: 7E8056220062CCF
+    TIGUAN_PQ35_OIL_FILL_LEVEL: 640.56
+  response: 7E80562200629B4
+- expected_values:
+    TIGUAN_PQ35_OIL_FILL_LEVEL: 735.96
+  response: 7E8056220062FEA
+- expected_values:
+    TIGUAN_PQ35_OIL_FILL_LEVEL: 906.36
+  response: 7E8056220063B02
 - expected_values:
     TIGUAN_PQ35_OIL_FILL_LEVEL: 1060.26
   response: '7E8056220064507'

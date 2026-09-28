@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2238B2
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CENTRIFUGAL_OIL_T: 0
+  response: 7E9056238B20000

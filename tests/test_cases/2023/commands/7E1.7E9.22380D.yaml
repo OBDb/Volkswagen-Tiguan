@@ -7,5 +7,5 @@ test_cases:
     TIGUAN_MQB_INPUT_SHAFT_2: 2957
   response: 7E90562380D8D0B
 - expected_values:
-    TIGUAN_MQB_INPUT_SHAFT_2: 1471
-  response: 7E90562380DBF05
+    TIGUAN_MQB_INPUT_SHAFT_2: 2762
+  response: 7E90562380DCA0A

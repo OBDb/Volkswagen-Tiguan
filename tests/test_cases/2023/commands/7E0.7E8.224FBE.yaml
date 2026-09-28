@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224FBE
+test_cases:
+- expected_values:
+    TIGUAN_OIL_P_SENS_RAW: 704
+  response: 7E805624FBE02C0
+- expected_values:
+    TIGUAN_OIL_P_SENS_RAW: 744
+  response: 7E805624FBE02E8
+- expected_values:
+    TIGUAN_OIL_P_SENS_RAW: 785
+  response: 7E805624FBE0311
+- expected_values:
+    TIGUAN_OIL_P_SENS_RAW: 877
+  response: 7E805624FBE036D

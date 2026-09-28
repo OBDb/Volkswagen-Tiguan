@@ -1,26 +1,11 @@
 command_id: 7E1.22101A
 test_cases:
 - expected_values:
+    TIGUAN_PQ35_ODO_3: 2757121
+  response: 7E90762101A2A120100
+- expected_values:
     TIGUAN_PQ35_ODO_3: 9769217
   response: 7E90762101A95110100
-- expected_values:
-    TIGUAN_PQ35_ODO_3: 9834753
-  response: 7E90762101A96110100
-- expected_values:
-    TIGUAN_PQ35_ODO_3: 9900289
-  response: 7E90762101A97110100
-- expected_values:
-    TIGUAN_PQ35_ODO_3: 9965825
-  response: 7E90762101A98110100
-- expected_values:
-    TIGUAN_PQ35_ODO_3: 10031361
-  response: 7E90762101A99110100
-- expected_values:
-    TIGUAN_PQ35_ODO_3: 12456193
-  response: 7E90762101ABE110100
-- expected_values:
-    TIGUAN_PQ35_ODO_3: 12521729
-  response: 7E90762101ABF110100
 - expected_values:
     TIGUAN_PQ35_ODO_3: 12587265
   response: 7E90762101AC0110100

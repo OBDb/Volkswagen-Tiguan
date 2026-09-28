@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22028D
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_ECU_T: 84
+  response: 7E90562028D5400
+- expected_values:
+    TIGUAN_MQB_TCM_ECU_T: 89
+  response: 7E90562028D5900

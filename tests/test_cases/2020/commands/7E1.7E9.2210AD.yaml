@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2210AD
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6: 1.78
+  response: 7E9056210ADB200

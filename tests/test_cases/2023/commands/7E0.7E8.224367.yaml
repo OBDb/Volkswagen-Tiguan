@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224367
+test_cases:
+- expected_values:
+    TIGUAN_CYL_CHG_ACT: 516.4
+  response: 7E805624367142C
+- expected_values:
+    TIGUAN_CYL_CHG_ACT: 541.6
+  response: '7E8056243671528'
+- expected_values:
+    TIGUAN_CYL_CHG_ACT: 646.8
+  response: '7E8056243671944'
+- expected_values:
+    TIGUAN_CYL_CHG_ACT: 716.8
+  response: 7E8056243671C00

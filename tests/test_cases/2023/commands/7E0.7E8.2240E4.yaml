@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2240E4
+test_cases:
+- expected_values:
+    TIGUAN_T_SENS_ENG_T_V: 0
+  response: 7E8056240E40000

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222932
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_LOW_P_SPEC: 5
+  response: '7E8056229321388'
