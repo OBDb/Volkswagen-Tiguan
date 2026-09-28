@@ -4,11 +4,23 @@ test_cases:
     TIGUAN_CRANK_SPD_RPM: 2446
   response: 7E80562206E098E
 - expected_values:
+    TIGUAN_CRANK_SPD_RPM: 2516
+  response: 7E80562206E09D4
+- expected_values:
+    TIGUAN_CRANK_SPD_RPM: 2640
+  response: 7E80562206E0A50
+- expected_values:
     TIGUAN_CRANK_SPD_RPM: 2837
   response: 7E80562206E0B15
+- expected_values:
+    TIGUAN_CRANK_SPD_RPM: 2954
+  response: 7E80562206E0B8A
 - expected_values:
     TIGUAN_CRANK_SPD_RPM: 3155
   response: 7E80562206E0C53
 - expected_values:
     TIGUAN_CRANK_SPD_RPM: 3193
   response: 7E80562206E0C79
+- expected_values:
+    TIGUAN_CRANK_SPD_RPM: 3375
+  response: 7E80562206E0D2F

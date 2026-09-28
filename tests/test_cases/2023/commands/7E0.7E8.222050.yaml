@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_GEN_LOAD_SIG: 22.57
   response: 7E80562205008D1
+- expected_values:
+    TIGUAN_GEN_LOAD_SIG: 25.8
+  response: 7E8056220500A14

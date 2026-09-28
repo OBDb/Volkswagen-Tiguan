@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     TIGUAN_CAM_ADPT_INT_BANK_1_PHASE: -10.9
   response: 7E805622021FF93
+- expected_values:
+    TIGUAN_CAM_ADPT_INT_BANK_1_PHASE: -10.7
+  response: 7E805622021FF95
+- expected_values:
+    TIGUAN_CAM_ADPT_INT_BANK_1_PHASE: -10.5
+  response: 7E805622021FF97
+- expected_values:
+    TIGUAN_CAM_ADPT_INT_BANK_1_PHASE: -10.1
+  response: 7E805622021FF9B
+- expected_values:
+    TIGUAN_CAM_ADPT_INT_BANK_1_PHASE: -10
+  response: 7E805622021FF9C

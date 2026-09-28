@@ -1,6 +1,18 @@
 command_id: 7E0.7E8.22028D
 test_cases:
 - expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 297.1
+  response: 7E80562028D0B9B
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 297.9
+  response: 7E80562028D0BA3
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 298.5
+  response: 7E80562028D0BA9
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 298.9
+  response: 7E80562028D0BAD
+- expected_values:
     TIGUAN_ENG_CTRL_MODULE_T: 305.6
   response: 7E80562028D0BF0
 - expected_values:

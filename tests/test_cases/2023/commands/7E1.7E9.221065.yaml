@@ -4,5 +4,11 @@ test_cases:
     TIGUAN_CLU_1_T_TIME_RANGE_0: 472.38
   response: 7E907621065435C5809
 - expected_values:
+    TIGUAN_CLU_1_T_TIME_RANGE_0: 1255.82
+  response: 7E90762106547F55809
+- expected_values:
     TIGUAN_CLU_1_T_TIME_RANGE_0: 298.76
   response: 7E9076210655A3A5809
+- expected_values:
+    TIGUAN_CLU_1_T_TIME_RANGE_0: 1092.44
+  response: 7E9076210655ED55809

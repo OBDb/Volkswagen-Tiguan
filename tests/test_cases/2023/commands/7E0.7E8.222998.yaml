@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_MANUAL_ENG_STARTS: 5725
   response: 7E805622998165D
+- expected_values:
+    TIGUAN_MANUAL_ENG_STARTS: 5726
+  response: 7E805622998165E

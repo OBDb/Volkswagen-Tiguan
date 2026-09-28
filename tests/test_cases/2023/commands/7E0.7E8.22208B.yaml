@@ -12,3 +12,15 @@ test_cases:
 - expected_values:
     TIGUAN_GPF_SOOT_MASS_CALC: 1104
   response: 7E80562208B0450
+- expected_values:
+    TIGUAN_GPF_SOOT_MASS_CALC: 1266
+  response: 7E80562208B04F2
+- expected_values:
+    TIGUAN_GPF_SOOT_MASS_CALC: 1278
+  response: 7E80562208B04FE
+- expected_values:
+    TIGUAN_GPF_SOOT_MASS_CALC: 1286
+  response: 7E80562208B0506
+- expected_values:
+    TIGUAN_GPF_SOOT_MASS_CALC: 1299
+  response: 7E80562208B0513

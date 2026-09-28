@@ -4,11 +4,23 @@ test_cases:
     TIGUAN_FUEL_HIGH_P_CTRL_DEV: 4.4
   response: 7E8056220BB002C
 - expected_values:
+    TIGUAN_FUEL_HIGH_P_CTRL_DEV: 5
+  response: 7E8056220BB0032
+- expected_values:
     TIGUAN_FUEL_HIGH_P_CTRL_DEV: 30.4
   response: 7E8056220BB0130
+- expected_values:
+    TIGUAN_FUEL_HIGH_P_CTRL_DEV: -7.7
+  response: 7E8056220BBFFB3
 - expected_values:
     TIGUAN_FUEL_HIGH_P_CTRL_DEV: -2.5
   response: 7E8056220BBFFE7
 - expected_values:
+    TIGUAN_FUEL_HIGH_P_CTRL_DEV: -1.5
+  response: 7E8056220BBFFF1
+- expected_values:
     TIGUAN_FUEL_HIGH_P_CTRL_DEV: -1
   response: 7E8056220BBFFF6
+- expected_values:
+    TIGUAN_FUEL_HIGH_P_CTRL_DEV: -0.5
+  response: 7E8056220BBFFFB
