@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2243C0
+test_cases:
+- expected_values:
+    TIGUAN_DPF_DIFF_P_SENS_T: 42.65506
+  response: 7E8056243C01288
+- expected_values:
+    TIGUAN_DPF_DIFF_P_SENS_T: 44.74488
+  response: 7E8056243C012F3
+- expected_values:
+    TIGUAN_DPF_DIFF_P_SENS_T: 47.44016
+  response: 7E8056243C0137D
+- expected_values:
+    TIGUAN_DPF_DIFF_P_SENS_T: 49.25654
+  response: 7E8056243C013DA

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22208C
+test_cases:
+- expected_values:
+    TIGUAN_DPF_SOOT_MEAS: 11.76
+  response: 7E80562208C0498
+- expected_values:
+    TIGUAN_DPF_SOOT_MEAS: 12.11
+  response: 7E80562208C04BB
+- expected_values:
+    TIGUAN_DPF_SOOT_MEAS: 12.45
+  response: 7E80562208C04DD
+- expected_values:
+    TIGUAN_DPF_SOOT_MEAS: 12.82
+  response: 7E80562208C0502

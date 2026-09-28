@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222002
+test_cases:
+- expected_values:
+    TIGUAN_ENG_TQ: 0
+  response: '7E8056220020000'
+- expected_values:
+    TIGUAN_ENG_TQ: 105.8
+  response: '7E8056220020422'
+- expected_values:
+    TIGUAN_ENG_TQ: 138.1
+  response: '7E8056220020565'

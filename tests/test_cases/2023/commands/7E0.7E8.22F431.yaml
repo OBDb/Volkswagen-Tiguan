@@ -4,23 +4,8 @@ test_cases:
     TIGUAN_CLR_DIST: 9162
   response: 7E80562F43123CA
 - expected_values:
-    TIGUAN_CLR_DIST: 9163
-  response: 7E80562F43123CB
-- expected_values:
-    TIGUAN_CLR_DIST: 9164
-  response: 7E80562F43123CC
-- expected_values:
-    TIGUAN_CLR_DIST: 9165
-  response: 7E80562F43123CD
-- expected_values:
-    TIGUAN_CLR_DIST: 9166
-  response: 7E80562F43123CE
-- expected_values:
-    TIGUAN_CLR_DIST: 9203
-  response: 7E80562F43123F3
-- expected_values:
-    TIGUAN_CLR_DIST: 9204
-  response: 7E80562F43123F4
-- expected_values:
     TIGUAN_CLR_DIST: 9205
   response: 7E80562F43123F5
+- expected_values:
+    TIGUAN_CLR_DIST: 9311
+  response: 7E80562F431245F

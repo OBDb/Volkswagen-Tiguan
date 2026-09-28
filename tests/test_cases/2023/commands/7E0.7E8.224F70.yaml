@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224F70
+test_cases:
+- expected_values:
+    TIGUAN_OIL_P_TGT: 250.8
+  response: 7E805624F7009CC
+- expected_values:
+    TIGUAN_OIL_P_TGT: 262.3
+  response: 7E805624F700A3F
+- expected_values:
+    TIGUAN_OIL_P_TGT: 264
+  response: 7E805624F700A50
+- expected_values:
+    TIGUAN_OIL_P_TGT: 278.2
+  response: 7E805624F700ADE

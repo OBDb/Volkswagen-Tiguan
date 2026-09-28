@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2244FB
+test_cases:
+- expected_values:
+    TIGUAN_DPF_SURFACE_T: 131.85
+  response: 7E8056244FB1950
+- expected_values:
+    TIGUAN_DPF_SURFACE_T: 198.85
+  response: 7E8056244FB1D80
+- expected_values:
+    TIGUAN_DPF_SURFACE_T: 199.85
+  response: 7E8056244FB1D90
+- expected_values:
+    TIGUAN_DPF_SURFACE_T: 785.85
+  response: 7E8056244FB4230

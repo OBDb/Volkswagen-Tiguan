@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222AFB
+test_cases:
+- expected_values:
+    TIGUAN_GPF_BLOCKAGE_RATE_CALC: 1.04531
+  response: 7E805622AFB053A
+- expected_values:
+    TIGUAN_GPF_BLOCKAGE_RATE_CALC: 1.04688
+  response: 7E805622AFB053C

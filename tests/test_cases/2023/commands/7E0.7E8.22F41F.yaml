@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.22F41F
 test_cases:
 - expected_values:
-    TIGUAN_RUNTM: 98
-  response: 7E80562F41F0062
+    TIGUAN_RUNTM: 94
+  response: 7E80562F41F005E
 - expected_values:
     TIGUAN_RUNTM: 242
   response: 7E80562F41F00F2
 - expected_values:
     TIGUAN_RUNTM: 257
   response: 7E80562F41F0101
+- expected_values:
+    TIGUAN_RUNTM: 535
+  response: 7E80562F41F0217

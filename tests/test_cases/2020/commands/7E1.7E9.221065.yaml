@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221065
+test_cases:
+- expected_values:
+    TIGUAN_CLU_1_T_TIME_RANGE_0: 697.4
+  response: 7E9076210653688410A
+- expected_values:
+    TIGUAN_CLU_1_T_TIME_RANGE_0: 747
+  response: 7E907621065E691410A

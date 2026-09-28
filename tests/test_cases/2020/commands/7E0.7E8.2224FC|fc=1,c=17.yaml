@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2224FC|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_TANK_FILL_LEVEL: 11
+  response: 7E8056224FC006E

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220829
+test_cases:
+- expected_values:
+    TIGUAN_GPF_SOOT_LOAD_CALC: 0
+  response: '7E80462082900'

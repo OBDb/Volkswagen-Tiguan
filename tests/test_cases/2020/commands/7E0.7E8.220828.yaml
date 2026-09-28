@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220828
+test_cases:
+- expected_values:
+    TIGUAN_GPF_BLOCKAGE_RAT_CALC_REL: 39.21569
+  response: '7E80462082864'
+- expected_values:
+    TIGUAN_GPF_BLOCKAGE_RAT_CALC_REL: 42.35294
+  response: 7E8046208286C

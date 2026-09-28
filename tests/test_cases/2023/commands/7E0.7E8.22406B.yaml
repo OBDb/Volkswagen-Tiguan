@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22406B
+test_cases:
+- expected_values:
+    TIGUAN_DPF_ASH_LOAD_LIM: 80
+  response: 7E80562406B2800

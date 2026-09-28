@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22383D
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DQ250_CLUTCH_2_VALVE_I_SPECIFIED: 398.7
+  response: 7E90562383D930F
+- expected_values:
+    TIGUAN_MQB_DQ250_CLUTCH_2_VALVE_I_SPECIFIED: 327
+  response: 7E90562383DC60C

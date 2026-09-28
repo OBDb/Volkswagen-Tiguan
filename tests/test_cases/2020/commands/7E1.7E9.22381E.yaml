@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22381E
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_EOP_ACTUAL_I: 897
+  response: 7E90562381E0A23
+- expected_values:
+    TIGUAN_MQB_TCM_EOP_ACTUAL_I: 910
+  response: 7E90562381E8C23

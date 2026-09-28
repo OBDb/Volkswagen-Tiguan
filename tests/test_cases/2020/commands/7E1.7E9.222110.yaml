@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.222110
+test_cases:
+- expected_values:
+    TIGUAN_ENG_SPEC_TQ_DURING: 52305
+  response: 7E905622110CC51
+- expected_values:
+    TIGUAN_ENG_SPEC_TQ_DURING: 61520
+  response: 7E905622110F050

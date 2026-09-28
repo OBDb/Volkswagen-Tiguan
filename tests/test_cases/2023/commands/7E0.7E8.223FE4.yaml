@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.223FE4
+test_cases:
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT_SPEC: 38.78164
+  response: 7E805623FE40C69
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT_SPEC: 59.08188
+  response: 7E805623FE412E8

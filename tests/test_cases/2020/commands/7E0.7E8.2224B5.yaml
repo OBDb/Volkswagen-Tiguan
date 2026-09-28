@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2224B5
+test_cases:
+- expected_values:
+    TIGUAN_GPF_MAX_ASH_BUILD_UP: 30
+  response: 7E8046224B50F

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_2_POS: 9.85
   response: 7E90562105BD903
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_2_POS: 9.9
+  response: 7E90562105BDE03

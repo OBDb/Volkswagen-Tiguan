@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_TCM_IGNITION_CYCLES: 704
   response: 7E90562388CC002
+- expected_values:
+    TIGUAN_MQB_TCM_IGNITION_CYCLES: 707
+  response: 7E90562388CC302

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22291F|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_MISFIRES_1000_RPM_C4: 0
+  response: 7E80562291F0000

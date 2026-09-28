@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22208D
+test_cases:
+- expected_values:
+    TIGUAN_GPF_DIST_SINCE_REGEN: 81665.244
+  response: 7E80762208D04DE1CDC
+- expected_values:
+    TIGUAN_GPF_DIST_SINCE_REGEN: 81666.037
+  response: 7E80762208D04DE1FF5
+- expected_values:
+    TIGUAN_GPF_DIST_SINCE_REGEN: 81666.405
+  response: 7E80762208D04DE2165
+- expected_values:
+    TIGUAN_GPF_DIST_SINCE_REGEN: 81666.742
+  response: 7E80762208D04DE22B6
+- expected_values:
+    TIGUAN_GPF_DIST_SINCE_REGEN: 81666.752
+  response: 7E80762208D04DE22C0

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222139
+test_cases:
+- expected_values:
+    TIGUAN_GPF_WATER_MASS: 0
+  response: '7E8056221390000'

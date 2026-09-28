@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2244F5
+test_cases:
+- expected_values:
+    TIGUAN_DPF_CLEANING_DEV: 0
+  response: 7E8056244F50000
+- expected_values:
+    TIGUAN_DPF_CLEANING_DEV: 0.087
+  response: 7E8056244F50057

@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22100E
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE_LIMITATION: 270
+  response: 7E90562100E1815
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE_LIMITATION: 181
+  response: 7E90562100E240E

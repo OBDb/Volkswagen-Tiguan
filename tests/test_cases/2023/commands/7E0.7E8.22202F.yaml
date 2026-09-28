@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22202F
+test_cases:
+- expected_values:
+    TIGUAN_EOT: 60.2
+  response: 7E80562202F0D05
+- expected_values:
+    TIGUAN_EOT: 64.3
+  response: 7E80562202F0D2E
+- expected_values:
+    TIGUAN_EOT: 72.4
+  response: 7E80562202F0D7F
+- expected_values:
+    TIGUAN_EOT: 77
+  response: 7E80562202F0DAD

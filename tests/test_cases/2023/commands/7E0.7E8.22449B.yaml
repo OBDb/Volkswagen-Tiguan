@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22449B
+test_cases:
+- expected_values:
+    TIGUAN_DPF_INPUT_T_RAW: 286.4
+  response: 7E80562449B15DB
+- expected_values:
+    TIGUAN_DPF_INPUT_T_RAW: 290.6
+  response: 7E80562449B1605
+- expected_values:
+    TIGUAN_DPF_INPUT_T_RAW: 296.7
+  response: 7E80562449B1642
+- expected_values:
+    TIGUAN_DPF_INPUT_T_RAW: 299.4
+  response: 7E80562449B165D

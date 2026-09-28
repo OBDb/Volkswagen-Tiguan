@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22406C
+test_cases:
+- expected_values:
+    TIGUAN_GPF_OIL_ASH_MASS: 30.1
+  response: 7E80762406C0BC2C214
+- expected_values:
+    TIGUAN_GPF_OIL_ASH_MASS: 30.1
+  response: 7E80762406C0BC2D027
+- expected_values:
+    TIGUAN_GPF_OIL_ASH_MASS: 30.1
+  response: 7E80762406C0BC2DA67
+- expected_values:
+    TIGUAN_GPF_OIL_ASH_MASS: 30.1
+  response: 7E80762406C0BC2E833

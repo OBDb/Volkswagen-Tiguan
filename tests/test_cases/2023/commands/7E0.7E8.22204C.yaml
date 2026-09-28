@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22204C
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_RATE: 1.71
+  response: 7E80562204C00AB
+- expected_values:
+    TIGUAN_FUEL_RATE: 3.11
+  response: 7E80562204C0137
+- expected_values:
+    TIGUAN_FUEL_RATE: 5.17
+  response: 7E80562204C0205
+- expected_values:
+    TIGUAN_FUEL_RATE: 9.2
+  response: 7E80562204C0398

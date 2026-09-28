@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS: -0.41
   response: 7E9056210A0D7FF
+- expected_values:
+    TIGUAN_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS: -0.36
+  response: 7E9056210A0DCFF

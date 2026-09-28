@@ -1,0 +1,5 @@
+command_id: 714.77E.22220C|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_OUTSIDE_T: 14.5
+  response: 77E0462220C81

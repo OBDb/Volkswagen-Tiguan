@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.224286
+test_cases:
+- expected_values:
+    TIGUAN_PISTON_COOLING_JETS: 0
+  response: '7E80462428600'
+- expected_values:
+    TIGUAN_PISTON_COOLING_JETS: 1
+  response: '7E80462428601'

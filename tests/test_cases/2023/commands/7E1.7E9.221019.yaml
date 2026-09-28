@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_DRIVING_STRATEGY_SPORT_FACTOR: 6.66667
   response: '7E90462101901'
+- expected_values:
+    TIGUAN_PQ35_DRIVING_STRATEGY_SPORT_FACTOR: 20
+  response: '7E90462101903'
+- expected_values:
+    TIGUAN_PQ35_DRIVING_STRATEGY_SPORT_FACTOR: 33.33333
+  response: '7E90462101905'
+- expected_values:
+    TIGUAN_PQ35_DRIVING_STRATEGY_SPORT_FACTOR: 40
+  response: '7E90462101906'

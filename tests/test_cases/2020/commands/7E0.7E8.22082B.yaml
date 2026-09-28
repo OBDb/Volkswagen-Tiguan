@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22082B
+test_cases:
+- expected_values:
+    TIGUAN_GPF_LOADING_STAGE: 0
+  response: 7E80462082B00
