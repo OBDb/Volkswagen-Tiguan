@@ -7,8 +7,20 @@ test_cases:
     TIGUAN_LAMBDA_DPF_INLET: 1.487
   response: 7E80562080E05CF
 - expected_values:
+    TIGUAN_LAMBDA_DPF_INLET: 1.676
+  response: 7E80562080E068C
+- expected_values:
     TIGUAN_LAMBDA_DPF_INLET: 1.786
   response: 7E80562080E06FA
 - expected_values:
+    TIGUAN_LAMBDA_DPF_INLET: 2.679
+  response: 7E80562080E0A77
+- expected_values:
     TIGUAN_LAMBDA_DPF_INLET: 3.15
   response: 7E80562080E0C4E
+- expected_values:
+    TIGUAN_LAMBDA_DPF_INLET: 3.62
+  response: 7E80562080E0E24
+- expected_values:
+    TIGUAN_LAMBDA_DPF_INLET: 32.767
+  response: 7E80562080E7FFF

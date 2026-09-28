@@ -1,8 +1,17 @@
 command_id: 7E0.7E8.22449A
 test_cases:
 - expected_values:
+    TIGUAN_DPF_OUTPUT_T_RAW: 99.8
+  response: 7E80562449A0E91
+- expected_values:
+    TIGUAN_DPF_OUTPUT_T_RAW: 211.2
+  response: 7E80562449A12EB
+- expected_values:
     TIGUAN_DPF_OUTPUT_T_RAW: 229.7
   response: 7E80562449A13A4
+- expected_values:
+    TIGUAN_DPF_OUTPUT_T_RAW: 241.2
+  response: 7E80562449A1417
 - expected_values:
     TIGUAN_DPF_OUTPUT_T_RAW: 254.3
   response: 7E80562449A149A
@@ -12,3 +21,6 @@ test_cases:
 - expected_values:
     TIGUAN_DPF_OUTPUT_T_RAW: 261.1
   response: 7E80562449A14DE
+- expected_values:
+    TIGUAN_DPF_OUTPUT_T_RAW: 267.3
+  response: 7E80562449A151C

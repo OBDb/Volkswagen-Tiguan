@@ -12,3 +12,15 @@ test_cases:
 - expected_values:
     TIGUAN_OIL_P_SENS_RAW: 877
   response: 7E805624FBE036D
+- expected_values:
+    TIGUAN_OIL_P_SENS_RAW: 928
+  response: 7E805624FBE03A0
+- expected_values:
+    TIGUAN_OIL_P_SENS_RAW: 1112
+  response: 7E805624FBE0458
+- expected_values:
+    TIGUAN_OIL_P_SENS_RAW: 1124
+  response: 7E805624FBE0464
+- expected_values:
+    TIGUAN_OIL_P_SENS_RAW: 1164
+  response: 7E805624FBE048C

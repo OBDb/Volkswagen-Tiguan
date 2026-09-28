@@ -1,6 +1,15 @@
 command_id: 7E0.7E8.223D7F
 test_cases:
 - expected_values:
+    TIGUAN_SIMULATED_DPF_T: 160.8
+  response: 7E805623D7F10F3
+- expected_values:
+    TIGUAN_SIMULATED_DPF_T: 261.2
+  response: 7E805623D7F14DF
+- expected_values:
+    TIGUAN_SIMULATED_DPF_T: 262.5
+  response: 7E805623D7F14EC
+- expected_values:
     TIGUAN_SIMULATED_DPF_T: 265.3
   response: 7E805623D7F1508
 - expected_values:
@@ -12,3 +21,6 @@ test_cases:
 - expected_values:
     TIGUAN_SIMULATED_DPF_T: 288.7
   response: 7E805623D7F15F2
+- expected_values:
+    TIGUAN_SIMULATED_DPF_T: 293.4
+  response: 7E805623D7F1621

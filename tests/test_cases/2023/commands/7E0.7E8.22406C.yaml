@@ -12,3 +12,15 @@ test_cases:
 - expected_values:
     TIGUAN_GPF_OIL_ASH_MASS: 30.1
   response: 7E80762406C0BC2E833
+- expected_values:
+    TIGUAN_GPF_OIL_ASH_MASS: 30.11
+  response: 7E80762406C0BC3F896
+- expected_values:
+    TIGUAN_GPF_OIL_ASH_MASS: 30.12
+  response: 7E80762406C0BC40B0C
+- expected_values:
+    TIGUAN_GPF_OIL_ASH_MASS: 30.12
+  response: 7E80762406C0BC40D1F
+- expected_values:
+    TIGUAN_GPF_OIL_ASH_MASS: 30.12
+  response: 7E80762406C0BC41B1B

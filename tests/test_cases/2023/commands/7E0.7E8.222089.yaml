@@ -12,3 +12,15 @@ test_cases:
 - expected_values:
     TIGUAN_DPF_TIME_SINCE_REGEN: 1.57225
   response: '7E8056220890325'
+- expected_values:
+    TIGUAN_DPF_TIME_SINCE_REGEN: 2.0449
+  response: '7E8056220890417'
+- expected_values:
+    TIGUAN_DPF_TIME_SINCE_REGEN: 2.05661
+  response: 7E805622089041D
+- expected_values:
+    TIGUAN_DPF_TIME_SINCE_REGEN: 2.08982
+  response: 7E805622089042E
+- expected_values:
+    TIGUAN_DPF_TIME_SINCE_REGEN: 2.11325
+  response: 7E805622089043A

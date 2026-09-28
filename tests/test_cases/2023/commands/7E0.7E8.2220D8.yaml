@@ -12,3 +12,15 @@ test_cases:
 - expected_values:
     TIGUAN_FUEL_CONS_SINCE_DPF: 6.02
   response: 7E8056220D8025A
+- expected_values:
+    TIGUAN_FUEL_CONS_SINCE_DPF: 7.97
+  response: 7E8056220D8031D
+- expected_values:
+    TIGUAN_FUEL_CONS_SINCE_DPF: 8.03
+  response: 7E8056220D80323
+- expected_values:
+    TIGUAN_FUEL_CONS_SINCE_DPF: 8.1
+  response: 7E8056220D8032A
+- expected_values:
+    TIGUAN_FUEL_CONS_SINCE_DPF: 8.19
+  response: 7E8056220D80333

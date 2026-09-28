@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_ANALYSIS_CLU_1_T_3: 766.34
   response: 7E907621068AD950700
+- expected_values:
+    TIGUAN_ANALYSIS_CLU_1_T_3: 777.2
+  response: 7E907621068CC970700

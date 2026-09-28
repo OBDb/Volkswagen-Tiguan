@@ -1,8 +1,14 @@
 command_id: 7E0.7E8.22203F
 test_cases:
 - expected_values:
+    TIGUAN_TQ_LIM_7E0: 65.4
+  response: 7E80562203F028E
+- expected_values:
     TIGUAN_TQ_LIM_7E0: 97.7
   response: 7E80562203F03D1
+- expected_values:
+    TIGUAN_TQ_LIM_7E0: 98
+  response: 7E80562203F03D4
 - expected_values:
     TIGUAN_TQ_LIM_7E0: 101.7
   response: 7E80562203F03F9
@@ -10,5 +16,11 @@ test_cases:
     TIGUAN_TQ_LIM_7E0: 147.4
   response: 7E80562203F05C2
 - expected_values:
+    TIGUAN_TQ_LIM_7E0: 153.6
+  response: 7E80562203F0600
+- expected_values:
     TIGUAN_TQ_LIM_7E0: 161.4
   response: 7E80562203F064E
+- expected_values:
+    TIGUAN_TQ_LIM_7E0: 210.4
+  response: 7E80562203F0838

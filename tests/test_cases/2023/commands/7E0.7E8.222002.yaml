@@ -7,5 +7,11 @@ test_cases:
     TIGUAN_ENG_TQ: 105.8
   response: '7E8056220020422'
 - expected_values:
+    TIGUAN_ENG_TQ: 121.5
+  response: 7E80562200204BF
+- expected_values:
     TIGUAN_ENG_TQ: 138.1
   response: '7E8056220020565'
+- expected_values:
+    TIGUAN_ENG_TQ: 143.4
+  response: 7E805622002059A
