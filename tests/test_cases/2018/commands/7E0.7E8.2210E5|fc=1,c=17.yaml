@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2210E5|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_IGNITION_TIMING_ANGLE_RETARD_C4: 0
+  response: 7E8056210E50000

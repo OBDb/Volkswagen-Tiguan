@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221ABC
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_CHARGE_LIMIT_OVER_CHARGE: 50
+  response: 7E805621ABC1388

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221ABF
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_ASH_LOAD_LIMIT: 80
+  response: 7E805621ABF2800

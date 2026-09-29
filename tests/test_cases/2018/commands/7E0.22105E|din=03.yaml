@@ -1,0 +1,8 @@
+command_id: 7E0.22105E|din=03
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_BAT_V_2: 12.52
+  response: 7E80562105E0272
+- expected_values:
+    TIGUAN_PQ35_BAT_V_2: 14.36
+  response: 7E80562105E02CE

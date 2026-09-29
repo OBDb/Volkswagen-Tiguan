@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2213F5
+test_cases:
+- expected_values:
+    TIGUAN_IGA_CYL_KNK_3: -48
+  response: 7E8076213F50000678C
+- expected_values:
+    TIGUAN_IGA_CYL_KNK_3: -48
+  response: 7E8076213F50000678D

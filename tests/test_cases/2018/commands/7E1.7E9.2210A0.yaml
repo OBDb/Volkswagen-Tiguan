@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.2210A0
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS: 0.04
+  response: 7E9056210A00400
+- expected_values:
+    TIGUAN_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS: 0.06
+  response: 7E9056210A00600
+- expected_values:
+    TIGUAN_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS: 0.09
+  response: 7E9056210A00900

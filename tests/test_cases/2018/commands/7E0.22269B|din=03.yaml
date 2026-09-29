@@ -1,0 +1,23 @@
+command_id: 7E0.22269B|din=03
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_2: 4
+  response: 7E80562269B0004
+- expected_values:
+    TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_2: 5
+  response: 7E80562269B0005
+- expected_values:
+    TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_2: 6
+  response: 7E80562269B0006
+- expected_values:
+    TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_2: 9
+  response: 7E80562269B0009
+- expected_values:
+    TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_2: 10
+  response: 7E80562269B000A
+- expected_values:
+    TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_2: 11
+  response: 7E80562269B000B
+- expected_values:
+    TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_2: 12
+  response: 7E80562269B000C

@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2210FB
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_EXH_GAS_T_1: 140.2
+  response: 7E8056210FB1025
+- expected_values:
+    TIGUAN_PQ35_EXH_GAS_T_1: 187.2
+  response: 7E8056210FB11FB
+- expected_values:
+    TIGUAN_PQ35_EXH_GAS_T_1: 213.2
+  response: 7E8056210FB12FF
+- expected_values:
+    TIGUAN_PQ35_EXH_GAS_T_1: 264.6
+  response: 7E8056210FB1501
+- expected_values:
+    TIGUAN_PQ35_EXH_GAS_T_1: 447.8
+  response: 7E8056210FB1C29

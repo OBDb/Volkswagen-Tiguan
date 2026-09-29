@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2210C2
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_EGR_DUTY: 0
+  response: 7E8056210C20000
+- expected_values:
+    TIGUAN_PQ35_EGR_DUTY: 4.09
+  response: 7E8056210C20199
+- expected_values:
+    TIGUAN_PQ35_EGR_DUTY: 14.98
+  response: 7E8056210C205DA
+- expected_values:
+    TIGUAN_PQ35_EGR_DUTY: 60.55
+  response: 7E8056210C217A7

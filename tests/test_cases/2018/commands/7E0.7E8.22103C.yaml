@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22103C
+test_cases:
+- expected_values:
+    TIGUAN_MQB_INT_MAN_P: 436
+  response: 7E80562103C01B4
+- expected_values:
+    TIGUAN_MQB_INT_MAN_P: 956
+  response: 7E80562103C03BC
+- expected_values:
+    TIGUAN_MQB_INT_MAN_P: 1023
+  response: 7E80562103C03FF
+- expected_values:
+    TIGUAN_MQB_INT_MAN_P: 1047
+  response: 7E80562103C0417
+- expected_values:
+    TIGUAN_MQB_INT_MAN_P: 2073
+  response: 7E80562103C0819

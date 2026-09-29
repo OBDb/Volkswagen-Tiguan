@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.223888
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_DRIVING_TIME_ECOLOGICAL: 95
+  response: 7E9046238885F

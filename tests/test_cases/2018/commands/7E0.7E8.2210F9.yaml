@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2210F9
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_DPF_OUT_T: 16.2
+  response: 7E8056210F90B4D
+- expected_values:
+    TIGUAN_PQ35_DPF_OUT_T: 59.8
+  response: 7E8056210F90D01
+- expected_values:
+    TIGUAN_PQ35_DPF_OUT_T: 108.8
+  response: 7E8056210F90EEB
+- expected_values:
+    TIGUAN_PQ35_DPF_OUT_T: 115.7
+  response: 7E8056210F90F30
+- expected_values:
+    TIGUAN_PQ35_DPF_OUT_T: 222.1
+  response: 7E8056210F91358

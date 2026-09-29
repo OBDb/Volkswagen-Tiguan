@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22388C
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_IGNITION_CYCLES: 6188
+  response: 7E90562388C2C18
+- expected_values:
+    TIGUAN_MQB_TCM_IGNITION_CYCLES: 6190
+  response: 7E90562388C2E18
+- expected_values:
+    TIGUAN_MQB_TCM_IGNITION_CYCLES: 6191
+  response: 7E90562388C2F18

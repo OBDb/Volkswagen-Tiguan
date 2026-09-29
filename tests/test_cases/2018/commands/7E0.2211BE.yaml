@@ -1,0 +1,17 @@
+command_id: 7E0.2211BE
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_OIL_T_2: 20.5
+  response: 7E8056211BE0B78
+- expected_values:
+    TIGUAN_PQ35_OIL_T_2: 32.7
+  response: 7E8056211BE0BF2
+- expected_values:
+    TIGUAN_PQ35_OIL_T_2: 34.9
+  response: 7E8056211BE0C08
+- expected_values:
+    TIGUAN_PQ35_OIL_T_2: 37.5
+  response: 7E8056211BE0C22
+- expected_values:
+    TIGUAN_PQ35_OIL_T_2: 65.1
+  response: 7E8056211BE0D36

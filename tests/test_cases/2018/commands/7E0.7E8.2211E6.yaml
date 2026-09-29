@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211E6
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_EXH_VOL: 0
+  response: 7E8056211E60000
+- expected_values:
+    TIGUAN_MQB_DPF_EXH_VOL: 126.8
+  response: 7E8056211E604F4
+- expected_values:
+    TIGUAN_MQB_DPF_EXH_VOL: 149.5
+  response: 7E8056211E605D7

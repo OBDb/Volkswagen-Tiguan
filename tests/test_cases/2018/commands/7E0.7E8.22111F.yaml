@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22111F
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_PREHEAT_T: 0
+  response: 7E80562111F0000
+- expected_values:
+    TIGUAN_PQ35_PREHEAT_T: 300
+  response: 7E80562111F0003

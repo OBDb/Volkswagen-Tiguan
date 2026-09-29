@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2214CD
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_POST_INJ_2_DURATION: 0
+  response: 7E8056214CD0000

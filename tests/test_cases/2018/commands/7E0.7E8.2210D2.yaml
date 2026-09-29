@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2210D2
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_INJ_3_RAIL_P_2: 0.02
+  response: 7E8056210D20190

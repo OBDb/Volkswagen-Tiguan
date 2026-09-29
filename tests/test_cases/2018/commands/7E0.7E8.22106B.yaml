@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22106B
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_LIM_TRQ: 73.4
+  response: 7E80562106B02DE
+- expected_values:
+    TIGUAN_PQ35_LIM_TRQ: 153.4
+  response: 7E80562106B05FE
+- expected_values:
+    TIGUAN_PQ35_LIM_TRQ: 154.3
+  response: 7E80562106B0607
+- expected_values:
+    TIGUAN_PQ35_LIM_TRQ: 183.6
+  response: 7E80562106B072C

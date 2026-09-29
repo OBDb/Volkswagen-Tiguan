@@ -1,0 +1,27 @@
+command_id: 7E0.22F469|din=03
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 0
+  response: |-
+    7E8100A62F4693F0001
+    7E821FF8D8B7F555555
+- expected_values:
+    TIGUAN_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 42
+  response: |-
+    7E8100A62F4693F2A29
+    7E8217D4C4D81555555
+- expected_values:
+    TIGUAN_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 42
+  response: |-
+    7E8100A62F4693F2A2C
+    7E82186878680555555
+- expected_values:
+    TIGUAN_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 56
+  response: |-
+    7E8100A62F4693F3838
+    7E82180000080555555
+- expected_values:
+    TIGUAN_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 99
+  response: |-
+    7E8100A62F4693F636A
+    7E8218943407B555555

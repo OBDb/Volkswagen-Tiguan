@@ -1,0 +1,8 @@
+command_id: 7E0.22269A|din=03
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_1: 11
+  response: 7E80562269A000B
+- expected_values:
+    TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_1: 78
+  response: 7E80562269A004E

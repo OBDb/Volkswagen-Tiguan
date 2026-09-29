@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22385A
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
+  response: 7E90562385A0000
+- expected_values:
+    TIGUAN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 8.42
+  response: 7E90562385A4A03
+- expected_values:
+    TIGUAN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
+  response: 7E90562385A91FC
