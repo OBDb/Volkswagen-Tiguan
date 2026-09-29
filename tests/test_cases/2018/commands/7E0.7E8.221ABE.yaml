@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221ABE
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_SOOT_MASS_MEASURED: 9.69
+  response: 7E805621ABE03C9
+- expected_values:
+    TIGUAN_MQB_DPF_SOOT_MASS_MEASURED: 10.02
+  response: 7E805621ABE03EA
+- expected_values:
+    TIGUAN_MQB_DPF_SOOT_MASS_MEASURED: 10.3
+  response: 7E805621ABE0406
+- expected_values:
+    TIGUAN_MQB_DPF_SOOT_MASS_MEASURED: 10.45
+  response: 7E805621ABE0415

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221644
+test_cases:
+- expected_values:
+    TIGUAN_LATERAL_ACCEL: 24.72
+  response: 7E80562164409A8

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221AD3
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_REGEN_LEVEL_I: 0
+  response: 7E804621AD300

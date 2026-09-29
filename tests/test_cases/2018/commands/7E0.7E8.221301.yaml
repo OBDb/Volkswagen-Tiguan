@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221301
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_LIM_SMOKE: 73.4
+  response: 7E80562130102DE
+- expected_values:
+    TIGUAN_PQ35_LIM_SMOKE: 81.7
+  response: '7E8056213010331'
+- expected_values:
+    TIGUAN_PQ35_LIM_SMOKE: 154
+  response: '7E8056213010604'
+- expected_values:
+    TIGUAN_PQ35_LIM_SMOKE: 178.4
+  response: 7E80562130106F8
+- expected_values:
+    TIGUAN_PQ35_LIM_SMOKE: 215.4
+  response: 7E805621301086A

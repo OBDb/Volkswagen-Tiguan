@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221AD7
+test_cases:
+- expected_values:
+    TIGUAN_MQB_EXH_TEMP_CTRL_AFTER_CAT_MODEL_ERR: 0
+  response: 7E805621AD70AAB

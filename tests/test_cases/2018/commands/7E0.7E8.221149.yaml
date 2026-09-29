@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221149
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_BOOST_P_CMD: 0
+  response: '7E8056211490000'
+- expected_values:
+    TIGUAN_PQ35_BOOST_P_CMD: 976
+  response: 7E80562114903D0
+- expected_values:
+    TIGUAN_PQ35_BOOST_P_CMD: 1010
+  response: 7E80562114903F2
+- expected_values:
+    TIGUAN_PQ35_BOOST_P_CMD: 1301
+  response: '7E8056211490515'

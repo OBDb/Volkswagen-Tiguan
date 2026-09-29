@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211C9
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_PMP_ADPT: -3.1
+  response: 7E8056211C9FFE1
+- expected_values:
+    TIGUAN_FUEL_PMP_ADPT: -2.6
+  response: 7E8056211C9FFE6

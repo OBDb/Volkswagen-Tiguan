@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221ACA
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_STATISTICS_ERROR_STATUS: 0
+  response: 7E804621ACA00

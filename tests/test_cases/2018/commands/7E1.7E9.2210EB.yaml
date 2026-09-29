@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2210EB
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_ADAPT_KISS_POINT_PART_1_ODO_READING: 165750
+  response: 7E9056210EBBF40

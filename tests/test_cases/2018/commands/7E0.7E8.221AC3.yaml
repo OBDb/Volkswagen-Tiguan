@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221AC3
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_TIME_SINCE_LAST_REGEN: 7.64453
+  response: 7E805621AC30F4A
+- expected_values:
+    TIGUAN_MQB_DPF_TIME_SINCE_LAST_REGEN: 7.66015
+  response: 7E805621AC30F52
+- expected_values:
+    TIGUAN_MQB_DPF_TIME_SINCE_LAST_REGEN: 7.97656
+  response: 7E805621AC30FF4

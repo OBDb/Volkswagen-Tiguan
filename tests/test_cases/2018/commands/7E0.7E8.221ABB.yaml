@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221ABB
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_CHARGE_LIMIT_SERVICE_REGEN_WHILE_DRIVING: 40
+  response: 7E805621ABB0FA0

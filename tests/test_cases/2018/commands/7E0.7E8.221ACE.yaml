@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221ACE
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_STATISTICS_REGEN_TIME_SLICE_NOT_POSS_IN_CHARGE_CYCLE: 0
+  response: 7E804621ACE00

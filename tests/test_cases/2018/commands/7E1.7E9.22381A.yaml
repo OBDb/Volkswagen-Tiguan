@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22381A
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_A_C_COMPRESSOR_SHUTDOWN_REQUIREMENT: 0
+  response: 7E90462381A00

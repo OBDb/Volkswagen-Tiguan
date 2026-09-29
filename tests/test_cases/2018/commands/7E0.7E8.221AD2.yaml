@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221AD2
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_REGEN_RELEASE_REQUIREMENT: 0
+  response: 7E804621AD200
+- expected_values:
+    TIGUAN_MQB_DPF_REGEN_RELEASE_REQUIREMENT: 4
+  response: 7E804621AD204
+- expected_values:
+    TIGUAN_MQB_DPF_REGEN_RELEASE_REQUIREMENT: 5
+  response: 7E804621AD205

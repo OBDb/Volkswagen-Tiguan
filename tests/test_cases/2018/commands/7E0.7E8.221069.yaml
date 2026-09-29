@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221069
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_ENG_START_QTY: 0
+  response: '7E8056210690000'
+- expected_values:
+    TIGUAN_PQ35_ENG_START_QTY: 13.55
+  response: 7E805621069054B
+- expected_values:
+    TIGUAN_PQ35_ENG_START_QTY: 13.6
+  response: '7E8056210690550'
+- expected_values:
+    TIGUAN_PQ35_ENG_START_QTY: 14.6
+  response: 7E80562106905B4
+- expected_values:
+    TIGUAN_PQ35_ENG_START_QTY: 17.86
+  response: 7E80562106906FA
+- expected_values:
+    TIGUAN_PQ35_ENG_START_QTY: 18.61
+  response: '7E8056210690745'

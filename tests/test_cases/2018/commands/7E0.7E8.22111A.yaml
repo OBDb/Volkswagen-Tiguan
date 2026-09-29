@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22111A
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_FUEL_FLOW: 0
+  response: 7E80562111A0000
+- expected_values:
+    TIGUAN_PQ35_FUEL_FLOW: 2.69
+  response: 7E80562111A010D
+- expected_values:
+    TIGUAN_PQ35_FUEL_FLOW: 4.98
+  response: 7E80562111A01F2

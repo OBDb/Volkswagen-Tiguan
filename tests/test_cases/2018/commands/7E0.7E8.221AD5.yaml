@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221AD5
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_INLET_LAMBDA_VALUE: 1.516
+  response: 7E805621AD505EC
+- expected_values:
+    TIGUAN_MQB_DPF_INLET_LAMBDA_VALUE: 1.795
+  response: 7E805621AD50703
+- expected_values:
+    TIGUAN_MQB_DPF_INLET_LAMBDA_VALUE: 32.767
+  response: 7E805621AD57FFF

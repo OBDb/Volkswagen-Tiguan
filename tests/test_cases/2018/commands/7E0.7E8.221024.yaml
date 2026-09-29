@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221024
+test_cases:
+- expected_values:
+    TIGUAN_MQB_AIR_MASS_1: 0
+  response: '7E8056210240000'
+- expected_values:
+    TIGUAN_MQB_AIR_MASS_1: 25.2
+  response: 7E80562102400FC
+- expected_values:
+    TIGUAN_MQB_AIR_MASS_1: 39.7
+  response: 7E805621024018D
+- expected_values:
+    TIGUAN_MQB_AIR_MASS_1: 112.4
+  response: '7E8056210240464'

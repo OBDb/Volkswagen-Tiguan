@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221111
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_RAD_COOL_T_CMD: 88
+  response: 7E8056211110E1B

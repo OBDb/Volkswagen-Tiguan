@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221063
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_1_CHAR_CURVE_SHIFT: -0.0392
+  response: 7E905621063D8FF
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_1_CHAR_CURVE_SHIFT: -0.0294
+  response: 7E905621063E2FF
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_1_CHAR_CURVE_SHIFT: -0.0098
+  response: 7E905621063F6FF

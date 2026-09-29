@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2216EC
+test_cases:
+- expected_values:
+    TIGUAN_CHG_P_REGULATOR_LO: 4.2
+  response: 7E8056216EC0015
+- expected_values:
+    TIGUAN_CHG_P_REGULATOR_LO: 12.2
+  response: 7E8056216EC003D
+- expected_values:
+    TIGUAN_CHG_P_REGULATOR_LO: 16.2
+  response: 7E8056216EC0051
+- expected_values:
+    TIGUAN_CHG_P_REGULATOR_LO: 20.2
+  response: 7E8056216EC0065

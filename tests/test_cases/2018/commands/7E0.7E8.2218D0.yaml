@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2218D0
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_BRAKE_P: 0
+  response: 7E8056218D00000
+- expected_values:
+    TIGUAN_PQ35_BRAKE_P: 20.48
+  response: 7E8056218D00800
+- expected_values:
+    TIGUAN_PQ35_BRAKE_P: 22.24
+  response: 7E8056218D008B0
+- expected_values:
+    TIGUAN_PQ35_BRAKE_P: 22.4
+  response: 7E8056218D008C0
+- expected_values:
+    TIGUAN_PQ35_BRAKE_P: 22.56
+  response: 7E8056218D008D0
+- expected_values:
+    TIGUAN_PQ35_BRAKE_P: 22.72
+  response: 7E8056218D008E0
+- expected_values:
+    TIGUAN_PQ35_BRAKE_P: 23.04
+  response: 7E8056218D00900

@@ -1,0 +1,17 @@
+command_id: 7E0.22163C|din=03
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_POST_INJ_1_QTY_SPEC: 0
+  response: 7E80562163C0000
+- expected_values:
+    TIGUAN_PQ35_POST_INJ_1_QTY_SPEC: 1.36
+  response: 7E80562163C0088
+- expected_values:
+    TIGUAN_PQ35_POST_INJ_1_QTY_SPEC: 1.57
+  response: 7E80562163C009D
+- expected_values:
+    TIGUAN_PQ35_POST_INJ_1_QTY_SPEC: 1.59
+  response: 7E80562163C009F
+- expected_values:
+    TIGUAN_PQ35_POST_INJ_1_QTY_SPEC: 1.62
+  response: 7E80562163C00A2

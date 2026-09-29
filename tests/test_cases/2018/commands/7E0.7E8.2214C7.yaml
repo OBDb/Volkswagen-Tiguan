@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2214C7
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_PRE_INJ_1_START: 4.54
+  response: 7E8056214C700E3
+- expected_values:
+    TIGUAN_PQ35_PRE_INJ_1_START: 10.04
+  response: 7E8056214C701F6
+- expected_values:
+    TIGUAN_PQ35_PRE_INJ_1_START: 10.66
+  response: 7E8056214C70215

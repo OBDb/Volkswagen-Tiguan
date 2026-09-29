@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.221110
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_WORKING_HOURS: 1552.5377
+  response: 7E907621110122CA810
+- expected_values:
+    TIGUAN_PQ35_WORKING_HOURS: 1552.35997
+  response: 7E9076211101BAFA710
+- expected_values:
+    TIGUAN_PQ35_WORKING_HOURS: 1552.65024
+  response: 7E907621110337BA810
+- expected_values:
+    TIGUAN_PQ35_WORKING_HOURS: 1552.34176
+  response: 7E9076211104CA2A710
+- expected_values:
+    TIGUAN_PQ35_WORKING_HOURS: 1552.37801
+  response: 7E907621110CABBA710

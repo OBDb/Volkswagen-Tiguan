@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221354
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_SOOT_IDX: 0
+  response: '7E8056213540000'
+- expected_values:
+    TIGUAN_PQ35_SOOT_IDX: 17
+  response: '7E8056213540011'

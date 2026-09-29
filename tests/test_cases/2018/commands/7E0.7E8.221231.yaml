@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221231
+test_cases:
+- expected_values:
+    TIGUAN_MIN_OIL_LEVEL: 261.82
+  response: 7E805621231FFAF
+- expected_values:
+    TIGUAN_MIN_OIL_LEVEL: 261.828
+  response: 7E805621231FFB1

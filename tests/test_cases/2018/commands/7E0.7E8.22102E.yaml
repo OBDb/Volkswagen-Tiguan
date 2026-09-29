@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22102E
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_ACCEL_PED_2: 366.4
+  response: 7E80562102E0728
+- expected_values:
+    TIGUAN_PQ35_ACCEL_PED_2: 508.2
+  response: 7E80562102E09ED
+- expected_values:
+    TIGUAN_PQ35_ACCEL_PED_2: 566.8
+  response: 7E80562102E0B12
+- expected_values:
+    TIGUAN_PQ35_ACCEL_PED_2: 1290.2
+  response: 7E80562102E1933

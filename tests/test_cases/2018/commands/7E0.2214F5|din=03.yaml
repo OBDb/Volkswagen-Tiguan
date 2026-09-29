@@ -1,0 +1,8 @@
+command_id: 7E0.2214F5|din=03
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_DIFF_P: 11
+  response: 7E8056214F5000B
+- expected_values:
+    TIGUAN_PQ35_DIFF_P: 79
+  response: 7E8056214F5004F

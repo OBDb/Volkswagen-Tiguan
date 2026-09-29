@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221129
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_COMPRESSION_TEST_CYL_1: 0
+  response: '7E8056211290000'

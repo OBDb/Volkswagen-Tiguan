@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2216EE
+test_cases:
+- expected_values:
+    TIGUAN_BOOST_P_ACTUATOR_CMD: 100
+  response: 7E8056216EE61A7

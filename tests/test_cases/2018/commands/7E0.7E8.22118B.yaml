@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22118B
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CAMS_EDGE_POS_4: 1257.125
+  response: 7E80562118B5092

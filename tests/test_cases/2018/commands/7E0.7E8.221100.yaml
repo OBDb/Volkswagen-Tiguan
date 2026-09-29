@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221100
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_INJ_DEV_CYL_3: 0
+  response: '7E8056211000000'
+- expected_values:
+    TIGUAN_PQ35_INJ_DEV_CYL_3: 0.01
+  response: '7E8056211000001'
+- expected_values:
+    TIGUAN_PQ35_INJ_DEV_CYL_3: -0.12
+  response: 7E805621100FFF4
+- expected_values:
+    TIGUAN_PQ35_INJ_DEV_CYL_3: -0.02
+  response: 7E805621100FFFE

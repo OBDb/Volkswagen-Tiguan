@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221AC9
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_STATISTICS_NUMBER_INTERRUPTED_REGENS: 0
+  response: 7E804621AC900
