@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F449
+test_cases:
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_POS_1: 14.11765
+  response: 7E80462F44924
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_POS_1: 18.82353
+  response: 7E80462F44930
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_POS_1: 30.58824
+  response: 7E80462F4494E
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_POS_1: 34.5098
+  response: 7E80462F44958
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_POS_1: 40.78431
+  response: 7E80462F44968

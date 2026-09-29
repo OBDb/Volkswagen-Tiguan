@@ -1,0 +1,8 @@
+command_id: 7E0.22162F|din=03
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 11
+  response: 7E80562162F000B
+- expected_values:
+    TIGUAN_MQB_DPF_AIR_P_SENSOR_RAW_VALUE: 98
+  response: 7E80562162F0062

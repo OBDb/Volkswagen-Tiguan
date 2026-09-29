@@ -1,0 +1,11 @@
+command_id: 712.77C.221812|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_MQB_SWA: 0.56
+  response: 77C06621812000401
+- expected_values:
+    TIGUAN_MQB_SWA: -34.19
+  response: 77C06621812FEEE01
+- expected_values:
+    TIGUAN_MQB_SWA: -9.94
+  response: 77C06621812FFB001

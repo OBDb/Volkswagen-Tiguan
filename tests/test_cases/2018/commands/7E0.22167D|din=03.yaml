@@ -1,0 +1,5 @@
+command_id: 7E0.22167D|din=03
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_POST_INJ_3_QTY_SPEC: 0
+  response: 7E80562167D0000

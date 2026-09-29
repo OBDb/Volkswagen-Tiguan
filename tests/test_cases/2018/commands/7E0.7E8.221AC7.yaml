@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221AC7
+test_cases:
+- expected_values:
+    TIGUAN_MQB_DPF_STATISTICS_EXHAUST_T_REGULATION_AVERAGE_VALUE: 0.43654
+  response: 7E804621AC71C

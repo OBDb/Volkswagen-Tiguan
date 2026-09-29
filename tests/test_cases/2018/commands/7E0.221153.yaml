@@ -1,0 +1,5 @@
+command_id: 7E0.221153
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_DPF_OIL_ASH_VOL: 0
+  response: '7E8056211530000'

@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2211A6
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_LIM_ACCEL_PED: 0
+  response: 7E8056211A60000
+- expected_values:
+    TIGUAN_PQ35_LIM_ACCEL_PED: 20.8
+  response: 7E8056211A600D0
+- expected_values:
+    TIGUAN_PQ35_LIM_ACCEL_PED: 31.3
+  response: 7E8056211A60139
+- expected_values:
+    TIGUAN_PQ35_LIM_ACCEL_PED: 36
+  response: 7E8056211A60168
+- expected_values:
+    TIGUAN_PQ35_LIM_ACCEL_PED: 37.7
+  response: 7E8056211A60179
+- expected_values:
+    TIGUAN_PQ35_LIM_ACCEL_PED: 40.7
+  response: 7E8056211A60197
+- expected_values:
+    TIGUAN_PQ35_LIM_ACCEL_PED: 47.4
+  response: 7E8056211A601DA
+- expected_values:
+    TIGUAN_PQ35_LIM_ACCEL_PED: 51.9
+  response: 7E8056211A60207
+- expected_values:
+    TIGUAN_PQ35_LIM_ACCEL_PED: 108.5
+  response: 7E8056211A6043D

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.220327
+test_cases:
+- expected_values:
+    TIGUAN_TRANS_GEAR_RAT: 0
+  response: '7E90462032700'

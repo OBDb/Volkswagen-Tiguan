@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2210E2
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_WEAR_IDX: 0
+  response: 7E8056210E20000
+- expected_values:
+    TIGUAN_PQ35_WEAR_IDX: 1
+  response: 7E8056210E20001
+- expected_values:
+    TIGUAN_PQ35_WEAR_IDX: 6
+  response: 7E8056210E20006
+- expected_values:
+    TIGUAN_PQ35_WEAR_IDX: 8
+  response: 7E8056210E20008
+- expected_values:
+    TIGUAN_PQ35_WEAR_IDX: 9
+  response: 7E8056210E20009
+- expected_values:
+    TIGUAN_PQ35_WEAR_IDX: 10
+  response: 7E8056210E2000A
+- expected_values:
+    TIGUAN_PQ35_WEAR_IDX: 12
+  response: 7E8056210E2000C
+- expected_values:
+    TIGUAN_PQ35_WEAR_IDX: 13
+  response: 7E8056210E2000D
+- expected_values:
+    TIGUAN_PQ35_WEAR_IDX: 15
+  response: 7E8056210E2000F

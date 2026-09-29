@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221057
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CHG_P: 4.786
+  response: 7E80562105712B2
+- expected_values:
+    TIGUAN_PQ35_CHG_P: 4.881
+  response: '7E8056210571311'
+- expected_values:
+    TIGUAN_PQ35_CHG_P: 5.84
+  response: 7E80562105716D0
+- expected_values:
+    TIGUAN_PQ35_CHG_P: 7.237
+  response: 7E8056210571C45

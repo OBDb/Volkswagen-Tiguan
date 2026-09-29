@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221047
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_ENG_TRQ: 0
+  response: '7E8056210470000'
+- expected_values:
+    TIGUAN_PQ35_ENG_TRQ: 50.7
+  response: 7E80562104701FB
+- expected_values:
+    TIGUAN_PQ35_ENG_TRQ: 133.1
+  response: '7E8056210470533'

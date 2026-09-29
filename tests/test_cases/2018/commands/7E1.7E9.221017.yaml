@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.221017
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_ROAD_RESISTANCE: -0.226
+  response: 7E9046210177E
+- expected_values:
+    TIGUAN_PQ35_ROAD_RESISTANCE: 1.517
+  response: '7E90462101785'
+- expected_values:
+    TIGUAN_PQ35_ROAD_RESISTANCE: 1.766
+  response: '7E90462101786'
+- expected_values:
+    TIGUAN_PQ35_ROAD_RESISTANCE: 3.758
+  response: 7E9046210178E

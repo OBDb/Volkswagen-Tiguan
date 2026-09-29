@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22162D
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_FUEL_T: 19.4
+  response: 7E80562162D0B6D
+- expected_values:
+    TIGUAN_PQ35_FUEL_T: 29.2
+  response: 7E80562162D0BCF

@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22100C
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE: 105
+  response: 7E90562100C3408
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE: 37
+  response: 7E90562100CE402
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE: 114
+  response: 7E90562100CE808
+- expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE: -1
+  response: 7E90562100CECFF

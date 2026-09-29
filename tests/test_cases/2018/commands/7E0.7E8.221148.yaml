@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221148
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_FUEL_METER: 9.65
+  response: 7E80562114803C5
+- expected_values:
+    TIGUAN_PQ35_FUEL_METER: 31
+  response: 7E8056211480C1C
+- expected_values:
+    TIGUAN_PQ35_FUEL_METER: 35.89
+  response: 7E8056211480E05
+- expected_values:
+    TIGUAN_PQ35_FUEL_METER: 40.64
+  response: 7E8056211480FE0
+- expected_values:
+    TIGUAN_PQ35_FUEL_METER: 49.55
+  response: 7E805621148135B

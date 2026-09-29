@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221079
+test_cases:
+- expected_values:
+    TIGUAN_ANALYSIS_CLU_2_MAX_T: 149
+  response: '7E9056210799500'

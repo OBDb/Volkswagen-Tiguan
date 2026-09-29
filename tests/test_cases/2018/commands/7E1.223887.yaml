@@ -1,0 +1,23 @@
+command_id: 7E1.223887
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_ODO_2: 59305
+  response: 7E9076238879A0C0900
+- expected_values:
+    TIGUAN_MQB_TCM_ODO_2: 59305.4
+  response: 7E9076238879E0C0900
+- expected_values:
+    TIGUAN_MQB_TCM_ODO_2: 59306.1
+  response: 7E907623887A50C0900
+- expected_values:
+    TIGUAN_MQB_TCM_ODO_2: 59306.5
+  response: 7E907623887A90C0900
+- expected_values:
+    TIGUAN_MQB_TCM_ODO_2: 59307.1
+  response: 7E907623887AF0C0900
+- expected_values:
+    TIGUAN_MQB_TCM_ODO_2: 59309.4
+  response: 7E907623887C60C0900
+- expected_values:
+    TIGUAN_MQB_TCM_ODO_2: 59313.2
+  response: 7E907623887EC0C0900

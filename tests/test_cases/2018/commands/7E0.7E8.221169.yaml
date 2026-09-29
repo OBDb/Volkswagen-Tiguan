@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221169
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_FUEL_P_HIGH: 25900
+  response: '7E8056211690103'
+- expected_values:
+    TIGUAN_PQ35_FUEL_P_HIGH: 356600
+  response: 7E8056211690DEE
+- expected_values:
+    TIGUAN_PQ35_FUEL_P_HIGH: 716800
+  response: 7E8056211691C00
+- expected_values:
+    TIGUAN_PQ35_FUEL_P_HIGH: 942700
+  response: 7E80562116924D3

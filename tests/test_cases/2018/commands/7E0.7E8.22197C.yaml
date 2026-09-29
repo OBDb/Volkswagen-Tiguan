@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22197C
+test_cases:
+- expected_values:
+    TIGUAN_MQB_FUEL_FILTER_WATER_LEVEL_SENSOR_1: 0
+  response: 7E80462197C00

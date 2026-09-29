@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2216F4
+test_cases:
+- expected_values:
+    TIGUAN_PISTON_COOLING: 0
+  response: 7E8056216F40000

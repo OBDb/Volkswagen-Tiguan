@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.223803
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_BRAKE_P: 0
+  response: '7E9056238030000'
+- expected_values:
+    TIGUAN_MQB_TCM_BRAKE_P: 3.6
+  response: '7E9056238036801'
+- expected_values:
+    TIGUAN_MQB_TCM_BRAKE_P: -0.3
+  response: 7E905623803E2FF

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221813
+test_cases:
+- expected_values:
+    TIGUAN_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 7.5
+  response: 7E805621813004B
+- expected_values:
+    TIGUAN_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 48.6
+  response: 7E80562181301E6
+- expected_values:
+    TIGUAN_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 52.1
+  response: '7E8056218130209'

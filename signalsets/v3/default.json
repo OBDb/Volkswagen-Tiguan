@@ -77,11 +77,11 @@
   "signals": [
     {"id": "TIGUAN_PQ35_HAL_DUTY", "path": "Drivetrain", "fmt": { "len": 8, "max": 100, "mul": 100.39, "div": 255, "unit": "percent" }, "name": "All-wheel drive duty cycle"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A00"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A00"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_GEN_TRG_V", "path": "Battery", "fmt": { "len": 8, "max": 36.1, "min": 10.6, "div": 10, "add": 10.6, "unit": "volts" }, "name": "Generator target voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A06"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A06"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_12V_BAT_CAP", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "ampereHours" }, "name": "12V battery capacity"}
   ]},
@@ -93,7 +93,7 @@
   "signals": [
     {"id": "TIGUAN_BAT_I", "path": "Battery", "fmt": { "len": 32, "max": 2147483, "min": -2147483.648, "div": 1000, "sign": true, "unit": "amps" }, "name": "Battery current"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0A"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0A"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_BAT_SEN_T", "path": "Battery", "fmt": {          "len": 8,  "max": 215,      "min": -40, "add": -40, "unit": "celsius"    }, "name": "Battery sensor temperature"},
     {"id": "TIGUAN_MQB_ODO",       "path": "Trips",   "fmt": {"bix": 8, "len": 24, "max": 16777175,                         "unit": "kilometers" }, "name": "Odometer",                   "suggestedMetric": "odometer"}
@@ -118,15 +118,15 @@
   "signals": [
     {"id": "TIGUAN_BAT_V_AT_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Battery voltage at rest"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A1C"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A1C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 6562.5, "div": 10, "add": 9, "unit": "amps" }, "name": "Generator current"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_BAT_INTERNAL_RES_RAW", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "unknown" }, "name": "Battery internal resistance, raw"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A61"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A61"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_BAT_TOT_CHG", "path": "Battery", "fmt": {           "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Battery total charge"},
     {"id": "TIGUAN_MQB_BAT_TOT_DIS", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Battery total discharge"}
@@ -139,15 +139,15 @@
   "signals": [
     {"id": "TIGUAN_STEER_WHL_T", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Steering wheel temperature"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2024], "from": 2026 },
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_STEER_WHL_TQ_SENS_1", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 1"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1806"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1806"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_STEER_WHL_TQ_SENS_2", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 2"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1812"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2026 },
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1812"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_MQB_SWA", "path": "Tires", "fmt": { "len": 16, "max": 4095.935, "min": -4095.94, "div": 8, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
@@ -167,7 +167,7 @@
   "signals": [
     {"id": "TIGUAN_RR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1804"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1804"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_MQB_SWA_ALT", "path": "Tires", "fmt": {"bix": 80, "len": 16, "max": 14335.562, "min": -14336, "mul": 0.4375, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
@@ -176,7 +176,7 @@
     {"id": "TIGUAN_HDC_ACTIVE",  "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1,   "unit": "offon"   }, "name": "Hill descent control"},
     {"id": "TIGUAN_HDC_INCLINE", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "percent" }, "name": "Hill descent control, incline"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180A"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180A"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_MQB_HAL_CLUTCH_OPEN",  "path": "Transmission", "fmt": {"bix": 2,  "len": 1, "max": 1,           "unit": "offon" }, "name": "All-wheel drive clutch fully open"},
     {"id": "TIGUAN_MQB_HAL_CLUTCH_BLOCK", "path": "Transmission", "fmt": {"bix": 15, "len": 1, "max": 1, "mul": 8, "unit": "offon" }, "name": "All-wheel drive clutch blockage degree"}
@@ -245,11 +245,11 @@
   "signals": [
     {"id": "TIGUAN_DASH_AMBIENT_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "202F"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2022], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "202F"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 197, "min": -58, "add": -58, "unit": "celsius" }, "name": "Oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2203"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2022], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2203"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_ODO", "path": "Trips", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -257,7 +257,7 @@
   "signals": [
     {"id": "TIGUAN_PQ35_FUEL_LVL", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2022, 2024], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_OUTSIDE_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
@@ -281,7 +281,7 @@
   "signals": [
     {"id": "TIGUAN_FLI_714", "path": "Fuel", "fmt": { "len": 16, "max": 8191.875, "div": 8, "unit": "liters" }, "name": "Fuel level input", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "22B8"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2024], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "22B8"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_ODO_MILEAGE_HR", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer, mileage, HR"}
   ]},
@@ -289,23 +289,23 @@
   "signals": [
     {"id": "TIGUAN_IAT", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2353"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2353"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CRASH_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2354"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2354"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CRASH_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2355"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2355"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CRASH_PASS", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2356"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2356"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_CRASH_REAR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2357"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2357"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Rollovers"}
   ]},
@@ -333,7 +333,7 @@
   "signals": [
     {"id": "TIGUAN_AAT", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260A"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2022, 2024], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260A"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_OUTSIDE_T_SYSTEM", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature, system calculated"}
   ]},
@@ -357,19 +357,19 @@
   "signals": [
     {"id": "TIGUAN_CABIN_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261E"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2022], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261E"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_MQB_RECIRC_FLAP_ACT", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap actual position"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261F"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261F"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_MQB_RECIRC_FLAP_TRG", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap target position"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2620"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2022], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2620"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_MQB_RECIRC_FLAP_FRESH_THR", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap fresh air threshold"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2621"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2022], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2621"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_MQB_RECIRC_FLAP_THR", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap threshold"}
   ]},
@@ -389,7 +389,7 @@
   "signals": [
     {"id": "TIGUAN_CLIMATE_AIR_POLUTION_LVL", "path": "Engine", "fmt": { "len": 8, "max": 12.7, "min": -12.8, "div": 10, "sign": true, "unit": "scalar" }, "name": "Air pollution level"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "27C4"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "27C4"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_WINDSHIELD_T",   "path": "Climate", "fmt": {           "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576,           "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"},
     {"id": "TIGUAN_CABIN_HUMIDITY", "path": "Climate", "fmt": {"bix": 32, "len": 8, "max": 100,                                "div": 2,               "unit": "percent" }, "name": "Cabin humidity"}
@@ -415,12 +415,12 @@
         }}
     }
   ]},
-{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "2431"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2026 },
+{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "2431"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_GPS_SATS_VISIBLE", "path": "GPS", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, visible"},
     {"id": "TIGUAN_GPS_SATS_TRACKED", "path": "GPS", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, tracked"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "100C"}, "freq": 30,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "100C"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_FUEL_LVL_2", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level variant"}
   ]},
@@ -428,11 +428,11 @@
   "signals": [
     {"id": "TIGUAN_DPF_SFC_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Diesel particulate filter surface temperature"}
   ]},
-{ "hdr": "7E0", "din": "03", "cmd": {"22": "105C"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "105C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEN_LOAD", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Generator load"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "105E"}, "freq": 5,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "105E"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_BAT_V_2", "path": "Battery", "fmt": { "len": 16, "max": 1310.7, "div": 50, "unit": "volts" }, "name": "Battery voltage variant"}
   ]},
@@ -452,7 +452,7 @@
   "signals": [
     {"id": "TIGUAN_PQ35_SOOT_MASS_CALC", "path": "Engine.DPF", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Soot mass calculated"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "1151"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "1151"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MISFIRES__CYL__4", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"}
   ]},
@@ -460,7 +460,7 @@
   "signals": [
     {"id": "TIGUAN_MISFIRES__CYL__2", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1153"}, "freq": 30,
+{ "hdr": "7E0", "cmd": {"22": "1153"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_DPF_OIL_ASH_VOL", "path": "Engine.DPF", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "liters" }, "name": "Diesel particulate filter oil ash volume"}
   ]},
@@ -476,7 +476,7 @@
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_LVL_CRIT", "path": "Engine", "fmt": { "len": 16, "max": 131.068, "min": -131.072, "div": 250, "sign": true, "unit": "millimeters" }, "name": "Critical engine oil level"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "11BE"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "11BE"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Oil temperature variant"}
   ]},
@@ -484,11 +484,11 @@
   "signals": [
     {"id": "TIGUAN_PQ35_FIELD_LIM", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Field limit value"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "123C"}, "freq": 1,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "123C"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_DYN_LAST", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Oil last dynamic measurement"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "123F"}, "freq": 30,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "123F"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_DYN_AVG", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Oil dynamic average measurement"}
   ]},
@@ -500,35 +500,35 @@
   "signals": [
     {"id": "TIGUAN_PQ35_REGEN_DUR", "path": "Engine.DPF", "fmt": { "len": 32, "max": 4294967295, "unit": "minutes" }, "name": "Regeneration duration"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "14F5"}, "freq": 1,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "14F5"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_DIFF_P", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Differential pressure"}
   ]},
-{ "hdr": "7E0", "din": "03", "cmd": {"22": "15B8"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "15B8"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_DIFF_P_DYNAMIC_OFFSET", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter differential pressure, dynamic offset"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "1628"}, "freq": 5,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "1628"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_INTERCOOLER_AIR_OUTPUT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Intercooler air output temperature"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "162F"}, "freq": 1,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "162F"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_AIR_P_SENSOR_RAW_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter air pressure sensor, raw"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "163B"}, "freq": 1,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "163B"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_POST_INJ_2_QTY_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Post injection 2: quantity specified value"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "163C"}, "freq": 1,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "163C"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_POST_INJ_1_QTY_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Post injection 1: quantity specified value"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "167D"}, "freq": 1,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "167D"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_POST_INJ_3_QTY_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Post injection 3: quantity specified value"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "16A9"}, "freq": 30,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "16A9"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, alternate", "suggestedMetric": "odometer"}
   ]},
@@ -536,11 +536,11 @@
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_ASH_RESIDUE", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Oil ash residue"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "269A"}, "freq": 1,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "269A"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_1", "path": "Engine.DPF", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter diff pressure: raw value 1"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "269B"}, "freq": 1,
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "269B"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_2", "path": "Engine.DPF", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter diff pressure: raw value 2"}
   ]},
@@ -548,7 +548,7 @@
   "signals": [
     {"id": "TIGUAN_PQ35_HIGH_P_EGR_CLOSING_VAR_2", "path": "Engine.EGR", "fmt": { "len": 8, "max": 100, "sign": true, "unit": "percent" }, "name": "High press EGR closing v2"}
   ]},
-{ "hdr": "7E0", "din": "03", "cmd": {"22": "F469"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "F469"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_HIGH_P_EGR_CLOSING_VAR_1", "path": "Engine.EGR", "fmt": {"bix": 8, "len": 8, "max": 100, "sign": true, "unit": "percent" }, "name": "High press EGR closing v1"}
   ]},
@@ -604,7 +604,7 @@
   "signals": [
     {"id": "TIGUAN_PQ35_CAMS_START", "path": "Engine", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Camshaft start position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "100D"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "100D"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "scalar" }, "name": "Current gear"}
   ]},
@@ -612,7 +612,7 @@
   "signals": [
     {"id": "TIGUAN_ENGINE_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_A_C_REFRIGERANT_PRES", "path": "Engine", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "unknown" }, "name": "A/C refrigerant pressure"}
   ]},
@@ -620,7 +620,7 @@
   "signals": [
     {"id": "TIGUAN_CLT_FAN_REQ_AC", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -399.9989, "mul": 12207, "div": 1000000, "sign": true, "unit": "percent" }, "name": "Coolant fan, requested by A/C"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "101A"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "101A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_A_C_COMPRESSOR_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "A/C compressor torque"}
   ]},
@@ -632,15 +632,15 @@
   "signals": [
     {"id": "TIGUAN_GENERATOR_LOAD_SIG", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Generator load signal"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1024"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1024"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_AIR_MASS_1", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Air mass meter 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1026"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1026"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_MAF_1_B1_RAW", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Mass airflow sensor 1 bank 1 raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "102A"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "102A"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_ACCEL_PEDAL_SENS_1_V", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Accelerator pedal, sensor 1 voltage"}
   ]},
@@ -648,23 +648,23 @@
   "signals": [
     {"id": "TIGUAN_ACCEL_PEDAL_SENS_2_V", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Accelerator pedal, sensor 2 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "102E"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "102E"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_ACCEL_PED_2", "path": "Movement", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Accelerator pedal sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "103C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "103C"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_INT_MAN_P", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Intake manifold pressure calculated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1047"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1047"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_ENG_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "104B"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "104B"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_AC_COMP_TRQ", "path": "Climate", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Air conditioning compressor torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1057"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1057"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_CHG_P", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Boost pressure"}
   ]},
@@ -684,15 +684,15 @@
   "signals": [
     {"id": "TIGUAN_ENG_OUTLET_ECT_CALC", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine outlet coolant temperature calculated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1065"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1065"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_CYL_HEAD_T", "path": "Engine", "fmt": { "len": 16, "max": 11336.3, "min": -460, "mul": 9, "div": 50, "add": -460, "unit": "fahrenheit" }, "name": "Cylinder head temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1069"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1069"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_ENG_START_QTY", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Engine start quantity"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "106B"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "106B"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_LIM_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque limit"}
   ]},
@@ -708,23 +708,23 @@
   "signals": [
     {"id": "TIGUAN_REQ_TQ_AMOUNT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Requested torque, amount for auxiliary units"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10C2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10C2"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_EGR_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Exhaust gas recirculation valve duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D0"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D0"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_1_RAIL_P_1", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 1 rail pressure calibration point 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D1"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D1"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_3_RAIL_P_1", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 3 rail pressure calibration point 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D2"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D2"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_3_RAIL_P_2", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 3 rail pressure calibration point 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D3"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D3"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_2_RAIL_P_1", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 2 rail pressure calibration point 1"}
   ]},
@@ -732,31 +732,31 @@
   "signals": [
     {"id": "TIGUAN_LAMBDA_ACT", "path": "Engine", "fmt": { "len": 16, "max": 7.9997, "min": -7.9999, "mul": 12207, "div": 50000000, "sign": true, "unit": "scalar" }, "name": "Lambda, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D6"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D6"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_1_RAIL_P_2", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 1 rail pressure calibration point 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D8"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D8"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_4_RAIL_P_2", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 4 rail pressure calibration point 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D9"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D9"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_2_RAIL_P_2", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 2 rail pressure calibration point 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10DC"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10DC"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_1_RAIL_P_3", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 1 rail pressure calibration point 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10DD"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10DD"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_3_RAIL_P_3", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 3 rail pressure calibration point 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10DE"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10DE"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_4_RAIL_P_3", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 4 rail pressure calibration point 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10DF"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10DF"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_2_RAIL_P_3", "path": "Engine", "fmt": { "len": 16, "max": 1.63, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 2 rail pressure calibration point 3"}
   ]},
@@ -764,23 +764,23 @@
   "signals": [
     {"id": "TIGUAN_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E2"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10E2"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_WEAR_IDX", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "meters" }, "name": "Wear index"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E3"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10E3"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_TRQ_RED_EXH_T", "path": "Engine", "fmt": { "len": 16, "max": 3.276, "min": -3.2768, "div": 10000, "sign": true, "unit": "scalar" }, "name": "Torque reduction due to exhaust temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E4"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10E4"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_REG_FACTOR", "path": "Engine", "fmt": { "len": 16, "max": 3.276, "div": 10000, "sign": true, "unit": "percent" }, "name": "Regulation factor total"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "10E5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "10E5"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_IGNITION_TIMING_ANGLE_RETARD_C4", "path": "Engine", "fmt": { "len": 16, "max": 24575.25, "min": -24576, "mul": 75, "div": 100, "sign": true, "unit": "degrees" }, "name": "Ignition timing angle retard, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10EA"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10EA"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_OPEN_CAM_SHFT_ANG", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Open cam shaft angle at quantity control valve"}
   ]},
@@ -788,39 +788,39 @@
   "signals": [
     {"id": "TIGUAN_CRANK_ROT_ANG", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Crankshaft rotation angle when closing the quantity control valve"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10EC"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10EC"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_VLV_TIM_DIFF_ACT_SET", "path": "Engine", "fmt": { "len": 16, "max": 511.9843, "min": -512, "div": 64, "sign": true, "unit": "degrees" }, "name": "Valve timing, the difference between the, actual and the set angle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10F1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10F1"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_DPF_DIFF_P_OFFSET", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter differential pressure offset"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10F9"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10F9"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_DPF_OUT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Diesel particulate filter outlet temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10FB"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10FB"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_EXH_GAS_T_1", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10FF"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10FF"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_DEV_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1100"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1100"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_DEV_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1104"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1104"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_DEV_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1105"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1105"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_INJ_DEV_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1111"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1111"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_RAD_COOL_T_CMD", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Radiator outlet coolant temperature commanded"}
   ]},
@@ -828,15 +828,15 @@
   "signals": [
     {"id": "TIGUAN_PQ35_COOL_FAN_2_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Coolant fan 2 duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1116"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1116"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_COOL_FAN_1_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Coolant fan 1 duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "111A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "111A"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_FUEL_FLOW", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "liters" }, "name": "Fuel flow rate", "suggestedMetric": "fuelRate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "111F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "111F"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_PREHEAT_T", "path": "Engine", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "milliseconds" }, "name": "Glow plug preheat time"}
   ]},
@@ -852,15 +852,15 @@
   "signals": [
     {"id": "TIGUAN_CAM_ADPT_EXH_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation, exhaust bank 1, phase position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1129"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1129"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_COMPRESSION_TEST_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Compression test cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "112A"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112A"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_COMP_TEST_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Compression test cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "112B"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112B"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_COMP_TEST_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Compression test cylinder 3"}
   ]},
@@ -884,7 +884,7 @@
   "signals": [
     {"id": "TIGUAN_COOLANT_FAN_1_ACTIVATION", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 10000, "sign": true, "unit": "percent" }, "name": "Coolant fan 1, activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1131"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1131"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_POST_INJ_3_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Post-injection 3 start position"}
   ]},
@@ -940,7 +940,7 @@
   "signals": [
     {"id": "TIGUAN_SEG_AD_MMV_ER_L_2", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_L, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1141"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1141"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_SEG_AD_MMV_ER_L_3", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_L, 3"}
   ]},
@@ -952,11 +952,11 @@
   "signals": [
     {"id": "TIGUAN_MISFIRES_1000REV_C1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires / 1000 revolutions, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1148"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1148"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_FUEL_METER", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Fuel metering valve position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1149"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1149"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_BOOST_P_CMD", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Boost pressure commanded"}
   ]},
@@ -980,7 +980,7 @@
   "signals": [
     {"id": "TIGUAN_PARTICLE_FLT_FIELD", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Particle filter, field regeneration request status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115C"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115C"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_SRV_REGEN_STAT", "path": "Engine.DPF", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Service regeneration status"}
   ]},
@@ -988,15 +988,15 @@
   "signals": [
     {"id": "TIGUAN_ODO_HD", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "meters" }, "name": "Odometer, high resolution", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1161"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1161"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_ENGINE_RPM_AT_IDLE_REQUIRED", "path": "Movement", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Engine RPM at idle required"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1169"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1169"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_FUEL_P_HIGH", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "High pressure fuel pressure actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "116A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "116A"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_FUEL_P_HIGH_CMD", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "High pressure fuel pressure commanded"}
   ]},
@@ -1004,15 +1004,15 @@
   "signals": [
     {"id": "TIGUAN_INTEGRATED_MASS_AIR", "path": "Engine", "fmt": { "len": 16, "max": 23301.6246, "mul": 8889, "div": 25000, "unit": "unknown" }, "name": "Integrated mass of air since engine start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "117D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "117D"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_N_32", "path": "Engine", "fmt": { "len": 8, "max": 8160, "mul": 32, "unit": "rpm" }, "name": "N_32"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "117E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "117E"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_TURB_ACT_1_B1", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Turbine actuator 1 bank 1 activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1184"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1184"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PSN_EDGE_REL_AD_CAM_1", "path": "Engine", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "degrees" }, "name": "PSN_EDGE_REL_AD_CAM_SAVE_EX_1"}
   ]},
@@ -1036,7 +1036,7 @@
   "signals": [
     {"id": "TIGUAN_PQ35_CAMS_EDGE_POS_3", "path": "Engine", "fmt": { "len": 16, "max": 4063.937, "min": -32, "div": 16, "add": -32, "unit": "degrees" }, "name": "Intake camshaft signal edge position adapted edge 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "118B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "118B"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_CAMS_EDGE_POS_4", "path": "Engine", "fmt": { "len": 16, "max": 4063.937, "min": -32, "div": 16, "add": -32, "unit": "degrees" }, "name": "Intake camshaft signal edge position adapted edge 4"}
   ]},
@@ -1072,7 +1072,7 @@
   "signals": [
     {"id": "TIGUAN_FUEL_PMP_CMD_DUTY", "path": "Fuel", "fmt": { "len": 16, "max": 99.998, "mul": 0.0015258743, "unit": "percent" }, "name": "Fuel pump, commanded duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11A6"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A6"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_LIM_ACCEL_PED", "path": "Movement", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Accelerator pedal limit"}
   ]},
@@ -1080,15 +1080,15 @@
   "signals": [
     {"id": "TIGUAN_INT_MODEL_AIR_MASS", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Intake model air mass flow filtered value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AC"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AC"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_MAF_THROUGH_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Mass air flow through throttle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AD"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AD"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_MAF_CMD", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Mass air flow, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11B2"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11B2"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_DPF_IN_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Diesel particulate filter inlet temperature"}
   ]},
@@ -1096,7 +1096,7 @@
   "signals": [
     {"id": "TIGUAN_AIR_LEAKAGE", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Air leakage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11B9"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11B9"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_OIL_P_VLV_SWITCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil pressure valve switch, control"}
   ]},
@@ -1108,11 +1108,11 @@
   "signals": [
     {"id": "TIGUAN_OIL_CRIT", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level, critical"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BC"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_LVL", "path": "Engine", "fmt": { "len": 16, "max": 131.068, "min": -131.072, "div": 250, "sign": true, "unit": "millimeters" }, "name": "Engine oil level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BF"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BF"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_FUEL_P_REG", "path": "Fuel", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Fuel pressure regulator position"}
   ]},
@@ -1128,11 +1128,11 @@
   "signals": [
     {"id": "TIGUAN_OIL_MIN", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level, min"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11C8"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11C8"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_LOW_FUEL_P_ACT", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilopascal" }, "name": "Low fuel pressure, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11C9"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11C9"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_FUEL_PMP_ADPT", "path": "Fuel", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "kilopascal" }, "name": "Fuel pump adaptation"}
   ]},
@@ -1140,7 +1140,7 @@
   "signals": [
     {"id": "TIGUAN_BOOST_REGULATOR_FEEDBACK", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Boost regulator feedback"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11CD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CD"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_TCO_1_SYS", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "TCO_1_SYS"}
   ]},
@@ -1148,7 +1148,7 @@
   "signals": [
     {"id": "TIGUAN_LOW_FUEL_P_CMD", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilopascal" }, "name": "Low fuel pressure, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11D0"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D0"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_TCO_1_ST", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "TCO_1_ST"}
   ]},
@@ -1168,7 +1168,7 @@
   "signals": [
     {"id": "TIGUAN_HIGH_FUEL_P", "path": "Fuel", "fmt": { "len": 16, "max": 16.3835, "min": -16.384, "div": 2000, "sign": true, "unit": "unknown" }, "name": "High fuel pressure, regulation error"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D7"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D7"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_HIGH_FUEL_P_CMD", "path": "Fuel", "fmt": { "len": 16, "max": 32.7675, "div": 2000, "unit": "unknown" }, "name": "High fuel pressure, commanded"}
   ]},
@@ -1192,7 +1192,7 @@
   "signals": [
     {"id": "TIGUAN_CMD_CRANK_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Commanded crankshaft torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11E6"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11E6"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_EXH_VOL", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "scalar" }, "name": "Diesel particulate filter exhaust gas flow volume"}
   ]},
@@ -1208,19 +1208,19 @@
   "signals": [
     {"id": "TIGUAN_BOOST_P_ACT", "path": "Engine", "fmt": { "len": 16, "max": 5119.9218, "mul": 5, "div": 64, "unit": "unknown" }, "name": "Boost pressure, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F1"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F1"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_TRANS_IN_SPD", "path": "Movement", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Transmission input shaft speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11F2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F2"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_MAIN_INJ_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Main injection start position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F3"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F3"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_POST_INJ_2_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Post-injection 2 start position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11F4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F4"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_POST_INJ_1_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Post-injection 1 start position"}
   ]},
@@ -1228,7 +1228,7 @@
   "signals": [
     {"id": "TIGUAN_EA888B_BOOST_P_CTRL_0", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2021 },
   "signals": [
     {"id": "TIGUAN_EA888B_BOOST_P_CTRL_1", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 1"}
   ]},
@@ -1280,7 +1280,7 @@
   "signals": [
     {"id": "TIGUAN_HIGH_FUEL_P_CONTROL_DEVIATION", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "High fuel pressure control deviation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1221"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1221"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_ACCEL_PED_1", "path": "Movement", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Accelerator pedal sensor 1"}
   ]},
@@ -1304,7 +1304,7 @@
   "signals": [
     {"id": "TIGUAN_MAX_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Maximum oil level for the service interval"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1231"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1231"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_MIN_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Minimum oil level for the service interval"}
   ]},
@@ -1348,15 +1348,15 @@
   "signals": [
     {"id": "TIGUAN_PQ35_THROT_VALVE_ADAPT", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Throttle valve adapter position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "12FE"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "12FE"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_CAMS_ADAPT_PHASE_1", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Intake camshaft adaptation unit 1 phase length"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1301"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1301"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_LIM_SMOKE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Smoke limit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1313"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1313"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_EGR_VALVE_2_B1_FLOW", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Exhaust gas recirculation valve 2 bank 1 mass flow"}
   ]},
@@ -1364,7 +1364,7 @@
   "signals": [
     {"id": "TIGUAN_PQ35_MEAN_AIR_MASS", "path": "Engine", "fmt": { "len": 16, "max": 2047.968, "div": 32, "unit": "unknown" }, "name": "Mean engine air mass"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "133B"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "133B"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_CAMS_SPD", "path": "Movement", "fmt": { "len": 16, "max": 9830.1, "min": -9830.4, "mul": 0.3, "sign": true, "unit": "rpm" }, "name": "Camshaft speed"}
   ]},
@@ -1380,7 +1380,7 @@
   "signals": [
     {"id": "TIGUAN_PQ35_CAMS_END", "path": "Engine", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Camshaft end position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1354"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1354"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_SOOT_IDX", "path": "Engine.DPF", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "meters" }, "name": "Soot index"}
   ]},
@@ -1496,11 +1496,11 @@
   "signals": [
     {"id": "TIGUAN_TI_1_MPI_3", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_1_MPI, 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13F2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F2"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_IGA_CYL_KNK_0", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13F3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F3"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_IGA_CYL_KNK_1", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 1"}
   ]},
@@ -1508,7 +1508,7 @@
   "signals": [
     {"id": "TIGUAN_IGA_CYL_KNK_2", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13F5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F5"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_IGA_CYL_KNK_3", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 3"}
   ]},
@@ -1588,11 +1588,11 @@
   "signals": [
     {"id": "TIGUAN_FUEL_LEVEL_INPUT_V1", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level input, v1", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14C7"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14C7"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_PRE_INJ_1_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Pre-injection 1 start position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14C8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14C8"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_PRE_INJ_2_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Pre-injection 2 start"}
   ]},
@@ -1600,31 +1600,31 @@
   "signals": [
     {"id": "TIGUAN_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14CC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CC"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_POST_INJ_1_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Post-injection 1 duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14CD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CD"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_POST_INJ_2_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Post-injection 2 duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CE"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CE"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_POST_INJ_3_ACTIVATION_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Post-injection 3 activation duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CF"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CF"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_MAIN_INJ_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Main injection duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14D0"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14D0"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_PRE_INJ_1_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Pre-injection 1 duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14D1"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14D1"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_PRE_INJ_2_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Pre-injection 2 duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14F7"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14F7"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_EXHAUST_GAS_T_SENSOR_2", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature sensor 2"}
   ]},
@@ -1664,7 +1664,7 @@
   "signals": [
     {"id": "TIGUAN_FUEL_CONS_ACT_DRIVE", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel consumption - actual drive cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1526"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1526"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_NOX_CONC_BEHIND_TURBO", "path": "Battery", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Calculated nitrogen oxide concentration behind turbocharger"}
   ]},
@@ -1688,7 +1688,7 @@
   "signals": [
     {"id": "TIGUAN_OIL_LEVEL_STATIC", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Oil level, static measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15AA"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15AA"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_SELECTED_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Selected gear"}
   ]},
@@ -1752,11 +1752,11 @@
   "signals": [
     {"id": "TIGUAN_REQ_BRAKE_TQ", "path": "Control", "fmt": { "len": 32, "max": 214748364, "min": -214748364, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Requested brake torque, auxiliary system"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1626"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1626"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_RADIATOR_OUTPUT_COOLANT_T_ACTUAL", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Radiator output coolant temp: actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_FUEL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
@@ -1764,7 +1764,7 @@
   "signals": [
     {"id": "TIGUAN_LONGITUDINAL_ACCEL", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1644"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1644"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_LATERAL_ACCEL", "path": "Movement", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Lateral acceleration"}
   ]},
@@ -1792,15 +1792,15 @@
   "signals": [
     {"id": "TIGUAN_THROTTLE_REGULATOR", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 128, "unit": "percent" }, "name": "Throttle regulator nominal value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16EC"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16EC"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_CHG_P_REGULATOR_LO", "path": "Battery", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Charge pressure regulator, lower threshold adaptation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16ED"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16ED"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_CHG_P_REGULATOR_HI", "path": "Battery", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Charge pressure regulator, upper threshold adaptation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16EE"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16EE"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_BOOST_P_ACTUATOR_CMD", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -399.993, "mul": 0.0122068184, "sign": true, "unit": "percent" }, "name": "Boost pressure actuator, commanded duty"}
   ]},
@@ -1808,7 +1808,7 @@
   "signals": [
     {"id": "TIGUAN_CRANKSHAFT_VSS", "path": "Movement", "fmt": { "len": 16, "max": 32767.5, "div": 2, "unit": "rpm" }, "name": "Crankshaft speed", "suggestedMetric": "engineSpeed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16F4"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16F4"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_PISTON_COOLING", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Piston cooling nozzles, control"}
   ]},
@@ -1916,11 +1916,11 @@
   "signals": [
     {"id": "TIGUAN_LONG_TERM_FUEL_TRIM_IDLE_PORT_INJ", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -1536, "mul": 3, "div": 64, "sign": true, "unit": "percent" }, "name": "Long term fuel trim at idle, port injection"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1798"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1798"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_CHARGE_AIR_T_TUBROCHARGER_OUTLET_CALCULATED", "path": "Battery", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "mul": 1000, "div": 10000, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Charge air temp at the turbocharger outlet, calculated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "179C"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "179C"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_ENGINE_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Oil temp 2"}
   ]},
@@ -1932,127 +1932,127 @@
   "signals": [
     {"id": "TIGUAN_FUEL_RATE_DIFF_INJ", "path": "Fuel", "fmt": { "len": 16, "max": 127.9944, "min": -127.9983, "mul": 19531, "div": 5000000, "sign": true, "unit": "liters" }, "name": "Fuel rate difference, injector/sensor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1813"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1813"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_EGR_VALVE_1_B1_MASS_I_SPEC", "path": "Battery", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Exhaust gas recirculation valve 1, B1, mass current: specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1814"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1814"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_EGR_VALVE_2_B1_MASS_I_SPEC", "path": "Battery", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Exhaust gas recirculation valve 2, B1, mass current: specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "181A"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "181A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_BOOST_P_BEFORE_THROTTLE_CALCULATED_ACT", "path": "Engine", "fmt": { "len": 16, "max": 81917500, "min": -81920000, "mul": 2500, "sign": true, "unit": "unknown" }, "name": "Boost press before throttle: calculated actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "18BB"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "18BB"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_UNBURNED_FUEL_CALCULATED", "path": "Engine.DPF", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "scalar" }, "name": "Diesel particulate filter unburned fuel calculated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "18D0"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "18D0"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "197C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "197C"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_FUEL_FILTER_WATER_LEVEL_SENSOR_1", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel filter: water level sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1ABA"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1ABA"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_DISTANCE_SINCE_LAST_REGEN", "path": "Engine.DPF", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Diesel particulate filter, distance since last regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1ABB"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1ABB"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_CHARGE_LIMIT_SERVICE_REGEN_WHILE_DRIVING", "path": "Engine.DPF", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "unknown" }, "name": "Diesel particulate filter, charge limit for service regeneration while driving"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1ABC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1ABC"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_CHARGE_LIMIT_OVER_CHARGE", "path": "Engine.DPF", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter, charge limit over-charge"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1ABD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1ABD"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_OIL_ASH_MASS", "path": "Engine", "fmt": { "len": 32, "max": 512, "mul": 0.0011921, "div": 10000, "unit": "unknown" }, "name": "Diesel particulate filter oil ash mass"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1ABE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1ABE"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_SOOT_MASS_MEASURED", "path": "Engine.DPF", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter soot mass measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1ABF"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1ABF"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_ASH_LOAD_LIMIT", "path": "Engine.DPF", "fmt": { "len": 16, "max": 511.992, "mul": 78.125, "div": 10000, "unit": "unknown" }, "name": "Diesel particulate filter ash load limit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AC0"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AC0"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_REGEN_TIME_COUNTER", "path": "Engine.DPF", "fmt": { "len": 16, "max": 41942.4, "mul": 6400, "div": 10000, "unit": "seconds" }, "name": "Diesel particulate filter regeneration time counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AC1"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AC1"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_FUEL_CONSUMPTION_SINCE_LAST_REGEN", "path": "Engine.DPF", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "liters" }, "name": "Diesel particulate filter fuel consumption since last regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AC2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AC2"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_FIELD_REGEN_REQUEST", "path": "Engine.DPF", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter field regeneration request"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AC3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AC3"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_TIME_SINCE_LAST_REGEN", "path": "Engine.DPF", "fmt": { "len": 16, "max": 127.998, "mul": 127.998, "div": 65535, "unit": "hours" }, "name": "Diesel particulate filter time since last regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AC4"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AC4"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_SERVICE_REGEN_I_DURATION", "path": "Engine.DPF", "fmt": { "len": 16, "max": 41942.4, "mul": 6400, "div": 10000, "unit": "seconds" }, "name": "Diesel particulate filter service regeneration current duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AC5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AC5"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_STATISTICS_REGEN_REQUEST", "path": "Engine.DPF", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter statistics regeneration request"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AC7"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AC7"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_STATISTICS_EXHAUST_T_REGULATION_AVERAGE_VALUE", "path": "Engine.DPF", "fmt": { "len": 8, "max": 1.98, "min": -1.99, "mul": 1.98, "div": 127, "sign": true, "unit": "scalar" }, "name": "Diesel particulate filter statistics exhaust temperature regulation average value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AC8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AC8"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_STATISTICS_REGEN_BLOCKED_STATUS", "path": "Engine.DPF", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter statistics regeneration blocked status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AC9"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AC9"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_STATISTICS_NUMBER_INTERRUPTED_REGENS", "path": "Engine.DPF", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter statistics number of interrupted regenerations"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1ACA"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1ACA"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_STATISTICS_ERROR_STATUS", "path": "Engine.DPF", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter statistics error status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1ACB"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1ACB"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_STATISTICS_ROUTE_IN_CHARGE_CYCLE", "path": "Engine.DPF", "fmt": { "len": 8, "max": 2040, "mul": 800, "div": 100, "unit": "kilometers" }, "name": "Diesel particulate filter statistics route in charge cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1ACC"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1ACC"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_STATISTICS_AVERAGE_DRIVE_CYCLE_TIME_DURING_CHARGE_CYCLE", "path": "Engine.DPF", "fmt": { "len": 8, "max": 4080, "mul": 1600, "div": 100, "unit": "seconds" }, "name": "Diesel particulate filter statistics average drive cycle time during charge cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1ACD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1ACD"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_STATISTICS_REGEN_TIME", "path": "Engine.DPF", "fmt": { "len": 8, "max": 16320, "mul": 6400, "div": 100, "unit": "seconds" }, "name": "Diesel particulate filter statistics regeneration time"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1ACE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1ACE"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_STATISTICS_REGEN_TIME_SLICE_NOT_POSS_IN_CHARGE_CYCLE", "path": "Engine.DPF", "fmt": { "len": 8, "max": 0.498, "mul": 0.498, "div": 255, "unit": "scalar" }, "name": "Diesel particulate filter statistics regeneration time slice not possible in charge cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AD2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AD2"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_REGEN_RELEASE_REQUIREMENT", "path": "Engine.DPF", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter regeneration release requirement"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AD3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AD3"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_REGEN_LEVEL_I", "path": "Engine.DPF", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter regeneration level current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AD4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AD4"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_REGEN_STATUS", "path": "Engine.DPF", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Diesel particulate filter regeneration status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AD5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AD5"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_INLET_LAMBDA_VALUE", "path": "Engine.DPF", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "mul": 10, "div": 10000, "sign": true, "unit": "scalar" }, "name": "Diesel particulate filter inlet lambda value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AD7"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AD7"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_EXH_TEMP_CTRL_AFTER_CAT_MODEL_ERR", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Exhaust temperature control downstream oxidation catalyst filtered model error"}
   ]},
@@ -2301,7 +2301,7 @@
   "signals": [
     {"id": "TIGUAN_FUEL_TANK_FILL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "mul": 1000, "div": 10000, "unit": "liters" }, "name": "Fuel tank fill level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2609"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2609"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_DPF_SOOT_MASS_CALCULATED", "path": "Engine.DPF", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter soot mass calculated"}
   ]},
@@ -2870,19 +2870,19 @@
   "signals": [
     {"id": "TIGUAN_LONG_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Long term fuel trim bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_RPM", "path": "Movement", "fmt": { "len": 16, "max": 7000, "div": 4, "unit": "rpm" }, "name": "Engine RPM"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
   ]},
@@ -2890,11 +2890,11 @@
   "signals": [
     {"id": "TIGUAN_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Fuel level input %", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_WARM_UPS", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warm-ups since diagnostic trouble codes cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since diagnostic trouble codes cleared", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
@@ -2902,15 +2902,15 @@
   "signals": [
     {"id": "TIGUAN_EXH_GAS_T", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Exhaust gas temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_ACCEL_PEDAL_POS_1", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_ACCEL_PEDAL_POS_2", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 2"}
   ]},
@@ -2930,11 +2930,11 @@
   "signals": [
     {"id": "TIGUAN_DRIVE_TIME_MANUAL", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time in manual mode", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in manual mode"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "101A"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "cmd": {"22": "101A"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_ODO_3", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer #3", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "2104"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "cmd": {"22": "2104"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Automatic transmission fluid temperature, variant 2"}
   ]},
@@ -2954,71 +2954,71 @@
   "signals": [
     {"id": "TIGUAN_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "3841"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "cmd": {"22": "3841"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "3887"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "cmd": {"22": "3887"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_ODO_2", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer #2", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "028D"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "028D"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_ECU_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Control module temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0327"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0327"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_TRANS_GEAR_RAT", "path": "Transmission", "fmt": { "len": 8, "max": 1.27, "min": -1.28, "div": 100, "sign": true, "unit": "scalar" }, "name": "Transmission gear ratio"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1009"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1009"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_SPD_OUTPUT", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 7000, "sign": true, "unit": "rpm" }, "name": "Speed ​​output"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100A"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed from transmission", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100B"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100B"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_DRIVER_DEMAND_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Driver demand torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100C"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100C"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_ENGINE_TORQUE", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100E"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100E"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_ENGINE_TORQUE_LIMITATION", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque limitation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100F"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100F"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_ENGINE_TORQUE_LOSS", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque loss"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1010"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1010"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_CONVERTER_LOSS_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Converter loss torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_ROAD_RESISTANCE", "path": "Transmission", "fmt": { "len": 8, "max": 31.894, "min": -31, "mul": 24.9, "div": 100, "add": -31.6, "unit": "percent" }, "name": "Road resistance"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1018"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1018"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_DRIVING_STRATEGY_MOUNTAIN_FACTOR", "path": "Transmission", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Driving strategy mountain factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1019"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1019"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_DRIVING_STRATEGY_SPORT_FACTOR", "path": "Transmission", "fmt": { "len": 8, "max": 100, "mul": 1700, "div": 255, "unit": "percent" }, "name": "Driving strategy sport factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102A"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102A"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_CLU_CENTER_CENTRAL_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Clutch center central plate temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102B"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102B"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Clutch 1 temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102C"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102C"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Clutch 2 temperature"}
   ]},
@@ -3026,243 +3026,243 @@
   "signals": [
     {"id": "TIGUAN_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Pressure supply actual pressure analog digital value"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1057"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1057"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_0_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 0 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1058"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1058"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_0_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 0 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1059"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1059"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_1_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 1 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105A"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105A"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_1_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 1 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105B"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105B"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_2_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 2 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105C"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105C"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_2_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 2 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105D"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105D"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_3_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 3 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105E"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105E"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_3_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 3 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1062"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1062"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_FRICTION_VALUE_CORRECTION_FACTOR", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 100, "mul": 0.09766, "sign": true, "unit": "percent" }, "name": "Clutch 1 friction value correction factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1063"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1063"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_CHAR_CURVE_SHIFT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32.111, "min": -32.11, "mul": 9.8, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Clutch 1 characteristic curve shift"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1064"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1064"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_ANALYSIS_CLU_1_MAX_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Analysis, clutch 1, maximum temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1065"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1065"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_CLU_1_T_TIME_RANGE_0", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Clutch 1 temperature time in range 0"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1066"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1066"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_ANALYSIS_CLU_1_T_1", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 1 temperature time in range 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1067"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1067"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_ANALYSIS_CLU_1_T_2", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 1 temperature time in range 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1068"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1068"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_ANALYSIS_CLU_1_T_3", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 1 temperature time in range 3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1069"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1069"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_PROT_ENGAGED_QTY", "path": "Transmission", "fmt": { "len": 32, "blsb": true, "max": 4294967295, "unit": "scalar" }, "name": "Clutch 1 protection function engaged quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106C"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106C"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_0_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 0 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106D"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106D"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_0_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 0 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106E"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106E"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_1_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 1 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106F"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106F"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_1_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 1 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1070"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1070"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_2_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 2 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1071"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1071"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_2_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 2 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1072"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1072"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_3_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 3 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1073"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1073"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_3_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 3 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1074"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1074"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_ADAPT_END_POS_OPENED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation end position opened"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1075"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1075"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_ADAPT_END_POS_CLOSED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation end position closed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1077"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1077"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ200_CLUTCH_2_FRICTION_VALUE_CORRECTION_FACTOR", "path": "Transmission", "fmt": { "len": 16, "max": 100, "mul": 0.09766, "sign": true, "unit": "percent" }, "name": "Clutch 2 friction value correction factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1078"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1078"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_CHAR_CURVE_SHIFT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32.111, "min": -32.11, "mul": 9.8, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Clutch 2 characteristic curve shift"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1079"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1079"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_ANALYSIS_CLU_2_MAX_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Analysis, clutch 2, maximum temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107A"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107A"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_ANALYSIS_CLU_2_T_0", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 2 temperature time in range 0"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107B"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107B"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_ANALYSIS_CLU_2_T_1", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 2 temperature time in range 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107C"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107C"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_ANALYSIS_CLU_2_T_2", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 2 temperature time in range 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107D"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107D"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_ANALYSIS_CLU_2_T_3", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 2 temperature time in range 3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107E"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107E"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_PROT_ENGAGED_QTY", "path": "Transmission", "fmt": { "len": 32, "blsb": true, "max": 4294967295, "unit": "scalar" }, "name": "Clutch 2 protection function engaged quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1082"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1082"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1083"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1083"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1084"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1084"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GANGSTELLER_A_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector a adaptation neutral position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1085"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1085"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1086"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1086"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1090"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1090"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1091"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1091"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1092"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1092"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector b adaptation neutral position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1093"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1093"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1094"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1094"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "109E"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "109E"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G5", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "109F"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "109F"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G5", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A0"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A0"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector c adaptation neutral position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A1"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A1"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G7", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G7"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A2"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A2"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G7", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G7"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AC"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AC"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G6", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AD"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AD"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AE"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AE"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector d adaptation neutral position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AF"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AF"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_GR", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10B0"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10B0"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_GR", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position GR"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10C9"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10C9"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_SUCCESSFUL_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 successful adaptations counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10CA"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10CA"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_ADAPT_KISS_POINT_PART_1_ODO_READING", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Clutch 1 adaptation kiss point part 1 odometer reading"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10CC"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10CC"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_FAILED_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 failed adaptations counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10EA"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10EA"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_SUCCESSFUL_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 successful adaptations counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10EB"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10EB"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_ADAPT_KISS_POINT_PART_1_ODO_READING", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Clutch 2 adaptation kiss point part 1 odometer reading"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10ED"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10ED"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_FAILED_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 failed adaptations counter"}
   ]},
@@ -3286,11 +3286,11 @@
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_UPPER_ADAPTED_COUPLING_POINT_K2_FROM_MACRO_SLIP_PATH_ADAPT", "path": "Engine", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Upper adapted coupling point K2 from macro slip path adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1110"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1110"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_WORKING_HOURS", "path": "Transmission", "fmt": { "len": 32, "blsb": true, "max": 23860.929, "mul": 2, "div": 360000, "unit": "unknown" }, "name": "Working hours"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1111"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1111"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_OP_TIME_T_RANGE_1", "path": "Trips", "fmt": {            "len": 32, "blsb": true, "max": 23860.7, "mul": 238607, "div": 42949672950, "unit": "hours" }, "name": "Operating time, temperature range 1"},
     {"id": "TIGUAN_OP_TIME_T_RANGE_2", "path": "Trips", "fmt": {"bix": 32,  "len": 32, "blsb": true, "max": 23860.7, "mul": 238607, "div": 42949672950, "unit": "hours" }, "name": "Operating time, temperature range 2"},
@@ -3299,11 +3299,11 @@
     {"id": "TIGUAN_OP_TIME_T_RANGE_5", "path": "Trips", "fmt": {"bix": 128, "len": 32, "blsb": true, "max": 23860.7, "mul": 238607, "div": 42949672950, "unit": "hours" }, "name": "Operating time, temperature range 5"},
     {"id": "TIGUAN_OP_TIME_T_RANGE_6", "path": "Trips", "fmt": {"bix": 160, "len": 32, "blsb": true, "max": 23860.7, "mul": 238607, "div": 42949672950, "unit": "hours" }, "name": "Operating time, temperature range 6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1117"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1117"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_REACHED_MAXIMUM_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Reached maximum temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1118"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1118"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_MAXIMUM_T", "path": "Engine", "fmt": {           "len": 16, "blsb": true, "max": 65535, "unit": "celsius" }, "name": "Clutch #1 maximum temperature"},
     {"id": "TIGUAN_PQ35_CLUTCH_2_MAXIMUM_T", "path": "Engine", "fmt": {"bix": 16, "len": 16, "blsb": true, "max": 65535, "unit": "celsius" }, "name": "Clutch #2 maximum temperature"}
@@ -3492,7 +3492,7 @@
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main pressure adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1200"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1200"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_LAUNCH_CTRL_CNT_VAR_1", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Launch control counter, variant 1"}
   ]},
@@ -3528,7 +3528,7 @@
   "signals": [
     {"id": "TIGUAN_MQB_DL382_CLUTCH_0_CMD_P_OFFSET", "path": "Transmission", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "bars" }, "name": "Clutch 0 commanded pressure offset"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1711"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1711"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_KISSPOINT_RAPID_ADAPT_REMAINING", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "kilometers" }, "name": "Clutch kisspoint rapid adaptation remaining"}
   ]},
@@ -3556,11 +3556,11 @@
   "signals": [
     {"id": "TIGUAN_MQB_TCM_I_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 253, "min": -2, "add": -2, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2110"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2110"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_ENG_SPEC_TQ_DURING", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine specified torque during transmission intervention"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2114"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2114"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_KICK_DOWN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Kick down"}
   ]},
@@ -3576,87 +3576,87 @@
   "signals": [
     {"id": "TIGUAN_MQB_DL382_CLUTCH_2_P", "path": "Transmission", "fmt": { "len": 8, "max": 24.5, "min": -1, "div": 10, "add": -1, "unit": "bars" }, "name": "Clutch 2 pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3800"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3800"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_STOP_SIGNAL_SWITCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Stop signal switch"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3803"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3803"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_BRAKE_P", "path": "Control", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380A"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_TRANSMISSION_INPUT_SPD_7E1_380A", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "rpm" }, "name": "Transmission input speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380B"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380B"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "rpm" }, "name": "Transmission output speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380C"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380C"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_INPUT_SHAFT_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Input shaft 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380D"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380D"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_INPUT_SHAFT_2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Input shaft 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380E"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380E"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_OUTPUT_SHAFT_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Output shaft 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380F"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380F"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_OUTPUT_SHAFT_2", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Output shaft 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3816"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3816"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_I_GEAR_DQ200", "path": "Transmission", "fmt": { "len": 8, "max": 253, "min": -2, "add": -2, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "381A"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "381A"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_A_C_COMPRESSOR_SHUTDOWN_REQUIREMENT", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Air conditioning compressor shutdown requirement"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "381D"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "381D"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_EOP_ACTUAL", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "bars" }, "name": "Oil pressure actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "381E"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "381E"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_EOP_ACTUAL_I", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliamps" }, "name": "Oil pressure actual current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3820"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3820"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_TRANSMISSION_PART_1_P_CMD", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "div": 100, "unit": "bars" }, "name": "Transmission part 1 pressure commanded"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3821"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3821"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "div": 100, "unit": "bars" }, "name": "Transmission part 1 pressure actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3823"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3823"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_TRANSMISSION_PART_2_P_CMD", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "div": 100, "unit": "bars" }, "name": "Transmission part 2 pressure commanded"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3824"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3824"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "div": 100, "unit": "bars" }, "name": "Transmission part 2 pressure actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3826"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3826"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliamps" }, "name": "Transmission part 1 valve current commanded"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3827"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3827"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_ACTUAL", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliamps" }, "name": "Transmission part 1 valve current actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "382A"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "382A"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_TRANSMISSION_PART_2_VALVE_I_CMD", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliamps" }, "name": "Transmission part 2 valve current commanded"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "382B"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "382B"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_TRANSMISSION_PART_2_VALVE_I_ACTUAL", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliamps" }, "name": "Transmission part 2 valve current actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "382E"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "382E"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "mul": 5, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Specified torque clutch 1"}
   ]},
@@ -3668,19 +3668,19 @@
   "signals": [
     {"id": "TIGUAN_MQB_DQ200_ACTUAL_POS_CLUTCH_1_DUTY_CYCLE_FACTOR_2", "path": "Transmission", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Actual position clutch 1 duty cycle factor 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3834"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3834"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "min": -3276, "div": 10, "sign": true, "unit": "milliamps" }, "name": "Clutch 1 valve current: specified"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3835"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3835"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "min": -3276, "div": 10, "sign": true, "unit": "milliamps" }, "name": "Clutch 1 valve current: actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3838"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3838"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638, "mul": 5, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Specified torque clutch 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3839"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3839"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 actual torque"}
   ]},
@@ -3692,75 +3692,75 @@
   "signals": [
     {"id": "TIGUAN_MQB_DQ200_ACTUAL_POS_CLUTCH_2_DUTY_CYCLE_FACTOR_2", "path": "Transmission", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Actual position clutch 2 duty cycle factor 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "383D"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "383D"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_CLUTCH_2_VALVE_I_SPECIFIED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "div": 10, "sign": true, "unit": "milliamps" }, "name": "Clutch 2 valve current: specified"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "383E"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "383E"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_CLUTCH_2_VALVE_I_ACTUAL", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "div": 10, "sign": true, "unit": "milliamps" }, "name": "Clutch 2 valve current: actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3852"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3852"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_A", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "mul": 100, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Actual position of gear positioner A"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "385A"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "385A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "mul": 100, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Actual position of gear positioner B"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3862"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3862"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "mul": 100, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Actual position of gear positioner C"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "386A"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "386A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "mul": 100, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Actual position of gear positioner D"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3871"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3871"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_DQ250_SPECIFIED_IDLE_RPM", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 7000, "unit": "rpm" }, "name": "Specified idle RPM"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "387F"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "387F"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_CLUTCH_1_T_PROTECTION_WARNING_1_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 temperature protection warning 1 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3880"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3880"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_CLUTCH_1_T_PROTECTION_WARNING_2_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 temperature protection warning 2 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3881"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3881"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_CLUTCH_1_T_PROTECTION_OVERHEAT_PROTECTION_1_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 temperature protection overheat protection 1 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3883"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3883"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_CLUTCH_2_T_PROTECTION_WARNING_1_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 temperature protection warning 1 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3884"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3884"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_CLUTCH_2_T_PROTECTION_WARNING_2_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 temperature protection warning 2 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3885"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3885"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_CLUTCH_2_T_PROTECTION_OVERHEAT_PROTECTION_1_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 temperature protection overheat protection 1 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3888"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3888"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_DRIVING_TIME_ECOLOGICAL", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Driving time ecological"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3889"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3889"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_DRIVING_TIME_SPORTY", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Driving time sporty"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388A"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388A"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_DRIVING_TIME_MANUAL", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Driving time manual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388B"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388B"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_DRIVE_CYCLES_COUNTER", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Drive cycles counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388C"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "TIGUAN_MQB_TCM_IGNITION_CYCLES", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Ignition cycles"}
   ]},
@@ -3796,23 +3796,23 @@
   "signals": [
     {"id": "TIGUAN_MQB_DQ200_CLUTCH_1_ADAPT_BASIC_CHARS_POINT_1_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 1 adaptation basic characteristics point 1 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38B2"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38B2"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CENTRIFUGAL_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "scalar" }, "name": "Centrifugal oil temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38EA"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38EA"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_ACTUAL_P", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 actual pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38EB"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38EB"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_ACTUAL_P", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 actual pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38EC"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38EC"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_1_CMD_P", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 commanded pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38ED"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38ED"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "TIGUAN_PQ35_CLUTCH_2_CMD_P", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 commanded pressure"}
   ]},
