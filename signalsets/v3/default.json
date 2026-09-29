@@ -1,6 +1,7 @@
 { "ecu": [
     { "hdr": "714", "type": "cluster" },
     { "hdr": "746", "type": "hvac" },
+    { "hdr": "767", "type": "telematics" },
     { "hdr": "7E0", "type": "engine" },
     { "hdr": "7E1", "type": "transmission" }
   ],
@@ -415,7 +416,7 @@
         }}
     }
   ]},
-{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "2431"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2023], "from": 2026 },
+{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "2431"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2019, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_GPS_SATS_VISIBLE", "path": "GPS", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, visible"},
     {"id": "TIGUAN_GPS_SATS_TRACKED", "path": "GPS", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, tracked"}
