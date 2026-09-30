@@ -1,0 +1,29 @@
+command_id: 7E1.7E9.222103
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 0
+  response: '7E9056221030000'
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 84.5
+  response: '7E9056221030152'
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 100
+  response: '7E9056221030190'
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 124
+  response: 7E90562210301F0
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 129.25
+  response: '7E9056221030205'
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 166.25
+  response: '7E9056221030299'
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 333.25
+  response: '7E9056221030535'
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 368.5
+  response: 7E90562210305C2
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 461.25
+  response: '7E9056221030735'

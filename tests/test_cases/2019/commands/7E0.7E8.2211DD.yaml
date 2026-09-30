@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211DD
+test_cases:
+- expected_values:
+    TIGUAN_INT_MANIFOLD_P_CMD: 252.8125
+  response: 7E8056211DD0CA4
+- expected_values:
+    TIGUAN_INT_MANIFOLD_P_CMD: 400.78125
+  response: 7E8056211DD140A
+- expected_values:
+    TIGUAN_INT_MANIFOLD_P_CMD: 1639.92188
+  response: 7E8056211DD51FF

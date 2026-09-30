@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F421
+test_cases:
+- expected_values:
+    TIGUAN_MIL_DIST: 0
+  response: 7E80562F4210000
+- expected_values:
+    TIGUAN_MIL_DIST: 3
+  response: 7E80562F4210003
+- expected_values:
+    TIGUAN_MIL_DIST: 4
+  response: 7E80562F4210004
+- expected_values:
+    TIGUAN_MIL_DIST: 5
+  response: 7E80562F4210005
+- expected_values:
+    TIGUAN_MIL_DIST: 6
+  response: 7E80562F4210006

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221210|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_KNOCK_SNS_C4_V_MS: 0.00426
+  response: 7E807621210000015CE
+- expected_values:
+    TIGUAN_KNOCK_SNS_C4_V_MS: 0.00701
+  response: 7E807621210000023E8
+- expected_values:
+    TIGUAN_KNOCK_SNS_C4_V_MS: 0.00841
+  response: 7E80762121000002B0F
+- expected_values:
+    TIGUAN_KNOCK_SNS_C4_V_MS: 0.04032
+  response: 7E8076212100000CE73

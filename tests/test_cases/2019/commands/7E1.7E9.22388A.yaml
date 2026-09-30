@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22388A
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_DRIVING_TIME_MANUAL: 0
+  response: 7E90462388A00

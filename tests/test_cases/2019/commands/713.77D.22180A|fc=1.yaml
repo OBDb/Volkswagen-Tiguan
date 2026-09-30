@@ -1,0 +1,6 @@
+command_id: 713.77D.22180A|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_MQB_HAL_CLUTCH_BLOCK: 0
+    TIGUAN_MQB_HAL_CLUTCH_OPEN: 1
+  response: 77D0662180A200000

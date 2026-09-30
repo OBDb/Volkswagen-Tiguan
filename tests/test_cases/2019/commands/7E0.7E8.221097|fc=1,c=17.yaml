@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.221097|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 395.8416
+  response: 7E805621097002A
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 499.5144
+  response: '7E8056210970035'
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 546.6384
+  response: 7E805621097003A
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 593.7624
+  response: 7E805621097003F
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 650.3112
+  response: '7E8056210970045'
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 697.4352
+  response: 7E805621097004A
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 744.5592
+  response: 7E805621097004F
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 791.6832
+  response: '7E8056210970054'
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 848.232
+  response: 7E805621097005A

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2215CC
+test_cases:
+- expected_values:
+    TIGUAN_RESULT_CRANKCASE_VENTILATION_TEST: 0
+  response: 7E8056215CC0000

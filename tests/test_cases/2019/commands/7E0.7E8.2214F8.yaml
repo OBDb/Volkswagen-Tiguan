@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2214F8
+test_cases:
+- expected_values:
+    TIGUAN_AAT_V1: 80.18
+  response: 7E8056214F80BB9
+- expected_values:
+    TIGUAN_AAT_V1: 92.78
+  response: 7E8056214F80BFF
+- expected_values:
+    TIGUAN_AAT_V1: 93.68
+  response: 7E8056214F80C04

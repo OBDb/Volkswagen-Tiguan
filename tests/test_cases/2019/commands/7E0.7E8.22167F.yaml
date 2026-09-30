@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22167F
+test_cases:
+- expected_values:
+    TIGUAN_HEATER_CIRCULATION: 10
+  response: 7E80562167F03E8
+- expected_values:
+    TIGUAN_HEATER_CIRCULATION: 89.39
+  response: 7E80562167F22EB
+- expected_values:
+    TIGUAN_HEATER_CIRCULATION: 91.19
+  response: 7E80562167F239F
+- expected_values:
+    TIGUAN_HEATER_CIRCULATION: 94.19
+  response: 7E80562167F24CB
+- expected_values:
+    TIGUAN_HEATER_CIRCULATION: 95
+  response: 7E80562167F251C

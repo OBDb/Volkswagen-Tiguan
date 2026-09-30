@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221490
+test_cases:
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_LOW_P_ACT: 864.69857
+  response: '7E8056214905678'
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_LOW_P_ACT: 928.9572
+  response: 7E8056214905CE5
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_LOW_P_ACT: 960.28573
+  response: '7E8056214906007'

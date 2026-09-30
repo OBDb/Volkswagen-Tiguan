@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222AE9
+test_cases:
+- expected_values:
+    TIGUAN_EXH_GAS_T_CALC_AFTER: 340.11072
+  response: 7E805622AE96633
+- expected_values:
+    TIGUAN_EXH_GAS_T_CALC_AFTER: 350.61184
+  response: 7E805622AE967F3
+- expected_values:
+    TIGUAN_EXH_GAS_T_CALC_AFTER: 393.0148
+  response: 7E805622AE96F04
+- expected_values:
+    TIGUAN_EXH_GAS_T_CALC_AFTER: 659.03536
+  response: 7E805622AE99B59

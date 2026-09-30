@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2211B8
+test_cases:
+- expected_values:
+    TIGUAN_AIR_LEAKAGE: 0.8
+  response: 7E8056211B80008
+- expected_values:
+    TIGUAN_AIR_LEAKAGE: 1.2
+  response: 7E8056211B8000C
+- expected_values:
+    TIGUAN_AIR_LEAKAGE: 1.3
+  response: 7E8056211B8000D
+- expected_values:
+    TIGUAN_AIR_LEAKAGE: 1.4
+  response: 7E8056211B8000E
+- expected_values:
+    TIGUAN_AIR_LEAKAGE: 1.5
+  response: 7E8056211B8000F
+- expected_values:
+    TIGUAN_AIR_LEAKAGE: 1.6
+  response: 7E8056211B80010
+- expected_values:
+    TIGUAN_AIR_LEAKAGE: 1.7
+  response: 7E8056211B80011
+- expected_values:
+    TIGUAN_AIR_LEAKAGE: 1.8
+  response: 7E8056211B80012

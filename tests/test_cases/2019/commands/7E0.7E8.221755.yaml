@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221755
+test_cases:
+- expected_values:
+    TIGUAN_EXH_CAM_ADPT_SENS: -0.52735
+  response: 7E805621755FFE8

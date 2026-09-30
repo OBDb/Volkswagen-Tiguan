@@ -1,0 +1,11 @@
+command_id: 7E0.2211BD
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_OIL_LVL_CRIT: 11.92
+  response: 7E8056211BD0BA4
+- expected_values:
+    TIGUAN_PQ35_OIL_LVL_CRIT: 14.264
+  response: 7E8056211BD0DEE
+- expected_values:
+    TIGUAN_PQ35_OIL_LVL_CRIT: 14.336
+  response: 7E8056211BD0E00

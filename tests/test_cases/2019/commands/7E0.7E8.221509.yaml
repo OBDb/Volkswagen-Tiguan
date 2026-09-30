@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.221509
+test_cases:
+- expected_values:
+    TIGUAN_AMBIENT_AIR_P: 984.828
+  response: 7E80562150962A4
+- expected_values:
+    TIGUAN_AMBIENT_AIR_P: 985.803
+  response: 7E80562150962BD
+- expected_values:
+    TIGUAN_AMBIENT_AIR_P: 985.998
+  response: 7E80562150962C2
+- expected_values:
+    TIGUAN_AMBIENT_AIR_P: 986.193
+  response: 7E80562150962C7
+- expected_values:
+    TIGUAN_AMBIENT_AIR_P: 986.583
+  response: 7E80562150962D1
+- expected_values:
+    TIGUAN_AMBIENT_AIR_P: 986.739
+  response: 7E80562150962D5
+- expected_values:
+    TIGUAN_AMBIENT_AIR_P: 987.129
+  response: 7E80562150962DF
+- expected_values:
+    TIGUAN_AMBIENT_AIR_P: 987.519
+  response: 7E80562150962E9
+- expected_values:
+    TIGUAN_AMBIENT_AIR_P: 988.104
+  response: 7E80562150962F8
+- expected_values:
+    TIGUAN_AMBIENT_AIR_P: 988.299
+  response: 7E80562150962FD

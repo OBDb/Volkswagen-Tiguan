@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.225149
+test_cases:
+- expected_values:
+    TIGUAN_CHAIN_ELONGATION: 208
+  response: 7E8076251490000D0EC
