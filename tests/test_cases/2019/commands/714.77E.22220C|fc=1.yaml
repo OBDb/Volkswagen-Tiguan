@@ -1,0 +1,26 @@
+command_id: 714.77E.22220C|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_OUTSIDE_T: 27
+  response: 77E0462220C9A
+- expected_values:
+    TIGUAN_OUTSIDE_T: 27.5
+  response: 77E0462220C9B
+- expected_values:
+    TIGUAN_OUTSIDE_T: 28
+  response: 77E0462220C9C
+- expected_values:
+    TIGUAN_OUTSIDE_T: 28.5
+  response: 77E0462220C9D
+- expected_values:
+    TIGUAN_OUTSIDE_T: 30.5
+  response: 77E0462220CA1
+- expected_values:
+    TIGUAN_OUTSIDE_T: 31
+  response: 77E0462220CA2
+- expected_values:
+    TIGUAN_OUTSIDE_T: 32.5
+  response: 77E0462220CA5
+- expected_values:
+    TIGUAN_OUTSIDE_T: 33.5
+  response: 77E0462220CA7

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22441D
+test_cases:
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT_ACTUATOR_AFTER: 19755
+  response: 7E80562441D4D2B

@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2210EA
+test_cases:
+- expected_values:
+    TIGUAN_OPEN_CAM_SHFT_ANG: 30
+  response: 7E8056210EA012C
+- expected_values:
+    TIGUAN_OPEN_CAM_SHFT_ANG: -34.8
+  response: 7E8056210EAFEA4
+- expected_values:
+    TIGUAN_OPEN_CAM_SHFT_ANG: -31.1
+  response: 7E8056210EAFEC9
+- expected_values:
+    TIGUAN_OPEN_CAM_SHFT_ANG: -16
+  response: 7E8056210EAFF60
+- expected_values:
+    TIGUAN_OPEN_CAM_SHFT_ANG: -9.4
+  response: 7E8056210EAFFA2
+- expected_values:
+    TIGUAN_OPEN_CAM_SHFT_ANG: -6.9
+  response: 7E8056210EAFFBB
+- expected_values:
+    TIGUAN_OPEN_CAM_SHFT_ANG: -6.6
+  response: 7E8056210EAFFBE
+- expected_values:
+    TIGUAN_OPEN_CAM_SHFT_ANG: -2.4
+  response: 7E8056210EAFFE8
+- expected_values:
+    TIGUAN_OPEN_CAM_SHFT_ANG: -1
+  response: 7E8056210EAFFF6

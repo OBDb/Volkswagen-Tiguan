@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210EC
+test_cases:
+- expected_values:
+    TIGUAN_VLV_TIM_DIFF_ACT_SET: 0.01562
+  response: 7E8056210EC0001
+- expected_values:
+    TIGUAN_VLV_TIM_DIFF_ACT_SET: -3.20312
+  response: 7E8056210ECFF33
+- expected_values:
+    TIGUAN_VLV_TIM_DIFF_ACT_SET: -0.09375
+  response: 7E8056210ECFFFA

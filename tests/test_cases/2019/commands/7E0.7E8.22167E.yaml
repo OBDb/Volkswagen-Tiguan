@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22167E
+test_cases:
+- expected_values:
+    TIGUAN_CLT_CIRCULATION_PMP: 10
+  response: 7E80562167E03E8

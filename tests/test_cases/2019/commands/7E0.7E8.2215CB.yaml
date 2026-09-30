@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2215CB
+test_cases:
+- expected_values:
+    TIGUAN_RESULT_CRANKCASE: 0
+  response: 7E8056215CB0000
+- expected_values:
+    TIGUAN_RESULT_CRANKCASE: 2
+  response: 7E8056215CB0002
+- expected_values:
+    TIGUAN_RESULT_CRANKCASE: 4
+  response: 7E8056215CB0004
+- expected_values:
+    TIGUAN_RESULT_CRANKCASE: 5
+  response: 7E8056215CB0005

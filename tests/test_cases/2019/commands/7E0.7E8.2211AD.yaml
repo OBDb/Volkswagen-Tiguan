@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211AD
+test_cases:
+- expected_values:
+    TIGUAN_MAF_CMD: 11.1
+  response: 7E8056211AD006F
+- expected_values:
+    TIGUAN_MAF_CMD: 25.4
+  response: 7E8056211AD00FE
+- expected_values:
+    TIGUAN_MAF_CMD: 29.7
+  response: 7E8056211AD0129
+- expected_values:
+    TIGUAN_MAF_CMD: 165.4
+  response: 7E8056211AD0676

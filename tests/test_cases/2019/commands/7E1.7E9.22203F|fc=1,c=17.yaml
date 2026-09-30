@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22203F|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_TORQUE_LIMITATION: 188
+  response: 7E90562203F00BC
+- expected_values:
+    TIGUAN_TORQUE_LIMITATION: 250
+  response: 7E90562203F00FA
+- expected_values:
+    TIGUAN_TORQUE_LIMITATION: 265
+  response: 7E90562203F0109

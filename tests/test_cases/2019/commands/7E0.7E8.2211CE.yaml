@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211CE
+test_cases:
+- expected_values:
+    TIGUAN_LOW_FUEL_P_CMD: 500
+  response: 7E8056211CE1388
+- expected_values:
+    TIGUAN_LOW_FUEL_P_CMD: 510.7
+  response: 7E8056211CE13F3
+- expected_values:
+    TIGUAN_LOW_FUEL_P_CMD: 539.2
+  response: 7E8056211CE1510
+- expected_values:
+    TIGUAN_LOW_FUEL_P_CMD: 568.4
+  response: 7E8056211CE1634

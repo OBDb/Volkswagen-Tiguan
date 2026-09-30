@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221059
+test_cases:
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_TQ_LIM: 0
+  response: '7E8056210590000'
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_TQ_LIM: 28.1
+  response: '7E8056210590119'
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_TQ_LIM: 70.2
+  response: 7E80562105902BE
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_TQ_LIM: 76.4
+  response: 7E80562105902FC
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_TQ_LIM: 100.7
+  response: 7E80562105903EF

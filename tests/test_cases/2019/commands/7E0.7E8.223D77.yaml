@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223D77
+test_cases:
+- expected_values:
+    TIGUAN_CHG_P_ACTUATOR_MAX_V: 3.58
+  response: 7E805623D770166

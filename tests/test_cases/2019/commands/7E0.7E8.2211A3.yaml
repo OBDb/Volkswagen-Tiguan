@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211A3
+test_cases:
+- expected_values:
+    TIGUAN_EA888B_BOOST_P_CMD: 0
+  response: 7E8046211A300
+- expected_values:
+    TIGUAN_EA888B_BOOST_P_CMD: 30.98039
+  response: 7E8046211A34F
+- expected_values:
+    TIGUAN_EA888B_BOOST_P_CMD: 100
+  response: 7E8046211A3FF

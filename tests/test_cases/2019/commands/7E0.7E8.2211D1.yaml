@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211D1
+test_cases:
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_RAW_P: 23
+  response: 7E8056211D10017
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_RAW_P: 95
+  response: 7E8056211D1005F

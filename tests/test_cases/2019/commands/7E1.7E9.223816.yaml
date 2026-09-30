@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.223816
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_I_GEAR_DQ200: 0
+  response: '7E90462381602'
+- expected_values:
+    TIGUAN_MQB_TCM_I_GEAR_DQ200: 1
+  response: '7E90462381603'
+- expected_values:
+    TIGUAN_MQB_TCM_I_GEAR_DQ200: 2
+  response: '7E90462381604'
+- expected_values:
+    TIGUAN_MQB_TCM_I_GEAR_DQ200: 3
+  response: '7E90462381605'
+- expected_values:
+    TIGUAN_MQB_TCM_I_GEAR_DQ200: 6
+  response: '7E90462381608'
+- expected_values:
+    TIGUAN_MQB_TCM_I_GEAR_DQ200: 10
+  response: 7E9046238160C

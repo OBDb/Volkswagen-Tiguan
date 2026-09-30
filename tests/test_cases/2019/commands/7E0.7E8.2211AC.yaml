@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211AC
+test_cases:
+- expected_values:
+    TIGUAN_MAF_THROUGH_THROTTLE: 11.3
+  response: 7E8056211AC0071
+- expected_values:
+    TIGUAN_MAF_THROUGH_THROTTLE: 21.4
+  response: 7E8056211AC00D6
+- expected_values:
+    TIGUAN_MAF_THROUGH_THROTTLE: 30
+  response: 7E8056211AC012C
+- expected_values:
+    TIGUAN_MAF_THROUGH_THROTTLE: 170.3
+  response: 7E8056211AC06A7

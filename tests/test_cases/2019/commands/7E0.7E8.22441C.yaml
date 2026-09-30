@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22441C
+test_cases:
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT_ACTUATOR_STOP: 685
+  response: 7E80562441C02AD

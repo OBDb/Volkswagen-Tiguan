@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22102B
+test_cases:
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_SENS_2_V: 374.6
+  response: 7E80562102B0751
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_SENS_2_V: 375.8
+  response: 7E80562102B0757
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_SENS_2_V: 377
+  response: 7E80562102B075D
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_SENS_2_V: 378.4
+  response: 7E80562102B0764
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_SENS_2_V: 552.8
+  response: 7E80562102B0ACC
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_SENS_2_V: 574.8
+  response: 7E80562102B0B3A
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_SENS_2_V: 642.2
+  response: 7E80562102B0C8B
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_SENS_2_V: 694.6
+  response: 7E80562102B0D91
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_SENS_2_V: 913.2
+  response: 7E80562102B11D6
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_SENS_2_V: 1056
+  response: 7E80562102B14A0

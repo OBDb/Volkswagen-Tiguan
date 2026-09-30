@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2213A0|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_COOLANT_T_MODELED_VALUE: 27.1
+  response: 7E8056213A00BBA
+- expected_values:
+    TIGUAN_COOLANT_T_MODELED_VALUE: 32.7
+  response: 7E8056213A00BF2
+- expected_values:
+    TIGUAN_COOLANT_T_MODELED_VALUE: 34.2
+  response: 7E8056213A00C01

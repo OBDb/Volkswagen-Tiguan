@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211DF
+test_cases:
+- expected_values:
+    TIGUAN_POWERTRAIN_OVERALL: 1
+  response: 7E8056211DF0064
+- expected_values:
+    TIGUAN_POWERTRAIN_OVERALL: 5
+  response: 7E8056211DF01F4
+- expected_values:
+    TIGUAN_POWERTRAIN_OVERALL: 10.3
+  response: 7E8056211DF0406
+- expected_values:
+    TIGUAN_POWERTRAIN_OVERALL: 32.7
+  response: 7E8056211DF0CC6
