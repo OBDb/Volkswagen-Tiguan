@@ -1,0 +1,26 @@
+command_id: 7E0.22105C|din=03
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 0
+  response: 7E80562105C0000
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 1.32
+  response: 7E80562105C0084
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 2.07
+  response: 7E80562105C00CF
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 2.88
+  response: 7E80562105C0120
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 2.94
+  response: 7E80562105C0126
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 3.06
+  response: 7E80562105C0132
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 3.12
+  response: 7E80562105C0138
+- expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 3.33
+  response: 7E80562105C014D

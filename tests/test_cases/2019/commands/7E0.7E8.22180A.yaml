@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22180A
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_RATE_DIFF_INJ: 0
+  response: 7E80562180A0000
+- expected_values:
+    TIGUAN_FUEL_RATE_DIFF_INJ: -0.97264
+  response: 7E80562180AFF07
+- expected_values:
+    TIGUAN_FUEL_RATE_DIFF_INJ: -0.51171
+  response: 7E80562180AFF7D

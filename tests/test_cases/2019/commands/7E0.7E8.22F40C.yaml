@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    TIGUAN_RPM: 0
+  response: 7E80562F40C0000
+- expected_values:
+    TIGUAN_RPM: 824.5
+  response: 7E80562F40C0CE2
+- expected_values:
+    TIGUAN_RPM: 2369.5
+  response: 7E80562F40C2506

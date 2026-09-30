@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    TIGUAN_CLR_DIST: 0
+  response: 7E80562F4310000
+- expected_values:
+    TIGUAN_CLR_DIST: 1
+  response: 7E80562F4310001
+- expected_values:
+    TIGUAN_CLR_DIST: 2
+  response: 7E80562F4310002
+- expected_values:
+    TIGUAN_CLR_DIST: 165
+  response: 7E80562F43100A5
+- expected_values:
+    TIGUAN_CLR_DIST: 166
+  response: 7E80562F43100A6
+- expected_values:
+    TIGUAN_CLR_DIST: 167
+  response: 7E80562F43100A7

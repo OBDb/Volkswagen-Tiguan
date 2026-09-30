@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224649
+test_cases:
+- expected_values:
+    TIGUAN_MAX_ECU_T: 79.1
+  response: 7E8056246490DC2

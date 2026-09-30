@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211EF
+test_cases:
+- expected_values:
+    TIGUAN_P_BEFORE_THROTTLE: 991.01526
+  response: 7E8056211EF631A
+- expected_values:
+    TIGUAN_P_BEFORE_THROTTLE: 1030.07775
+  response: 7E8056211EF6702
+- expected_values:
+    TIGUAN_P_BEFORE_THROTTLE: 1629.53065
+  response: 7E8056211EFA2F4

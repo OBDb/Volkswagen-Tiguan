@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211D2
+test_cases:
+- expected_values:
+    TIGUAN_HIGH_P_CTRL_ADPT: -0.039
+  response: 7E8056211D2FFB2
+- expected_values:
+    TIGUAN_HIGH_P_CTRL_ADPT: -0.0385
+  response: 7E8056211D2FFB3
+- expected_values:
+    TIGUAN_HIGH_P_CTRL_ADPT: -0.037
+  response: 7E8056211D2FFB6
+- expected_values:
+    TIGUAN_HIGH_P_CTRL_ADPT: -0.0365
+  response: 7E8056211D2FFB7
+- expected_values:
+    TIGUAN_HIGH_P_CTRL_ADPT: -0.036
+  response: 7E8056211D2FFB8

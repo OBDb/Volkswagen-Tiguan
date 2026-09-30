@@ -1,0 +1,17 @@
+command_id: 714.77E.222203|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_ODO: 2110
+  response: 77E0662220300D3E9
+- expected_values:
+    TIGUAN_PQ35_ODO: 2110
+  response: 77E0662220300D3EA
+- expected_values:
+    TIGUAN_PQ35_ODO: 2110
+  response: 77E0662220300D3EB
+- expected_values:
+    TIGUAN_PQ35_ODO: 2110
+  response: 77E0662220300D3EC
+- expected_values:
+    TIGUAN_PQ35_ODO: 2110
+  response: 77E0662220300D3ED
