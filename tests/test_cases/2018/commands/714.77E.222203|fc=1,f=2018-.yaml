@@ -1,20 +1,20 @@
-command_id: 714.77E.222203|fc=1
+command_id: 714.77E.222203|fc=1,f=2018-
 test_cases:
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_MQB_CLUSTER_ODO: 165766
   response: '77E06622203028786'
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_MQB_CLUSTER_ODO: 165767
   response: '77E06622203028787'
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_MQB_CLUSTER_ODO: 165768
   response: '77E06622203028788'
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_MQB_CLUSTER_ODO: 165769
   response: '77E06622203028789'
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_MQB_CLUSTER_ODO: 165773
   response: 77E0662220302878D
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_MQB_CLUSTER_ODO: 165776
   response: '77E06622203028790'
