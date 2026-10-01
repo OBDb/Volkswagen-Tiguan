@@ -1,8 +1,8 @@
 command_id: 710.77A.222A0A
 test_cases:
 - expected_values:
-    TIGUAN_MQB_BAT_SEN_T: 19
-  response: 77A04622A0A3B
+    TIGUAN_MQB_BAT_SEN_T: 15
+  response: 77A04622A0A37
 - expected_values:
     TIGUAN_MQB_BAT_SEN_T: 59
   response: 77A04622A0A63
