@@ -1,8 +1,14 @@
 command_id: 7E0.7E8.221184
 test_cases:
 - expected_values:
+    TIGUAN_PSN_EDGE_REL_AD_CAM_1: -0.5625
+  response: 7E807621184FFF791EC
+- expected_values:
     TIGUAN_PSN_EDGE_REL_AD_CAM_1: -0.3125
   response: 7E807621184FFFB0000
+- expected_values:
+    TIGUAN_PSN_EDGE_REL_AD_CAM_1: -0.25
+  response: 7E807621184FFFCD99A
 - expected_values:
     TIGUAN_PSN_EDGE_REL_AD_CAM_1: -0.1875
   response: 7E807621184FFFDCCCD

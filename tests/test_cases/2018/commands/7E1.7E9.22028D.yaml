@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_TCM_ECU_T: 61
   response: 7E90562028D3D00
+- expected_values:
+    TIGUAN_MQB_TCM_ECU_T: 70
+  response: 7E90562028D4600

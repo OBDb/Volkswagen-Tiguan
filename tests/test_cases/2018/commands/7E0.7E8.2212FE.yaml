@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_CAMS_ADAPT_PHASE_1: -0.56
   response: 7E8056212FEFFE4
+- expected_values:
+    TIGUAN_PQ35_CAMS_ADAPT_PHASE_1: -0.4
+  response: 7E8056212FEFFEC

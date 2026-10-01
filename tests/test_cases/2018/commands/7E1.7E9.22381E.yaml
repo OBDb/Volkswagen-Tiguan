@@ -7,5 +7,8 @@ test_cases:
     TIGUAN_MQB_TCM_EOP_ACTUAL_I: 631
   response: 7E90562381EA618
 - expected_values:
+    TIGUAN_MQB_TCM_EOP_ACTUAL_I: 759
+  response: 7E90562381EA61D
+- expected_values:
     TIGUAN_MQB_TCM_EOP_ACTUAL_I: 458
   response: 7E90562381EE411

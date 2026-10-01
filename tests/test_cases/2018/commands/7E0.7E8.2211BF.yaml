@@ -4,11 +4,11 @@ test_cases:
     TIGUAN_PQ35_FUEL_P_REG: 6.41
   response: 7E8056211BF0281
 - expected_values:
+    TIGUAN_PQ35_FUEL_P_REG: 9.54
+  response: 7E8056211BF03BA
+- expected_values:
     TIGUAN_PQ35_FUEL_P_REG: 10.2
   response: 7E8056211BF03FC
-- expected_values:
-    TIGUAN_PQ35_FUEL_P_REG: 10.9
-  response: 7E8056211BF0442
 - expected_values:
     TIGUAN_PQ35_FUEL_P_REG: 20.67
   response: 7E8056211BF0813

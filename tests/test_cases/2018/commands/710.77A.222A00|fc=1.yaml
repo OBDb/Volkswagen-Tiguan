@@ -22,5 +22,8 @@ test_cases:
     TIGUAN_MQB_GEN_TRG_V: 14.1
   response: 77A04622A0023
 - expected_values:
+    TIGUAN_MQB_GEN_TRG_V: 14.6
+  response: 77A04622A0028
+- expected_values:
     TIGUAN_MQB_GEN_TRG_V: 15
   response: 77A04622A002C

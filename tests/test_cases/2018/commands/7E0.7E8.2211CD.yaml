@@ -1,6 +1,15 @@
 command_id: 7E0.7E8.2211CD
 test_cases:
 - expected_values:
+    TIGUAN_TCO_1_SYS: -37
+  response: 7E8056211CD0333
+- expected_values:
+    TIGUAN_TCO_1_SYS: -14
+  response: 7E8056211CD1A1D
+- expected_values:
+    TIGUAN_TCO_1_SYS: -13
+  response: 7E8056211CD1B92
+- expected_values:
     TIGUAN_TCO_1_SYS: -13
   response: 7E8056211CD1BA8
 - expected_values:

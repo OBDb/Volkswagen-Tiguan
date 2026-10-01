@@ -10,6 +10,9 @@ test_cases:
     TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_2: 6
   response: 7E80562269B0006
 - expected_values:
+    TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_2: 8
+  response: 7E80562269B0008
+- expected_values:
     TIGUAN_MQB_DPF_DIFF_P_RAW_VALUE_2: 9
   response: 7E80562269B0009
 - expected_values:

@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221ABA
 test_cases:
 - expected_values:
+    TIGUAN_MQB_DPF_DISTANCE_SINCE_LAST_REGEN: 65.8
+  response: 7E805621ABA0292
+- expected_values:
     TIGUAN_MQB_DPF_DISTANCE_SINCE_LAST_REGEN: 271.8
   response: 7E805621ABA0A9E
 - expected_values:

@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.221010
 test_cases:
 - expected_values:
+    TIGUAN_MQB_TCM_CONVERTER_LOSS_TORQUE: 1075.2
+  response: '7E9056210105400'
+- expected_values:
     TIGUAN_MQB_TCM_CONVERTER_LOSS_TORQUE: 1241.6
   response: '7E9056210106100'
 - expected_values:

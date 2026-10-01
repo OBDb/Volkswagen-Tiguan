@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_INPUT_SHAFT_2: 1254
   response: 7E90562380DE604
+- expected_values:
+    TIGUAN_MQB_INPUT_SHAFT_2: 1263
+  response: 7E90562380DEF04

@@ -10,5 +10,5 @@ test_cases:
     TIGUAN_PQ35_LIM_TRQ: 154.3
   response: 7E80562106B0607
 - expected_values:
-    TIGUAN_PQ35_LIM_TRQ: 183.6
-  response: 7E80562106B072C
+    TIGUAN_PQ35_LIM_TRQ: 203.5
+  response: 7E80562106B07F3

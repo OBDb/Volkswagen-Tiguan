@@ -10,6 +10,9 @@ test_cases:
     TIGUAN_PQ35_ENG_START_QTY: 13.6
   response: '7E8056210690550'
 - expected_values:
+    TIGUAN_PQ35_ENG_START_QTY: 14.21
+  response: 7E805621069058D
+- expected_values:
     TIGUAN_PQ35_ENG_START_QTY: 14.6
   response: 7E80562106905B4
 - expected_values:

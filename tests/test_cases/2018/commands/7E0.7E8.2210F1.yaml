@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.2210F1
 test_cases:
 - expected_values:
+    TIGUAN_PQ35_DPF_DIFF_P_OFFSET: -4
+  response: 7E8056210F1FFFC
+- expected_values:
     TIGUAN_PQ35_DPF_DIFF_P_OFFSET: -3
   response: 7E8056210F1FFFD

@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.2238EB
 test_cases:
 - expected_values:
+    TIGUAN_PQ35_CLUTCH_1_ACTUAL_P: 0.02
+  response: 7E9056238EB0200
+- expected_values:
     TIGUAN_PQ35_CLUTCH_1_ACTUAL_P: 0.06
   response: 7E9056238EB0600
 - expected_values:

@@ -7,6 +7,9 @@ test_cases:
     TIGUAN_PQ35_CHG_P: 4.881
   response: '7E8056210571311'
 - expected_values:
+    TIGUAN_PQ35_CHG_P: 5.038
+  response: 7E80562105713AE
+- expected_values:
     TIGUAN_PQ35_CHG_P: 5.84
   response: 7E80562105716D0
 - expected_values:

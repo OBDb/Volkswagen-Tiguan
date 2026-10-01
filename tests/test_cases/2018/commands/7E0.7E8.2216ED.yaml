@@ -1,11 +1,17 @@
 command_id: 7E0.7E8.2216ED
 test_cases:
 - expected_values:
+    TIGUAN_CHG_P_REGULATOR_HI: 6
+  response: 7E8056216ED001E
+- expected_values:
     TIGUAN_CHG_P_REGULATOR_HI: 8
   response: 7E8056216ED0028
 - expected_values:
     TIGUAN_CHG_P_REGULATOR_HI: 18
   response: 7E8056216ED005A
+- expected_values:
+    TIGUAN_CHG_P_REGULATOR_HI: 20
+  response: 7E8056216ED0064
 - expected_values:
     TIGUAN_CHG_P_REGULATOR_HI: 22
   response: 7E8056216ED006E

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_OIL_DYN_LAST: 261.884
   response: 7E80562123CFFBF
+- expected_values:
+    TIGUAN_PQ35_OIL_DYN_LAST: 261.892
+  response: 7E80562123CFFC1

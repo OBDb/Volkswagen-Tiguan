@@ -7,5 +7,8 @@ test_cases:
     TIGUAN_OIL_P_VLV_SWITCH: 24
   response: 7E8046211B918
 - expected_values:
+    TIGUAN_OIL_P_VLV_SWITCH: 56
+  response: 7E8046211B938
+- expected_values:
     TIGUAN_OIL_P_VLV_SWITCH: 60
   response: 7E8046211B93C

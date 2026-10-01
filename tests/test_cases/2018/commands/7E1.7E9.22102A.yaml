@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_CLU_CENTER_CENTRAL_T: 64
   response: 7E90562102A4000
+- expected_values:
+    TIGUAN_CLU_CENTER_CENTRAL_T: 72
+  response: 7E90562102A4800
