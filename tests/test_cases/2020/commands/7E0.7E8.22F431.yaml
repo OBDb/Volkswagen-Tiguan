@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_CLR_DIST: 318
   response: 7E80562F431013E
 - expected_values:
-    TIGUAN_CLR_DIST: 403
-  response: 7E80562F4310193
+    TIGUAN_CLR_DIST: 65535
+  response: 7E80562F431FFFF

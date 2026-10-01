@@ -4,3 +4,7 @@ test_cases:
     TIGUAN_BDD_ACTIVE: 0
     TIGUAN_BDD_ODO: 77265
   response: 77D0762180E80012DD1
+- expected_values:
+    TIGUAN_BDD_ACTIVE: 0
+    TIGUAN_BDD_ODO: 200000
+  response: 77D0762180E80031365
