@@ -1,11 +1,11 @@
-command_id: 714.77E.222203|fc=1
+command_id: 714.77E.222203|fc=1,f=2018-
 test_cases:
 - expected_values:
-    TIGUAN_PQ35_ODO: 2730
+    TIGUAN_MQB_CLUSTER_ODO: 70037
   response: '77E06622203011195'
 - expected_values:
-    TIGUAN_PQ35_ODO: 2730
+    TIGUAN_MQB_CLUSTER_ODO: 70080
   response: 77E066222030111C0
 - expected_values:
-    TIGUAN_PQ35_ODO: 2740
+    TIGUAN_MQB_CLUSTER_ODO: 70186
   response: 77E0662220301122A
