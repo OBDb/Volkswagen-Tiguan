@@ -1,6 +1,12 @@
 command_id: 710.77A.222A0C|fc=1
 test_cases:
 - expected_values:
+    TIGUAN_BAT_SOC: 23
+  response: 77A04622A0C17
+- expected_values:
+    TIGUAN_BAT_SOC: 24
+  response: 77A04622A0C18
+- expected_values:
     TIGUAN_BAT_SOC: 35
   response: 77A04622A0C23
 - expected_values:
