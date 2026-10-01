@@ -10,8 +10,8 @@ test_cases:
     TIGUAN_MQB_INT_MAN_P: 1023
   response: 7E80562103C03FF
 - expected_values:
-    TIGUAN_MQB_INT_MAN_P: 1047
-  response: 7E80562103C0417
+    TIGUAN_MQB_INT_MAN_P: 1030
+  response: 7E80562103C0406
 - expected_values:
     TIGUAN_MQB_INT_MAN_P: 2073
   response: 7E80562103C0819

@@ -1,6 +1,12 @@
 command_id: 7E0.22123F|din=03
 test_cases:
 - expected_values:
+    TIGUAN_PQ35_OIL_DYN_AVG: 0.052
+  response: 7E80562123F000D
+- expected_values:
+    TIGUAN_PQ35_OIL_DYN_AVG: 0.096
+  response: 7E80562123F0018
+- expected_values:
     TIGUAN_PQ35_OIL_DYN_AVG: 261.956
   response: 7E80562123FFFD1
 - expected_values:

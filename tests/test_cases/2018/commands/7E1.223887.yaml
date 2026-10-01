@@ -1,6 +1,9 @@
 command_id: 7E1.223887
 test_cases:
 - expected_values:
+    TIGUAN_MQB_TCM_ODO_2: 59424.2
+  response: '7E90762388742110900'
+- expected_values:
     TIGUAN_MQB_TCM_ODO_2: 59305
   response: 7E9076238879A0C0900
 - expected_values:

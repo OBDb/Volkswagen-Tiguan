@@ -10,5 +10,8 @@ test_cases:
     TIGUAN_PQ35_CLUTCH_2_CMD_P: 3.05
   response: 7E9056238ED3101
 - expected_values:
+    TIGUAN_PQ35_CLUTCH_2_CMD_P: 3.08
+  response: 7E9056238ED3401
+- expected_values:
     TIGUAN_PQ35_CLUTCH_2_CMD_P: 2.2
   response: 7E9056238EDDC00

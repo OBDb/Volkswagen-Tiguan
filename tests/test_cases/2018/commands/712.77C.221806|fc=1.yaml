@@ -7,8 +7,14 @@ test_cases:
     TIGUAN_STEER_WHL_TQ_SENS_2: 1.52353
   response: 77C06621806014D00
 - expected_values:
+    TIGUAN_STEER_WHL_TQ_SENS_2: 6.93817
+  response: 77C06621806061D00
+- expected_values:
     TIGUAN_STEER_WHL_TQ_SENS_2: -10.28143
   response: 77C06621806F6CF00
+- expected_values:
+    TIGUAN_STEER_WHL_TQ_SENS_2: -2.52865
+  response: 77C06621806FDB300
 - expected_values:
     TIGUAN_STEER_WHL_TQ_SENS_2: -0.18612
   response: 77C06621806FFC800

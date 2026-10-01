@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: -97.5
   response: 7E90562383962F8
 - expected_values:
+    TIGUAN_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 43.35
+  response: '7E9056238396303'
+- expected_values:
     TIGUAN_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 21.15
   response: 7E905623839A701
 - expected_values:

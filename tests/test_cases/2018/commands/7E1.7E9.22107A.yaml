@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.22107A
 test_cases:
 - expected_values:
+    TIGUAN_ANALYSIS_CLU_2_T_0: 354.16
+  response: 7E90762107A2C452E0A
+- expected_values:
     TIGUAN_ANALYSIS_CLU_2_T_0: 19.54
   response: 7E90762107AD103280A
 - expected_values:

@@ -15,3 +15,12 @@ test_cases:
 - expected_values:
     TIGUAN_ODO_MILEAGE_HR: 165776.554
   response: 77E076222B809E18CAA
+- expected_values:
+    TIGUAN_ODO_MILEAGE_HR: 165887.141
+  response: 77E076222B809E33CA5
+- expected_values:
+    TIGUAN_ODO_MILEAGE_HR: 165887.75
+  response: 77E076222B809E33F06
+- expected_values:
+    TIGUAN_ODO_MILEAGE_HR: 165888.852
+  response: 77E076222B809E34354

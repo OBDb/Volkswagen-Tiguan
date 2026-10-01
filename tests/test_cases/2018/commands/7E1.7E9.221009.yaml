@@ -7,6 +7,9 @@ test_cases:
     TIGUAN_MQB_DQ250_SPD_OUTPUT: 275
   response: '7E9056210091301'
 - expected_values:
+    TIGUAN_MQB_DQ250_SPD_OUTPUT: 292
+  response: '7E9056210092401'
+- expected_values:
     TIGUAN_MQB_DQ250_SPD_OUTPUT: 357
   response: '7E9056210096501'
 - expected_values:

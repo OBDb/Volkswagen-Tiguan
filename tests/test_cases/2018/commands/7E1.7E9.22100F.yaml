@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_MQB_TCM_ENGINE_TORQUE_LOSS: 43
   response: 7E90562100F5C03
 - expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE_LOSS: 47
+  response: 7E90562100FAC03
+- expected_values:
     TIGUAN_MQB_TCM_ENGINE_TORQUE_LOSS: 61
   response: 7E90562100FC404
 - expected_values:

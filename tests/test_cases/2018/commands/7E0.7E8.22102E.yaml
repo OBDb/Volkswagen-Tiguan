@@ -10,5 +10,8 @@ test_cases:
     TIGUAN_PQ35_ACCEL_PED_2: 566.8
   response: 7E80562102E0B12
 - expected_values:
+    TIGUAN_PQ35_ACCEL_PED_2: 1026.2
+  response: 7E80562102E140B
+- expected_values:
     TIGUAN_PQ35_ACCEL_PED_2: 1290.2
   response: 7E80562102E1933

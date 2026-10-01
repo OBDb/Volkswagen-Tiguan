@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_DPF_OIL_ASH_MASS: 51.27472
   response: 7E807621ABD19A32020
+- expected_values:
+    TIGUAN_MQB_DPF_OIL_ASH_MASS: 51.30745
+  response: 7E807621ABD19A7508B

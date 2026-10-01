@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2: 8.25
   response: 7E905623838A500
+- expected_values:
+    TIGUAN_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2: 38.05
+  response: 7E905623838F902

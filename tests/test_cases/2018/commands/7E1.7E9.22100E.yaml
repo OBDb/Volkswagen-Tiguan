@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_MQB_TCM_ENGINE_TORQUE_LIMITATION: 264
   response: 7E90562100EA014
 - expected_values:
+    TIGUAN_MQB_TCM_ENGINE_TORQUE_LIMITATION: 265
+  response: 7E90562100EB414
+- expected_values:
     TIGUAN_MQB_TCM_ENGINE_TORQUE_LIMITATION: 242
   response: 7E90562100EE812
 - expected_values:

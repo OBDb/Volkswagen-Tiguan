@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G1: -1.92
   response: 7E90562108340FF
+- expected_values:
+    TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G1: -1.8
+  response: 7E9056210834CFF

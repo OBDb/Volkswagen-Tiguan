@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION: 36.1
   response: 7E90562100A6901
+- expected_values:
+    TIGUAN_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION: 38.4
+  response: 7E90562100A8001

@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 61
   response: 7E9056221043D00
+- expected_values:
+    TIGUAN_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 71
+  response: '7E9056221044700'

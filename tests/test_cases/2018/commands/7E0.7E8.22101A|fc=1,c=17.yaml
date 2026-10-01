@@ -4,8 +4,8 @@ test_cases:
     TIGUAN_A_C_COMPRESSOR_TORQUE: 0
   response: 7E80562101A0000
 - expected_values:
-    TIGUAN_A_C_COMPRESSOR_TORQUE: 12.8
-  response: 7E80562101A0080
+    TIGUAN_A_C_COMPRESSOR_TORQUE: 1.4
+  response: 7E80562101A000E
 - expected_values:
     TIGUAN_A_C_COMPRESSOR_TORQUE: -20.8
   response: 7E80562101AFF30
