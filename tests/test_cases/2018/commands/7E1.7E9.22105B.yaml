@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.22105B
 test_cases:
 - expected_values:
+    TIGUAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_2_POS: 11.48
+  response: 7E90562105B7C04
+- expected_values:
     TIGUAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_2_POS: 11.53
   response: 7E90562105B8104
 - expected_values:

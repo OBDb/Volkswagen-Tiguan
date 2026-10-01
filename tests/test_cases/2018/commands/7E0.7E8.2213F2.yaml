@@ -15,3 +15,12 @@ test_cases:
 - expected_values:
     TIGUAN_IGA_CYL_KNK_0: -48
   response: 7E8076213F200054764
+- expected_values:
+    TIGUAN_IGA_CYL_KNK_0: -48
+  response: 7E8076213F2000548D9
+- expected_values:
+    TIGUAN_IGA_CYL_KNK_0: -48
+  response: 7E8076213F2000548DA
+- expected_values:
+    TIGUAN_IGA_CYL_KNK_0: -48
+  response: 7E8076213F2000548DD

@@ -4,14 +4,23 @@ test_cases:
     TIGUAN_HIGH_FUEL_P_CMD: 4.1415
   response: 7E8056211D7205B
 - expected_values:
+    TIGUAN_HIGH_FUEL_P_CMD: 4.765
+  response: 7E8056211D7253A
+- expected_values:
     TIGUAN_HIGH_FUEL_P_CMD: 5.048
   response: 7E8056211D72770
+- expected_values:
+    TIGUAN_HIGH_FUEL_P_CMD: 5.432
+  response: 7E8056211D72A70
 - expected_values:
     TIGUAN_HIGH_FUEL_P_CMD: 6.1015
   response: 7E8056211D72FAB
 - expected_values:
     TIGUAN_HIGH_FUEL_P_CMD: 6.461
   response: 7E8056211D7327A
+- expected_values:
+    TIGUAN_HIGH_FUEL_P_CMD: 6.6835
+  response: 7E8056211D73437
 - expected_values:
     TIGUAN_HIGH_FUEL_P_CMD: 8.198
   response: 7E8056211D7400C

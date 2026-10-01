@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_TCM_TRANSMISSION_PART_2_VALVE_I_ACTUAL: 1200
   response: 7E90562382BE02E
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_PART_2_VALVE_I_ACTUAL: 1202
+  response: 7E90562382BF42E

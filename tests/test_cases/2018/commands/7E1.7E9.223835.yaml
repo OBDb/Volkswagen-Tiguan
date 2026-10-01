@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL: 462
   response: 7E9056238350C12
 - expected_values:
+    TIGUAN_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL: 85
+  response: '7E9056238355203'
+- expected_values:
     TIGUAN_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL: 470
   response: 7E9056238355C12
 - expected_values:

@@ -5,6 +5,9 @@ test_cases:
   response: 7E90562385263FC
 - expected_values:
     TIGUAN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_A: 0
+  response: 7E905623852F2FF
+- expected_values:
+    TIGUAN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_A: 0
   response: 7E905623852F6FF
 - expected_values:
     TIGUAN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_A: 0

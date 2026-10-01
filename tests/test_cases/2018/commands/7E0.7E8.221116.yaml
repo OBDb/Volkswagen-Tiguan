@@ -4,8 +4,17 @@ test_cases:
     TIGUAN_PQ35_COOL_FAN_1_DUTY: 10.15
   response: 7E80562111603F7
 - expected_values:
+    TIGUAN_PQ35_COOL_FAN_1_DUTY: 26.56
+  response: 7E8056211160A60
+- expected_values:
+    TIGUAN_PQ35_COOL_FAN_1_DUTY: 28.12
+  response: 7E8056211160AFC
+- expected_values:
     TIGUAN_PQ35_COOL_FAN_1_DUTY: 28.51
   response: 7E8056211160B23
 - expected_values:
     TIGUAN_PQ35_COOL_FAN_1_DUTY: 28.9
   response: 7E8056211160B4A
+- expected_values:
+    TIGUAN_PQ35_COOL_FAN_1_DUTY: 39.05
+  response: 7E8056211160F41

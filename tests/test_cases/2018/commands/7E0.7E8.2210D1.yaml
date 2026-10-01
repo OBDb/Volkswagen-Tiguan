@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_INJ_3_RAIL_P_1: 0.0016
   response: 7E8056210D10020
+- expected_values:
+    TIGUAN_PQ35_INJ_3_RAIL_P_1: 0.002
+  response: 7E8056210D10028

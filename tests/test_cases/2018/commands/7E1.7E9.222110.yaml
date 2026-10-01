@@ -4,5 +4,8 @@ test_cases:
     TIGUAN_ENG_SPEC_TQ_DURING: 18515
   response: '7E9056221104853'
 - expected_values:
+    TIGUAN_ENG_SPEC_TQ_DURING: 33875
+  response: '7E9056221108453'
+- expected_values:
     TIGUAN_ENG_SPEC_TQ_DURING: 54355
   response: 7E905622110D453

@@ -7,8 +7,17 @@ test_cases:
     TIGUAN_CYL_HEAD_T: 645.2
   response: 7E80562106517FC
 - expected_values:
+    TIGUAN_CYL_HEAD_T: 663.92
+  response: '7E8056210651864'
+- expected_values:
+    TIGUAN_CYL_HEAD_T: 680.48
+  response: 7E80562106518C0
+- expected_values:
     TIGUAN_CYL_HEAD_T: 825.56
   response: 7E8056210651BE6
+- expected_values:
+    TIGUAN_CYL_HEAD_T: 871.64
+  response: 7E8056210651CE6
 - expected_values:
     TIGUAN_CYL_HEAD_T: 1062.8
   response: 7E805621065210C

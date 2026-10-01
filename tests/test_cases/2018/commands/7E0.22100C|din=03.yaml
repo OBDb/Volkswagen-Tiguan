@@ -1,6 +1,9 @@
 command_id: 7E0.22100C|din=03
 test_cases:
 - expected_values:
+    TIGUAN_PQ35_FUEL_LVL_2: 48
+  response: 7E80562100C12C0
+- expected_values:
     TIGUAN_PQ35_FUEL_LVL_2: 56
   response: 7E80562100C15E0
 - expected_values:

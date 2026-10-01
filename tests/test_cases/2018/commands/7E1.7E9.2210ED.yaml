@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_CLUTCH_2_FAILED_ADAPTS_COUNTER: 0
   response: 7E9056210ED0000
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_2_FAILED_ADAPTS_COUNTER: 768
+  response: 7E9056210ED0300

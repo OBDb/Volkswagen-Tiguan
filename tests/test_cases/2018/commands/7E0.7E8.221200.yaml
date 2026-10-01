@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_EA888B_BOOST_P_CTRL_1: 0
   response: '7E8056212000000'
+- expected_values:
+    TIGUAN_EA888B_BOOST_P_CTRL_1: 0
+  response: '7E8056212000001'

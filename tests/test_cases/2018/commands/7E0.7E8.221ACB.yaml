@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.221ACB
 test_cases:
 - expected_values:
+    TIGUAN_MQB_DPF_STATISTICS_ROUTE_IN_CHARGE_CYCLE: 64
+  response: 7E804621ACB08
+- expected_values:
     TIGUAN_MQB_DPF_STATISTICS_ROUTE_IN_CHARGE_CYCLE: 256
   response: 7E804621ACB20

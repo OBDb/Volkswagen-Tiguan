@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G5: 7.87
   response: 7E90562109E1303
+- expected_values:
+    TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G5: 7.89
+  response: 7E90562109E1503

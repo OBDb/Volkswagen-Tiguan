@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.222609
 test_cases:
 - expected_values:
+    TIGUAN_MQB_DPF_SOOT_MASS_CALCULATED: 9.99
+  response: 7E80562260903E7
+- expected_values:
     TIGUAN_MQB_DPF_SOOT_MASS_CALCULATED: 20.95
   response: 7E805622609082F
-- expected_values:
-    TIGUAN_MQB_DPF_SOOT_MASS_CALCULATED: 22.04
-  response: 7E805622609089C

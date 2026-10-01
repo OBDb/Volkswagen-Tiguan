@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_CLUTCH_1_T: 63
   response: 7E90562102B3F00
+- expected_values:
+    TIGUAN_PQ35_CLUTCH_1_T: 72
+  response: 7E90562102B4800
