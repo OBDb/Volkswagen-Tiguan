@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_FLI_INPUT: 46.66667
   response: 7E80462F42F77
 - expected_values:
-    TIGUAN_FLI_INPUT: 59.60784
-  response: 7E80462F42F98
+    TIGUAN_FLI_INPUT: 65.88235
+  response: 7E80462F42FA8
