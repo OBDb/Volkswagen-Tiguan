@@ -1,4 +1,4 @@
-command_id: 714.77E.222203|fc=1
+command_id: 714.77E.222203|fc=1,f=-2017
 test_cases:
 - expected_values:
     TIGUAN_PQ35_ODO: 154660

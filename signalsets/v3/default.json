@@ -99,8 +99,7 @@
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A0A"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2021, 2022], "from": 2025 },
   "signals": [
-    {"id": "TIGUAN_MQB_BAT_SEN_T", "path": "Battery", "fmt": {          "len": 8,  "max": 215,      "min": -40, "add": -40, "unit": "celsius"    }, "name": "Battery sensor temperature"},
-    {"id": "TIGUAN_MQB_ODO",       "path": "Trips",   "fmt": {"bix": 8, "len": 24, "max": 16777175,                         "unit": "kilometers" }, "name": "Odometer",                   "suggestedMetric": "odometer"}
+    {"id": "TIGUAN_MQB_BAT_SEN_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery sensor temperature"}
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0B"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2022], "from": 2025 },
   "signals": [
@@ -253,9 +252,13 @@
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 197, "min": -58, "add": -58, "unit": "celsius" }, "name": "Oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2203"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2021, 2022], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2203"}, "freq": 30, "filter": { "to": 2017 }, "dbgfilter": { "to": 2014, "years": [2016] },
   "signals": [
     {"id": "TIGUAN_PQ35_ODO", "path": "Trips", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2203"}, "freq": 30, "filter": { "from": 2018 }, "dbgfilter": { "years": [2021, 2022], "from": 2026 },
+  "signals": [
+    {"id": "TIGUAN_MQB_CLUSTER_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2206"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
@@ -2964,7 +2967,7 @@
   ]},
 { "hdr": "7E1", "cmd": {"22": "3887"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2021, 2022], "from": 2025 },
   "signals": [
-    {"id": "TIGUAN_MQB_TCM_ODO_2", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer #2", "suggestedMetric": "odometer"}
+    {"id": "TIGUAN_MQB_TCM_ODO_2", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 429496729.5, "div": 10, "nullmin": 0, "unit": "kilometers" }, "name": "Odometer #2", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "028D"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
@@ -3858,7 +3861,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "pri": "17", "fcm1": true, "cmd": {"22": "704E"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
-    {"id": "TIGUAN_ATF_T_CALCULATED", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Transmission fluid temperature, calculated", "suggestedMetric": "transmissionFluidTemperature"}
+    {"id": "TIGUAN_ATF_T_CALCULATED", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Transmission fluid temperature, calculated"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "704F"}, "freq": 3600, "dbgfilter": { "to": 2018, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
