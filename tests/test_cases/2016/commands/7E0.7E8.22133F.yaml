@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22133F
+test_cases:
+- expected_values:
+    TIGUAN_TQ_REDUCTION_REQ_ESP: 50000
+  response: 7E80762133F0007A120

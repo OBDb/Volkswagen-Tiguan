@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211E0
+test_cases:
+- expected_values:
+    TIGUAN_CMD_CRANK_TQ: -7.6
+  response: 7E8056211E0FFB4

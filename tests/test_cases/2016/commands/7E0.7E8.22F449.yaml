@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F449
+test_cases:
+- expected_values:
+    TIGUAN_ACCEL_PEDAL_POS_1: 14.5098
+  response: 7E80462F44925

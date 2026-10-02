@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221340
+test_cases:
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -50000
+  response: 7E807621340FFF85EE0
