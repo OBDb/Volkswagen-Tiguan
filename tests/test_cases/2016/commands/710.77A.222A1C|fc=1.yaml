@@ -1,0 +1,5 @@
+command_id: 710.77A.222A1C|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_GEN_CURRENT: 27.2
+  response: 77A05622A1C00B6

@@ -1,0 +1,8 @@
+command_id: 713.77D.221804|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_MQB_SWA_ALT: 407.75
+  response: |-
+    77D1011621804003AFF
+    77D21C30077FF9501DF
+    77D2203A403A4AAAAAA

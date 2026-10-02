@@ -1,0 +1,8 @@
+command_id: 746.7B0.2227C4|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_CABIN_HUMIDITY: 59.5
+    TIGUAN_WINDSHIELD_T: -38.224
+  response: |-
+    7B010096227C401EE02
+    7B0214F776EAAAAAAAA
