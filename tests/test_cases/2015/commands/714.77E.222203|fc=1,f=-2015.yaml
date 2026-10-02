@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_ODO: 154690
   response: 77E056222033C6D
+- expected_values:
+    TIGUAN_PQ35_ODO: 155310
+  response: 77E056222033CAB
+- expected_values:
+    TIGUAN_PQ35_ODO: 155330
+  response: 77E056222033CAD
+- expected_values:
+    TIGUAN_PQ35_ODO: 155340
+  response: 77E056222033CAE

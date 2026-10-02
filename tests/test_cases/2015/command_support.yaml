@@ -85,6 +85,8 @@ supported_commands_by_ecu:
   - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
   - 7E0.0147:TP_B
+  "7E1":
+  - 7E1.7E9.0104
 unsupported_commands_by_ecu:
   "70B":
   - 70B.2218A0|fc=1:TIGUAN_TP_FR
@@ -813,7 +815,9 @@ unsupported_commands_by_ecu:
   - 7E1.222B1E:TIGUAN_TIRE_RR_SPD
   - 7E1.223841:TIGUAN_MQB_TCM_ODO
   - 7E1.223887:TIGUAN_MQB_TCM_ODO_2
+  - 7E1.7E9.0105
   - 7E1.7E9.010D
+  - 7E1.7E9.0111
   - 7E1.7E9.0131
   - 7E1.7E9.22028D:TIGUAN_MQB_TCM_ECU_T
   - 7E1.7E9.220327:TIGUAN_TRANS_GEAR_RAT
