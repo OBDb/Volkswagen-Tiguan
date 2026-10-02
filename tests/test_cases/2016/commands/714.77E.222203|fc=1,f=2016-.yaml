@@ -1,0 +1,5 @@
+command_id: 714.77E.222203|fc=1,f=2016-
+test_cases:
+- expected_values:
+    TIGUAN_ODO_DASH: 96122
+  response: 77E0662220301777A

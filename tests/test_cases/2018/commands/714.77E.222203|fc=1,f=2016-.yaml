@@ -1,26 +1,26 @@
-command_id: 714.77E.222203|fc=1
+command_id: 714.77E.222203|fc=1,f=2016-
 test_cases:
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_ODO_DASH: 165766
   response: '77E06622203028786'
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_ODO_DASH: 165767
   response: '77E06622203028787'
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_ODO_DASH: 165768
   response: '77E06622203028788'
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_ODO_DASH: 165769
   response: '77E06622203028789'
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_ODO_DASH: 165773
   response: 77E0662220302878D
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_ODO_DASH: 165776
   response: '77E06622203028790'
 - expected_values:
-    TIGUAN_PQ35_ODO: 6470
+    TIGUAN_ODO_DASH: 165887
   response: 77E066222030287FF
 - expected_values:
-    TIGUAN_PQ35_ODO: 6480
+    TIGUAN_ODO_DASH: 165888
   response: '77E06622203028800'
