@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F42F
+test_cases:
+- expected_values:
+    TIGUAN_FLI_INPUT: 94.90196
+  response: 7E80462F42FF2

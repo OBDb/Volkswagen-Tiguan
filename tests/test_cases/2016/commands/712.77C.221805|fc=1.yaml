@@ -1,0 +1,5 @@
+command_id: 712.77C.221805|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_STEER_WHL_TQ_SENS_1: -0.04548
+  response: 77C07621805FFE80000

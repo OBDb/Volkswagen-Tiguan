@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22127D
+test_cases:
+- expected_values:
+    TIGUAN_VARIABLE_VLV_TIM_INT_1_ON: 50.6988
+  response: 7E80562127D40E5

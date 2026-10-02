@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211CE
+test_cases:
+- expected_values:
+    TIGUAN_LOW_FUEL_P_CMD: 205.3
+  response: 7E8056211CE0805

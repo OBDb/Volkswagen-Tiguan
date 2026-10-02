@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22171A
+test_cases:
+- expected_values:
+    TIGUAN_BASIC_CORR_FACTOR_1: 0.99086
+  response: 7E80562171A1FB6
