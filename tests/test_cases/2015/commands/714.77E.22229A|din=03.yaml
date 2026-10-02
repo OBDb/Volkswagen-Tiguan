@@ -4,5 +4,8 @@ test_cases:
     TIGUAN_FLI_714: 5
   response: 77E0562229A0028
 - expected_values:
+    TIGUAN_FLI_714: 7.75
+  response: 77E0562229A003E
+- expected_values:
     TIGUAN_FLI_714: 17.75
   response: 77E0562229A008E
