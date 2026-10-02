@@ -1,8 +1,17 @@
 command_id: 714.77E.222206|fc=1
 test_cases:
 - expected_values:
+    TIGUAN_PQ35_FUEL_LVL: 6
+  response: '77E0462220606'
+- expected_values:
+    TIGUAN_PQ35_FUEL_LVL: 7
+  response: '77E0462220607'
+- expected_values:
     TIGUAN_PQ35_FUEL_LVL: 8
   response: '77E0462220608'
+- expected_values:
+    TIGUAN_PQ35_FUEL_LVL: 11
+  response: 77E046222060B
 - expected_values:
     TIGUAN_PQ35_FUEL_LVL: 20
   response: '77E0462220614'
