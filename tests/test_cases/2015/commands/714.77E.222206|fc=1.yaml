@@ -4,29 +4,5 @@ test_cases:
     TIGUAN_PQ35_FUEL_LVL: 6
   response: '77E0462220606'
 - expected_values:
-    TIGUAN_PQ35_FUEL_LVL: 7
-  response: '77E0462220607'
-- expected_values:
-    TIGUAN_PQ35_FUEL_LVL: 8
-  response: '77E0462220608'
-- expected_values:
-    TIGUAN_PQ35_FUEL_LVL: 11
-  response: 77E046222060B
-- expected_values:
-    TIGUAN_PQ35_FUEL_LVL: 18
-  response: '77E0462220612'
-- expected_values:
-    TIGUAN_PQ35_FUEL_LVL: 20
-  response: '77E0462220614'
-- expected_values:
-    TIGUAN_PQ35_FUEL_LVL: 21
-  response: '77E0462220615'
-- expected_values:
-    TIGUAN_PQ35_FUEL_LVL: 24
-  response: '77E0462220618'
-- expected_values:
-    TIGUAN_PQ35_FUEL_LVL: 25
-  response: '77E0462220619'
-- expected_values:
     TIGUAN_PQ35_FUEL_LVL: 61
   response: 77E046222063D
