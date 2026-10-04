@@ -4,11 +4,8 @@ test_cases:
     TIGUAN_PQ35_DIST_EMPTY: 46
   response: 77E05622294002E
 - expected_values:
-    TIGUAN_PQ35_DIST_EMPTY: 221
-  response: 77E0562229400DD
+    TIGUAN_PQ35_DIST_EMPTY: 494
+  response: 77E0562229401EE
 - expected_values:
-    TIGUAN_PQ35_DIST_EMPTY: 291
-  response: '77E056222940123'
-- expected_values:
-    TIGUAN_PQ35_DIST_EMPTY: 578
-  response: '77E056222940242'
+    TIGUAN_PQ35_DIST_EMPTY: 512
+  response: '77E056222940200'
