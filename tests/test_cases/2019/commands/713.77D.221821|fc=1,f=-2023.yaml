@@ -1,4 +1,4 @@
-command_id: 713.77D.221821|fc=1
+command_id: 713.77D.221821|fc=1,f=-2023
 test_cases:
 - expected_values:
     TIGUAN_TPMS_AVAIL: 1
