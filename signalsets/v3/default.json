@@ -171,11 +171,11 @@
   "signals": [
     {"id": "TIGUAN_RR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1804"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1804"}, "freq": 0.25, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_MQB_SWA_ALT", "path": "Tires", "fmt": {"bix": 80, "len": 16, "max": 14335.562, "min": -14336, "mul": 0.4375, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1808"}, "freq": 2, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1808"}, "freq": 2, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_HDC_ACTIVE",  "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1,   "unit": "offon"   }, "name": "Hill descent control"},
     {"id": "TIGUAN_HDC_INCLINE", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "percent" }, "name": "Hill descent control, incline"}
@@ -185,7 +185,7 @@
     {"id": "TIGUAN_MQB_HAL_CLUTCH_OPEN",  "path": "Transmission", "fmt": {"bix": 2,  "len": 1, "max": 1,           "unit": "offon" }, "name": "All-wheel drive clutch fully open"},
     {"id": "TIGUAN_MQB_HAL_CLUTCH_BLOCK", "path": "Transmission", "fmt": {"bix": 15, "len": 1, "max": 1, "mul": 8, "unit": "offon" }, "name": "All-wheel drive clutch blockage degree"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180C"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180C"}, "freq": 1, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_EDL_ACTIVE",       "path": "Control", "fmt": {"bix": 1,  "len": 1,  "max": 1,                                       "unit": "offon"   }, "name": "Electronic differential lock: active"},
     {"id": "TIGUAN_EDL_FR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: front left brake temperature"},
@@ -193,7 +193,7 @@
     {"id": "TIGUAN_EDL_RR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 40, "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear left brake temperature"},
     {"id": "TIGUAN_EDL_RR_R_BRAKE_T", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear right brake temperature"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180E"}, "freq": 2, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180E"}, "freq": 2, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_BDD_ACTIVE", "path": "Control", "fmt": {"bix": 1, "len": 1,  "max": 1,      "unit": "offon"      }, "name": "Brake disk drying"},
     {"id": "TIGUAN_BDD_ODO",    "path": "Control", "fmt": {"bix": 8, "len": 24, "max": 200000, "unit": "kilometers" }, "name": "Brake disk drying, odometer at last activation"}
@@ -202,12 +202,12 @@
   "signals": [
     {"id": "TIGUAN_HYD_BRAKE_BOOST_ACTIVE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Hydraulic brake booster: active"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1816"}, "freq": 2, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1816"}, "freq": 2, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_BRAKE_P_SNS",        "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 327.67, "div": 100, "sign": true, "unit": "bars"    }, "name": "Brake pressure sensor"},
     {"id": "TIGUAN_AIR_GAB_VACUUM_SNS", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 32767,              "sign": true, "unit": "unknown" }, "name": "Air gab vacuum sensor"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1821"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1821"}, "freq": 5, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_TPMS_AVAIL",                          "path": "Tires", "fmt": {"bix": 7,   "len": 1,  "max": 1,      "unit": "noyes"      }, "name": "Tire pressure monitoring available"},
     {"id": "TIGUAN_TPMS_ODO_RDG_AT_LAST_ADAPT",          "path": "Trips", "fmt": {"bix": 8,   "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading at last adaptation"},
@@ -227,7 +227,7 @@
     {"id": "TIGUAN_TPMS_RR_L_FLAT_TIRE_IND",             "path": "Tires", "fmt": {"bix": 312, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Rear left flat tire indicator"},
     {"id": "TIGUAN_TPMS_RR_R_FLAT_TIRE_IND",             "path": "Tires", "fmt": {"bix": 320, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Rear right flat tire indicator"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "18B6"}, "freq": 900, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "18B6"}, "freq": 900, "filter": { "to": 2023 }, "dbgfilter": { "to": 2015, "years": [2017], "from": 2021 },
   "signals": [
     {"id": "TIGUAN_CNT_STEER_SUPPORT_ACTIVE",              "path": "Engine", "fmt": {"bix": 6,  "len": 1,  "max": 1,              "unit": "offon"        }, "name": "Counter steer support"},
     {"id": "TIGUAN_CNT_STEER_SUPPORT_ODO_RDG_OF_LAST_ACT", "path": "Trips",  "fmt": {"bix": 8,  "len": 24, "max": 1,              "unit": "kilometers"   }, "name": "Counter steer support, odometer, last activated"},
