@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22136C
+test_cases:
+- expected_values:
+    TIGUAN_CAM_ADJ_EXH_BANK_1_ACT: -6.896
+  response: 7E80562136CFCA2
