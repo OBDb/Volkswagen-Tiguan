@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_ATF_T_CALCULATED: 112
   response: 7E90462704EA2
+- expected_values:
+    TIGUAN_ATF_T_CALCULATED: 118
+  response: 7E90462704EA8
