@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2211EF
+test_cases:
+- expected_values:
+    TIGUAN_P_BEFORE_THROTTLE: 1011.64025
+  response: 7E8056211EF652A
+- expected_values:
+    TIGUAN_P_BEFORE_THROTTLE: 1011.71838
+  response: 7E8056211EF652C
+- expected_values:
+    TIGUAN_P_BEFORE_THROTTLE: 1013.20275
+  response: 7E8056211EF6552
+- expected_values:
+    TIGUAN_P_BEFORE_THROTTLE: 1013.43713
+  response: 7E8056211EF6558
+- expected_values:
+    TIGUAN_P_BEFORE_THROTTLE: 1017.4215
+  response: 7E8056211EF65BE
+- expected_values:
+    TIGUAN_P_BEFORE_THROTTLE: 1017.734
+  response: 7E8056211EF65C6
+- expected_values:
+    TIGUAN_P_BEFORE_THROTTLE: 1025.70275
+  response: 7E8056211EF6692

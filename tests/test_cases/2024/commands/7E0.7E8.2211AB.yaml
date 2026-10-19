@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2211AB
+test_cases:
+- expected_values:
+    TIGUAN_INT_MODEL_AIR_MASS: 0
+  response: 7E8056211AB0000
+- expected_values:
+    TIGUAN_INT_MODEL_AIR_MASS: 9.3
+  response: 7E8056211AB005D
+- expected_values:
+    TIGUAN_INT_MODEL_AIR_MASS: 23.2
+  response: 7E8056211AB00E8
+- expected_values:
+    TIGUAN_INT_MODEL_AIR_MASS: 24.4
+  response: 7E8056211AB00F4
+- expected_values:
+    TIGUAN_INT_MODEL_AIR_MASS: 42.5
+  response: 7E8056211AB01A9
+- expected_values:
+    TIGUAN_INT_MODEL_AIR_MASS: 50
+  response: 7E8056211AB01F4

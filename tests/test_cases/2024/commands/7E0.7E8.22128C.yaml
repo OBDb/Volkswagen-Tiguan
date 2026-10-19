@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22128C
+test_cases:
+- expected_values:
+    TIGUAN_AVG_INJ_TIME: 0.6076
+  response: 7E80762128C000005EF
+- expected_values:
+    TIGUAN_AVG_INJ_TIME: 0.6488
+  response: 7E80762128C00000656
+- expected_values:
+    TIGUAN_AVG_INJ_TIME: 0.76
+  response: 7E80762128C0000076C
+- expected_values:
+    TIGUAN_AVG_INJ_TIME: 0.7944
+  response: 7E80762128C000007C2
+- expected_values:
+    TIGUAN_AVG_INJ_TIME: 1.722
+  response: 7E80762128C000010D1
+- expected_values:
+    TIGUAN_AVG_INJ_TIME: 2.1592
+  response: 7E80762128C00001516
+- expected_values:
+    TIGUAN_AVG_INJ_TIME: 2.3832
+  response: 7E80762128C00001746

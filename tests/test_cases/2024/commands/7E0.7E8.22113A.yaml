@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22113A
+test_cases:
+- expected_values:
+    TIGUAN_SEG_AD_MMV_ER_H_2: 4.07221
+  response: 7E80562113A42B8
+- expected_values:
+    TIGUAN_SEG_AD_MMV_ER_H_2: 4.07245
+  response: 7E80562113A42B9
+- expected_values:
+    TIGUAN_SEG_AD_MMV_ER_H_2: 4.07316
+  response: 7E80562113A42BC
+- expected_values:
+    TIGUAN_SEG_AD_MMV_ER_H_2: 4.0734
+  response: 7E80562113A42BD
+- expected_values:
+    TIGUAN_SEG_AD_MMV_ER_H_2: 4.07364
+  response: 7E80562113A42BE

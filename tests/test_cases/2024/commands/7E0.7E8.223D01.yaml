@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.223D01
+test_cases:
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_V: 759.6
+  response: 7E805623D010ED6
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_V: 3549.2
+  response: 7E805623D014552
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_V: 3549.4
+  response: 7E805623D014553
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_V: 3577.2
+  response: 7E805623D0145DE
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_V: 3581
+  response: 7E805623D0145F1
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_V: 3582.2
+  response: 7E805623D0145F7
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_V: 3611.2
+  response: 7E805623D014688

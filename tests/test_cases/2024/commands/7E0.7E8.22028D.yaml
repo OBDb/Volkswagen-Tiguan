@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22028D
+test_cases:
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 293.9
+  response: 7E80562028D0B7B
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 294.3
+  response: 7E80562028D0B7F
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 294.8
+  response: 7E80562028D0B84
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 295.2
+  response: 7E80562028D0B88
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 295.5
+  response: 7E80562028D0B8B
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 296.3
+  response: 7E80562028D0B93
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 296.6
+  response: 7E80562028D0B96

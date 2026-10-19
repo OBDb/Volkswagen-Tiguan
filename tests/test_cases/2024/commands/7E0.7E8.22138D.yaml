@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22138D
+test_cases:
+- expected_values:
+    TIGUAN_IGA_IGC_3: -35.25025
+  response: 7E80462138D01
+- expected_values:
+    TIGUAN_IGA_IGC_3: -34.8755
+  response: 7E80462138D02
+- expected_values:
+    TIGUAN_IGA_IGC_3: -29.25425
+  response: 7E80462138D11
+- expected_values:
+    TIGUAN_IGA_IGC_3: -28.8795
+  response: 7E80462138D12
+- expected_values:
+    TIGUAN_IGA_IGC_3: -23.633
+  response: 7E80462138D20

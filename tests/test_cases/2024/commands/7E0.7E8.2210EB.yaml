@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2210EB
+test_cases:
+- expected_values:
+    TIGUAN_CRANK_ROT_ANG: 0
+  response: 7E8056210EB0000
+- expected_values:
+    TIGUAN_CRANK_ROT_ANG: 22.3
+  response: 7E8056210EB00DF
+- expected_values:
+    TIGUAN_CRANK_ROT_ANG: 29
+  response: 7E8056210EB0122
+- expected_values:
+    TIGUAN_CRANK_ROT_ANG: 37.8
+  response: 7E8056210EB017A
+- expected_values:
+    TIGUAN_CRANK_ROT_ANG: 40.6
+  response: 7E8056210EB0196
+- expected_values:
+    TIGUAN_CRANK_ROT_ANG: 53.3
+  response: 7E8056210EB0215
+- expected_values:
+    TIGUAN_CRANK_ROT_ANG: 74.1
+  response: 7E8056210EB02E5

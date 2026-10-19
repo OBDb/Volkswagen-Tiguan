@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2211D1
+test_cases:
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_RAW_P: 9
+  response: 7E8056211D10009
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_RAW_P: 30
+  response: 7E8056211D1001E
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_RAW_P: 34
+  response: 7E8056211D10022
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_RAW_P: 37
+  response: 7E8056211D10025
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_RAW_P: 40
+  response: 7E8056211D10028
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_RAW_P: 45
+  response: 7E8056211D1002D
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_RAW_P: 117
+  response: 7E8056211D10075

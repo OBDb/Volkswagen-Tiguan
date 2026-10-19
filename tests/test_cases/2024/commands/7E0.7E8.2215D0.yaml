@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2215D0
+test_cases:
+- expected_values:
+    TIGUAN_YAW_ACCEL_RAW: 0
+  response: 7E8056215D00000

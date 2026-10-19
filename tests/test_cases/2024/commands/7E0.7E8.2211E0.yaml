@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2211E0
+test_cases:
+- expected_values:
+    TIGUAN_CMD_CRANK_TQ: 1.4
+  response: 7E8056211E0000E
+- expected_values:
+    TIGUAN_CMD_CRANK_TQ: 7.3
+  response: 7E8056211E00049
+- expected_values:
+    TIGUAN_CMD_CRANK_TQ: 71
+  response: 7E8056211E002C6
+- expected_values:
+    TIGUAN_CMD_CRANK_TQ: 120.6
+  response: 7E8056211E004B6
+- expected_values:
+    TIGUAN_CMD_CRANK_TQ: 144.3
+  response: 7E8056211E005A3
+- expected_values:
+    TIGUAN_CMD_CRANK_TQ: -20.2
+  response: 7E8056211E0FF36
+- expected_values:
+    TIGUAN_CMD_CRANK_TQ: -20
+  response: 7E8056211E0FF38

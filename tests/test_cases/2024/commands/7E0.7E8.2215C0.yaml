@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2215C0
+test_cases:
+- expected_values:
+    TIGUAN_IAT_RAW: 21.1
+  response: 7E8056215C00B7E
+- expected_values:
+    TIGUAN_IAT_RAW: 22.3
+  response: 7E8056215C00B8A
+- expected_values:
+    TIGUAN_IAT_RAW: 22.4
+  response: 7E8056215C00B8B
+- expected_values:
+    TIGUAN_IAT_RAW: 22.7
+  response: 7E8056215C00B8E
+- expected_values:
+    TIGUAN_IAT_RAW: 24
+  response: 7E8056215C00B9B
+- expected_values:
+    TIGUAN_IAT_RAW: 24.1
+  response: 7E8056215C00B9C
+- expected_values:
+    TIGUAN_IAT_RAW: 24.3
+  response: 7E8056215C00B9E

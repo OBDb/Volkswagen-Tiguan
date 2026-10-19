@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2211A4
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_PMP_CMD_DUTY: 10.00058
+  response: 7E8056211A4199A
+- expected_values:
+    TIGUAN_FUEL_PMP_CMD_DUTY: 54.24483
+  response: 7E8056211A48ADE
+- expected_values:
+    TIGUAN_FUEL_PMP_CMD_DUTY: 55.92329
+  response: 7E8056211A48F2A
+- expected_values:
+    TIGUAN_FUEL_PMP_CMD_DUTY: 56.66639
+  response: 7E8056211A49111
+- expected_values:
+    TIGUAN_FUEL_PMP_CMD_DUTY: 57.42781
+  response: 7E8056211A49304
+- expected_values:
+    TIGUAN_FUEL_PMP_CMD_DUTY: 59.3855
+  response: 7E8056211A49807
+- expected_values:
+    TIGUAN_FUEL_PMP_CMD_DUTY: 59.65253
+  response: 7E8056211A498B6
