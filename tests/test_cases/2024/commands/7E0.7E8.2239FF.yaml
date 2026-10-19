@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2239FF
+test_cases:
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_TURBINE_INLET: 0
+  response: 7E8056239FF0000
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_TURBINE_INLET: -17.96
+  response: 7E8056239FFF8FC
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_TURBINE_INLET: -14.6
+  response: 7E8056239FFFA4C
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_TURBINE_INLET: -14.57
+  response: 7E8056239FFFA4F
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_TURBINE_INLET: -14.56
+  response: 7E8056239FFFA50
+- expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_TURBINE_INLET: -3.96
+  response: 7E8056239FFFE74

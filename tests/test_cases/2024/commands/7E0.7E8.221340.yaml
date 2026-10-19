@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221340
+test_cases:
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -107806.7
+  response: 7E807621340FFEF8CCD
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -64552.9
+  response: 7E807621340FFF62667
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -60293.1
+  response: 7E807621340FFF6CCCD
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -34406.4
+  response: 7E807621340FFFAC000
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -20971.5
+  response: 7E807621340FFFCCCCD
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -13107.2
+  response: 7E807621340FFFE0000
+- expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -12779.5
+  response: 7E807621340FFFE0CCD

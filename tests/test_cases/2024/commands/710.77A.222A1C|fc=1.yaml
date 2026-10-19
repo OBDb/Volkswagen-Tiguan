@@ -1,0 +1,11 @@
+command_id: 710.77A.222A1C|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_GEN_CURRENT: 9
+  response: 77A05622A1C0000
+- expected_values:
+    TIGUAN_GEN_CURRENT: 40.5
+  response: 77A05622A1C013B
+- expected_values:
+    TIGUAN_GEN_CURRENT: 55.2
+  response: 77A05622A1C01CE

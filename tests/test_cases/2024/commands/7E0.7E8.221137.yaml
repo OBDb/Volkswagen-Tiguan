@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221137
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: 0
+  response: '7E80462113700'
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: 0.01562
+  response: '7E80462113702'
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: -0.37488
+  response: 7E804621137D0
+- expected_values:
+    TIGUAN_FUEL_PART_EVAP: -0.00781
+  response: 7E804621137FF

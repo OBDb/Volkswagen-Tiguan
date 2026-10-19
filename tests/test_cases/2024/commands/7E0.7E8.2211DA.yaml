@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2211DA
+test_cases:
+- expected_values:
+    TIGUAN_INT_MANIFOLD_P: 274.6875
+  response: 7E8056211DA0DBC
+- expected_values:
+    TIGUAN_INT_MANIFOLD_P: 281.71875
+  response: 7E8056211DA0E16
+- expected_values:
+    TIGUAN_INT_MANIFOLD_P: 282.03125
+  response: 7E8056211DA0E1A
+- expected_values:
+    TIGUAN_INT_MANIFOLD_P: 512.89062
+  response: 7E8056211DA19A5
+- expected_values:
+    TIGUAN_INT_MANIFOLD_P: 725.39062
+  response: 7E8056211DA2445
+- expected_values:
+    TIGUAN_INT_MANIFOLD_P: 940
+  response: 7E8056211DA2F00
+- expected_values:
+    TIGUAN_INT_MANIFOLD_P: 1011.25
+  response: 7E8056211DA3290

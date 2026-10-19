@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22177B
+test_cases:
+- expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM_PORT: 1
+  response: 7E80562177B8000

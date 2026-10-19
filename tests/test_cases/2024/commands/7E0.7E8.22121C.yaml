@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22121C
+test_cases:
+- expected_values:
+    TIGUAN_AIR_FILLING: 13.40654
+  response: 7E80562121C023C
+- expected_values:
+    TIGUAN_AIR_FILLING: 20.57856
+  response: 7E80562121C036E
+- expected_values:
+    TIGUAN_AIR_FILLING: 22.10203
+  response: 7E80562121C03AF
+- expected_values:
+    TIGUAN_AIR_FILLING: 31.85224
+  response: 7E80562121C054F
+- expected_values:
+    TIGUAN_AIR_FILLING: 37.36017
+  response: 7E80562121C063A
+- expected_values:
+    TIGUAN_AIR_FILLING: 39.28209
+  response: 7E80562121C068C

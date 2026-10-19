@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2211D5
+test_cases:
+- expected_values:
+    TIGUAN_HIGH_FUEL_P: 0.002
+  response: 7E8056211D50004
+- expected_values:
+    TIGUAN_HIGH_FUEL_P: 0.008
+  response: 7E8056211D50010
+- expected_values:
+    TIGUAN_HIGH_FUEL_P: 0.022
+  response: 7E8056211D5002C
+- expected_values:
+    TIGUAN_HIGH_FUEL_P: 0.258
+  response: 7E8056211D50204
+- expected_values:
+    TIGUAN_HIGH_FUEL_P: 0.818
+  response: 7E8056211D50664
+- expected_values:
+    TIGUAN_HIGH_FUEL_P: -1.258
+  response: 7E8056211D5F62C
+- expected_values:
+    TIGUAN_HIGH_FUEL_P: -0.01
+  response: 7E8056211D5FFEC

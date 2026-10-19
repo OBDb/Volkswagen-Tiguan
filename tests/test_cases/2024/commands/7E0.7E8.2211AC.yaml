@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2211AC
+test_cases:
+- expected_values:
+    TIGUAN_MAF_THROUGH_THROTTLE: 0
+  response: 7E8056211AC0000
+- expected_values:
+    TIGUAN_MAF_THROUGH_THROTTLE: 12.5
+  response: 7E8056211AC007D
+- expected_values:
+    TIGUAN_MAF_THROUGH_THROTTLE: 14.8
+  response: 7E8056211AC0094
+- expected_values:
+    TIGUAN_MAF_THROUGH_THROTTLE: 16.5
+  response: 7E8056211AC00A5
+- expected_values:
+    TIGUAN_MAF_THROUGH_THROTTLE: 23
+  response: 7E8056211AC00E6
+- expected_values:
+    TIGUAN_MAF_THROUGH_THROTTLE: 38.8
+  response: 7E8056211AC0184
+- expected_values:
+    TIGUAN_MAF_THROUGH_THROTTLE: 77
+  response: 7E8056211AC0302

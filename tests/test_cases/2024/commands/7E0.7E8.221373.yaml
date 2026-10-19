@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221373
+test_cases:
+- expected_values:
+    TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: 2.616
+  response: '7E8056213730147'
+- expected_values:
+    TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: 3.296
+  response: 7E805621373019C
+- expected_values:
+    TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: 3.504
+  response: 7E80562137301B6
+- expected_values:
+    TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: 14.176
+  response: 7E80562137306EC
+- expected_values:
+    TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: -10.856
+  response: 7E805621373FAB3
+- expected_values:
+    TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: -6.608
+  response: 7E805621373FCC6
+- expected_values:
+    TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: -2.248
+  response: 7E805621373FEE7

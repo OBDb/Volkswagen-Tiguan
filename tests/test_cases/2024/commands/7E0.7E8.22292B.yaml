@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22292B
+test_cases:
+- expected_values:
+    TIGUAN_ADPT_THROTTLE_VLV: 0
+  response: 7E80462292B00

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.224418
+test_cases:
+- expected_values:
+    TIGUAN_THERMOSTAT_ACT: 47.98572
+  response: 7E8056244180F5B
+- expected_values:
+    TIGUAN_THERMOSTAT_ACT: 48.29089
+  response: 7E8056244180F74
+- expected_values:
+    TIGUAN_THERMOSTAT_ACT: 61.49887
+  response: 7E80562441813AE
+- expected_values:
+    TIGUAN_THERMOSTAT_ACT: 61.53549
+  response: 7E80562441813B1
+- expected_values:
+    TIGUAN_THERMOSTAT_ACT: 61.5599
+  response: 7E80562441813B3
+- expected_values:
+    TIGUAN_THERMOSTAT_ACT: 61.57211
+  response: 7E80562441813B4
