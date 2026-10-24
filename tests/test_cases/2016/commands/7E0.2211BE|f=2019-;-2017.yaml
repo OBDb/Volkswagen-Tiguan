@@ -1,0 +1,5 @@
+command_id: 7E0.2211BE|f=2019-;-2017
+test_cases:
+- expected_values:
+    TIGUAN_OIL_T_2_RAW: -32
+  response: 7E8056211BEFFE0
