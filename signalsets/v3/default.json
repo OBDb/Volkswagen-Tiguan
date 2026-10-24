@@ -1514,7 +1514,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F3"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
-    {"id": "TIGUAN_IGA_CYL_KNK_1", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 1"}
+    {"id": "TIGUAN_IGA_CYL_KNK_1", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Engine control module value 13F3, raw 32-bit"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F4"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
@@ -1522,7 +1522,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F5"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
-    {"id": "TIGUAN_IGA_CYL_KNK_3", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 3"}
+    {"id": "TIGUAN_IGA_CYL_KNK_3", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Engine control module value 13F5, raw 32-bit"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13F6"}, "freq": 1,
   "signals": [
