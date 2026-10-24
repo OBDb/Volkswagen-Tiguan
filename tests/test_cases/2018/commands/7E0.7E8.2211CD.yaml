@@ -1,23 +1,23 @@
 command_id: 7E0.7E8.2211CD
 test_cases:
 - expected_values:
-    TIGUAN_TCO_1_SYS: -37
+    TIGUAN_TCO_1_SYS: 3.19922
   response: 7E8056211CD0333
 - expected_values:
-    TIGUAN_TCO_1_SYS: -14
+    TIGUAN_TCO_1_SYS: 26.11328
   response: 7E8056211CD1A1D
 - expected_values:
-    TIGUAN_TCO_1_SYS: -13
+    TIGUAN_TCO_1_SYS: 27.57031
   response: 7E8056211CD1B92
 - expected_values:
-    TIGUAN_TCO_1_SYS: -13
+    TIGUAN_TCO_1_SYS: 27.65625
   response: 7E8056211CD1BA8
 - expected_values:
-    TIGUAN_TCO_1_SYS: -13
+    TIGUAN_TCO_1_SYS: 27.69531
   response: 7E8056211CD1BB2
 - expected_values:
-    TIGUAN_TCO_1_SYS: -12
+    TIGUAN_TCO_1_SYS: 28.08984
   response: 7E8056211CD1C17
 - expected_values:
-    TIGUAN_TCO_1_SYS: -9
+    TIGUAN_TCO_1_SYS: 31.64844
   response: 7E8056211CD1FA6
