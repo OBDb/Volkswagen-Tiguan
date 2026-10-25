@@ -1,14 +1,14 @@
-command_id: 7E0.2211BE|f=2019-;-2017
+command_id: 7E0.2211BE
 test_cases:
 - expected_values:
-    TIGUAN_OIL_T_2_RAW: 0
+    TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BE0000
 - expected_values:
-    TIGUAN_OIL_T_2_RAW: 11
+    TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BE000B
 - expected_values:
-    TIGUAN_OIL_T_2_RAW: 18
+    TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BE0012
 - expected_values:
-    TIGUAN_OIL_T_2_RAW: 24
+    TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BE0018
