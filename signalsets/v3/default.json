@@ -484,13 +484,9 @@
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_LVL_CRIT", "path": "Engine", "fmt": { "len": 16, "max": 131.068, "min": -131.072, "div": 250, "sign": true, "unit": "millimeters" }, "name": "Critical engine oil level"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "11BE"}, "freq": 5, "filter": { "years": [2018] },
+{ "hdr": "7E0", "cmd": {"22": "11BE"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2021, 2023], "from": 2025 },
   "signals": [
-    {"id": "TIGUAN_PQ35_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -273.1, "unit": "celsius" }, "name": "Oil temperature variant"}
-  ]},
-{ "hdr": "7E0", "cmd": {"22": "11BE"}, "freq": 5, "filter": { "to": 2017, "from": 2019 }, "dbgfilter": { "to": 2015, "years": [2017, 2021, 2023], "from": 2025 },
-  "signals": [
-    {"id": "TIGUAN_OIL_T_2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Oil temperature variant, raw"}
+    {"id": "TIGUAN_PQ35_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -60, "nullmax": 200, "unit": "celsius" }, "name": "Oil temperature variant"}
   ]},
 { "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "11F6"}, "freq": 1,
   "signals": [
@@ -1768,13 +1764,9 @@
   "signals": [
     {"id": "TIGUAN_PQ35_RADIATOR_OUTPUT_COOLANT_T_ACTUAL", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Radiator output coolant temp: actual, raw 16-bit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "filter": { "years": [2018] },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2021, 2022, 2023], "from": 2025 },
   "signals": [
-    {"id": "TIGUAN_PQ35_FUEL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -273.1, "unit": "celsius" }, "name": "Fuel temperature"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "filter": { "to": 2017, "from": 2019 }, "dbgfilter": { "to": 2015, "years": [2017, 2021, 2022, 2023], "from": 2025 },
-  "signals": [
-    {"id": "TIGUAN_FUEL_T_RAW", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Fuel temperature read, raw"}
+    {"id": "TIGUAN_PQ35_FUEL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -60, "nullmax": 200, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1633"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2021, 2023], "from": 2025 },
   "signals": [

@@ -1,26 +1,26 @@
-command_id: 7E0.2211BE|f=2019-;-2017
+command_id: 7E0.2211BE
 test_cases:
 - expected_values:
-    TIGUAN_OIL_T_2_RAW: 0
+    TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BE0000
 - expected_values:
-    TIGUAN_OIL_T_2_RAW: 1
+    TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BE0001
 - expected_values:
-    TIGUAN_OIL_T_2_RAW: 2
+    TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BE0002
 - expected_values:
-    TIGUAN_OIL_T_2_RAW: 3
+    TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BE0003
 - expected_values:
-    TIGUAN_OIL_T_2_RAW: 4
+    TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BE0004
 - expected_values:
-    TIGUAN_OIL_T_2_RAW: 5
+    TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BE0005
 - expected_values:
-    TIGUAN_OIL_T_2_RAW: 6
+    TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BE0006
 - expected_values:
-    TIGUAN_OIL_T_2_RAW: 9
+    TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BE0009
