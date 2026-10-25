@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211BB
+test_cases:
+- expected_values:
+    TIGUAN_OIL_CRIT: 6.5188
+  response: 7E8056211BB3FA9
+- expected_values:
+    TIGUAN_OIL_CRIT: 6.5496
+  response: 7E8056211BB3FF6
+- expected_values:
+    TIGUAN_OIL_CRIT: 6.5536
+  response: 7E8056211BB4000

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221780
+test_cases:
+- expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM_IDLE_PORT_INJ: 0
+  response: '7E8056217800000'

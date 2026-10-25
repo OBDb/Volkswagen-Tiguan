@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211B9
+test_cases:
+- expected_values:
+    TIGUAN_OIL_P_VLV_SWITCH: 1
+  response: 7E8046211B901

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221519
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_CONS_ACT_DRIVE: 0.19
+  response: '7E8056215190013'
+- expected_values:
+    TIGUAN_FUEL_CONS_ACT_DRIVE: 1.51
+  response: '7E8056215190097'

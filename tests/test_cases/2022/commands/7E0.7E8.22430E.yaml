@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22430E
+test_cases:
+- expected_values:
+    TIGUAN_NUM_INJECTIONS: 498
+  response: 7E80562430E01F2
+- expected_values:
+    TIGUAN_NUM_INJECTIONS: 2818
+  response: 7E80562430E0B02
+- expected_values:
+    TIGUAN_NUM_INJECTIONS: 48864
+  response: 7E80562430EBEE0

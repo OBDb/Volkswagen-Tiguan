@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221272|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 247.9
+  response: 7E805621272145A
+- expected_values:
+    TIGUAN_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 381.6
+  response: '7E8056212721993'
+- expected_values:
+    TIGUAN_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 418.3
+  response: 7E8056212721B02
+- expected_values:
+    TIGUAN_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 453.9
+  response: 7E8056212721C66

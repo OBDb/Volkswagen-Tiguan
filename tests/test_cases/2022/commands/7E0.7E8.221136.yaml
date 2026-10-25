@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221136
+test_cases:
+- expected_values:
+    TIGUAN_HEIGHT_CORR: 0.99615
+  response: 7E8056211363FC1
+- expected_values:
+    TIGUAN_HEIGHT_CORR: 0.99908
+  response: 7E8056211363FF1

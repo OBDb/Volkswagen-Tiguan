@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22174B
+test_cases:
+- expected_values:
+    TIGUAN_INT_CAM_ADPT_BIAS: 0.30762
+  response: 7E80562174B000E
+- expected_values:
+    TIGUAN_INT_CAM_ADPT_BIAS: 0.39551
+  response: 7E80562174B0012

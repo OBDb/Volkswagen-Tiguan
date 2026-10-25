@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.222103
+test_cases:
+- expected_values:
+    TIGUAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 0
+  response: '7E9056221030000'

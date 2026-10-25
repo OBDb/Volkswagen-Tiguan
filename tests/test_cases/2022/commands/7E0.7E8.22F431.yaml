@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    TIGUAN_CLR_DIST: 722
+  response: 7E80562F43102D2
+- expected_values:
+    TIGUAN_CLR_DIST: 723
+  response: 7E80562F43102D3
+- expected_values:
+    TIGUAN_CLR_DIST: 724
+  response: 7E80562F43102D4
+- expected_values:
+    TIGUAN_CLR_DIST: 725
+  response: 7E80562F43102D5
+- expected_values:
+    TIGUAN_CLR_DIST: 726
+  response: 7E80562F43102D6
+- expected_values:
+    TIGUAN_CLR_DIST: 729
+  response: 7E80562F43102D9
+- expected_values:
+    TIGUAN_CLR_DIST: 730
+  response: 7E80562F43102DA
+- expected_values:
+    TIGUAN_CLR_DIST: 731
+  response: 7E80562F43102DB
+- expected_values:
+    TIGUAN_CLR_DIST: 732
+  response: 7E80562F43102DC

@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221224
+test_cases:
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_GEAR: 0.6
+  response: '7E8056212240006'
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_GEAR: 0.8
+  response: '7E8056212240008'
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_GEAR: 1.9
+  response: '7E8056212240013'
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_GEAR: 3
+  response: 7E805621224001E
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_GEAR: 3.1
+  response: 7E805621224001F

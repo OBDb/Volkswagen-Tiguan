@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    TIGUAN_RUNTM: 480
+  response: 7E80562F41F01E0
+- expected_values:
+    TIGUAN_RUNTM: 2055
+  response: 7E80562F41F0807
+- expected_values:
+    TIGUAN_RUNTM: 2557
+  response: 7E80562F41F09FD
+- expected_values:
+    TIGUAN_RUNTM: 3090
+  response: 7E80562F41F0C12

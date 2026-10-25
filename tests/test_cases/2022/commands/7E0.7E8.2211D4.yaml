@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211D4
+test_cases:
+- expected_values:
+    TIGUAN_TURBOCHARGER_INLET_P: 251.32812
+  response: 7E8056211D40C91
+- expected_values:
+    TIGUAN_TURBOCHARGER_INLET_P: 260.9375
+  response: 7E8056211D40D0C
+- expected_values:
+    TIGUAN_TURBOCHARGER_INLET_P: 659.6875
+  response: 7E8056211D420FC
+- expected_values:
+    TIGUAN_TURBOCHARGER_INLET_P: 1084.76562
+  response: 7E8056211D4363D

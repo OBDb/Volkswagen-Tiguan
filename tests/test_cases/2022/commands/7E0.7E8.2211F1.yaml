@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211F1
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_TRANS_IN_SPD: 1822.5
+  response: 7E8056211F10E3D
+- expected_values:
+    TIGUAN_PQ35_TRANS_IN_SPD: 2816
+  response: 7E8056211F11600
+- expected_values:
+    TIGUAN_PQ35_TRANS_IN_SPD: 6782
+  response: 7E8056211F134FC
