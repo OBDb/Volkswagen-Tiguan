@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2215B9
+test_cases:
+- expected_values:
+    TIGUAN_OIL_LEVEL_AVG: 13.144
+  response: 7E8056215B90CD6
+- expected_values:
+    TIGUAN_OIL_LEVEL_AVG: 13.156
+  response: 7E8056215B90CD9
+- expected_values:
+    TIGUAN_OIL_LEVEL_AVG: 13.188
+  response: 7E8056215B90CE1
+- expected_values:
+    TIGUAN_OIL_LEVEL_AVG: 13.196
+  response: 7E8056215B90CE3
+- expected_values:
+    TIGUAN_OIL_LEVEL_AVG: 13.204
+  response: 7E8056215B90CE5
+- expected_values:
+    TIGUAN_OIL_LEVEL_AVG: 13.396
+  response: 7E8056215B90D15
+- expected_values:
+    TIGUAN_OIL_LEVEL_AVG: 13.58
+  response: 7E8056215B90D43
+- expected_values:
+    TIGUAN_OIL_LEVEL_AVG: 13.612
+  response: 7E8056215B90D4B
+- expected_values:
+    TIGUAN_OIL_LEVEL_AVG: 13.664
+  response: 7E8056215B90D58
+- expected_values:
+    TIGUAN_OIL_LEVEL_AVG: 13.724
+  response: 7E8056215B90D67

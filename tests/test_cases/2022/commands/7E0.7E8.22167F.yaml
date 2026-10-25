@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22167F
+test_cases:
+- expected_values:
+    TIGUAN_HEATER_CIRCULATION: 10
+  response: 7E80562167F03E8

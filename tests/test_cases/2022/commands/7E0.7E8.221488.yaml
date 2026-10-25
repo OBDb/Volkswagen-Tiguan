@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221488
+test_cases:
+- expected_values:
+    TIGUAN_ELEC_ADDITIONAL_CLT: 0
+  response: '7E8056214880000'

@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.2210AF
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_GR: 153.6
+  response: 7E9076210AF003CF5E1
+- expected_values:
+    TIGUAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_GR: 153.6
+  response: 7E9076210AF003CFC87

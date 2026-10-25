@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221421
+test_cases:
+- expected_values:
+    TIGUAN_EXH_T_BEFORE_CAT: 285.8
+  response: 7E80562142115D5
+- expected_values:
+    TIGUAN_EXH_T_BEFORE_CAT: 392.4
+  response: 7E80562142119FF
+- expected_values:
+    TIGUAN_EXH_T_BEFORE_CAT: 393
+  response: 7E8056214211A05
+- expected_values:
+    TIGUAN_EXH_T_BEFORE_CAT: 676.2
+  response: '7E8056214212515'

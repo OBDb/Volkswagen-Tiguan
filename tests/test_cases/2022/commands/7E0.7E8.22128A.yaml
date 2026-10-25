@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22128A
+test_cases:
+- expected_values:
+    TIGUAN_FUEL_T: 92.25
+  response: 7E80462128ABB
+- expected_values:
+    TIGUAN_FUEL_T: 93
+  response: 7E80462128ABC
+- expected_values:
+    TIGUAN_FUEL_T: 93.75
+  response: 7E80462128ABD
+- expected_values:
+    TIGUAN_FUEL_T: 94.5
+  response: 7E80462128ABE
+- expected_values:
+    TIGUAN_FUEL_T: 95.25
+  response: 7E80462128ABF
+- expected_values:
+    TIGUAN_FUEL_T: 96
+  response: 7E80462128AC0
+- expected_values:
+    TIGUAN_FUEL_T: 96.75
+  response: 7E80462128AC1
+- expected_values:
+    TIGUAN_FUEL_T: 97.5
+  response: 7E80462128AC2

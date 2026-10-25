@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221800
+test_cases:
+- expected_values:
+    TIGUAN_INT_PHASE_DEV_ACT: 0
+  response: '7E8056218000000'

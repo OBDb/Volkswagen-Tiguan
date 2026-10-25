@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221150
+test_cases:
+- expected_values:
+    TIGUAN_MISFIRES_C3_ECM: 11306
+  response: 7E8056211502C2A
+- expected_values:
+    TIGUAN_MISFIRES_C3_ECM: 11308
+  response: 7E8056211502C2C
+- expected_values:
+    TIGUAN_MISFIRES_C3_ECM: 11310
+  response: 7E8056211502C2E
+- expected_values:
+    TIGUAN_MISFIRES_C3_ECM: 11314
+  response: 7E8056211502C32
+- expected_values:
+    TIGUAN_MISFIRES_C3_ECM: 11315
+  response: 7E8056211502C33
+- expected_values:
+    TIGUAN_MISFIRES_C3_ECM: 11316
+  response: 7E8056211502C34

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22119D
+test_cases:
+- expected_values:
+    TIGUAN_INLET_FLAPS_ACT: 0
+  response: 7E80562119D0000
+- expected_values:
+    TIGUAN_INLET_FLAPS_ACT: 100
+  response: 7E80562119DFFFF

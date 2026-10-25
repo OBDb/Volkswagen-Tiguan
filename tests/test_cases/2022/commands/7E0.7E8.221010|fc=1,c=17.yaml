@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221010|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_ENGINE_TORQUE: 28.4
+  response: 7E805621010011C
+- expected_values:
+    TIGUAN_ENGINE_TORQUE: 41.6
+  response: 7E80562101001A0
+- expected_values:
+    TIGUAN_ENGINE_TORQUE: 42.3
+  response: 7E80562101001A7
+- expected_values:
+    TIGUAN_ENGINE_TORQUE: 91.5
+  response: '7E8056210100393'

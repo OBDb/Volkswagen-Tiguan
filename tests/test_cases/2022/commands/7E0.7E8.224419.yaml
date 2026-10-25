@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224419
+test_cases:
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT: 1152
+  response: '7E8056244190480'
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT: 5139
+  response: '7E8056244191413'
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT: 5704
+  response: '7E8056244191648'
+- expected_values:
+    TIGUAN_ENG_T_MANAGEMENT: 5879
+  response: 7E80562441916F7

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221515
+test_cases:
+- expected_values:
+    TIGUAN_CAT_T_CALC: 245
+  response: 7E8046215153B
+- expected_values:
+    TIGUAN_CAT_T_CALC: 570
+  response: 7E8046215157C

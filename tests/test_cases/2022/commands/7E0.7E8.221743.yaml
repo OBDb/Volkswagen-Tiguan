@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221743
+test_cases:
+- expected_values:
+    TIGUAN_INTEGRATED_MASS_AIR_SINCE: 2168.916
+  response: 7E80562174317D4
+- expected_values:
+    TIGUAN_INTEGRATED_MASS_AIR_SINCE: 4914.55032
+  response: 7E80562174335FE
+- expected_values:
+    TIGUAN_INTEGRATED_MASS_AIR_SINCE: 6373.413
+  response: '7E8056217434605'
+- expected_values:
+    TIGUAN_INTEGRATED_MASS_AIR_SINCE: 16646.25252
+  response: 7E805621743B6E1

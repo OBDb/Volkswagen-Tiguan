@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2215CD
+test_cases:
+- expected_values:
+    TIGUAN_ECT_RADIATOR_OUTLET_V_1: 45.1
+  response: 7E8056215CD0C6E
+- expected_values:
+    TIGUAN_ECT_RADIATOR_OUTLET_V_1: 58
+  response: 7E8056215CD0CEF
+- expected_values:
+    TIGUAN_ECT_RADIATOR_OUTLET_V_1: 60.2
+  response: 7E8056215CD0D05
+- expected_values:
+    TIGUAN_ECT_RADIATOR_OUTLET_V_1: 89.4
+  response: 7E8056215CD0E29

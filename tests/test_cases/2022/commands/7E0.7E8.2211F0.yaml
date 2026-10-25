@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211F0
+test_cases:
+- expected_values:
+    TIGUAN_BOOST_P_ACT: 1001.875
+  response: 7E8056211F03218
+- expected_values:
+    TIGUAN_BOOST_P_ACT: 1058.75
+  response: 7E8056211F034F0
+- expected_values:
+    TIGUAN_BOOST_P_ACT: 1061.25
+  response: 7E8056211F03510
+- expected_values:
+    TIGUAN_BOOST_P_ACT: 1085.3125
+  response: 7E8056211F03644

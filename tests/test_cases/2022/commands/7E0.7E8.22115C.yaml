@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22115C
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_SRV_REGEN_STAT: 39
+  response: 7E80562115C2710

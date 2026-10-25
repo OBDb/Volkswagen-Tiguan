@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2212B0|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_ACCELERATION_29BIT: 0
+  response: 7E8056212B00000
+- expected_values:
+    TIGUAN_ACCELERATION_29BIT: -0.109
+  response: 7E8056212B0FF93
+- expected_values:
+    TIGUAN_ACCELERATION_29BIT: -0.077
+  response: 7E8056212B0FFB3

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22101B|fc=1,c=17
+test_cases:
+- expected_values:
+    TIGUAN_GENERATOR_TORQUE_REQUEST: 3.4
+  response: 7E80562101B0022
+- expected_values:
+    TIGUAN_GENERATOR_TORQUE_REQUEST: 4.3
+  response: 7E80562101B002B
+- expected_values:
+    TIGUAN_GENERATOR_TORQUE_REQUEST: 12.5
+  response: 7E80562101B007D

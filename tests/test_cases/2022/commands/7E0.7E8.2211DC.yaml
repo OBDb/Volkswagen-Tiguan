@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211DC
+test_cases:
+- expected_values:
+    TIGUAN_MAP_RAW: 289.375
+  response: 7E8056211DC0E78
+- expected_values:
+    TIGUAN_MAP_RAW: 440.23438
+  response: 7E8056211DC1603
+- expected_values:
+    TIGUAN_MAP_RAW: 1199.29688
+  response: 7E8056211DC3BF7

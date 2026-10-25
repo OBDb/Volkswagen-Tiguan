@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210EA
+test_cases:
+- expected_values:
+    TIGUAN_OPEN_CAM_SHFT_ANG: -38.4
+  response: 7E8056210EAFE80
+- expected_values:
+    TIGUAN_OPEN_CAM_SHFT_ANG: -26.1
+  response: 7E8056210EAFEFB
+- expected_values:
+    TIGUAN_OPEN_CAM_SHFT_ANG: -24.6
+  response: 7E8056210EAFF0A

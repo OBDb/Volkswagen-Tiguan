@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.221026
+test_cases:
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 0
+  response: '7E8056210260000'
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 19.1
+  response: 7E80562102600BF
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 25.5
+  response: 7E80562102600FF
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 40
+  response: '7E8056210260190'
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 53
+  response: '7E8056210260212'
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 56.3
+  response: '7E8056210260233'
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 74.1
+  response: 7E80562102602E5
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 76.6
+  response: 7E80562102602FE
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 92.6
+  response: 7E805621026039E
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 146.4
+  response: 7E80562102605B8

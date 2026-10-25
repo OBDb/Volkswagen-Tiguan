@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2210D3
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_INJ_2_RAIL_P_1: 0.0017
+  response: 7E8056210D30022
+- expected_values:
+    TIGUAN_PQ35_INJ_2_RAIL_P_1: 0.00225
+  response: 7E8056210D3002D
+- expected_values:
+    TIGUAN_PQ35_INJ_2_RAIL_P_1: -0.00085
+  response: 7E8056210D3FFEF
+- expected_values:
+    TIGUAN_PQ35_INJ_2_RAIL_P_1: -0.0008
+  response: 7E8056210D3FFF0
