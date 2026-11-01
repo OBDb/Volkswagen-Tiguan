@@ -13,6 +13,23 @@ test_cases:
     LOAD_ABS: 0
   response: '7E80441430000'
 - expected_values:
+    LOAD_ABS: 16.86275
+  response: |-
+    7E8044143002B
+    7E903410D1E
+    7E803410D1E
+- expected_values:
+    LOAD_ABS: 23.13725
+  response: |-
+    7E8044143003B
+    7E80441448000
+- expected_values:
+    LOAD_ABS: 61.56863
+  response: |-
+    7E8044143009D
+    7E804410C1A3C
+    7E904410C1A5C
+- expected_values:
     LOAD_ABS: 100
   response: 7E804414300FF
 - expected_values:
