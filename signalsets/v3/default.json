@@ -1212,9 +1212,9 @@
   "signals": [
     {"id": "TIGUAN_P_BEFORE_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 2559.96, "mul": 21333, "div": 546125, "unit": "unknown" }, "name": "Pressure before throttle valve - sensor measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F0"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2021, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F0"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2021, 2023], "from": 2025 },
   "signals": [
-    {"id": "TIGUAN_BOOST_P_ACT", "path": "Engine", "fmt": { "len": 16, "max": 5119.9218, "mul": 5, "div": 64, "unit": "unknown" }, "name": "Boost pressure, actual"}
+    {"id": "TIGUAN_BOOST_P_ACT", "path": "Engine", "fmt": { "len": 16, "max": 511, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure, actual", "suggestedMetric": "absoluteBoostPressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F1"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2021, 2023], "from": 2025 },
   "signals": [
@@ -3562,7 +3562,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2021, 2023], "from": 2025 },
   "signals": [
-    {"id": "TIGUAN_MQB_TCM_I_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 253, "min": -2, "add": -2, "unit": "scalar" }, "name": "Current gear"}
+    {"id": "TIGUAN_MQB_TCM_I_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 253, "min": -2, "add": -2, "unit": "scalar" }, "name": "Current gear", "suggestedMetric": "gear"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2110"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
