@@ -16,5 +16,14 @@ test_cases:
     TIGUAN_REQ_TQ_AMOUNT: 10.1
   response: 7E8056210BE0065
 - expected_values:
+    TIGUAN_REQ_TQ_AMOUNT: 10.4
+  response: 7E8056210BE0068
+- expected_values:
+    TIGUAN_REQ_TQ_AMOUNT: 11
+  response: 7E8056210BE006E
+- expected_values:
     TIGUAN_REQ_TQ_AMOUNT: 16.6
   response: 7E8056210BE00A6
+- expected_values:
+    TIGUAN_REQ_TQ_AMOUNT: 18.6
+  response: 7E8056210BE00BA

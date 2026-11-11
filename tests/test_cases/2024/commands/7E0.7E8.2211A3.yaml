@@ -4,5 +4,8 @@ test_cases:
     TIGUAN_EA888B_BOOST_P_CMD: 0
   response: 7E8046211A300
 - expected_values:
+    TIGUAN_EA888B_BOOST_P_CMD: 69.01961
+  response: 7E8046211A3B0
+- expected_values:
     TIGUAN_EA888B_BOOST_P_CMD: 100
   response: 7E8046211A3FF

@@ -21,3 +21,12 @@ test_cases:
 - expected_values:
     TIGUAN_CYL_HEAD_T: 177.38
   response: 7E8056210650DD5
+- expected_values:
+    TIGUAN_CYL_HEAD_T: 196.64
+  response: 7E8056210650E40
+- expected_values:
+    TIGUAN_CYL_HEAD_T: 197.54
+  response: 7E8056210650E45
+- expected_values:
+    TIGUAN_CYL_HEAD_T: 201.68
+  response: 7E8056210650E5C

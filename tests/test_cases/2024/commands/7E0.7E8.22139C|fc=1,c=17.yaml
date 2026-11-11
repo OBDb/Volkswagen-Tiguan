@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22139C|fc=1,c=17
 test_cases:
 - expected_values:
+    TIGUAN_EXHAUST_GAS_T_AT_PROBE_BEFOR_PRECAT_MODEL_VALUE: 447.2
+  response: 7E80562139C1C23
+- expected_values:
     TIGUAN_EXHAUST_GAS_T_AT_PROBE_BEFOR_PRECAT_MODEL_VALUE: 465.1
   response: 7E80562139C1CD6
 - expected_values:
@@ -12,3 +15,6 @@ test_cases:
 - expected_values:
     TIGUAN_EXHAUST_GAS_T_AT_PROBE_BEFOR_PRECAT_MODEL_VALUE: 550.1
   response: 7E80562139C2028
+- expected_values:
+    TIGUAN_EXHAUST_GAS_T_AT_PROBE_BEFOR_PRECAT_MODEL_VALUE: 677.7
+  response: 7E80562139C2524

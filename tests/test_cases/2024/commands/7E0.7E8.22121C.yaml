@@ -10,6 +10,9 @@ test_cases:
     TIGUAN_AIR_FILLING: 22.10203
   response: 7E80562121C03AF
 - expected_values:
+    TIGUAN_AIR_FILLING: 25.9693
+  response: 7E80562121C0454
+- expected_values:
     TIGUAN_AIR_FILLING: 31.85224
   response: 7E80562121C054F
 - expected_values:
@@ -18,3 +21,12 @@ test_cases:
 - expected_values:
     TIGUAN_AIR_FILLING: 39.28209
   response: 7E80562121C068C
+- expected_values:
+    TIGUAN_AIR_FILLING: 49.99325
+  response: 7E80562121C0855
+- expected_values:
+    TIGUAN_AIR_FILLING: 59.86065
+  response: 7E80562121C09FA
+- expected_values:
+    TIGUAN_AIR_FILLING: 76.03287
+  response: 7E80562121C0CAC

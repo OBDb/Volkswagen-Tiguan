@@ -18,3 +18,15 @@ test_cases:
 - expected_values:
     TIGUAN_INTEGRATED_MASS_AIR: 1472.0184
   response: 7E805621175102C
+- expected_values:
+    TIGUAN_INTEGRATED_MASS_AIR: 4883.6166
+  response: 7E80562117535A7
+- expected_values:
+    TIGUAN_INTEGRATED_MASS_AIR: 5127.53076
+  response: '7E8056211753855'
+- expected_values:
+    TIGUAN_INTEGRATED_MASS_AIR: 5889.49584
+  response: 7E80562117540B4
+- expected_values:
+    TIGUAN_INTEGRATED_MASS_AIR: 6339.27924
+  response: 7E80562117545A5

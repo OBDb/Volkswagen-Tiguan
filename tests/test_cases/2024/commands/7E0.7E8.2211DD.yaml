@@ -10,14 +10,5 @@ test_cases:
     TIGUAN_INT_MANIFOLD_P_CMD: 402.57812
   response: 7E8056211DD1421
 - expected_values:
-    TIGUAN_INT_MANIFOLD_P_CMD: 796.17188
-  response: 7E8056211DD27CF
-- expected_values:
-    TIGUAN_INT_MANIFOLD_P_CMD: 825.3125
-  response: 7E8056211DD2944
-- expected_values:
-    TIGUAN_INT_MANIFOLD_P_CMD: 1008.35938
-  response: 7E8056211DD326B
-- expected_values:
     TIGUAN_INT_MANIFOLD_P_CMD: 1206.01562
   response: 7E8056211DD3C4D

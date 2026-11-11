@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_AUTOMATIC_ENG_STARTS: 14400
   response: '7E8056229993840'
+- expected_values:
+    TIGUAN_AUTOMATIC_ENG_STARTS: 14578
+  response: 7E80562299938F2

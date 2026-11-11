@@ -1,8 +1,14 @@
 command_id: 7E0.7E8.2210EC
 test_cases:
 - expected_values:
+    TIGUAN_VLV_TIM_DIFF_ACT_SET: 0.26562
+  response: 7E8056210EC0011
+- expected_values:
     TIGUAN_VLV_TIM_DIFF_ACT_SET: 0.32812
   response: 7E8056210EC0015
+- expected_values:
+    TIGUAN_VLV_TIM_DIFF_ACT_SET: 1.03125
+  response: 7E8056210EC0042
 - expected_values:
     TIGUAN_VLV_TIM_DIFF_ACT_SET: -4.3125
   response: 7E8056210ECFEEC
@@ -18,3 +24,6 @@ test_cases:
 - expected_values:
     TIGUAN_VLV_TIM_DIFF_ACT_SET: -0.3125
   response: 7E8056210ECFFEC
+- expected_values:
+    TIGUAN_VLV_TIM_DIFF_ACT_SET: -0.17188
+  response: 7E8056210ECFFF5

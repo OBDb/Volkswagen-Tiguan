@@ -1,6 +1,15 @@
 command_id: 7E0.7E8.2211B8
 test_cases:
 - expected_values:
+    TIGUAN_AIR_LEAKAGE: 0.5
+  response: 7E8056211B80005
+- expected_values:
+    TIGUAN_AIR_LEAKAGE: 0.8
+  response: 7E8056211B80008
+- expected_values:
+    TIGUAN_AIR_LEAKAGE: 1
+  response: 7E8056211B8000A
+- expected_values:
     TIGUAN_AIR_LEAKAGE: 1.1
   response: 7E8056211B8000B
 - expected_values:

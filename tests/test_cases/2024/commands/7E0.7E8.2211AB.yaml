@@ -7,6 +7,12 @@ test_cases:
     TIGUAN_INT_MODEL_AIR_MASS: 9.3
   response: 7E8056211AB005D
 - expected_values:
+    TIGUAN_INT_MODEL_AIR_MASS: 9.9
+  response: 7E8056211AB0063
+- expected_values:
+    TIGUAN_INT_MODEL_AIR_MASS: 14.8
+  response: 7E8056211AB0094
+- expected_values:
     TIGUAN_INT_MODEL_AIR_MASS: 23.2
   response: 7E8056211AB00E8
 - expected_values:
@@ -18,3 +24,6 @@ test_cases:
 - expected_values:
     TIGUAN_INT_MODEL_AIR_MASS: 50
   response: 7E8056211AB01F4
+- expected_values:
+    TIGUAN_INT_MODEL_AIR_MASS: 242.2
+  response: 7E8056211AB0976

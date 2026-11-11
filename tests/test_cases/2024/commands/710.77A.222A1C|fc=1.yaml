@@ -4,8 +4,14 @@ test_cases:
     TIGUAN_GEN_CURRENT: 9
   response: 77A05622A1C0000
 - expected_values:
+    TIGUAN_GEN_CURRENT: 38.8
+  response: 77A05622A1C012A
+- expected_values:
     TIGUAN_GEN_CURRENT: 40.5
   response: 77A05622A1C013B
+- expected_values:
+    TIGUAN_GEN_CURRENT: 47.5
+  response: 77A05622A1C0181
 - expected_values:
     TIGUAN_GEN_CURRENT: 55.2
   response: 77A05622A1C01CE

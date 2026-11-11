@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.224417
 test_cases:
 - expected_values:
+    TIGUAN_THERMOSTAT_CMD: 29.1259
+  response: '7E8056244170952'
+- expected_values:
+    TIGUAN_THERMOSTAT_CMD: 32.99552
+  response: 7E8056244170A8F
+- expected_values:
     TIGUAN_THERMOSTAT_CMD: 47.46082
   response: 7E8056244170F30
 - expected_values:

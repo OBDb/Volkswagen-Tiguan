@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_MIN_OIL_LEVEL: 0.428
   response: 7E805621231006B
+- expected_values:
+    TIGUAN_MIN_OIL_LEVEL: 262.136
+  response: 7E805621231FFFE

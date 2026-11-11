@@ -21,3 +21,9 @@ test_cases:
 - expected_values:
     TIGUAN_MAP_RAW: 1008.90625
   response: 7E8056211DC3272
+- expected_values:
+    TIGUAN_MAP_RAW: 1019.21875
+  response: 7E8056211DC32F6
+- expected_values:
+    TIGUAN_MAP_RAW: 1276.32812
+  response: 7E8056211DC3FD1

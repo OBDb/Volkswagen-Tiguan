@@ -21,3 +21,12 @@ test_cases:
 - expected_values:
     TIGUAN_NUM_INJECTIONS: 6465
   response: 7E80562430E1941
+- expected_values:
+    TIGUAN_NUM_INJECTIONS: 16032
+  response: 7E80562430E3EA0
+- expected_values:
+    TIGUAN_NUM_INJECTIONS: 17473
+  response: 7E80562430E4441
+- expected_values:
+    TIGUAN_NUM_INJECTIONS: 20366
+  response: 7E80562430E4F8E
