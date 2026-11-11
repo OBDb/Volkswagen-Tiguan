@@ -4,5 +4,14 @@ test_cases:
     TIGUAN_PQ35_OIL_T: 40
   response: 77E0462202F62
 - expected_values:
+    TIGUAN_PQ35_OIL_T: 83
+  response: 77E0462202F8D
+- expected_values:
+    TIGUAN_PQ35_OIL_T: 85
+  response: 77E0462202F8F
+- expected_values:
+    TIGUAN_PQ35_OIL_T: 87
+  response: 77E0462202F91
+- expected_values:
     TIGUAN_PQ35_OIL_T: 95
   response: 77E0462202F99
