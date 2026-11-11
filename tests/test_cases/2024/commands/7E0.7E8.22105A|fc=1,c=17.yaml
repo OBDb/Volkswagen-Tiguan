@@ -4,6 +4,18 @@ test_cases:
     TIGUAN_BATTERY_V: 12000
   response: 7E80562105A0258
 - expected_values:
+    TIGUAN_BATTERY_V: 13920
+  response: 7E80562105A02B8
+- expected_values:
+    TIGUAN_BATTERY_V: 13960
+  response: 7E80562105A02BA
+- expected_values:
+    TIGUAN_BATTERY_V: 14000
+  response: 7E80562105A02BC
+- expected_values:
+    TIGUAN_BATTERY_V: 14040
+  response: 7E80562105A02BE
+- expected_values:
     TIGUAN_BATTERY_V: 14420
   response: 7E80562105A02D1
 - expected_values:
