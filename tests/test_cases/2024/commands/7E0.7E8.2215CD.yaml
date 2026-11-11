@@ -19,5 +19,14 @@ test_cases:
     TIGUAN_ECT_RADIATOR_OUTLET_V_1: 20.7
   response: 7E8056215CD0B7A
 - expected_values:
+    TIGUAN_ECT_RADIATOR_OUTLET_V_1: 20.8
+  response: 7E8056215CD0B7B
+- expected_values:
     TIGUAN_ECT_RADIATOR_OUTLET_V_1: 20.9
   response: 7E8056215CD0B7C
+- expected_values:
+    TIGUAN_ECT_RADIATOR_OUTLET_V_1: 21.4
+  response: 7E8056215CD0B81
+- expected_values:
+    TIGUAN_ECT_RADIATOR_OUTLET_V_1: 27
+  response: 7E8056215CD0BB9

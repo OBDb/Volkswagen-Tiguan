@@ -4,5 +4,8 @@ test_cases:
     TIGUAN_INT_CAM_ADPT_BIAS: 0.02197
   response: 7E80562174B0001
 - expected_values:
+    TIGUAN_INT_CAM_ADPT_BIAS: -0.35157
+  response: 7E80562174BFFF0
+- expected_values:
     TIGUAN_INT_CAM_ADPT_BIAS: -0.30762
   response: 7E80562174BFFF2

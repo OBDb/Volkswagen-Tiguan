@@ -19,5 +19,11 @@ test_cases:
     TIGUAN_CAM_ADJ_EXH_BANK_1_ACT: -12.216
   response: 7E80562136CFA09
 - expected_values:
+    TIGUAN_CAM_ADJ_EXH_BANK_1_ACT: -12.048
+  response: 7E80562136CFA1E
+- expected_values:
+    TIGUAN_CAM_ADJ_EXH_BANK_1_ACT: -11.752
+  response: 7E80562136CFA43
+- expected_values:
     TIGUAN_CAM_ADJ_EXH_BANK_1_ACT: -11.424
   response: 7E80562136CFA6C

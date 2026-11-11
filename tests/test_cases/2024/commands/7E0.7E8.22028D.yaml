@@ -21,3 +21,12 @@ test_cases:
 - expected_values:
     TIGUAN_ENG_CTRL_MODULE_T: 23.5
   response: 7E80562028D0B96
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 24.4
+  response: 7E80562028D0B9F
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 25.3
+  response: 7E80562028D0BA8
+- expected_values:
+    TIGUAN_ENG_CTRL_MODULE_T: 26
+  response: 7E80562028D0BAF

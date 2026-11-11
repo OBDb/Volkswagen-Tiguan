@@ -16,5 +16,14 @@ test_cases:
     TIGUAN_CAT_T_CALC: 450
   response: '7E80462151564'
 - expected_values:
+    TIGUAN_CAT_T_CALC: 525
+  response: '7E80462151573'
+- expected_values:
+    TIGUAN_CAT_T_CALC: 565
+  response: 7E8046215157B
+- expected_values:
+    TIGUAN_CAT_T_CALC: 580
+  response: 7E8046215157E
+- expected_values:
     TIGUAN_CAT_T_CALC: 590
   response: '7E80462151580'

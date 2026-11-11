@@ -10,6 +10,12 @@ test_cases:
     TIGUAN_CRANK_ROT_ANG: 29
   response: 7E8056210EB0122
 - expected_values:
+    TIGUAN_CRANK_ROT_ANG: 31.3
+  response: 7E8056210EB0139
+- expected_values:
+    TIGUAN_CRANK_ROT_ANG: 34.7
+  response: 7E8056210EB015B
+- expected_values:
     TIGUAN_CRANK_ROT_ANG: 37.8
   response: 7E8056210EB017A
 - expected_values:
@@ -18,6 +24,9 @@ test_cases:
 - expected_values:
     TIGUAN_CRANK_ROT_ANG: 53.3
   response: 7E8056210EB0215
+- expected_values:
+    TIGUAN_CRANK_ROT_ANG: 62.9
+  response: 7E8056210EB0275
 - expected_values:
     TIGUAN_CRANK_ROT_ANG: 74.1
   response: 7E8056210EB02E5

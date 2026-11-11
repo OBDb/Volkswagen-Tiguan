@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_CHAIN_ELONGATION_INLET: 125
   response: 7E80762516C00007D20
+- expected_values:
+    TIGUAN_CHAIN_ELONGATION_INLET: 130
+  response: 7E80762516C000082BB

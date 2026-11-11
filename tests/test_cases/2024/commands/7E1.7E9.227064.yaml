@@ -4,8 +4,14 @@ test_cases:
     TIGUAN_MQB_TCM_ENG_TORQUE: 7
   response: '7E9056270640007'
 - expected_values:
+    TIGUAN_MQB_TCM_ENG_TORQUE: 17
+  response: '7E9056270640011'
+- expected_values:
     TIGUAN_MQB_TCM_ENG_TORQUE: 20
   response: '7E9056270640014'
+- expected_values:
+    TIGUAN_MQB_TCM_ENG_TORQUE: 162
+  response: 7E90562706400A2
 - expected_values:
     TIGUAN_MQB_TCM_ENG_TORQUE: 65502
   response: 7E905627064FFDE

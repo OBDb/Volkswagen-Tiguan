@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_MAF_1_B1_RAW: 273.4
   response: 7E8056210260AAE
+- expected_values:
+    TIGUAN_MQB_MAF_1_B1_RAW: 314.6
+  response: 7E8056210260C4A

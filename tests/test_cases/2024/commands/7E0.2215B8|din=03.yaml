@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: 377
   response: 7E8056215B80179
+- expected_values:
+    TIGUAN_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: 4295
+  response: 7E8056215B810C7

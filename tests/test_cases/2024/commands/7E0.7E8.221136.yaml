@@ -7,6 +7,9 @@ test_cases:
     TIGUAN_HEIGHT_CORR: 0.99633
   response: 7E8056211363FC4
 - expected_values:
+    TIGUAN_HEIGHT_CORR: 0.99664
+  response: 7E8056211363FC9
+- expected_values:
     TIGUAN_HEIGHT_CORR: 0.99682
   response: 7E8056211363FCC
 - expected_values:
@@ -15,3 +18,6 @@ test_cases:
 - expected_values:
     TIGUAN_HEIGHT_CORR: 0.99725
   response: 7E8056211363FD3
+- expected_values:
+    TIGUAN_HEIGHT_CORR: 0.99774
+  response: 7E8056211363FDB

@@ -21,3 +21,12 @@ test_cases:
 - expected_values:
     TIGUAN_IAT_RAW: 24.3
   response: 7E8056215C00B9E
+- expected_values:
+    TIGUAN_IAT_RAW: 25.7
+  response: 7E8056215C00BAC
+- expected_values:
+    TIGUAN_IAT_RAW: 28.3
+  response: 7E8056215C00BC6
+- expected_values:
+    TIGUAN_IAT_RAW: 29.2
+  response: 7E8056215C00BCF

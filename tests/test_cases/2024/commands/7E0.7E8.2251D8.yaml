@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TIGUAN_TANK_FILL_LEVEL: 640
   response: 7E8056251D81900
+- expected_values:
+    TIGUAN_TANK_FILL_LEVEL: 1024
+  response: 7E8056251D82800

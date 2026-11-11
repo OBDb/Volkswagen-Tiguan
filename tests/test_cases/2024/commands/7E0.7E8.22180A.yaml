@@ -10,6 +10,9 @@ test_cases:
     TIGUAN_FUEL_RATE_DIFF_INJ: 0.86327
   response: 7E80562180A00DD
 - expected_values:
+    TIGUAN_FUEL_RATE_DIFF_INJ: -1.12108
+  response: 7E80562180AFEE1
+- expected_values:
     TIGUAN_FUEL_RATE_DIFF_INJ: -0.07812
   response: 7E80562180AFFEC
 - expected_values:

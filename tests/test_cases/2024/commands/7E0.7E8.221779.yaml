@@ -7,5 +7,8 @@ test_cases:
     TIGUAN_LONG_TERM_FUEL_TRIM: 0.98602
   response: 7E8056217797E36
 - expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM: 0.98868
+  response: 7E8056217797E8D
+- expected_values:
     TIGUAN_LONG_TERM_FUEL_TRIM: 0.98907
   response: 7E8056217797E9A

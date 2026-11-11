@@ -7,6 +7,9 @@ test_cases:
     TIGUAN_THROTTLE_REGULATOR: 2.70312
   response: 7E8056216C5015A
 - expected_values:
+    TIGUAN_THROTTLE_REGULATOR: 3.625
+  response: 7E8056216C501D0
+- expected_values:
     TIGUAN_THROTTLE_REGULATOR: 3.99219
   response: 7E8056216C501FF
 - expected_values:
@@ -15,6 +18,12 @@ test_cases:
 - expected_values:
     TIGUAN_THROTTLE_REGULATOR: 8.39062
   response: 7E8056216C50432
+- expected_values:
+    TIGUAN_THROTTLE_REGULATOR: 17.26562
+  response: 7E8056216C508A2
+- expected_values:
+    TIGUAN_THROTTLE_REGULATOR: 19.41406
+  response: 7E8056216C509B5
 - expected_values:
     TIGUAN_THROTTLE_REGULATOR: 20.55469
   response: 7E8056216C50A47
