@@ -1,32 +1,8 @@
 command_id: 714.77E.22202F|fc=1
 test_cases:
 - expected_values:
-    TIGUAN_PQ35_OIL_T: 39
-  response: 77E0462202F61
-- expected_values:
-    TIGUAN_PQ35_OIL_T: 40
-  response: 77E0462202F62
-- expected_values:
-    TIGUAN_PQ35_OIL_T: 43
-  response: 77E0462202F65
-- expected_values:
-    TIGUAN_PQ35_OIL_T: 48
-  response: 77E0462202F6A
-- expected_values:
-    TIGUAN_PQ35_OIL_T: 54
-  response: 77E0462202F70
-- expected_values:
-    TIGUAN_PQ35_OIL_T: 83
-  response: 77E0462202F8D
-- expected_values:
-    TIGUAN_PQ35_OIL_T: 85
-  response: 77E0462202F8F
-- expected_values:
-    TIGUAN_PQ35_OIL_T: 87
-  response: 77E0462202F91
-- expected_values:
-    TIGUAN_PQ35_OIL_T: 89
-  response: 77E0462202F93
+    TIGUAN_PQ35_OIL_T: 29
+  response: 77E0462202F57
 - expected_values:
     TIGUAN_PQ35_OIL_T: 95
   response: 77E0462202F99
