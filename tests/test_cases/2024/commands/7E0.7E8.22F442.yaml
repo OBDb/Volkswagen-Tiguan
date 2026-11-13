@@ -7,6 +7,9 @@ test_cases:
     TIGUAN_VPWR: 14.08
   response: 7E80562F4423700
 - expected_values:
+    TIGUAN_VPWR: 14.24
+  response: 7E80562F44237A0
+- expected_values:
     TIGUAN_VPWR: 14.44
   response: 7E80562F4423868
 - expected_values:

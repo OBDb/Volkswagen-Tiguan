@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TIGUAN_ODO_DASH: 32398
   response: 77E06622203007E8E
+- expected_values:
+    TIGUAN_ODO_DASH: 33621
+  response: '77E06622203008355'
