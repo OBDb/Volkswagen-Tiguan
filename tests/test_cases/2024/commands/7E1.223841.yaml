@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_MQB_TCM_ODO: 32398
   response: 7E9076238410004F18C
+- expected_values:
+    TIGUAN_MQB_TCM_ODO: 33621
+  response: '7E90762384100052152'
