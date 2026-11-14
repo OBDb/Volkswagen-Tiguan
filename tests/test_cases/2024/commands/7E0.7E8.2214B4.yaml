@@ -7,6 +7,9 @@ test_cases:
     TIGUAN_FUEL_LEVEL_INPUT_V1: 20
   response: 7E8056214B407D0
 - expected_values:
+    TIGUAN_FUEL_LEVEL_INPUT_V1: 24
+  response: 7E8056214B40960
+- expected_values:
     TIGUAN_FUEL_LEVEL_INPUT_V1: 25
   response: 7E8056214B409C4
 - expected_values:
