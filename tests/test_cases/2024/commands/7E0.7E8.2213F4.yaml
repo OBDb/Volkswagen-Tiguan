@@ -12,3 +12,9 @@ test_cases:
 - expected_values:
     TIGUAN_IGA_CYL_KNK_2: -0.75
   response: 7E8056213F47E9A
+- expected_values:
+    TIGUAN_IGA_CYL_KNK_2: -0.375
+  response: 7E8056213F47FD1
+- expected_values:
+    TIGUAN_IGA_CYL_KNK_2: -0.375
+  response: 7E8056213F47FFE

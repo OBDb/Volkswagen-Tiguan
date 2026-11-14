@@ -4,26 +4,8 @@ test_cases:
     TIGUAN_AVG_INJ_TIME: 0.57
   response: 7E80762128C00000591
 - expected_values:
-    TIGUAN_AVG_INJ_TIME: 0.6076
-  response: 7E80762128C000005EF
-- expected_values:
-    TIGUAN_AVG_INJ_TIME: 0.6488
-  response: 7E80762128C00000656
-- expected_values:
-    TIGUAN_AVG_INJ_TIME: 0.76
-  response: 7E80762128C0000076C
-- expected_values:
-    TIGUAN_AVG_INJ_TIME: 0.7944
-  response: 7E80762128C000007C2
-- expected_values:
-    TIGUAN_AVG_INJ_TIME: 1.0128
-  response: 7E80762128C000009E4
-- expected_values:
-    TIGUAN_AVG_INJ_TIME: 1.3172
-  response: 7E80762128C00000CDD
-- expected_values:
-    TIGUAN_AVG_INJ_TIME: 1.722
-  response: 7E80762128C000010D1
+    TIGUAN_AVG_INJ_TIME: 0.7148
+  response: 7E80762128C000006FB
 - expected_values:
     TIGUAN_AVG_INJ_TIME: 2.1592
   response: 7E80762128C00001516

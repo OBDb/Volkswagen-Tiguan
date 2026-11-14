@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.2213A0|fc=1,c=17
 test_cases:
 - expected_values:
+    TIGUAN_COOLANT_T_MODELED_VALUE: 3021
+  response: 7E8056213A00BCD
+- expected_values:
+    TIGUAN_COOLANT_T_MODELED_VALUE: 3036
+  response: 7E8056213A00BDC
+- expected_values:
     TIGUAN_COOLANT_T_MODELED_VALUE: 3071
   response: 7E8056213A00BFF
 - expected_values:

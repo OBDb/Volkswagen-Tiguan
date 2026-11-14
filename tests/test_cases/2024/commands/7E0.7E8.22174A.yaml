@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_EXH_CAM_ADPT_BIAS: 1.9556
   response: 7E80562174A0059
+- expected_values:
+    TIGUAN_EXH_CAM_ADPT_BIAS: 2.06546
+  response: 7E80562174A005E

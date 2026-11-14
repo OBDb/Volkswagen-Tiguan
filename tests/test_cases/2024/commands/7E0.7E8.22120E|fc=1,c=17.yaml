@@ -7,6 +7,9 @@ test_cases:
     TIGUAN_KNOCK_SNS_C1_V_MS: 0.0049
   response: 7E80762120E00001914
 - expected_values:
+    TIGUAN_KNOCK_SNS_C1_V_MS: 0.00551
+  response: 7E80762120E00001C30
+- expected_values:
     TIGUAN_KNOCK_SNS_C1_V_MS: 0.0061
   response: 7E80762120E00001F3B
 - expected_values:
@@ -15,6 +18,9 @@ test_cases:
 - expected_values:
     TIGUAN_KNOCK_SNS_C1_V_MS: 0.00849
   response: 7E80762120E00002B7A
+- expected_values:
+    TIGUAN_KNOCK_SNS_C1_V_MS: 0.01001
+  response: 7E80762120E0000333F
 - expected_values:
     TIGUAN_KNOCK_SNS_C1_V_MS: 0.01873
   response: 7E80762120E00005FE2

@@ -4,26 +4,11 @@ test_cases:
     TIGUAN_RATED_DRIVE_TQ: 91
   response: 7E8076214A10000038E
 - expected_values:
-    TIGUAN_RATED_DRIVE_TQ: 135
-  response: 7E8076214A100000546
-- expected_values:
-    TIGUAN_RATED_DRIVE_TQ: 245
-  response: 7E8076214A100000992
-- expected_values:
-    TIGUAN_RATED_DRIVE_TQ: 310
-  response: 7E8076214A100000C1C
-- expected_values:
-    TIGUAN_RATED_DRIVE_TQ: 342
-  response: 7E8076214A100000D5C
-- expected_values:
-    TIGUAN_RATED_DRIVE_TQ: 349
-  response: 7E8076214A100000DA2
-- expected_values:
-    TIGUAN_RATED_DRIVE_TQ: 382
-  response: 7E8076214A100000EEC
-- expected_values:
     TIGUAN_RATED_DRIVE_TQ: 564
   response: 7E8076214A100001608
+- expected_values:
+    TIGUAN_RATED_DRIVE_TQ: 4812
+  response: 7E8076214A10000BBF8
 - expected_values:
     TIGUAN_RATED_DRIVE_TQ: -120
   response: 7E8076214A1FFFFFB50

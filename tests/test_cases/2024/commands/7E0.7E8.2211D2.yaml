@@ -16,5 +16,8 @@ test_cases:
     TIGUAN_HIGH_P_CTRL_ADPT: -0.0135
   response: 7E8056211D2FFE5
 - expected_values:
+    TIGUAN_HIGH_P_CTRL_ADPT: -0.013
+  response: 7E8056211D2FFE6
+- expected_values:
     TIGUAN_HIGH_P_CTRL_ADPT: -0.0125
   response: 7E8056211D2FFE7

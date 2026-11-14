@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     TIGUAN_REQ_TQ_AMOUNT: 18.6
   response: 7E8056210BE00BA
+- expected_values:
+    TIGUAN_REQ_TQ_AMOUNT: 19.4
+  response: 7E8056210BE00C2

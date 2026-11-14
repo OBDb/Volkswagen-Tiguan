@@ -13,5 +13,8 @@ test_cases:
     TIGUAN_TORQUE_CONVERTER_SLIP_TCM: 889
   response: '7E9056221310379'
 - expected_values:
+    TIGUAN_TORQUE_CONVERTER_SLIP_TCM: -740
+  response: 7E905622131FD1C
+- expected_values:
     TIGUAN_TORQUE_CONVERTER_SLIP_TCM: -73
   response: 7E905622131FFB7

@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.221509
 test_cases:
 - expected_values:
+    TIGUAN_AMBIENT_AIR_P: 1004.406
+  response: 7E805621509649A
+- expected_values:
+    TIGUAN_AMBIENT_AIR_P: 1004.796
+  response: 7E80562150964A4
+- expected_values:
     TIGUAN_AMBIENT_AIR_P: 1007.331
   response: 7E80562150964E5
 - expected_values:

@@ -7,6 +7,9 @@ test_cases:
     TIGUAN_THERMOSTAT_CMD: 32.99552
   response: 7E8056244170A8F
 - expected_values:
+    TIGUAN_THERMOSTAT_CMD: 47.18006
+  response: 7E8056244170F19
+- expected_values:
     TIGUAN_THERMOSTAT_CMD: 47.46082
   response: 7E8056244170F30
 - expected_values:

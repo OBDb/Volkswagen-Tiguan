@@ -7,6 +7,12 @@ test_cases:
     TIGUAN_GENERATOR_PERFORMANCE: 650.3112
   response: '7E8056210970045'
 - expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 791.6832
+  response: '7E8056210970054'
+- expected_values:
+    TIGUAN_GENERATOR_PERFORMANCE: 895.356
+  response: 7E805621097005F
+- expected_values:
     TIGUAN_GENERATOR_PERFORMANCE: 942.48
   response: '7E8056210970064'
 - expected_values:

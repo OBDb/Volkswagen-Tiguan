@@ -7,8 +7,8 @@ test_cases:
     TIGUAN_EXH_GAS_T: 528.7
   response: 7E80562F43C1637
 - expected_values:
-    TIGUAN_EXH_GAS_T: 619
-  response: 7E80562F43C19BE
+    TIGUAN_EXH_GAS_T: 624.5
+  response: 7E80562F43C19F5
 - expected_values:
     TIGUAN_EXH_GAS_T: 760
   response: 7E80562F43C1F40

@@ -10,6 +10,9 @@ test_cases:
     TIGUAN_VLV_TIM_DIFF_ACT_SET: 1.03125
   response: 7E8056210EC0042
 - expected_values:
+    TIGUAN_VLV_TIM_DIFF_ACT_SET: 2.625
+  response: 7E8056210EC00A8
+- expected_values:
     TIGUAN_VLV_TIM_DIFF_ACT_SET: -4.3125
   response: 7E8056210ECFEEC
 - expected_values:

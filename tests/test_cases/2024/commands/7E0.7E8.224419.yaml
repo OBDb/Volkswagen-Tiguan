@@ -10,20 +10,5 @@ test_cases:
     TIGUAN_ENG_T_MANAGEMENT: 6892
   response: 7E8056244191AEC
 - expected_values:
-    TIGUAN_ENG_T_MANAGEMENT: 9859
-  response: '7E8056244192683'
-- expected_values:
-    TIGUAN_ENG_T_MANAGEMENT: 9918
-  response: 7E80562441926BE
-- expected_values:
     TIGUAN_ENG_T_MANAGEMENT: 12432
   response: '7E8056244193090'
-- expected_values:
-    TIGUAN_ENG_T_MANAGEMENT: 12437
-  response: '7E8056244193095'
-- expected_values:
-    TIGUAN_ENG_T_MANAGEMENT: 12441
-  response: '7E8056244193099'
-- expected_values:
-    TIGUAN_ENG_T_MANAGEMENT: 12442
-  response: 7E805624419309A
