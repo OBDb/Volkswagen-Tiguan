@@ -4,29 +4,8 @@ test_cases:
     TIGUAN_EFFECTIVE_INJ_DUR: 0
   response: 7E8076215E700000000
 - expected_values:
-    TIGUAN_EFFECTIVE_INJ_DUR: 5.542
-  response: 7E8076215E7000015A6
-- expected_values:
-    TIGUAN_EFFECTIVE_INJ_DUR: 6.366
-  response: 7E8076215E7000018DE
-- expected_values:
-    TIGUAN_EFFECTIVE_INJ_DUR: 7.255
-  response: 7E8076215E700001C57
-- expected_values:
     TIGUAN_EFFECTIVE_INJ_DUR: 8.932
   response: 7E8076215E7000022E4
-- expected_values:
-    TIGUAN_EFFECTIVE_INJ_DUR: 9.091
-  response: 7E8076215E700002383
-- expected_values:
-    TIGUAN_EFFECTIVE_INJ_DUR: 10.722
-  response: 7E8076215E7000029E2
-- expected_values:
-    TIGUAN_EFFECTIVE_INJ_DUR: 11.678
-  response: 7E8076215E700002D9E
-- expected_values:
-    TIGUAN_EFFECTIVE_INJ_DUR: 20.956
-  response: 7E8076215E7000051DC
 - expected_values:
     TIGUAN_EFFECTIVE_INJ_DUR: 26.567
   response: 7E8076215E7000067C7

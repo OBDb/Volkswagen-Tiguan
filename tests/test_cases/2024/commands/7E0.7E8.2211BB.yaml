@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2211BB
 test_cases:
 - expected_values:
-    TIGUAN_OIL_CRIT: 6.2656
-  response: 7E8056211BB3D30
+    TIGUAN_OIL_CRIT: 5.8
+  response: 7E8056211BB38A4
 - expected_values:
     TIGUAN_OIL_CRIT: 6.5496
   response: 7E8056211BB3FF6

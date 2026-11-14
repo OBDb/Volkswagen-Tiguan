@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS: 8
   response: '7E90462705308'
+- expected_values:
+    TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS: 19
+  response: '7E90462705313'

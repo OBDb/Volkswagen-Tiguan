@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_COOLANT_T_AT_ENGINE_START: 19.6
   response: 7E8056212910B6F
 - expected_values:
+    TIGUAN_COOLANT_T_AT_ENGINE_START: 20.3
+  response: 7E8056212910B76
+- expected_values:
     TIGUAN_COOLANT_T_AT_ENGINE_START: 94
   response: 7E8056212910E57
 - expected_values:

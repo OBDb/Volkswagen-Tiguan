@@ -19,8 +19,14 @@ test_cases:
     TIGUAN_SEG_AD_MMV_ER_H_2: 4.07984
   response: 7E80562113A42D8
 - expected_values:
+    TIGUAN_SEG_AD_MMV_ER_H_2: 4.08461
+  response: 7E80562113A42EC
+- expected_values:
     TIGUAN_SEG_AD_MMV_ER_H_2: 4.10511
   response: 7E80562113A4342
 - expected_values:
     TIGUAN_SEG_AD_MMV_ER_H_2: 4.10583
   response: 7E80562113A4345
+- expected_values:
+    TIGUAN_SEG_AD_MMV_ER_H_2: 4.14564
+  response: 7E80562113A43EC

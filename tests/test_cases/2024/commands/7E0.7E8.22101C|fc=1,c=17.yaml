@@ -7,6 +7,9 @@ test_cases:
     TIGUAN_GENERATOR_LOAD_SIG: 19.32
   response: 7E80562101C078C
 - expected_values:
+    TIGUAN_GENERATOR_LOAD_SIG: 32.21
+  response: 7E80562101C0C95
+- expected_values:
     TIGUAN_GENERATOR_LOAD_SIG: 35.43
   response: 7E80562101C0DD7
 - expected_values:

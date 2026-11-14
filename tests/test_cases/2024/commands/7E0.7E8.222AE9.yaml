@@ -4,29 +4,11 @@ test_cases:
     TIGUAN_EXH_GAS_T_CALC_AFTER: 145.4884
   response: 7E805622AE945C4
 - expected_values:
-    TIGUAN_EXH_GAS_T_CALC_AFTER: 400.70312
-  response: 7E805622AE9704C
-- expected_values:
-    TIGUAN_EXH_GAS_T_CALC_AFTER: 408.32112
-  response: 7E805622AE97191
-- expected_values:
-    TIGUAN_EXH_GAS_T_CALC_AFTER: 431.9252
-  response: 7E805622AE97580
-- expected_values:
-    TIGUAN_EXH_GAS_T_CALC_AFTER: 432.60496
-  response: 7E805622AE9759D
-- expected_values:
     TIGUAN_EXH_GAS_T_CALC_AFTER: 446.71584
   response: 7E805622AE977F7
-- expected_values:
-    TIGUAN_EXH_GAS_T_CALC_AFTER: 526.22432
-  response: 7E805622AE98537
 - expected_values:
     TIGUAN_EXH_GAS_T_CALC_AFTER: 530.93576
   response: 7E805622AE98600
 - expected_values:
-    TIGUAN_EXH_GAS_T_CALC_AFTER: 598.53672
-  response: 7E805622AE99144
-- expected_values:
-    TIGUAN_EXH_GAS_T_CALC_AFTER: 599.02896
-  response: 7E805622AE99159
+    TIGUAN_EXH_GAS_T_CALC_AFTER: 616.32768
+  response: 7E805622AE9943B

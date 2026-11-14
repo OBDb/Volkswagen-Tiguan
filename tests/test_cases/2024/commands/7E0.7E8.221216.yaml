@@ -4,29 +4,11 @@ test_cases:
     TIGUAN_REL_LOAD: 12.28272
   response: 7E805621216020C
 - expected_values:
-    TIGUAN_REL_LOAD: 12.47024
-  response: '7E8056212160214'
-- expected_values:
-    TIGUAN_REL_LOAD: 14.41579
-  response: '7E8056212160267'
-- expected_values:
     TIGUAN_REL_LOAD: 17.55679
   response: 7E80562121602ED
 - expected_values:
-    TIGUAN_REL_LOAD: 24.04976
-  response: '7E8056212160402'
-- expected_values:
-    TIGUAN_REL_LOAD: 25.54994
-  response: '7E8056212160442'
-- expected_values:
-    TIGUAN_REL_LOAD: 25.78434
-  response: 7E805621216044C
-- expected_values:
-    TIGUAN_REL_LOAD: 38.55931
-  response: 7E805621216066D
-- expected_values:
-    TIGUAN_REL_LOAD: 47.5135
-  response: 7E80562121607EB
+    TIGUAN_REL_LOAD: 30.00359
+  response: '7E8056212160500'
 - expected_values:
     TIGUAN_REL_LOAD: 80.51746
   response: 7E8056212160D6B

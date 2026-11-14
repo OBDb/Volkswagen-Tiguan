@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_BYPASS_VLV_HIGH_P_TURBINE_INLET: 0
   response: 7E8056239FF0000
 - expected_values:
+    TIGUAN_BYPASS_VLV_HIGH_P_TURBINE_INLET: 0.52
+  response: 7E8056239FF0034
+- expected_values:
     TIGUAN_BYPASS_VLV_HIGH_P_TURBINE_INLET: -17.96
   response: 7E8056239FFF8FC
 - expected_values:

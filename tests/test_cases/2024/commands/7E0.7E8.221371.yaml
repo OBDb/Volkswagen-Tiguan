@@ -10,6 +10,9 @@ test_cases:
     TIGUAN_CAM_ADJ_EXH_BANK_1_SPEC: -12.288
   response: 7E805621371FA00
 - expected_values:
+    TIGUAN_CAM_ADJ_EXH_BANK_1_SPEC: -12
+  response: 7E805621371FA24
+- expected_values:
     TIGUAN_CAM_ADJ_EXH_BANK_1_SPEC: -9.784
   response: 7E805621371FB39
 - expected_values:
@@ -18,6 +21,9 @@ test_cases:
 - expected_values:
     TIGUAN_CAM_ADJ_EXH_BANK_1_SPEC: -7
   response: 7E805621371FC95
+- expected_values:
+    TIGUAN_CAM_ADJ_EXH_BANK_1_SPEC: -5.248
+  response: 7E805621371FD70
 - expected_values:
     TIGUAN_CAM_ADJ_EXH_BANK_1_SPEC: -4.04
   response: 7E805621371FE07

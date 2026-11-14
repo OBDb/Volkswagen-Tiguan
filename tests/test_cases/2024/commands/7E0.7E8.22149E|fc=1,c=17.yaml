@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22149E|fc=1,c=17
 test_cases:
 - expected_values:
+    TIGUAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 21.75
+  response: 7E80462149E5D
+- expected_values:
     TIGUAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 26.25
   response: 7E80462149E63
 - expected_values:

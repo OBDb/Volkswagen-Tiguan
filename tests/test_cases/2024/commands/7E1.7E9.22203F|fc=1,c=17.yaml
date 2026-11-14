@@ -13,8 +13,14 @@ test_cases:
     TIGUAN_TORQUE_LIMITATION: 192
   response: 7E90562203F00C0
 - expected_values:
+    TIGUAN_TORQUE_LIMITATION: 210
+  response: 7E90562203F00D2
+- expected_values:
     TIGUAN_TORQUE_LIMITATION: 286
   response: 7E90562203F011E
 - expected_values:
     TIGUAN_TORQUE_LIMITATION: 291
   response: 7E90562203F0123
+- expected_values:
+    TIGUAN_TORQUE_LIMITATION: 341
+  response: 7E90562203F0155

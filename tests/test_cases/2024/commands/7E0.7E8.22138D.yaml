@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     TIGUAN_IGA_IGC_3: -23.633
   response: 7E80462138D20
+- expected_values:
+    TIGUAN_IGA_IGC_3: -22.8835
+  response: 7E80462138D22

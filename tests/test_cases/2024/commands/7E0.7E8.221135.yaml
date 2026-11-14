@@ -13,8 +13,14 @@ test_cases:
     TIGUAN_COOLANT_T: 94.1
   response: 7E8056211350E58
 - expected_values:
+    TIGUAN_COOLANT_T: 95
+  response: 7E8056211350E61
+- expected_values:
     TIGUAN_COOLANT_T: 95.1
   response: 7E8056211350E62
 - expected_values:
     TIGUAN_COOLANT_T: 95.4
   response: 7E8056211350E65
+- expected_values:
+    TIGUAN_COOLANT_T: 96.4
+  response: 7E8056211350E6F

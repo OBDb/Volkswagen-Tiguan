@@ -4,26 +4,8 @@ test_cases:
     TIGUAN_VARIABLE_VLV_TIM_INT_1: 0
   response: 7E80562127B0000
 - expected_values:
-    TIGUAN_VARIABLE_VLV_TIM_INT_1: 25.92466
-  response: 7E80562127B212F
-- expected_values:
-    TIGUAN_VARIABLE_VLV_TIM_INT_1: 29.61728
-  response: 7E80562127B25E9
-- expected_values:
-    TIGUAN_VARIABLE_VLV_TIM_INT_1: 30.36801
-  response: 7E80562127B26DF
-- expected_values:
     TIGUAN_VARIABLE_VLV_TIM_INT_1: 30.46567
   response: 7E80562127B26FF
-- expected_values:
-    TIGUAN_VARIABLE_VLV_TIM_INT_1: 30.53891
-  response: 7E80562127B2717
-- expected_values:
-    TIGUAN_VARIABLE_VLV_TIM_INT_1: 31.14011
-  response: 7E80562127B27DC
-- expected_values:
-    TIGUAN_VARIABLE_VLV_TIM_INT_1: 32.97116
-  response: 7E80562127B2A34
 - expected_values:
     TIGUAN_VARIABLE_VLV_TIM_INT_1: 34.71982
   response: 7E80562127B2C71

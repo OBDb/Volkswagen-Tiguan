@@ -7,5 +7,8 @@ test_cases:
     TIGUAN_CAM_POS_DEV_BASE_POS: 0.52735
   response: '7E8056213850018'
 - expected_values:
+    TIGUAN_CAM_POS_DEV_BASE_POS: -0.15381
+  response: 7E805621385FFF9
+- expected_values:
     TIGUAN_CAM_POS_DEV_BASE_POS: -0.04395
   response: 7E805621385FFFE
