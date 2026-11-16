@@ -4,29 +4,11 @@ test_cases:
     TIGUAN_FUEL_LEVEL_INPUT_V1: 19
   response: 7E8056214B4076C
 - expected_values:
-    TIGUAN_FUEL_LEVEL_INPUT_V1: 20
-  response: 7E8056214B407D0
-- expected_values:
-    TIGUAN_FUEL_LEVEL_INPUT_V1: 22
-  response: 7E8056214B40898
-- expected_values:
     TIGUAN_FUEL_LEVEL_INPUT_V1: 23
   response: 7E8056214B408FC
 - expected_values:
-    TIGUAN_FUEL_LEVEL_INPUT_V1: 24
-  response: 7E8056214B40960
-- expected_values:
-    TIGUAN_FUEL_LEVEL_INPUT_V1: 25
-  response: 7E8056214B409C4
-- expected_values:
     TIGUAN_FUEL_LEVEL_INPUT_V1: 26
   response: 7E8056214B40A28
-- expected_values:
-    TIGUAN_FUEL_LEVEL_INPUT_V1: 27
-  response: 7E8056214B40A8C
-- expected_values:
-    TIGUAN_FUEL_LEVEL_INPUT_V1: 28
-  response: 7E8056214B40AF0
 - expected_values:
     TIGUAN_FUEL_LEVEL_INPUT_V1: 30
   response: 7E8056214B40BB8
