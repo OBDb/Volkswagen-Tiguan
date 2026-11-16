@@ -1586,7 +1586,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "149E"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2021, 2023], "from": 2025 },
   "signals": [
-    {"id": "TIGUAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Intake air temperature in intake manifold"}
+    {"id": "TIGUAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Intake air temperature in intake manifold", "suggestedMetric": "intakeAirTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14A1"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2021, 2023], "from": 2025 },
   "signals": [
@@ -1606,7 +1606,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CB"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2021, 2023], "from": 2025 },
   "signals": [
-    {"id": "TIGUAN_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
+    {"id": "TIGUAN_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear", "suggestedMetric": "gear"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CC"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
@@ -1768,9 +1768,9 @@
   "signals": [
     {"id": "TIGUAN_PQ35_FUEL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -60, "nullmax": 200, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1633"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2021, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1633"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2021, 2023], "from": 2025 },
   "signals": [
-    {"id": "TIGUAN_LONGITUDINAL_ACCEL", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration"}
+    {"id": "TIGUAN_LONGITUDINAL_ACCEL", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration", "suggestedMetric": "longitudinalAcceleration"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1644"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2021, 2023], "from": 2025 },
   "signals": [
