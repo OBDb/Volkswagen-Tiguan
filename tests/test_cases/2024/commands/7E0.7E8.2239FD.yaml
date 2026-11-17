@@ -4,27 +4,6 @@ test_cases:
     TIGUAN_BYPASS_VLV_HIGH_P: 1.84326
   response: 7E8056239FD0097
 - expected_values:
-    TIGUAN_BYPASS_VLV_HIGH_P: 1.86767
-  response: 7E8056239FD0099
-- expected_values:
-    TIGUAN_BYPASS_VLV_HIGH_P: 2.0996
-  response: 7E8056239FD00AC
-- expected_values:
-    TIGUAN_BYPASS_VLV_HIGH_P: 2.33154
-  response: 7E8056239FD00BF
-- expected_values:
-    TIGUAN_BYPASS_VLV_HIGH_P: 2.40478
-  response: 7E8056239FD00C5
-- expected_values:
-    TIGUAN_BYPASS_VLV_HIGH_P: 2.45361
-  response: 7E8056239FD00C9
-- expected_values:
-    TIGUAN_BYPASS_VLV_HIGH_P: 2.64892
-  response: 7E8056239FD00D9
-- expected_values:
-    TIGUAN_BYPASS_VLV_HIGH_P: 2.66113
-  response: 7E8056239FD00DA
-- expected_values:
     TIGUAN_BYPASS_VLV_HIGH_P: 2.7954
   response: 7E8056239FD00E5
 - expected_values:

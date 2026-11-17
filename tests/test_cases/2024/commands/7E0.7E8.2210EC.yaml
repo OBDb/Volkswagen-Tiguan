@@ -4,29 +4,8 @@ test_cases:
     TIGUAN_VLV_TIM_DIFF_ACT_SET: 0.26562
   response: 7E8056210EC0011
 - expected_values:
-    TIGUAN_VLV_TIM_DIFF_ACT_SET: 0.32812
-  response: 7E8056210EC0015
-- expected_values:
-    TIGUAN_VLV_TIM_DIFF_ACT_SET: 1.03125
-  response: 7E8056210EC0042
-- expected_values:
-    TIGUAN_VLV_TIM_DIFF_ACT_SET: 2.625
-  response: 7E8056210EC00A8
-- expected_values:
-    TIGUAN_VLV_TIM_DIFF_ACT_SET: -4.3125
-  response: 7E8056210ECFEEC
-- expected_values:
     TIGUAN_VLV_TIM_DIFF_ACT_SET: -3.125
   response: 7E8056210ECFF38
 - expected_values:
-    TIGUAN_VLV_TIM_DIFF_ACT_SET: -3.09375
-  response: 7E8056210ECFF3A
-- expected_values:
-    TIGUAN_VLV_TIM_DIFF_ACT_SET: -1.26562
-  response: 7E8056210ECFFAF
-- expected_values:
-    TIGUAN_VLV_TIM_DIFF_ACT_SET: -0.3125
-  response: 7E8056210ECFFEC
-- expected_values:
-    TIGUAN_VLV_TIM_DIFF_ACT_SET: -0.17188
-  response: 7E8056210ECFFF5
+    TIGUAN_VLV_TIM_DIFF_ACT_SET: -0.01562
+  response: 7E8056210ECFFFF

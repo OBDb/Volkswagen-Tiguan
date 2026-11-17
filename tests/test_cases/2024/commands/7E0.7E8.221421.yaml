@@ -4,11 +4,11 @@ test_cases:
     TIGUAN_EXH_T_BEFORE_CAT: 483.7
   response: 7E8056214211D90
 - expected_values:
+    TIGUAN_EXH_T_BEFORE_CAT: 548
+  response: '7E8056214212013'
+- expected_values:
     TIGUAN_EXH_T_BEFORE_CAT: 622.7
   response: 7E80562142122FE
-- expected_values:
-    TIGUAN_EXH_T_BEFORE_CAT: 677.9
-  response: '7E8056214212526'
 - expected_values:
     TIGUAN_EXH_T_BEFORE_CAT: 760.2
   response: 7E805621421285D

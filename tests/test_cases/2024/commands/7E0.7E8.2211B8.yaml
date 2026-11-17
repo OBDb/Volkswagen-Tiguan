@@ -7,6 +7,9 @@ test_cases:
     TIGUAN_AIR_LEAKAGE: 0.8
   response: 7E8056211B80008
 - expected_values:
+    TIGUAN_AIR_LEAKAGE: 0.9
+  response: 7E8056211B80009
+- expected_values:
     TIGUAN_AIR_LEAKAGE: 1
   response: 7E8056211B8000A
 - expected_values:

@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22121C
 test_cases:
 - expected_values:
-    TIGUAN_AIR_FILLING: 13.40654
-  response: 7E80562121C023C
+    TIGUAN_AIR_FILLING: 12.42214
+  response: 7E80562121C0212
 - expected_values:
-    TIGUAN_AIR_FILLING: 37.36017
-  response: 7E80562121C063A
+    TIGUAN_AIR_FILLING: 18.14101
+  response: 7E80562121C0306
 - expected_values:
     TIGUAN_AIR_FILLING: 59.86065
   response: 7E80562121C09FA

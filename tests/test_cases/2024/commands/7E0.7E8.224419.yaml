@@ -7,8 +7,8 @@ test_cases:
     TIGUAN_ENG_T_MANAGEMENT: 6214
   response: '7E8056244191846'
 - expected_values:
-    TIGUAN_ENG_T_MANAGEMENT: 6892
-  response: 7E8056244191AEC
+    TIGUAN_ENG_T_MANAGEMENT: 6904
+  response: 7E8056244191AF8
 - expected_values:
     TIGUAN_ENG_T_MANAGEMENT: 12432
   response: '7E8056244193090'

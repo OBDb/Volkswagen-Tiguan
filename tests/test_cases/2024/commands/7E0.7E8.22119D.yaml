@@ -4,5 +4,8 @@ test_cases:
     TIGUAN_INLET_FLAPS_ACT: 0
   response: 7E80562119D0000
 - expected_values:
+    TIGUAN_INLET_FLAPS_ACT: 93.73312
+  response: 7E80562119DEFF4
+- expected_values:
     TIGUAN_INLET_FLAPS_ACT: 100
   response: 7E80562119DFFFF
