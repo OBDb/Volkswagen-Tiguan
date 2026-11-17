@@ -1,11 +1,11 @@
 command_id: 7E1.22101A
 test_cases:
 - expected_values:
-    TIGUAN_PQ35_ODO_3: 2757121
+    TIGUAN_PQ35_ODO_3: 70186
   response: 7E90762101A2A120100
 - expected_values:
-    TIGUAN_PQ35_ODO_3: 9769217
+    TIGUAN_PQ35_ODO_3: 70037
   response: 7E90762101A95110100
 - expected_values:
-    TIGUAN_PQ35_ODO_3: 12587265
+    TIGUAN_PQ35_ODO_3: 70080
   response: 7E90762101AC0110100
