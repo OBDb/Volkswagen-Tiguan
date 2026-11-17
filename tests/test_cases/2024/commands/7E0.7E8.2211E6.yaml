@@ -4,8 +4,8 @@ test_cases:
     TIGUAN_MQB_DPF_EXH_VOL: 0
   response: 7E8056211E60000
 - expected_values:
-    TIGUAN_MQB_DPF_EXH_VOL: 47.5
-  response: 7E8056211E601DB
+    TIGUAN_MQB_DPF_EXH_VOL: 25.1
+  response: 7E8056211E600FB
 - expected_values:
     TIGUAN_MQB_DPF_EXH_VOL: 184
   response: 7E8056211E60730

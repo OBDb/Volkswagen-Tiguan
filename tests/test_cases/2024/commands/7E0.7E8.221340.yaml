@@ -13,6 +13,9 @@ test_cases:
     TIGUAN_TQ_INCREASE_REQ_ESP: -34406.4
   response: 7E807621340FFFAC000
 - expected_values:
+    TIGUAN_TQ_INCREASE_REQ_ESP: -33751
+  response: 7E807621340FFFAD99A
+- expected_values:
     TIGUAN_TQ_INCREASE_REQ_ESP: -20971.5
   response: 7E807621340FFFCCCCD
 - expected_values:

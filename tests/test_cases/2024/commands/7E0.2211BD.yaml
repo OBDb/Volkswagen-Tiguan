@@ -4,8 +4,14 @@ test_cases:
     TIGUAN_PQ35_OIL_LVL_CRIT: 12.56
   response: 7E8056211BD0C44
 - expected_values:
+    TIGUAN_PQ35_OIL_LVL_CRIT: 12.992
+  response: 7E8056211BD0CB0
+- expected_values:
     TIGUAN_PQ35_OIL_LVL_CRIT: 13.228
   response: 7E8056211BD0CEB
+- expected_values:
+    TIGUAN_PQ35_OIL_LVL_CRIT: 13.34
+  response: 7E8056211BD0D07
 - expected_values:
     TIGUAN_PQ35_OIL_LVL_CRIT: 13.836
   response: 7E8056211BD0D83

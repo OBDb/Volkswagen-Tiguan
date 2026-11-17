@@ -21,3 +21,12 @@ test_cases:
 - expected_values:
     TIGUAN_HIGH_P_CTRL_ADPT: -0.0125
   response: 7E8056211D2FFE7
+- expected_values:
+    TIGUAN_HIGH_P_CTRL_ADPT: -0.003
+  response: 7E8056211D2FFFA
+- expected_values:
+    TIGUAN_HIGH_P_CTRL_ADPT: -0.0025
+  response: 7E8056211D2FFFB
+- expected_values:
+    TIGUAN_HIGH_P_CTRL_ADPT: -0.002
+  response: 7E8056211D2FFFC

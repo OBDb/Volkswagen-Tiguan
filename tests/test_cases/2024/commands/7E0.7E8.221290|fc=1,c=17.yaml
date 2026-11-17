@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221290|fc=1,c=17
 test_cases:
 - expected_values:
+    TIGUAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 783.90557
+  response: 7E805621290B02E
+- expected_values:
     TIGUAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 784.09307
   response: 7E805621290B036
 - expected_values:
@@ -10,11 +13,17 @@ test_cases:
     TIGUAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 784.32744
   response: 7E805621290B040
 - expected_values:
+    TIGUAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 784.42119
+  response: 7E805621290B044
+- expected_values:
     TIGUAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 784.98368
   response: 7E805621290B05C
 - expected_values:
     TIGUAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 785.05399
   response: 7E805621290B05F
+- expected_values:
+    TIGUAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 785.10086
+  response: 7E805621290B061
 - expected_values:
     TIGUAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 785.1243
   response: 7E805621290B062

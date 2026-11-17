@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_PQ35_GEN_LOAD: 0.03
   response: 7E80562105C0003
 - expected_values:
+    TIGUAN_PQ35_GEN_LOAD: 0.6
+  response: 7E80562105C003C
+- expected_values:
     TIGUAN_PQ35_GEN_LOAD: 0.78
   response: 7E80562105C004E
 - expected_values:

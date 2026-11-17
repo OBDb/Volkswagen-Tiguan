@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_GENERATOR_LOAD_NORMALIZED_VALUE: 0
   response: 7E8056215CA0000
 - expected_values:
+    TIGUAN_GENERATOR_LOAD_NORMALIZED_VALUE: 19.32
+  response: 7E8056215CA078C
+- expected_values:
     TIGUAN_GENERATOR_LOAD_NORMALIZED_VALUE: 22.54
   response: 7E8056215CA08CE
 - expected_values:

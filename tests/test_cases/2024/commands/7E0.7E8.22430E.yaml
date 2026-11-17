@@ -4,8 +4,8 @@ test_cases:
     TIGUAN_NUM_INJECTIONS: 0
   response: 7E80562430E0000
 - expected_values:
-    TIGUAN_NUM_INJECTIONS: 237
-  response: 7E80562430E00ED
+    TIGUAN_NUM_INJECTIONS: 11506
+  response: 7E80562430E2CF2
 - expected_values:
     TIGUAN_NUM_INJECTIONS: 20366
   response: 7E80562430E4F8E

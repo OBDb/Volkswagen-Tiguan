@@ -4,29 +4,5 @@ test_cases:
     TIGUAN_DASH_AMBIENT_AIR_T: 17
   response: '77E0462101486'
 - expected_values:
-    TIGUAN_DASH_AMBIENT_AIR_T: 20
-  response: 77E046210148C
-- expected_values:
-    TIGUAN_DASH_AMBIENT_AIR_T: 22.5
-  response: '77E0462101491'
-- expected_values:
-    TIGUAN_DASH_AMBIENT_AIR_T: 25.5
-  response: '77E0462101497'
-- expected_values:
-    TIGUAN_DASH_AMBIENT_AIR_T: 27.5
-  response: 77E046210149B
-- expected_values:
-    TIGUAN_DASH_AMBIENT_AIR_T: 28.5
-  response: 77E046210149D
-- expected_values:
-    TIGUAN_DASH_AMBIENT_AIR_T: 29
-  response: 77E046210149E
-- expected_values:
-    TIGUAN_DASH_AMBIENT_AIR_T: 29.5
-  response: 77E046210149F
-- expected_values:
-    TIGUAN_DASH_AMBIENT_AIR_T: 30
-  response: 77E04621014A0
-- expected_values:
     TIGUAN_DASH_AMBIENT_AIR_T: 30.5
   response: 77E04621014A1

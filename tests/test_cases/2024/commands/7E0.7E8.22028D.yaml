@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_ENG_CTRL_MODULE_T: 20.8
   response: 7E80562028D0B7B
 - expected_values:
-    TIGUAN_ENG_CTRL_MODULE_T: 26
-  response: 7E80562028D0BAF
+    TIGUAN_ENG_CTRL_MODULE_T: 33.6
+  response: 7E80562028D0BFB

@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TIGUAN_MAF_CMD: 52.8
   response: 7E8056211AD0210
+- expected_values:
+    TIGUAN_MAF_CMD: 120
+  response: 7E8056211AD04B0

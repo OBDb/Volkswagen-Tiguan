@@ -4,8 +4,8 @@ test_cases:
     TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: 1.616
   response: 7E80562137300CA
 - expected_values:
-    TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: 2.616
-  response: '7E8056213730147'
+    TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: 2.048
+  response: '7E8056213730100'
 - expected_values:
     TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: -2.248
   response: 7E805621373FEE7

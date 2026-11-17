@@ -10,6 +10,9 @@ test_cases:
     TIGUAN_AMBIENT_AIR_P: 1007.331
   response: 7E80562150964E5
 - expected_values:
+    TIGUAN_AMBIENT_AIR_P: 1007.721
+  response: 7E80562150964EF
+- expected_values:
     TIGUAN_AMBIENT_AIR_P: 1007.877
   response: 7E80562150964F3
 - expected_values:

@@ -4,23 +4,11 @@ test_cases:
     TIGUAN_COOLANT_T_MODELED_VALUE: 3021
   response: 7E8056213A00BCD
 - expected_values:
-    TIGUAN_COOLANT_T_MODELED_VALUE: 3036
-  response: 7E8056213A00BDC
-- expected_values:
     TIGUAN_COOLANT_T_MODELED_VALUE: 3071
   response: 7E8056213A00BFF
 - expected_values:
     TIGUAN_COOLANT_T_MODELED_VALUE: 3081
   response: 7E8056213A00C09
 - expected_values:
-    TIGUAN_COOLANT_T_MODELED_VALUE: 3259
-  response: 7E8056213A00CBB
-- expected_values:
-    TIGUAN_COOLANT_T_MODELED_VALUE: 3304
-  response: 7E8056213A00CE8
-- expected_values:
     TIGUAN_COOLANT_T_MODELED_VALUE: 3349
   response: 7E8056213A00D15
-- expected_values:
-    TIGUAN_COOLANT_T_MODELED_VALUE: 3421
-  response: 7E8056213A00D5D

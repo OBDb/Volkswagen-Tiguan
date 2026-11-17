@@ -13,8 +13,17 @@ test_cases:
     TIGUAN_ENGINE_TORQUE: 51.4
   response: '7E8056210100202'
 - expected_values:
+    TIGUAN_ENGINE_TORQUE: 67.4
+  response: 7E80562101002A2
+- expected_values:
     TIGUAN_ENGINE_TORQUE: 92.7
   response: 7E805621010039F
 - expected_values:
     TIGUAN_ENGINE_TORQUE: 166.3
   response: 7E805621010067F
+- expected_values:
+    TIGUAN_ENGINE_TORQUE: 212
+  response: '7E8056210100848'
+- expected_values:
+    TIGUAN_ENGINE_TORQUE: 217.5
+  response: 7E805621010087F

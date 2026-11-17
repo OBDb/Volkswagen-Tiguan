@@ -13,8 +13,17 @@ test_cases:
     TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS: 6
   response: '7E90462705306'
 - expected_values:
+    TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS: 7
+  response: '7E90462705307'
+- expected_values:
     TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS: 8
   response: '7E90462705308'
+- expected_values:
+    TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS: 12
+  response: 7E9046270530C
+- expected_values:
+    TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS: 16
+  response: '7E90462705310'
 - expected_values:
     TIGUAN_TORQUE_CONVERTER_TORQUE_LOSS: 19
   response: '7E90462705313'

@@ -7,5 +7,8 @@ test_cases:
     TIGUAN_BOOST_P_ACT: 101.8125
   response: 7E8056211F032E8
 - expected_values:
+    TIGUAN_BOOST_P_ACT: 102.52344
+  response: 7E8056211F03343
+- expected_values:
     TIGUAN_BOOST_P_ACT: 134.66406
   response: 7E8056211F04355
