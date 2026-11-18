@@ -484,7 +484,7 @@
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_LVL_CRIT", "path": "Engine", "fmt": { "len": 16, "max": 131.068, "min": -131.072, "div": 250, "sign": true, "unit": "millimeters" }, "name": "Critical engine oil level"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "11BE"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2021, 2023], "from": 2025 },
+{ "hdr": "7E0", "cmd": {"22": "11BE"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -60, "nullmax": 200, "unit": "celsius" }, "name": "Oil temperature variant"}
   ]},
@@ -1764,7 +1764,7 @@
   "signals": [
     {"id": "TIGUAN_PQ35_RADIATOR_OUTPUT_COOLANT_T_ACTUAL", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Radiator output coolant temp: actual, raw 16-bit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2021, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_PQ35_FUEL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -60, "nullmax": 200, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
@@ -1924,11 +1924,11 @@
   "signals": [
     {"id": "TIGUAN_LONG_TERM_FUEL_TRIM_IDLE_PORT_INJ", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -1536, "mul": 3, "div": 64, "sign": true, "unit": "percent" }, "name": "Long term fuel trim at idle, port injection"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1798"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2021, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1798"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TIGUAN_MQB_CHARGE_AIR_T_TUBROCHARGER_OUTLET_CALCULATED", "path": "Battery", "fmt": { "len": 16, "max": 3003.6, "min": -273.1, "mul": 1000, "div": 10000, "add": -273.1, "sign": true, "nullmin": -273.1, "unit": "celsius" }, "name": "Charge air temp at the turbocharger outlet, calculated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "179C"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2021, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "179C"}, "freq": 5,
   "signals": [
     {"id": "TIGUAN_PQ35_ENGINE_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -273.1, "unit": "celsius" }, "name": "Oil temp 2"}
   ]},
