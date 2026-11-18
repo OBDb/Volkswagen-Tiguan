@@ -10,5 +10,8 @@ test_cases:
     TIGUAN_TQ_LOSS_ADPT_AC_COMP_7E0: -8.6
   response: 7E805621223FFAA
 - expected_values:
+    TIGUAN_TQ_LOSS_ADPT_AC_COMP_7E0: -8.2
+  response: 7E805621223FFAE
+- expected_values:
     TIGUAN_TQ_LOSS_ADPT_AC_COMP_7E0: -7.8
   response: 7E805621223FFB2

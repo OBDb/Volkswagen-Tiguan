@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 21.75
   response: 7E80462149E5D
 - expected_values:
+    TIGUAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 24.75
+  response: 7E80462149E61
+- expected_values:
     TIGUAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 26.25
   response: 7E80462149E63
 - expected_values:

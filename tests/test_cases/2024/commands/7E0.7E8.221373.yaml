@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221373
 test_cases:
 - expected_values:
-    TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: 1.616
-  response: 7E80562137300CA
+    TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: 1.536
+  response: 7E80562137300C0
 - expected_values:
     TIGUAN_CAM_ADJ_INT_BANK_1_SPEC: 2.048
   response: '7E8056213730100'

@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_MAIN_INJ_DURATION: 10.3524
   response: 7E8056214CF6519
+- expected_values:
+    TIGUAN_PQ35_MAIN_INJ_DURATION: 10.3648
+  response: 7E8056214CF6538

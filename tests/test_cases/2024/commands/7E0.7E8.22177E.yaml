@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: -0.70312
   response: 7E80562177EFFF1
+- expected_values:
+    TIGUAN_LONG_TERM_FUEL_TRIM_IDLE: -0.5625
+  response: 7E80562177EFFF4

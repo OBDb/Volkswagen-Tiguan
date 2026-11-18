@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_HEIGHT_CORR: 0.99774
   response: 7E8056211363FDB
+- expected_values:
+    TIGUAN_HEIGHT_CORR: 1.0017
+  response: 7E805621136401C
