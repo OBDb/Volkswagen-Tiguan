@@ -4,26 +4,11 @@ test_cases:
     TIGUAN_IGA_CYL_KNK_2: -1.125
   response: 7E8056213F47DD8
 - expected_values:
-    TIGUAN_IGA_CYL_KNK_2: -0.75
-  response: 7E8056213F47E36
-- expected_values:
-    TIGUAN_IGA_CYL_KNK_2: -0.75
-  response: 7E8056213F47E8D
-- expected_values:
-    TIGUAN_IGA_CYL_KNK_2: -0.75
-  response: 7E8056213F47E9A
-- expected_values:
-    TIGUAN_IGA_CYL_KNK_2: -0.375
-  response: 7E8056213F47FD1
-- expected_values:
     TIGUAN_IGA_CYL_KNK_2: -0.375
   response: 7E8056213F47FFE
 - expected_values:
     TIGUAN_IGA_CYL_KNK_2: 0
-  response: 7E8056213F48060
-- expected_values:
-    TIGUAN_IGA_CYL_KNK_2: 0
-  response: 7E8056213F480DD
+  response: 7E8056213F4802F
 - expected_values:
     TIGUAN_IGA_CYL_KNK_2: 0.375
   response: 7E8056213F4813E

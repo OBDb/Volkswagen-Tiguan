@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TIGUAN_TOT_MASS_GASOLINE: 0
   response: '7E8056217130000'
+- expected_values:
+    TIGUAN_TOT_MASS_GASOLINE: 1.79197
+  response: '7E8056217130054'
+- expected_values:
+    TIGUAN_TOT_MASS_GASOLINE: 1.8773
+  response: '7E8056217130058'

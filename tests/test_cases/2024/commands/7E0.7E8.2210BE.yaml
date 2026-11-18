@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_REQ_TQ_AMOUNT: 0
   response: 7E8056210BE0000
 - expected_values:
-    TIGUAN_REQ_TQ_AMOUNT: 25
-  response: 7E8056210BE00FA
+    TIGUAN_REQ_TQ_AMOUNT: 25.4
+  response: 7E8056210BE00FE

@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_RESULT_CRANKCASE: 0
   response: 7E8056215CB0000
 - expected_values:
+    TIGUAN_RESULT_CRANKCASE: 1
+  response: 7E8056215CB0001
+- expected_values:
     TIGUAN_RESULT_CRANKCASE: 2
   response: 7E8056215CB0002
 - expected_values:

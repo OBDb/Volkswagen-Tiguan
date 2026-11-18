@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     TIGUAN_MISFIRES_C3_ECM: 11543
   response: 7E8056211502D17
+- expected_values:
+    TIGUAN_MISFIRES_C3_ECM: 11549
+  response: 7E8056211502D1D

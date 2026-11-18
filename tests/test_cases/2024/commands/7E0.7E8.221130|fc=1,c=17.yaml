@@ -10,6 +10,9 @@ test_cases:
     TIGUAN_COOLANT_FAN_1_ACTIVATION: 14.84
   response: 7E80562113005CC
 - expected_values:
+    TIGUAN_COOLANT_FAN_1_ACTIVATION: 19.53
+  response: 7E80562113007A1
+- expected_values:
     TIGUAN_COOLANT_FAN_1_ACTIVATION: 28.12
   response: 7E8056211300AFC
 - expected_values:
