@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     TIGUAN_MISFIRES__CYL__4: 9551
   response: 7E805621151254F
+- expected_values:
+    TIGUAN_MISFIRES__CYL__4: 9625
+  response: '7E8056211512599'
+- expected_values:
+    TIGUAN_MISFIRES__CYL__4: 9626
+  response: 7E805621151259A
