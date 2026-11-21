@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22102A
 test_cases:
 - expected_values:
-    TIGUAN_ACCEL_PEDAL_SENS_1_V: 721.4
-  response: 7E80562102A0E17
+    TIGUAN_ACCEL_PEDAL_SENS_1_V: 720.2
+  response: 7E80562102A0E11
 - expected_values:
     TIGUAN_ACCEL_PEDAL_SENS_1_V: 1429.6
   response: 7E80562102A1BEC
