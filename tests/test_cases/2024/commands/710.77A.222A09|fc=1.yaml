@@ -7,11 +7,11 @@ test_cases:
     TIGUAN_BAT_I: 12.542
   response: 77A07622A09000030FE
 - expected_values:
-    TIGUAN_BAT_I: 60.28
-  response: 77A07622A090000EB78
+    TIGUAN_BAT_I: 30.99
+  response: 77A07622A090000790E
+- expected_values:
+    TIGUAN_BAT_I: 63.65
+  response: 77A07622A090000F8A2
 - expected_values:
     TIGUAN_BAT_I: -32.57
   response: 77A07622A09FFFF80C6
-- expected_values:
-    TIGUAN_BAT_I: -16.616
-  response: 77A07622A09FFFFBF18
