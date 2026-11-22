@@ -10,6 +10,9 @@ test_cases:
     TIGUAN_CHG_P_ACTUATOR_SPEC: 69.06
   response: 7E8056239A31AFA
 - expected_values:
+    TIGUAN_CHG_P_ACTUATOR_SPEC: 76.02
+  response: 7E8056239A31DB2
+- expected_values:
     TIGUAN_CHG_P_ACTUATOR_SPEC: 77.43
   response: 7E8056239A31E3F
 - expected_values:
