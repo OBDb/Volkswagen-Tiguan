@@ -5,7 +5,7 @@ test_cases:
   response: 7E8056211BE0000
 - expected_values:
     TIGUAN_PQ35_OIL_T_2: null
-  response: 7E8056211BEFFDE
+  response: 7E8056211BEFFD4
 - expected_values:
     TIGUAN_PQ35_OIL_T_2: null
   response: 7E8056211BEFFFF

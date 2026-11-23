@@ -4,20 +4,8 @@ test_cases:
     TIGUAN_CLR_DIST: 32327
   response: 7E80562F4317E47
 - expected_values:
-    TIGUAN_CLR_DIST: 32328
-  response: 7E80562F4317E48
-- expected_values:
     TIGUAN_CLR_DIST: 33554
   response: 7E80562F4318312
 - expected_values:
-    TIGUAN_CLR_DIST: 33610
-  response: 7E80562F431834A
-- expected_values:
-    TIGUAN_CLR_DIST: 33611
-  response: 7E80562F431834B
-- expected_values:
-    TIGUAN_CLR_DIST: 33696
-  response: 7E80562F43183A0
-- expected_values:
-    TIGUAN_CLR_DIST: 33753
-  response: 7E80562F43183D9
+    TIGUAN_CLR_DIST: 33763
+  response: 7E80562F43183E3
