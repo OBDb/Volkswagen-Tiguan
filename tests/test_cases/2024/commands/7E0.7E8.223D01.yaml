@@ -4,11 +4,8 @@ test_cases:
     TIGUAN_BYPASS_VLV_HIGH_P_V: 759.6
   response: 7E805623D010ED6
 - expected_values:
-    TIGUAN_BYPASS_VLV_HIGH_P_V: 3534.6
-  response: 7E805623D014509
-- expected_values:
     TIGUAN_BYPASS_VLV_HIGH_P_V: 3583.8
   response: 7E805623D0145FF
 - expected_values:
-    TIGUAN_BYPASS_VLV_HIGH_P_V: 3585.8
-  response: 7E805623D014609
+    TIGUAN_BYPASS_VLV_HIGH_P_V: 3635.8
+  response: 7E805623D014703

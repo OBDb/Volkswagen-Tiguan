@@ -4,29 +4,8 @@ test_cases:
     TIGUAN_CHG_P_ACTUATOR_SPEC: 0
   response: 7E8056239A30000
 - expected_values:
-    TIGUAN_CHG_P_ACTUATOR_SPEC: 29.27
-  response: 7E8056239A30B6F
-- expected_values:
-    TIGUAN_CHG_P_ACTUATOR_SPEC: 55.86
-  response: 7E8056239A315D2
-- expected_values:
     TIGUAN_CHG_P_ACTUATOR_SPEC: 69.06
   response: 7E8056239A31AFA
-- expected_values:
-    TIGUAN_CHG_P_ACTUATOR_SPEC: 72.08
-  response: 7E8056239A31C28
-- expected_values:
-    TIGUAN_CHG_P_ACTUATOR_SPEC: 72.71
-  response: 7E8056239A31C67
-- expected_values:
-    TIGUAN_CHG_P_ACTUATOR_SPEC: 76.02
-  response: 7E8056239A31DB2
-- expected_values:
-    TIGUAN_CHG_P_ACTUATOR_SPEC: 77.43
-  response: 7E8056239A31E3F
-- expected_values:
-    TIGUAN_CHG_P_ACTUATOR_SPEC: 80.5
-  response: 7E8056239A31F72
 - expected_values:
     TIGUAN_CHG_P_ACTUATOR_SPEC: 122.88
   response: 7E8056239A33000
