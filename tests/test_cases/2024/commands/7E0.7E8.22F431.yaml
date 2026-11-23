@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     TIGUAN_CLR_DIST: 33696
   response: 7E80562F43183A0
+- expected_values:
+    TIGUAN_CLR_DIST: 33753
+  response: 7E80562F43183D9
