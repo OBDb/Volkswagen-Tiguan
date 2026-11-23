@@ -4,8 +4,8 @@ test_cases:
     TIGUAN_ACCEL_PEDAL_SENS_2_V: 363.6
   response: 7E80562102B071A
 - expected_values:
-    TIGUAN_ACCEL_PEDAL_SENS_2_V: 461.4
-  response: 7E80562102B0903
+    TIGUAN_ACCEL_PEDAL_SENS_2_V: 870.4
+  response: 7E80562102B1100
 - expected_values:
     TIGUAN_ACCEL_PEDAL_SENS_2_V: 920.4
   response: 7E80562102B11FA
