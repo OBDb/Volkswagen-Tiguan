@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2211A4
 test_cases:
 - expected_values:
-    TIGUAN_FUEL_PMP_CMD_DUTY: 80.78131
-  response: 7E8056211A4CECD
+    TIGUAN_FUEL_PMP_CMD_DUTY: 58.79957
+  response: 7E8056211A49687
 - expected_values:
     TIGUAN_FUEL_PMP_CMD_DUTY: 80.84692
   response: 7E8056211A4CEF8

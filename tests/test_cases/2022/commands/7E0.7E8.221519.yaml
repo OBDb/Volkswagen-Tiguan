@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TIGUAN_FUEL_CONS_ACT_DRIVE: 1.51
   response: '7E8056215190097'
+- expected_values:
+    TIGUAN_FUEL_CONS_ACT_DRIVE: 3.47
+  response: 7E805621519015B
