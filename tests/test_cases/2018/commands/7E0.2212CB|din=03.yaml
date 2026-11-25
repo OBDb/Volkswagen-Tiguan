@@ -1,0 +1,5 @@
+command_id: 7E0.2212CB|din=03
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_SRV_LIM: 40
+  response: 7E8056212CB0FA0

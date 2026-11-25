@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221356
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_CHG_LIM_OVER: 50
+  response: '7E8056213561388'

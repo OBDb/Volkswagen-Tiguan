@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221225
+test_cases:
+- expected_values:
+    TIGUAN_TQ_LOSS_ADPT_IDLE: 0.1
+  response: '7E8056212250001'
