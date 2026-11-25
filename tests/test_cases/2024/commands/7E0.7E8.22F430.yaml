@@ -4,5 +4,8 @@ test_cases:
     TIGUAN_WARM_UPS: 0
   response: 7E80462F43000
 - expected_values:
+    TIGUAN_WARM_UPS: 2
+  response: 7E80462F43002
+- expected_values:
     TIGUAN_WARM_UPS: 255
   response: 7E80462F430FF

@@ -4,26 +4,8 @@ test_cases:
     TIGUAN_PQ35_DPF_FUEL_CON_REGEN: 15.68
   response: 7E80562115A0620
 - expected_values:
-    TIGUAN_PQ35_DPF_FUEL_CON_REGEN: 15.7
-  response: 7E80562115A0622
-- expected_values:
-    TIGUAN_PQ35_DPF_FUEL_CON_REGEN: 15.71
-  response: 7E80562115A0623
-- expected_values:
-    TIGUAN_PQ35_DPF_FUEL_CON_REGEN: 15.72
-  response: 7E80562115A0624
-- expected_values:
-    TIGUAN_PQ35_DPF_FUEL_CON_REGEN: 15.74
-  response: 7E80562115A0626
-- expected_values:
-    TIGUAN_PQ35_DPF_FUEL_CON_REGEN: 15.77
-  response: 7E80562115A0629
-- expected_values:
-    TIGUAN_PQ35_DPF_FUEL_CON_REGEN: 15.8
-  response: 7E80562115A062C
-- expected_values:
-    TIGUAN_PQ35_DPF_FUEL_CON_REGEN: 15.82
-  response: 7E80562115A062E
-- expected_values:
     TIGUAN_PQ35_DPF_FUEL_CON_REGEN: 15.86
   response: 7E80562115A0632
+- expected_values:
+    TIGUAN_PQ35_DPF_FUEL_CON_REGEN: 16.24
+  response: 7E80562115A0658

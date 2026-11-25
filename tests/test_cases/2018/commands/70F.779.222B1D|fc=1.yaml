@@ -4,26 +4,8 @@ test_cases:
     TIGUAN_PQ35_RL_VSS: 0
   response: 77905622B1D0000
 - expected_values:
-    TIGUAN_PQ35_RL_VSS: 14.6
-  response: 77905622B1D0092
+    TIGUAN_PQ35_RL_VSS: 46.5
+  response: 77905622B1D01D1
 - expected_values:
-    TIGUAN_PQ35_RL_VSS: 14.8
-  response: 77905622B1D0094
-- expected_values:
-    TIGUAN_PQ35_RL_VSS: 18.8
-  response: 77905622B1D00BC
-- expected_values:
-    TIGUAN_PQ35_RL_VSS: 32.2
-  response: 77905622B1D0142
-- expected_values:
-    TIGUAN_PQ35_RL_VSS: 35
-  response: 77905622B1D015E
-- expected_values:
-    TIGUAN_PQ35_RL_VSS: 38.5
-  response: 77905622B1D0181
-- expected_values:
-    TIGUAN_PQ35_RL_VSS: 51.6
-  response: 77905622B1D0204
-- expected_values:
-    TIGUAN_PQ35_RL_VSS: 54.5
-  response: 77905622B1D0221
+    TIGUAN_PQ35_RL_VSS: 82.2
+  response: 77905622B1D0336
