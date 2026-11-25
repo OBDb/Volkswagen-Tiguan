@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.221722
 test_cases:
 - expected_values:
+    TIGUAN_EARLY_IGN_CNT_CYL_1: 1314
+  response: '7E8056217220522'
+- expected_values:
     TIGUAN_EARLY_IGN_CNT_CYL_1: 1320
   response: '7E8056217220528'
