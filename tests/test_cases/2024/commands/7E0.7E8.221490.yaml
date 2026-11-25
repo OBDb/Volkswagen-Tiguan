@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     TIGUAN_BRAKE_BOOSTER_LOW_P_ACT: 992.31739
   response: 7E805621490633B
+- expected_values:
+    TIGUAN_BRAKE_BOOSTER_LOW_P_ACT: 996.73151
+  response: 7E80562149063AC

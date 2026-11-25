@@ -16,6 +16,9 @@ test_cases:
     TIGUAN_RUNTM: 211
   response: 7E80562F41F00D3
 - expected_values:
+    TIGUAN_RUNTM: 238
+  response: 7E80562F41F00EE
+- expected_values:
     TIGUAN_RUNTM: 256
   response: 7E80562F41F0100
 - expected_values:
