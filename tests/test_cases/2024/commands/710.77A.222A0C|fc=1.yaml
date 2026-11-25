@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_BAT_SOC: 15
   response: 77A04622A0C0F
 - expected_values:
-    TIGUAN_BAT_SOC: 76
-  response: 77A04622A0C4C
+    TIGUAN_BAT_SOC: 78
+  response: 77A04622A0C4E

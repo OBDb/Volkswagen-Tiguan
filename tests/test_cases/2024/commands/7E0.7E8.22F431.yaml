@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F431
 test_cases:
 - expected_values:
-    TIGUAN_CLR_DIST: 32327
-  response: 7E80562F4317E47
+    TIGUAN_CLR_DIST: 0
+  response: 7E80562F4310000
 - expected_values:
     TIGUAN_CLR_DIST: 33779
   response: 7E80562F43183F3
