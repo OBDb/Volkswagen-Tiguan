@@ -4,5 +4,5 @@ test_cases:
     TIGUAN_USE_BAT_CHG: 0
   response: 77A04622A0F00
 - expected_values:
-    TIGUAN_USE_BAT_CHG: 49
-  response: 77A04622A0F31
+    TIGUAN_USE_BAT_CHG: 65
+  response: 77A04622A0F41

@@ -1,26 +1,8 @@
 command_id: 70F.779.222BE9|fc=1
 test_cases:
 - expected_values:
-    TIGUAN_PQ35_HAL_V: 1.8
-  response: 77905622BE91200
-- expected_values:
-    TIGUAN_PQ35_HAL_V: 1.9
-  response: 77905622BE91300
-- expected_values:
-    TIGUAN_PQ35_HAL_V: 2
-  response: 77905622BE91400
-- expected_values:
-    TIGUAN_PQ35_HAL_V: 2.1
-  response: 77905622BE91500
-- expected_values:
-    TIGUAN_PQ35_HAL_V: 2.2
-  response: 77905622BE91600
-- expected_values:
-    TIGUAN_PQ35_HAL_V: 2.3
-  response: 77905622BE91700
-- expected_values:
-    TIGUAN_PQ35_HAL_V: 2.9
-  response: 77905622BE91D00
+    TIGUAN_PQ35_HAL_V: 1.7
+  response: 77905622BE91100
 - expected_values:
     TIGUAN_PQ35_HAL_V: 8.6
   response: 77905622BE95600

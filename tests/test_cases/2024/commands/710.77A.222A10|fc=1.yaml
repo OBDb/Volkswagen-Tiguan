@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     TIGUAN_BAT_V_AT_REST: 12.5
   response: 77A04622A1023
+- expected_values:
+    TIGUAN_BAT_V_AT_REST: 12.7
+  response: 77A04622A1025
