@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TIGUAN_CHG_P_ACTUATOR_ADPT_HI: 819.4
   response: 7E8056239A61001
+- expected_values:
+    TIGUAN_CHG_P_ACTUATOR_ADPT_HI: 870.8
+  response: 7E8056239A61102
