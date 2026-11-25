@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_FUEL_T: null
   response: 7E80762162D82008808
+- expected_values:
+    TIGUAN_PQ35_FUEL_T: null
+  response: 7E80762162D82808008
