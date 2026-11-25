@@ -1,0 +1,5 @@
+command_id: 7E0.221164
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_SRV_REGEN_DUR: 0
+  response: '7E80762116400000000'

@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.221156|din=03
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_DIST_LAST_REGEN: 212.668
+  response: 7E80762115600033EBC
+- expected_values:
+    TIGUAN_PQ35_DIST_LAST_REGEN: 212.935
+  response: 7E80762115600033FC7
+- expected_values:
+    TIGUAN_PQ35_DIST_LAST_REGEN: 212.992
+  response: '7E80762115600034000'
+- expected_values:
+    TIGUAN_PQ35_DIST_LAST_REGEN: 213.171
+  response: 7E807621156000340B3
+- expected_values:
+    TIGUAN_PQ35_DIST_LAST_REGEN: 213.656
+  response: '7E80762115600034298'
+- expected_values:
+    TIGUAN_PQ35_DIST_LAST_REGEN: 213.78
+  response: '7E80762115600034314'
+- expected_values:
+    TIGUAN_PQ35_DIST_LAST_REGEN: 213.915
+  response: 7E8076211560003439B
+- expected_values:
+    TIGUAN_PQ35_DIST_LAST_REGEN: 214.125
+  response: 7E8076211560003446D
+- expected_values:
+    TIGUAN_PQ35_DIST_LAST_REGEN: 214.606
+  response: 7E8076211560003464E
+- expected_values:
+    TIGUAN_PQ35_DIST_LAST_REGEN: 214.862
+  response: 7E8076211560003474E

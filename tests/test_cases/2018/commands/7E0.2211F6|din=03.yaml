@@ -1,0 +1,5 @@
+command_id: 7E0.2211F6|din=03
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_FIELD_LIM: 22.89
+  response: 7E8056211F608F1

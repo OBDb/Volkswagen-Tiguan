@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211C1
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_DPF_FIELD_REGEN_LOCK: 0
+  response: 7E8046211C100

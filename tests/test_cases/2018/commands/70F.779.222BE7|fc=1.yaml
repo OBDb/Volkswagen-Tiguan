@@ -1,0 +1,20 @@
+command_id: 70F.779.222BE7|fc=1
+test_cases:
+- expected_values:
+    TIGUAN_PQ35_HAL_PWM: 12
+  response: 77904622BE70C
+- expected_values:
+    TIGUAN_PQ35_HAL_PWM: 14
+  response: 77904622BE70E
+- expected_values:
+    TIGUAN_PQ35_HAL_PWM: 15
+  response: 77904622BE70F
+- expected_values:
+    TIGUAN_PQ35_HAL_PWM: 16
+  response: 77904622BE710
+- expected_values:
+    TIGUAN_PQ35_HAL_PWM: 28
+  response: 77904622BE71C
+- expected_values:
+    TIGUAN_PQ35_HAL_PWM: 75
+  response: 77904622BE74B
