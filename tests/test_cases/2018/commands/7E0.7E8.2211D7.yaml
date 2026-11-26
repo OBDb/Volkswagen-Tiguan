@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2211D7
 test_cases:
 - expected_values:
+    TIGUAN_HIGH_FUEL_P_CMD: 2.761
+  response: 7E8056211D71592
+- expected_values:
     TIGUAN_HIGH_FUEL_P_CMD: 4.1415
   response: 7E8056211D7205B
 - expected_values:
