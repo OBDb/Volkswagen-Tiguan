@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TIGUAN_PQ35_FUEL_LVL_2: 57
   response: 7E80562100C1644
+- expected_values:
+    TIGUAN_PQ35_FUEL_LVL_2: 60
+  response: 7E80562100C1770
