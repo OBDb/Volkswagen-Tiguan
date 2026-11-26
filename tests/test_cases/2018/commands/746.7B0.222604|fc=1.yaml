@@ -4,6 +4,9 @@ test_cases:
     TIGUAN_CLIMATE_A_C_COMP_LOAD: 0
   response: 7B00462260400
 - expected_values:
+    TIGUAN_CLIMATE_A_C_COMP_LOAD: 0.6
+  response: 7B00462260406
+- expected_values:
     TIGUAN_CLIMATE_A_C_COMP_LOAD: 17
   response: 7B004622604AA
 - expected_values:
